@@ -18,6 +18,9 @@ collections:
       - {label: "Completed", name: "isCompleted", widget: "boolean", default: false}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
+      - label: "Featured Image"
+        name: "thumbnail"
+        widget: "image"
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "pages"
