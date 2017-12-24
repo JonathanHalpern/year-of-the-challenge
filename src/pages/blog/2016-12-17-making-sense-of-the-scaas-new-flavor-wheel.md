@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 path: /making-sense
-title: Making sense of love
+title: Making sense of gove
 isCompleted: true
 date: 2016-12-17T15:04:10.000Z
 description: >-
