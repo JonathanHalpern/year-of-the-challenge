@@ -16,6 +16,7 @@ const BlogPostPreview = ({ entry, widgetFor }) => (
   <BlogPostTemplate
     content={widgetFor('body')}
     description={entry.getIn(['data', 'description'])}
+    isCompleted={entry.getIn(['data', 'isCompleted'])}
     title={entry.getIn(['data', 'title'])}
   />
 )
