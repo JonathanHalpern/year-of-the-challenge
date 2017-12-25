@@ -1,6 +1,6 @@
 ---
 templateKey: completed-page
 path: /completed
-title: Completed
+title: Completed Challenges
 ---
-### Achieves
+Click on a challenge to read how we completed it

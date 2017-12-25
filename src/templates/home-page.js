@@ -1,9 +1,10 @@
 import React from 'react';
 import Content, { HTMLContent } from '../components/Content';
 
-export const AboutPageTemplate = ({ title, content, contentComponent }) => {
+export const HomePageTemplate = ({ title, content, contentComponent }) => {
+  console.log('load home')
   const PageContent = contentComponent || Content;
-  return <section className="section section--gradient">
+  return (<section className="section section--gradient">
     <div className="container">
       <div className="columns">
         <div className="column is-10 is-offset-1">
@@ -14,20 +15,20 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
         </div>
       </div>
     </div>
-  </section>;
-}
+  </section>);
+};
 
 export default ({ data }) => {
   const { markdownRemark: post } = data;
-  return <AboutPageTemplate
+  return (<HomePageTemplate
     contentComponent={HTMLContent}
     title={post.frontmatter.title}
     content={post.html}
-  />;
+  />);
 };
 
-export const testPageQuery = graphql`
-  query TestPage($path: String!) {
+export const homePageQuery = graphql`
+  query HomePage($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {

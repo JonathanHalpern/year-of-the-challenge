@@ -18,11 +18,17 @@ const Navbar = () => (
         </Link>
       </div>
       <div className="navbar-start">
-        <Link className="navbar-item" to="/about">
-          About
+        <Link className="navbar-item" to="/completed">
+          Completed
         </Link>
-        <Link className="navbar-item" to="/products">
-          Products
+        <Link className="navbar-item" to="/timeLine">
+          Time Line
+        </Link>
+        <Link className="navbar-item" to="/challenges">
+          Challenges
+        </Link>
+        <Link className="navbar-item" to="/submit">
+          Submit a challenge
         </Link>
       </div>
       <div className="navbar-end">
