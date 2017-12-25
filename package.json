@@ -20,6 +20,7 @@
     "react-load-script": "0.0.6",
     "typography": "^0.16.6",
     "typography-theme-bootstrap": "^0.16.7",
+    "typography-theme-fairy-gates": "^0.15.11",
     "typography-theme-lawton": "^0.15.10"
   },
   "peerDependencies": {

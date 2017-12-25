@@ -3,9 +3,14 @@ module.exports = {
     title: 'Year of the Challenge Gatsby Blog',
   },
   plugins: [
-    'gatsby-plugin-typography',
+    {
+      resolve: 'gatsby-plugin-typography',
+      options: {
+        pathToConfigModule: 'src/utils/typography.js',
+      },
+    },
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-sass',
+    // 'gatsby-plugin-sass',
     {
       resolve: 'gatsby-source-filesystem',
       options: {

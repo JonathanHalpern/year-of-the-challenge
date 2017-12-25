@@ -6,6 +6,7 @@ export const HomePageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
   return (<section className="section section--gradient">
     <div className="container">
+      <p> Test content </p>
       <div className="columns">
         <div className="column is-10 is-offset-1">
           <div className="section">
