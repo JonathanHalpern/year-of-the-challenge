@@ -2,6 +2,7 @@
 templateKey: 'blog-post'
 path: /jamaica-blue
 title: 'Thrust in: small batch of Jamaican Blue Mountain in store next week'
+difficulty: hard
 date: 2017-01-04T15:04:10.000Z
 author: Gary Glitter
 description: >-

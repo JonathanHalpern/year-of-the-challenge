@@ -8,41 +8,21 @@ import Grid from 'material-ui/Grid';
 import Content, { HTMLContent } from '../components/Content';
 import ChallengeItem from '../components/ChallengeItem';
 
-const ColumnItem = styled.div`
-  margin: 15px 15px 0 0;
-`;
-
-var queries = [{
-  columns: 1,
-  query: 'min-width: 200px',
-}, {
-  columns: 2,
-  query: 'min-width: 500px',
-}, {
-  columns: 3,
-  query: 'min-width: 800px',
-}];
-
-export const ChallengeList = ({ posts }) => (
-  <Columns queries={queries}>
-    {posts.filter(post => (post.node.frontmatter.templateKey === 'blog-post' && !post.node.frontmatter.isCompleted)).map(({ node: post }) => (
-      <ColumnItem key={post.id}>
-        <ChallengeItem
-          post={post}
-        />
-      </ColumnItem>
-    ))}
-  </Columns>
-
-  // <Grid container spacing={24}>
-  //   {posts.filter(post => (post.node.frontmatter.templateKey === 'blog-post' && !post.node.frontmatter.isCompleted)).map(({ node: post }) => (
-  //     <Grid item xs={12} sm={6} md={4} key={post.id}>
-  //       <ChallengeItem
-  //         post={post}
-  //       />
-  //     </Grid>
-  //   ))}
-  // </Grid>
+export const SubmitForm = () => (
+  <form name="contact" netlify>
+    <p>
+      <label>Your Name: <input type="text" name="name" /></label>
+    </p>
+    <p>
+      <label>Your Email: <input type="email" name="email" /></label>
+    </p>
+    <p>
+      <label>Message: <textarea name="message" /></label>
+    </p>
+    <p>
+      <button type="submit">Send</button>
+    </p>
+  </form>
 );
 
 export default ({ data }) => {
@@ -53,14 +33,12 @@ export default ({ data }) => {
       <HTMLContent
         content={post.html}
       />
-      <ChallengeList
-        posts={posts}
-      />
+      <SubmitForm />
     </div>);
 };
 
-export const challengesPageQuery = graphql`
-  query ChallengesPage($path: String!) {
+export const submitPageQuery = graphql`
+  query SubmitPage($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {

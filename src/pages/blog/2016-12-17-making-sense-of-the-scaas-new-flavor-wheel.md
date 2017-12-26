@@ -2,6 +2,7 @@
 templateKey: blog-post
 path: /making-sense
 title: Making sense of gove
+difficulty: easy
 isCompleted: false
 date: 2016-12-17T15:04:10.000Z
 author: Abigail

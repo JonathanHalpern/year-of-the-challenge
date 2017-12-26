@@ -94,7 +94,9 @@ class Navbar extends Component {
         <Drawer open={this.state.isSideBarOpen} onClose={this.toggleSideBar}>
           <div>
             <DrawerHeader type="title" color="inherit">
-               Year of the Challenge
+              <StyledLink to="/">
+                Year of the Challenge
+              </StyledLink>
             </DrawerHeader>
             <Divider />
             <List>
