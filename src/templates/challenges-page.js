@@ -6,17 +6,17 @@ import styled from 'styled-components';
 
 import Grid from 'material-ui/Grid';
 import Content, { HTMLContent } from '../components/Content';
-import CompletedItem from '../components/CompletedItem';
+import ChallengeItem from '../components/ChallengeItem';
 
 const StyledCardMedia = styled(CardMedia)`
   height: 200px;
 `;
 
-export const AboutPageTemplate = ({ posts }) => (
+export const ChallengeList = ({ posts }) => (
   <Grid container spacing={24}>
-    {posts.filter(post => (post.node.frontmatter.templateKey === 'blog-post' && post.node.frontmatter.isCompleted)).map(({ node: post }) => (
-      <Grid item xs={12} sm={6} md={4}>
-        <CompletedItem
+    {posts.filter(post => (post.node.frontmatter.templateKey === 'blog-post' && !post.node.frontmatter.isCompleted)).map(({ node: post }) => (
+      <Grid item xs={12} sm={6} md={4} key={post.id}>
+        <ChallengeItem
           post={post}
         />
       </Grid>
@@ -32,14 +32,14 @@ export default ({ data }) => {
       <HTMLContent
         content={post.html}
       />
-      <AboutPageTemplate
+      <ChallengeList
         posts={posts}
       />
     </div>);
 };
 
-export const completedPageQuery = graphql`
-  query CompletedPage($path: String!) {
+export const challengesPageQuery = graphql`
+  query ChallengesPage($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {
@@ -59,8 +59,9 @@ export const completedPageQuery = graphql`
             path
             isCompleted
             evidenceImage
+            description
+            author
           }
-          html
         }
       }
     }

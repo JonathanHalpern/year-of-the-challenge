@@ -57,7 +57,7 @@ class Navbar extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      isSideBarOpen: true,
+      isSideBarOpen: false,
     };
     this.toggleSideBar = this.toggleSideBar.bind(this);
   }
@@ -100,7 +100,7 @@ class Navbar extends Component {
             <List>
               {
                 MENU.map(item => (
-                  <StyledListItem>
+                  <StyledListItem key={item.link}>
                     <StyledLink to={item.link}>
                       {item.name}
                     </StyledLink>
