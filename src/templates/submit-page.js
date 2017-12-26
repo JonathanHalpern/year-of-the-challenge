@@ -10,12 +10,13 @@ import ChallengeItem from '../components/ChallengeItem';
 
 export const SubmitForm = () => (
   <form
-    name="contact"
+    name="newChallenges"
     method="post"
     data-netlify="true"
     data-netlify-honeypot="bot-field"
     action="/"
   >
+    <input style={{ display: 'none' }} type="text" name="form-name" value="newChallenges" />
     <p>
       <label>Your Name: <input type="text" name="name" /></label>
     </p>
@@ -23,7 +24,7 @@ export const SubmitForm = () => (
       <label>Your Email: <input type="email" name="email" /></label>
     </p>
     <p>
-      <label>Message: <textarea name="message" /></label>
+      <label>Your challenge: <textarea name="message" maxLength="50" /></label>
     </p>
     <p>
       <button type="submit">Send</button>
