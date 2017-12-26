@@ -23,6 +23,8 @@ When you're on holiday, you can dip your toe in the sea and, if it feels chilly,
 
 Getting out is less fun. Or at least, it was for me. Jonny seemed to manage it alright. Perhaps it was the penguin atop his head which inspired him to move as adeptly through icy waters as the ubiquitous bird of the Arctic.
 
+![](/img/25017988_569845796741063_6842596970905731072_n.jpg)
+
 I, on the other hand, was a flamingo. Tropical shrimp-filled streams I can do, frigorific oceans I cannot. (NB: I like 'frigorific'. It is a perfect combination of 'fridge' and 'horrific', which just about sums the whole thing up). I fell over countless times on the shore, where my numb feet - already bearing chilblains from poor circulation and cold weather - were no longer doing a decent job of keeping me upright. And where flamingos are said to stand on one leg, it took me four as my papa kindly allowed me to use him as a human crutch back to dry land.
 
 Overall, I'm glad we did it. We said a sorry farewell to a now rather sad and gritty looking flamingo costume and a beery penguin hat, both of which had been a source of much amusement over the last year. However, it was in the name of a good cause (raising money for the Isle of Wight charity PATCH), and definitely woke us up after a boozy Christmas. You never know, we might even do it again next year, though hopefully in warmer climes!
