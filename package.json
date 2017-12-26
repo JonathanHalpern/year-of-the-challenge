@@ -17,14 +17,15 @@
     "gatsby-transformer-remark": "^1.7.17",
     "gatsby-transformer-sharp": "^1.6.13",
     "material-ui": "^1.0.0-beta.25",
+    "material-ui-icons": "^1.0.0-beta.17",
     "react-load-script": "0.0.6",
+    "styled-components": "^2.4.0",
     "typography": "^0.16.6",
-    "typography-theme-bootstrap": "^0.16.7",
-    "typography-theme-fairy-gates": "^0.15.11",
-    "typography-theme-lawton": "^0.15.10"
+    "typography-theme-sutro": "^0.15.10"
   },
   "peerDependencies": {
-    "react": ">=15.0.0 <16.0.0"
+    "react": ">=15.0.0 <16.0.0",
+    "react-helmt": "5.2.0"
   },
   "keywords": [
     "gatsby"

@@ -3,6 +3,7 @@ import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 import Script from 'react-load-script';
 import Content, { HTMLContent } from '../components/Content';
+import HomePageTemplate from '../templates/home-page';
 
 export default class IndexPage extends React.Component {
   handleScriptLoad() {
@@ -20,7 +21,7 @@ export default class IndexPage extends React.Component {
 
   render() {
     console.log(this.props.data)
-    const { data } = this.props;
+    // const { data } = this.props;
     // const { edges: posts } = data.allMarkdownRemark;
     return (
       <section className="section">
@@ -29,43 +30,40 @@ export default class IndexPage extends React.Component {
           onLoad={this.handleScriptLoad.bind(this)}
         />
         <div className="container">
-          <div className="content">
-            <h1 className="has-text-weight-bold is-size-2">Challenges</h1>
-          </div>
-          <HTMLContent content={data.markdownRemark.html} />
+          <HomePageTemplate />
         </div>
       </section>
     );
   }
 }
 
-export const pageQuery = graphql`
-  query IndexQuery {
-    # allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
-    #   edges {
-    #     node {
-    #       excerpt(pruneLength: 400)
-    #       id
-    #       frontmatter {
-    #         title
-    #         templateKey
-    #         date(formatString: "MMMM DD, YYYY")
-    #         path
-    #         isCompleted
-    #       }
-    #     }
-    #   }
-    # },
-    markdownRemark(frontmatter: {path: {eq: "/home"}}) {
-       frontmatter {
-         title
-         templateKey
-         date(formatString: "MMMM DD, YYYY")
-         path
-         isCompleted
-         evidenceImage
-       },
-       html
-    }
-  }
-`;
+// export const pageQuery = graphql`
+//   query IndexQuery {
+//     # allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+//     #   edges {
+//     #     node {
+//     #       excerpt(pruneLength: 400)
+//     #       id
+//     #       frontmatter {
+//     #         title
+//     #         templateKey
+//     #         date(formatString: "MMMM DD, YYYY")
+//     #         path
+//     #         isCompleted
+//     #       }
+//     #     }
+//     #   }
+//     # },
+//     markdownRemark(frontmatter: {path: {eq: "/home"}}) {
+//        frontmatter {
+//          title
+//          templateKey
+//          date(formatString: "MMMM DD, YYYY")
+//          path
+//          isCompleted
+//          evidenceImage
+//        },
+//        html
+//     }
+//   }
+// `;

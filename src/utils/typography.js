@@ -1,8 +1,7 @@
 import Typography from 'typography';
-import lawtonTheme from 'typography-theme-lawton';
 
-import bootstrapTheme from 'typography-theme-fairy-gates';
+import sutroTheme from 'typography-theme-sutro';
 
-const typography = new Typography(bootstrapTheme);
+const typography = new Typography(sutroTheme);
 
 export default typography;
