@@ -24,7 +24,7 @@ export const SubmitForm = () => (
       <label>Your Email: <input type="email" name="email" /></label>
     </p>
     <p>
-      <label>Your challenge: <textarea name="message" maxLength="50" /></label>
+      <label>Your challenge: <textarea name="message" maxLength="400" /></label>
     </p>
     <p>
       <button type="submit">Send</button>
