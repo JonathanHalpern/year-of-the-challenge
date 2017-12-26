@@ -9,7 +9,13 @@ import Content, { HTMLContent } from '../components/Content';
 import ChallengeItem from '../components/ChallengeItem';
 
 export const SubmitForm = () => (
-  <form name="contact" netlify>
+  <form
+    name="contact"
+    method="post"
+    data-netlify="true"
+    data-netlify-honeypot="bot-field"
+    action="/"
+  >
     <p>
       <label>Your Name: <input type="text" name="name" /></label>
     </p>
