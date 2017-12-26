@@ -7,6 +7,12 @@ import Columns from 'react-columns';
 import Grid from 'material-ui/Grid';
 import Content, { HTMLContent } from '../components/Content';
 import ChallengeItem from '../components/ChallengeItem';
+import TextField from 'material-ui/TextField';
+import Button from 'material-ui/Button';
+
+const SubmitButton = styled(Button)`
+  margin-top: 20px;
+`;
 
 export const SubmitForm = () => (
   <form
@@ -17,18 +23,37 @@ export const SubmitForm = () => (
     action="/"
   >
     <input style={{ display: 'none' }} type="text" name="form-name" value="newChallenges" />
-    <p>
-      <label>Your Name: <input type="text" name="name" /></label>
-    </p>
-    <p>
-      <label>Your Email: <input type="email" name="email" /></label>
-    </p>
-    <p>
-      <label>Your challenge: <textarea name="message" maxLength="400" /></label>
-    </p>
-    <p>
-      <button type="submit">Send</button>
-    </p>
+    <Grid container spacing={24}>
+      <Grid item xs={12} sm={6}>
+        <TextField
+          id="name"
+          label="Your name"
+          name="name"
+          fullWidth
+        />
+      </Grid>
+      <Grid item xs={12} sm={6}>
+        <TextField
+          id="email"
+          label="Email"
+          name="email"
+          fullWidth
+        />
+      </Grid>
+      <Grid item xs={12}>
+        <TextField
+          id="challenge"
+          label="Your challenge"
+          name="challenge"
+          fullWidth
+          multiline
+          rows={3}
+        />
+      </Grid>
+    </Grid>
+    <SubmitButton color="primary" raised type="submit">
+      Send
+    </SubmitButton>
   </form>
 );
 

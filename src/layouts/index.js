@@ -17,6 +17,9 @@ const BodyWrapper = styled.div`
   margin: 50px auto;
   max-width: 800px;
   background: white;
+  @media(max-width: 850px) {
+    margin: 30px;
+  }
 `;
 
 const TemplateWrapper = ({ children }) => (
