@@ -6,6 +6,10 @@ import Button from 'material-ui/Button';
 import Typography from 'material-ui/Typography';
 import CompletedPopup from './CompletedPopup';
 
+const StyledCard = styled(Card)`
+  cursor: pointer;
+`;
+
 const StyledCardMedia = styled(CardMedia)`
   height: 200px;
 `;
@@ -38,7 +42,7 @@ class CompletedItem extends Component {
 
   render() {
     return (
-      <Card>
+      <StyledCard onClick={this.togglePopup}>
         <StyledCardMedia
           className="media-image"
           image={this.props.post.frontmatter.evidenceImage}
@@ -48,17 +52,12 @@ class CompletedItem extends Component {
             {this.props.post.frontmatter.title}
           </ItemTitle>
         </CardContent>
-        <CardActions disableActionSpacing>
-          <Button onClick={this.togglePopup}>
-            READ
-          </Button>
-        </CardActions>
         <CompletedPopup
           post={this.props.post}
           isOpen={this.state.isPopupOpen}
           handleClose={this.togglePopup}
         />
-      </Card>
+      </StyledCard>
     );
   }
 }
