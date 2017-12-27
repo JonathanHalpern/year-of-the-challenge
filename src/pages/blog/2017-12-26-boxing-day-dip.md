@@ -5,7 +5,7 @@ title: Boxing Day Dip
 author: Jonatty
 difficulty: easy
 isCompleted: true
-evidenceImage: /img/dip2.jpg
+evidenceImage: /img/dip4.png
 date: 2017-12-26T23:13:06.884Z
 description: Swim in the Solent on Boxing Day
 ---
@@ -28,6 +28,8 @@ Getting out is less fun. Or at least, it was for me. Jonny seemed to manage it a
 ![null](/img/dip2.jpg)
 
 I, on the other hand, was a flamingo. Tropical shrimp-filled streams I can do, frigorific oceans I cannot. (NB: I like 'frigorific'. It is a perfect combination of 'fridge' and 'horrific', which just about sums the whole thing up). I fell over countless times on the shore, where my numb feet - already bearing chilblains from poor circulation and cold weather - were no longer doing a decent job of keeping me upright. And where flamingos are said to stand on one leg, it took me four as my papa kindly allowed me to use him as a human crutch back to dry land.
+
+![](/img/dip6.jpg)
 
 Overall, I'm glad we did it. We said a sorry farewell to a now rather sad and gritty looking flamingo costume and a beery penguin hat, both of which had been a source of much amusement over the last year. However, it was in the name of a good cause (raising money for the Isle of Wight charity PATCH), and definitely woke us up after a boozy Christmas. You never know, we might even do it again next year, though hopefully in warmer climes!
 
