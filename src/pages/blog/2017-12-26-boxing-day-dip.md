@@ -5,7 +5,7 @@ title: Boxing Day Dip
 author: Jonatty
 difficulty: easy
 isCompleted: true
-evidenceImage: /img/dip4.png
+evidenceImage: /img/dip7.jpg
 date: 2017-12-26T23:13:06.884Z
 description: Swim in the Solent on Boxing Day
 ---
