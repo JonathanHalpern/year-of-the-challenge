@@ -15,7 +15,7 @@ Last year, I was on my period with nothing to wear. Jonny dived in, solo, in his
 
 This year, armed with a tampon and a flamingo costume, I was ready.
 
-![null](/img/25016428_164960350784643_6359075106114764800_n.jpg)
+![null](/img/dip7.jpg)
 
 Jonny retained his penguin hat for the occasion and we lent my brother another festive fedora. In the name of tradition, we also brought a pint of beer to drink out of the hat before we went in (interestingly, the beer is not drunk - as one might imagine - from the head-hole, but rather by sucking upon the fibrous pompom at the bottom. Although slightly hairy, the experience is not entirely unpleasant). With some Dutch courage warming our bellies, we went for it.
 
@@ -29,7 +29,7 @@ Getting out is less fun. Or at least, it was for me. Jonny seemed to manage it a
 
 I, on the other hand, was a flamingo. Tropical shrimp-filled streams I can do, frigorific oceans I cannot. (NB: I like 'frigorific'. It is a perfect combination of 'fridge' and 'horrific', which just about sums the whole thing up). I fell over countless times on the shore, where my numb feet - already bearing chilblains from poor circulation and cold weather - were no longer doing a decent job of keeping me upright. And where flamingos are said to stand on one leg, it took me four as my papa kindly allowed me to use him as a human crutch back to dry land.
 
-![](/img/dip6.jpg)
+![null](/img/dip6.jpg)
 
 Overall, I'm glad we did it. We said a sorry farewell to a now rather sad and gritty looking flamingo costume and a beery penguin hat, both of which had been a source of much amusement over the last year. However, it was in the name of a good cause (raising money for the Isle of Wight charity PATCH), and definitely woke us up after a boozy Christmas. You never know, we might even do it again next year, though hopefully in warmer climes!
 
