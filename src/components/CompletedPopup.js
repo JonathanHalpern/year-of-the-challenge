@@ -34,7 +34,6 @@ export default ({ isOpen, handleClose, post }) => (
         Google, even when no apps are running.
       </DialogContentText> */}
       <HTMLContent content={post.html} />
-      <p>completed: {post.isCompleted ? 'yes' : 'no'}</p>
     </DialogContent>
   </Dialog>
 );

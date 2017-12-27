@@ -11,6 +11,7 @@ import React, { Component } from 'react';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 import styled from 'styled-components';
+import Dimensions from 'react-dimensions'
 import MENU from '../constants/menu';
 import '../../static/fonts/fontawesome/style.css';
 
@@ -71,6 +72,9 @@ class Navbar extends Component {
   render() {
     return (
       <AppBar position="static">
+        {
+          console.log(this.props)
+        }
         <StyledToolbar>
           <LeftButtonContainer>
             <StyledIconButton color="contrast" aria-label="Menu">
@@ -91,9 +95,17 @@ class Navbar extends Component {
             </IconButton>
           </RightButtonContainer>
         </StyledToolbar>
-        <Drawer open={this.state.isSideBarOpen} onClose={this.toggleSideBar}>
-          <div>
-            <DrawerHeader type="title" color="inherit">
+        <Drawer
+          open={this.state.isSideBarOpen}
+          onClose={this.toggleSideBar}
+          anchor={this.props.containerWidth <= 750 ? 'top' : 'left'}
+        >
+          <div
+            role="button"
+            onClick={this.toggleSideBar}
+            onKeyDown={this.toggleSideBar}
+          >
+            <DrawerHeader type="title" color="inherit" anchor="top">
               <StyledLink to="/">
                 Year of the Challenge
               </StyledLink>
@@ -117,4 +129,4 @@ class Navbar extends Component {
   }
 }
 
-export default Navbar;
+export default Dimensions()(Navbar);
