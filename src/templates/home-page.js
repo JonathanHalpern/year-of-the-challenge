@@ -1,20 +1,27 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import styled from 'styled-components';
+import Button from 'material-ui/Button';
 import challengeBox from '../../static/img/challengeBox.png';
 
-const ImageWrapper = styled.div`
+const CentreContentContainer = styled.div`
   display: flex;
-  > a {
+  > * {
     margin: auto;
   }
 `;
 
+const ChallengeBox = styled.img`
+  opacity: 0.8;
+  :hover {
+    opacity: 1
+  }
+`;
+
 export const HomePageTemplate = () => {
-  console.log('load home')
   return (<section className="section section--gradient">
     <div className="container">
-      <h1>Our Vision</h1>
+      <h1>About us</h1>
       <p>
         When it comes to writing blogs, it is common sense that you play to your strengths.
         We are not great cooks or talented sportspersons;
@@ -61,11 +68,16 @@ export const HomePageTemplate = () => {
         So, even if you think it&apos;s a bit off-the-wall,
         send it in: we&apos;ve probably seen worse.
       </p>
-      <ImageWrapper>
+      <CentreContentContainer>
         <Link to="/challenges">
-          <img src={challengeBox} alt="" />
+          <ChallengeBox src={challengeBox} alt="" />
         </Link>
-      </ImageWrapper>
+      </CentreContentContainer>
+      <CentreContentContainer>
+        <Button href="/submit" raised color="primary" >
+          Send us a challenge
+        </Button>
+      </CentreContentContainer>
     </div>
   </section>);
 };
