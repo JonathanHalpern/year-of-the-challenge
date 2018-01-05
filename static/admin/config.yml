@@ -12,45 +12,23 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - label: "Template Key"
-        name: "templateKey"
-        widget: "hidden"
-        default: "blog-post"
-      - label: "Path"
-        name: "path"
-        widget: "string"
-      - label: "Title"
-        name: "title"
-        widget: "string"
-      - label: "Challenger"
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
+      - {label: "Path", name: "path", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
+      - label: "Author"
         name: "author"
         widget: "string"
       - label: "Difficulty"
         name: "difficulty"
         widget: "select"
         options: ["easy", "medium", "hard", "impossible"]
-      - label: "Completed"
-        name: "isCompleted"
-        widget: "boolean"
-        default: false
+      - {label: "Completed", name: "isCompleted", widget: "boolean", default: false}
       - label: "Photographic evidence"
         name: "evidenceImage"
         widget: "image"
-        required: false
-      - label: "Location"
-        name: "location"
-        widget: "string"
-        required: false
-      - label: "Publish Date"
-        name: "date"
-        widget: "datetime"
-      - label: "Description"
-        name: "description"
-        widget: "text"
-      - label: "Body"
-        name: "body"
-        widget: "markdown"
-        required: false
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "pages"
     label: "Pages"
