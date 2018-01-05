@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 path: /nat
-title: Nat is scoolio
+title: Nat is scool
 author: Puss
 difficulty: easy
 isCompleted: false
