@@ -21,7 +21,7 @@ collections:
         widget: "string"
       - label: "Title"
         name: "title"
-        widget: "string"}
+        widget: "string"
       - label: "Author"
         name: "author"
         widget: "string"
