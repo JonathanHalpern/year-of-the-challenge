@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-path: nomad-chefs
+path: /nomad-chefs
 title: Nomad Chefs
 author: David Miller
 difficulty: easy
