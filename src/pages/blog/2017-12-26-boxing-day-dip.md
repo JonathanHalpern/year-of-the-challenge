@@ -1,10 +1,10 @@
 ---
 templateKey: blog-post
-path: /boxing-day-dip
 title: Boxing Day Dip
+path: /boxing-day-dip
 author: Jonatty
-comfortZone: 3
-difficulty: 0
+socialDifficulty: Tentative
+difficulty: easy
 isCompleted: true
 evidenceImage: /img/dip9.jpg
 date: 2017-12-26T23:13:06.884Z
@@ -24,7 +24,7 @@ Jonny retained his penguin hat for the occasion and we lent my brother another f
 
 When you're on holiday, you can dip your toe in the sea and, if it feels chilly, you head back to the sunbed. You tell yourself that there is no way you're getting in. With challenges, it's different. The icy sea is up to your thighs before you process that "Holy shit it's cold," and it's only when you got past the tummy-threshold and actually throw yourself in that you realise you can barely move and your breathing is raspy and shallow. Everyone's laughing and screaming, and it's sort of brilliant and horrible all at once.
 
-![](/img/dip8.jpg)
+![null](/img/dip8.jpg)
 
 Getting out is less fun. Or at least, it was for me. Jonny seemed to manage it alright. Perhaps it was the penguin atop his head which inspired him to move as adeptly through icy waters as the ubiquitous bird of the Arctic.
 
