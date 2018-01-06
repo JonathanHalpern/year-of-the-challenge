@@ -3,9 +3,9 @@ templateKey: blog-post
 path: /eat-tarantulas
 title: Eat Tarantulas
 author: Owen Williams
-difficulty: medium
+comfortZone: 1
+difficulty: 0
 isCompleted: false
 date: 2018-01-05T02:30:38.901Z
 description: Eat tarantulas (Cambodia)
 ---
-

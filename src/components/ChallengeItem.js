@@ -6,11 +6,13 @@ import Button from 'material-ui/Button';
 import Typography from 'material-ui/Typography';
 import fontPickerService from '../services/fontPicker';
 import colorPickerService from '../services/colorPicker';
+import emojiPickerService from '../services/emojiPicker';
 import '../../static/fonts/fonts.css';
 
 const StyledCardContent = styled(CardContent)`
   color: ${props => props.color};
   background: ${props => props.background};
+  position: relative;
 `;
 
 const StyledCardMedia = styled(CardMedia)`
@@ -34,8 +36,16 @@ const ItemTitle = styled.h3`
 const ChallengeText = styled.div`
   font-family: ${props => props.fontFamily};
   font-size: 1em;
+  margin-right: 30px;
 `;
 
+const EmojiImage = styled.img`
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  height: 30px;
+  width: 30px;
+`;
 
 class CompletedItem extends Component {
   constructor(props) {
@@ -47,6 +57,7 @@ class CompletedItem extends Component {
       challengeTextFont: fontPickerService.getFontByName(this.props.post.frontmatter.author),
       challengeBackground: difficultyColors.background,
       challengeColor: difficultyColors.color,
+      emoji: emojiPickerService.getEmojisByChallengeNumber(this.props.post.frontmatter.comfortZone),
     };
     console.log(this.state);
   }
@@ -60,9 +71,7 @@ class CompletedItem extends Component {
           color={this.state.challengeColor}
           background={this.state.challengeBackground}
           >
-          {/* <ItemTitle type="headline" component="h3">
-            {this.props.post.frontmatter.title}
-          </ItemTitle> */}
+          <EmojiImage src={this.state.emoji} />
           <ChallengeText fontFamily={this.state.challengeTextFont}>
             <p>&quot;{this.props.post.frontmatter.description}&quot;</p>
             <ItemAuthor>- {this.props.post.frontmatter.author}</ItemAuthor>
