@@ -28,7 +28,7 @@ collections:
       - label: "Social Difficulty"
         name: "socialDifficulty"
         widget: "select"
-        options: ["Excited", "Happy", "Confused", "Tentative, "Embarrassed", "Anguished"]
+        options: ["Excited", "Happy", "Confused", "Tentative", "Embarrassed", "Anguished"]
       - label: "Technical Difficulty"
         name: "difficulty"
         widget: "select"
