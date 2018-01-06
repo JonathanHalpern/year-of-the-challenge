@@ -69,7 +69,7 @@ export const challengesPageQuery = graphql`
             description
             author
             difficulty
-            comfortZone
+            emotion
           }
         }
       }

@@ -36,12 +36,12 @@ const ItemTitle = styled.h3`
 const ChallengeText = styled.div`
   font-family: ${props => props.fontFamily};
   font-size: 1em;
-  margin-right: 30px;
+  margin-right: 35px;
 `;
 
 const EmojiImage = styled.img`
   position: absolute;
-  top: 20px;
+  top: 18px;
   right: 15px;
   height: 30px;
   width: 30px;
@@ -57,7 +57,7 @@ class CompletedItem extends Component {
       challengeTextFont: fontPickerService.getFontByName(this.props.post.frontmatter.author),
       challengeBackground: difficultyColors.background,
       challengeColor: difficultyColors.color,
-      emoji: emojiPickerService.getEmojisByChallengeNumber(this.props.post.frontmatter.comfortZone),
+      emoji: emojiPickerService.getEmojisByEmotion(this.props.post.frontmatter.emotion),
     };
     console.log(this.state);
   }
@@ -71,7 +71,7 @@ class CompletedItem extends Component {
           color={this.state.challengeColor}
           background={this.state.challengeBackground}
           >
-          <EmojiImage src={this.state.emoji} />
+          <EmojiImage src={this.state.emoji.src} />
           <ChallengeText fontFamily={this.state.challengeTextFont}>
             <p>&quot;{this.props.post.frontmatter.description}&quot;</p>
             <ItemAuthor>- {this.props.post.frontmatter.author}</ItemAuthor>
