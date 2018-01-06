@@ -3,7 +3,7 @@ templateKey: blog-post
 path: /boxing-day-dip
 title: Boxing Day Dip
 author: Jonatty
-comfortZone: 1
+comfortZone: 3
 difficulty: 0
 isCompleted: true
 evidenceImage: /img/dip9.jpg

@@ -3,7 +3,7 @@ templateKey: blog-post
 path: /skinny-dipping
 title: Skinny Dipping
 author: Elizabeth Bowen
-comfortZone: 1
+comfortZone: 4
 difficulty: 0
 isCompleted: false
 date: 2018-01-05T02:44:22.598Z
