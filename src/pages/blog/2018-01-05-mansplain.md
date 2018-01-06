@@ -1,11 +1,12 @@
 ---
 templateKey: blog-post
-path: /mansplain
 title: Mansplain
+path: /mansplain
 author: Zoë Halpern
-comfortZone: 4
-difficulty: 0
+socialDifficulty: Tentative
+difficulty: medium
 isCompleted: false
 date: 2018-01-05T16:06:20.437Z
 description: Mansplain to a local person how to make a dish from their country.
 ---
+
