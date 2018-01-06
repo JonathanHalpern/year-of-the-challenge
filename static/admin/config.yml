@@ -40,9 +40,9 @@ collections:
         name: "difficulty"
         widget: "select"
         options:
-          - { label: "Easy", value: 0 }
-          - { label: "Medium", value: 1 }
-          - { label: "Hard", value: 2 }
+          - { label: "Easy", value: "0" }
+          - { label: "Medium", value: "1" }
+          - { label: "Hard", value: "2" }
       - label: "Completed"
         name: "isCompleted"
         widget: "boolean"
