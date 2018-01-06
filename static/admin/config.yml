@@ -28,11 +28,22 @@ collections:
       - label: "Social Difficulty"
         name: "socialDifficulty"
         widget: "select"
-        options: ["easy", "medium", "hard"]
+        # options: ["easy", "medium", "hard"]
+        options:
+      - { label: "Excited", value: 0 }
+      - { label: "Happy", value: 1 }
+      - { label: "Confused", value: 2 }
+      - { label: "Tentative", value: 3 }
+      - { label: "Embarrassed", value: 4 }
+      - { label: "Anguished", value: 5 }
       - label: "Technical Difficulty"
         name: "technicalDifficulty"
         widget: "select"
-        options: ["easy", "medium", "hard"]
+        # options: ["easy", "medium", "hard"]
+        options:
+      - { label: "Easy", value: 0 }
+      - { label: "Medium", value: 1 }
+      - { label: "Hard", value: 2 }
       - label: "Completed"
         name: "isCompleted"
         widget: "boolean"
