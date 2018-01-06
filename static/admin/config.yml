@@ -39,10 +39,11 @@ collections:
       - label: "Technical Difficulty"
         name: "difficulty"
         widget: "select"
-        options:
-          - { label: "Easy", value: "0" }
-          - { label: "Medium", value: "1" }
-          - { label: "Hard", value: "2" }
+        options: ["easy", "medium", "hard"]
+        # options:
+        #   - { label: "Easy", value: "0" }
+        #   - { label: "Medium", value: "1" }
+        #   - { label: "Hard", value: "2" }
       - label: "Completed"
         name: "isCompleted"
         widget: "boolean"
