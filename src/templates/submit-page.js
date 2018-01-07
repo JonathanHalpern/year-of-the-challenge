@@ -35,7 +35,7 @@ export const SubmitForm = () => (
       <Grid item xs={12} sm={6}>
         <TextField
           id="email"
-          label="Email"
+          label="Email (optional)"
           name="email"
           fullWidth
         />
