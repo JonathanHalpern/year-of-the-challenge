@@ -3,9 +3,9 @@ import Helmet from 'react-helmet';
 import styled from 'styled-components';
 import Navbar from '../components/Navbar';
 import './index.css';
-// http://www.lib.utexas.edu/maps/historical/asia_1808.jpg
+
 const Background = styled.div`
-  background-image: url(https://images.unsplash.com/photo-1502099530544-2b61cbaed85c?auto=format&fit=crop&w=1498&q=80);
+  background-image: url('img/Functional/chinese_street.jpg');
   opacity: 0.5;
   width: 100%;
   height: 100%;

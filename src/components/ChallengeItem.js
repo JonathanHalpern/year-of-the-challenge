@@ -47,10 +47,9 @@ const EmojiImage = styled.img`
   width: 30px;
 `;
 
-class CompletedItem extends Component {
+class ChallengeItem extends Component {
   constructor(props) {
     super(props);
-    console.log(this.props.post.frontmatter);
     const difficultyColors =
       colorPickerService.getColorsByDifficulty(this.props.post.frontmatter.difficulty);
     this.state = {
@@ -59,18 +58,15 @@ class CompletedItem extends Component {
       challengeColor: difficultyColors.color,
       emoji: emojiPickerService.getEmojisByEmotion(this.props.post.frontmatter.emotion),
     };
-    console.log(this.state);
   }
 
   render() {
     return (
-      <Card
-
-      >
+      <Card>
         <StyledCardContent
           color={this.state.challengeColor}
           background={this.state.challengeBackground}
-          >
+        >
           <EmojiImage src={this.state.emoji.src} />
           <ChallengeText fontFamily={this.state.challengeTextFont}>
             <p>&quot;{this.props.post.frontmatter.description}&quot;</p>
@@ -82,4 +78,4 @@ class CompletedItem extends Component {
   }
 }
 
-export default CompletedItem;
+export default ChallengeItem;

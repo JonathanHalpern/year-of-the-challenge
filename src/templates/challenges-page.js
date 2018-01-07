@@ -3,9 +3,32 @@ import styled from 'styled-components';
 import Columns from 'react-columns';
 import Content, { HTMLContent } from '../components/Content';
 import ChallengeItem from '../components/ChallengeItem';
+import ChallengeKey from '../components/ChallengeKey';
 
 const ColumnItem = styled.div`
-  margin: 15px 15px 0 0;
+
+`;
+
+const StyledColumns = styled(Columns)`
+  >div>div{
+    >div {
+      margin: 15px 0 0 0;
+    }
+    @media(min-width: 500px) {
+      :nth-child(1) {
+        >div {
+          margin-right: 15px;
+        }
+      }
+    }
+    @media(min-width: 800px) {
+      :nth-child(2) {
+        >div {
+          margin-right: 15px;
+        }
+      }
+    }
+  }
 `;
 
 const queries = [{
@@ -20,7 +43,7 @@ const queries = [{
 }];
 
 export const ChallengeList = ({ posts }) => (
-  <Columns queries={queries}>
+  <StyledColumns queries={queries}>
     {posts.filter(post => (post.node.frontmatter.templateKey === 'blog-post' && !post.node.frontmatter.isCompleted)).map(({ node: post }) => (
       <ColumnItem key={post.id}>
         <ChallengeItem
@@ -28,7 +51,7 @@ export const ChallengeList = ({ posts }) => (
         />
       </ColumnItem>
     ))}
-  </Columns>
+  </StyledColumns>
 );
 
 export default ({ data }) => {
@@ -39,6 +62,7 @@ export default ({ data }) => {
       <HTMLContent
         content={post.html}
       />
+      <ChallengeKey />
       <ChallengeList
         posts={posts}
       />

@@ -8,20 +8,26 @@ import embarrassedEmoji from '../../static/img/Functional/embarrassed_emoji.png'
 export default {
   Excited: {
     src: excitedEmoji,
+    label: 'Excited',
   },
   Happy: {
     src: happyEmoji,
+    label: 'Happy',
   },
   Confused: {
     src: confusedEmoji,
+    label: 'Confused',
   },
   Tentative: {
     src: tentativeEmoji,
+    label: 'Tentative',
   },
   Embarrassed: {
     src: embarrassedEmoji,
+    label: 'Embarrassed',
   },
   Anguished: {
     src: anguishedEmoji,
+    label: 'Anguished',
   },
 };
