@@ -9,6 +9,6 @@ isCompleted: false
 date: 2018-01-07T05:53:22.157Z
 description: >-
   Deconstruct the Great Wall of China in any metaphorical, literary, or other
-  artistic manner.
+  artistic manner
 ---
 
