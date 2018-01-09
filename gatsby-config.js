@@ -4,13 +4,15 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: 'gatsby-plugin-feed',
+    },
+    {
       resolve: 'gatsby-plugin-typography',
       options: {
         pathToConfigModule: 'src/utils/typography.js',
       },
     },
     'gatsby-plugin-react-helmet',
-    // 'gatsby-plugin-sass',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
