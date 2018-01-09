@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: 'Year of the Challenge Gatsby Blog',
+    description: 'Travel blog',
+    siteUrl: 'http://www.yearofthechallenge.com/'
   },
   plugins: [
     {
