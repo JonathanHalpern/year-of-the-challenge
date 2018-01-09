@@ -2,6 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import styled from 'styled-components';
 import Navbar from '../components/Navbar';
+import SignUp from '../components/SignUp';
 import './index.css';
 
 const Background = styled.div`
@@ -33,6 +34,7 @@ const TemplateWrapper = ({ children }) => (
     <Helmet title="Home | Year of the Challenge" />
     <Navbar />
     <BodyWrapper>{children()}</BodyWrapper>
+    <SignUp />
   </div>
 );
 
