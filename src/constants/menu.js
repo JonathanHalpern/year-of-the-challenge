@@ -11,8 +11,4 @@ export default [
     name: 'Challenges',
     link: '/challenges',
   },
-  {
-    name: 'Submit a challenge',
-    link: '/submit',
-  },
 ];

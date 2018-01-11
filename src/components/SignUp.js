@@ -1,15 +1,26 @@
-import React, { Component } from 'react';
-import _ from 'lodash';
+import React from 'react';
 import styled from 'styled-components';
 import TextField from 'material-ui/TextField';
 import Button from 'material-ui/Button';
 
 const SubmitButton = styled(Button)`
   margin-top: 20px;
+  @media(min-width: 1224px) {
+    width: 100%;
+  }
+`;
+
+const StyledTextField = styled(TextField)`
+  display: block!important;
+`;
+
+const StyledForm = styled.form`
+  margin: 0;
+  padding: 0 16px;
 `;
 
 const SignUp = () => (
-  <form
+  <StyledForm
     name="subscribe"
     method="post"
     data-netlify="true"
@@ -17,16 +28,15 @@ const SignUp = () => (
     action="/"
   >
     <input style={{ display: 'none' }} type="text" name="form-name" value="subscribe" />
-    <TextField
+    <StyledTextField
       id="email"
       label="Email"
       name="email"
-      fullWidth
     />
     <SubmitButton color="primary" raised type="submit">
-      Send
+      Join mailing list
     </SubmitButton>
-  </form>
+  </StyledForm>
 );
 
 

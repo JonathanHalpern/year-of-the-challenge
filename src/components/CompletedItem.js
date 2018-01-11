@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import Link from 'gatsby-link';
-import Card, { CardContent, CardMedia, CardActions } from 'material-ui/Card';
-import Button from 'material-ui/Button';
-import Typography from 'material-ui/Typography';
+import Card, { CardContent, CardMedia } from 'material-ui/Card';
 import CompletedPopup from './CompletedPopup';
 
 const StyledCard = styled(Card)`
@@ -15,11 +12,6 @@ const StyledCardMedia = styled(CardMedia)`
 `;
 
 const ItemTitle = styled.h3`
-  ${'' /* display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis; */}
   margin: 0;
   font-size: 1em;
 `;
