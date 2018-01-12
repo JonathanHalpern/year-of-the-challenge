@@ -1,6 +1,6 @@
 export default [
   {
-    name: 'Completed',
+    name: 'Completed Challenges',
     link: '/completed',
   },
   // {
@@ -8,7 +8,7 @@ export default [
   //   link: '/timeLine',
   // },
   {
-    name: 'Challenges',
+    name: 'Upcoming Challenges',
     link: '/challenges',
   },
 ];

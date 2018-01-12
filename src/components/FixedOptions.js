@@ -26,10 +26,20 @@ const StyledListItem = styled(ListItem)`
 const Container = styled.div`
   background: white;
   padding: 15px;
+  @media(max-width: 1223px) {
+    border-top: 1px solid #aaa;
+    margin-top: 50px;
+    padding-top: 20px;
+  }
   @media(min-width: 1224px) {
     position: fixed;
-    top: 115px;
+    top: 114px;
     right: 5%;
+  }
+  @media(min-width: 650px) {
+    @media(max-width: 1223px) {
+      display: flex;
+    }
   }
 `;
 
@@ -61,7 +71,7 @@ class FixedOptions extends Component {
             ))
           }
           <StyledListItem onClick={this.togglePopup} >
-            Send us a challenge
+            Send us a Challenge
           </StyledListItem>
         </List>
         <SubmitChallengePopup

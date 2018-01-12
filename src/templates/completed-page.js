@@ -1,16 +1,9 @@
 import React from 'react';
-import Link from 'gatsby-link';
-import Card, { CardContent, CardMedia } from 'material-ui/Card';
-import Typography from 'material-ui/Typography';
 import styled from 'styled-components';
 
 import Grid from 'material-ui/Grid';
 import Content, { HTMLContent } from '../components/Content';
 import CompletedItem from '../components/CompletedItem';
-
-const StyledCardMedia = styled(CardMedia)`
-  height: 200px;
-`;
 
 export const AboutPageTemplate = ({ posts }) => (
   <Grid container spacing={24}>

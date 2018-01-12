@@ -12,6 +12,7 @@ const Background = styled.div`
   height: 100%;
   position: fixed;
   z-index: -1;
+  top: 0;
 `;
 
 const LeftWrapper = styled.div`
@@ -22,18 +23,19 @@ const LeftWrapper = styled.div`
 
 const BodyWrapper = styled.div`
   padding: 30px;
-  margin: 50px auto;
+  margin: 85px 15px 50px;
   max-width: 800px;
   background: white;
-  @media(max-width: 850px) {
-    margin: 30px;
-  }
-  @media(max-width: 700px) {
-    margin: 15px;
+  @media(min-width: 600px) {
     padding: 15px;
+    margin: 100px 30px 50px;
   }
-  @media(max-width: 1223px) {
-    margin-top: 56px;
+  @media(min-width: 850px) {
+    padding: 30px;
+    margin: 100px auto 50px;
+  }
+  @media(min-width: 1224px) {
+    margin: 50px auto;
   }
 `;
 
@@ -43,9 +45,11 @@ const TemplateWrapper = ({ children }) => (
     <Helmet title="Home | Year of the Challenge" />
     <Navbar />
     <LeftWrapper>
-      <BodyWrapper>{children()}</BodyWrapper>
+      <BodyWrapper>
+        {children()}
+        <FixedOptions />
+      </BodyWrapper>
     </LeftWrapper>
-    <FixedOptions />
   </div>
 );
 
