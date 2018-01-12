@@ -1,8 +1,8 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import styled from 'styled-components';
-import Button from 'material-ui/Button';
 import challengeBox from '../../static/img/challengeBox.png';
+import engagementPhoto from '../../static/img/engagementPhoto.jpg';
 
 const CentreContentContainer = styled.div`
   display: flex;
@@ -18,8 +18,13 @@ const ChallengeBox = styled.img`
   }
 `;
 
-export const HomePageTemplate = () => {
-  return (<section className="section section--gradient">
+const ImgBlock = styled.div`
+  height: 400px;
+  width: 100%;
+`;
+
+export const HomePageTemplate = () => (
+  <section className="section section--gradient">
     <div className="container">
       <h1>About us</h1>
       <p>
@@ -40,6 +45,8 @@ export const HomePageTemplate = () => {
       <p>
         So what have we got?
       </p>
+      <img src={engagementPhoto} />
+      <br />
       <p>
         We&apos;re up for stuff.
         Whether it&apos;s on or off the beaten trail,
@@ -73,13 +80,8 @@ export const HomePageTemplate = () => {
           <ChallengeBox src={challengeBox} alt="" />
         </Link>
       </CentreContentContainer>
-      <CentreContentContainer>
-        <Button href="/submit" raised color="primary" >
-          Send us a challenge
-        </Button>
-      </CentreContentContainer>
     </div>
-  </section>);
-};
+  </section>
+);
 
 export default HomePageTemplate;

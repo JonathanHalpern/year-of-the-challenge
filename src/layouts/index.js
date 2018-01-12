@@ -32,6 +32,9 @@ const BodyWrapper = styled.div`
     margin: 15px;
     padding: 15px;
   }
+  @media(max-width: 1223px) {
+    margin-top: 56px;
+  }
 `;
 
 const TemplateWrapper = ({ children }) => (

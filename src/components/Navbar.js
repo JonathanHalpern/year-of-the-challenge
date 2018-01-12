@@ -1,7 +1,6 @@
 import AppBar from 'material-ui/AppBar';
 import Toolbar from 'material-ui/Toolbar';
 import Typography from 'material-ui/Typography';
-import Button from 'material-ui/Button';
 import IconButton from 'material-ui/IconButton';
 import MenuIcon from 'material-ui-icons/Menu';
 import Drawer from 'material-ui/Drawer';
@@ -11,9 +10,16 @@ import React, { Component } from 'react';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 import styled from 'styled-components';
-import Dimensions from 'react-dimensions'
+import Dimensions from 'react-dimensions';
 import MENU from '../constants/menu';
 import '../../static/fonts/fontawesome/style.css';
+
+const StyledAppBar = styled(AppBar)`
+  @media(max-width: 1223px) {
+    position: fixed!important;
+    top: 0;
+  }
+`;
 
 const StyledLink = styled(Link)`
   text-decoration: none;
@@ -43,11 +49,17 @@ const DrawerHeader = styled(Typography)`
 const StyledToolbar = styled(Toolbar)`
   display: flex;
   justify-content: space-between;
+  min-height: 64px!important;
+  @media(max-width: 420px) {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
 `;
 
 const LeftButtonContainer = styled.div`
   display: flex;
   align-items: center;
+  flex: 1;
 `;
 
 const RightButtonContainer = styled.div`
@@ -71,10 +83,7 @@ class Navbar extends Component {
 
   render() {
     return (
-      <AppBar position="static">
-        {
-          console.log(this.props)
-        }
+      <StyledAppBar position="static">
         <StyledToolbar>
           <LeftButtonContainer>
             <StyledIconButton color="contrast" aria-label="Menu">
@@ -87,10 +96,10 @@ class Navbar extends Component {
             </StyledLink>
           </LeftButtonContainer>
           <RightButtonContainer>
-            <IconButton color="contrast" href="https://www.instagram.com/yearofthechallenge/">
+            <IconButton color="contrast" href="https://www.instagram.com/yearofthechallenge/" target="_blank">
               <i className="fa fa-instagram" />
             </IconButton>
-            <IconButton color="contrast" href="https://www.facebook.com">
+            <IconButton color="contrast" href="https://web.facebook.com/groups/2001054326819046/" target="_blank">
               <i className="fa fa-facebook" />
             </IconButton>
           </RightButtonContainer>
@@ -124,7 +133,7 @@ class Navbar extends Component {
             </List>
           </div>
         </Drawer>
-      </AppBar>
+      </StyledAppBar>
     );
   }
 }
