@@ -8,16 +8,14 @@ difficulty: easy
 isCompleted: true
 evidenceImage: /img/dip9.jpg
 date: 2017-12-26T23:13:06.884Z
-description: >-
+description: |+
   Swim in the Solent on Boxing Day
-
-
-  NB: We are aware this doesn't fit with our "Year Travelling" theme, but it was
-  a challenging way to see out 2017!
 ---
-This year, we were on the Isle of Wight over Christmas: a whimsical land where tradition does not involve sitting by the fire eating chestnuts, but rather insists upon throwing yourself into the icy depths of the Solent.
+NB: We are aware this doesn't fit with our "Year Travelling" theme, but it was a challenging way to see out 2017!
 
-Last year, I was on my period with nothing to wear. Jonny dived in, solo, in his undercrackers. After losing a bet in Ireland, he also had to drink an entire pint of Guinness out a reindeer hat (don't ask). When he returned from the waves, freezing, wet, sticky and smelling like an old sea-dog at the local pub, I felt proud, but also a bit jealous.
+We were on the Isle of Wight over Christmas: a whimsical land where tradition does not involve sitting by the fire eating chestnuts, but rather insists upon throwing yourself into the icy depths of the Solent.
+
+The previous year, I was on my period with nothing to wear. Jonny dived in, solo, in his undercrackers. After losing a bet in Ireland, he also had to drink an entire pint of Guinness out a reindeer hat (don't ask). When he returned from the waves, freezing, wet, sticky and smelling like an old sea-dog, I felt proud but also a bit jealous.
 
 This year, armed with a tampon and a flamingo costume, I was ready.
 
