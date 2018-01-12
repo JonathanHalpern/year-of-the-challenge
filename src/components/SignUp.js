@@ -5,9 +5,7 @@ import Button from 'material-ui/Button';
 
 const SubmitButton = styled(Button)`
   margin-top: 20px;
-  @media(min-width: 1224px) {
-    width: 100%;
-  }
+  width: 100%;
 `;
 
 const StyledTextField = styled(TextField)`
@@ -17,6 +15,7 @@ const StyledTextField = styled(TextField)`
 const StyledForm = styled.form`
   margin: 0;
   padding: 0 16px;
+  display: inline-block;
 `;
 
 const SignUp = () => (

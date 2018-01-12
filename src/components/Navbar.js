@@ -4,14 +4,13 @@ import Typography from 'material-ui/Typography';
 import IconButton from 'material-ui/IconButton';
 import MenuIcon from 'material-ui-icons/Menu';
 import Drawer from 'material-ui/Drawer';
-import List, { ListItem } from 'material-ui/List';
 import Divider from 'material-ui/Divider';
 import React, { Component } from 'react';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 import styled from 'styled-components';
 import Dimensions from 'react-dimensions';
-import MENU from '../constants/menu';
+import NavMenu from './NavMenu';
 import '../../static/fonts/fontawesome/style.css';
 
 const StyledAppBar = styled(AppBar)`
@@ -27,10 +26,6 @@ const StyledLink = styled(Link)`
   :hover {
     text-decoration:none;
   }
-`;
-
-const StyledListItem = styled(ListItem)`
-  margin: 0;
 `;
 
 const StyledIconButton = styled(IconButton)`
@@ -111,26 +106,15 @@ class Navbar extends Component {
         >
           <div
             role="button"
-            onClick={this.toggleSideBar}
             onKeyDown={this.toggleSideBar}
           >
-            <DrawerHeader type="title" color="inherit" anchor="top">
+            <DrawerHeader type="title" color="inherit" anchor="top" onClick={this.toggleSideBar}>
               <StyledLink to="/">
                 Year of the Challenge
               </StyledLink>
             </DrawerHeader>
             <Divider />
-            <List>
-              {
-                MENU.map(item => (
-                  <StyledListItem key={item.link}>
-                    <StyledLink to={item.link}>
-                      {item.name}
-                    </StyledLink>
-                  </StyledListItem>
-                ))
-              }
-            </List>
+            <NavMenu onLinkClick={this.toggleSideBar} />
           </div>
         </Drawer>
       </StyledAppBar>
