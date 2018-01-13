@@ -22,9 +22,14 @@ collections:
       - label: "Path"
         name: "path"
         widget: "string"
+      - label: "Personal Challenge"
+        name: "isPersonal"
+        widget: "boolean"
+        default: false
       - label: "Challenger"
         name: "author"
         widget: "string"
+        required: false
       - label: "Emotional response"
         name: "emotion"
         widget: "select"
