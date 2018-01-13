@@ -1,5 +1,5 @@
-import happyEmoji from '../../static/img/Functional/happy_emoji.png';
-import tentativeEmoji from '../../static/img/Functional/tentative_emoji.png';
+import amusedEmoji from '../../static/img/Functional/amused_emoji.png';
+import hesitantEmoji from '../../static/img/Functional/hesitant_emoji.png';
 import anguishedEmoji from '../../static/img/Functional/anguished_emoji.png';
 import excitedEmoji from '../../static/img/Functional/excited_emoji.png';
 import confusedEmoji from '../../static/img/Functional/confused_emoji.png';
@@ -10,17 +10,17 @@ export default {
     src: excitedEmoji,
     label: 'Excited',
   },
-  Happy: {
-    src: happyEmoji,
-    label: 'Happy',
+  Amused: {
+    src: amusedEmoji,
+    label: 'Amused',
   },
   Confused: {
     src: confusedEmoji,
     label: 'Confused',
   },
-  Tentative: {
-    src: tentativeEmoji,
-    label: 'Tentative',
+  Hesitant: {
+    src: hesitantEmoji,
+    label: 'Hesistant',
   },
   Embarrassed: {
     src: embarrassedEmoji,

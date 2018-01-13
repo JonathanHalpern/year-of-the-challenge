@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Long Lost Friend
 path: /long-lost-friend
 author: Oliver Woodward
-emotion: Happy
+emotion: Amused
 difficulty: medium
 isCompleted: false
 date: 2018-01-07T00:00:00+07:00

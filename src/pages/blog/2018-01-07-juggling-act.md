@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Juggling Act
 path: /juggling-act
 author: Danny Schwarz
-emotion: Happy
+emotion: Amused
 difficulty: easy
 isCompleted: false
 date: 2018-01-06T17:06:03.681Z

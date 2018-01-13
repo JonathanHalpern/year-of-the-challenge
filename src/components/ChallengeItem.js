@@ -70,7 +70,10 @@ class ChallengeItem extends Component {
           <EmojiImage src={this.state.emoji.src} />
           <ChallengeText fontFamily={this.state.challengeTextFont}>
             <p>&quot;{this.props.post.frontmatter.description}&quot;</p>
-            <ItemAuthor>- {this.props.post.frontmatter.author}</ItemAuthor>
+            {
+              !this.props.post.frontmatter.isPersonal &&
+                <ItemAuthor>- {this.props.post.frontmatter.author || 'anonymous'}</ItemAuthor>
+            }
           </ChallengeText>
         </StyledCardContent>
       </Card>

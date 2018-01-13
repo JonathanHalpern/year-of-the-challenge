@@ -63,8 +63,13 @@ export default ({ data }) => {
         content={post.html}
       />
       <ChallengeKey />
+      <h4>You challenged us:</h4>
       <ChallengeList
-        posts={posts}
+        posts={posts.filter(item => !item.node.frontmatter.isPersonal)}
+      />
+      <h4>We challenged ourselves:</h4>
+      <ChallengeList
+        posts={posts.filter(item => item.node.frontmatter.isPersonal)}
       />
     </div>);
 };
@@ -89,6 +94,7 @@ export const challengesPageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             path
             isCompleted
+            isPersonal
             evidenceImage
             description
             author

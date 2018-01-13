@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Komodotoe
 path: /komodotoe
 author: Helen Halpern
-emotion: Happy
+emotion: Amused
 difficulty: medium
 isCompleted: false
 date: 2018-01-06T16:51:05.871Z

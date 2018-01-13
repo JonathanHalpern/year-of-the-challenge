@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Boxing Day Dip
 path: /boxing-day-dip
 author: Jonatty
-emotion: Tentative
+emotion: Hesitant
 difficulty: easy
 isCompleted: true
 evidenceImage: /img/dip9.jpg
