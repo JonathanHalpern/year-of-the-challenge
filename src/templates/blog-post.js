@@ -1,25 +1,30 @@
 import React from 'react';
-import Content, { HTMLContent } from '../components/Content';
 import Helmet from 'react-helmet';
+import styled from 'styled-components';
+import Content, { HTMLContent } from '../components/Content';
+
+const StyledSection = styled.section`
+  p {
+    display: flex;
+    img {
+      max-width: 400px;
+      height: 100%;
+      margin: 0 auto;
+    }
+  }
+`;
 
 export const BlogPostTemplate = ({ content, contentComponent, description, title, isCompleted, helmet }) => {
   const PostContent = contentComponent || Content;
-  return <section className="section">
+  return (<StyledSection className="section">
     { helmet ? helmet : ""}
-    <div className="container content">
-      <div className="columns">
-        <div className="column is-10 is-offset-1">
-          <h1 className="title is-size-2 has-text-weight-bold is-bold-light">{title}</h1>
-          <PostContent content={content} />
-        </div>
-      </div>
-    </div>
-  </section>;
+    <h1>{title}</h1>
+    <PostContent content={content} />
+  </StyledSection>);
 }
 
 export default ({ data }) => {
   const { markdownRemark: post } = data;
-  console.log(post.frontmatter)
   return <BlogPostTemplate
     content={post.html}
     contentComponent={HTMLContent}
