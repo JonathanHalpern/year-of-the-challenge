@@ -13,8 +13,15 @@ const SubmitButton = styled(Button)`
   margin-top: 20px;
 `;
 
+const StyledDialog = styled(Dialog)`
+  div:nth-child(2) {
+    max-width: 700px;
+    border-radius: 16px;
+  }
+`;
+
 const SubmitChallenge = ({ isOpen, handleClose }) => (
-  <Dialog
+  <StyledDialog
     open={isOpen}
     onClose={handleClose}
     aria-labelledby="responsive-dialog-title"
@@ -63,7 +70,7 @@ const SubmitChallenge = ({ isOpen, handleClose }) => (
         </SubmitButton>
       </form>
     </DialogContent>
-  </Dialog>
+  </StyledDialog>
 );
 
 export default SubmitChallenge;
