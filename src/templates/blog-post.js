@@ -12,6 +12,20 @@ const StyledSection = styled.section`
       margin: 0 auto;
     }
   }
+  .iframeContainer {
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:30px;
+    height:0;
+    overflow:hidden;
+    iframe, object, embed {
+      position:absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+    }
+  }
 `;
 
 export const BlogPostTemplate = ({ content, contentComponent, description, title, isCompleted, helmet }) => {
