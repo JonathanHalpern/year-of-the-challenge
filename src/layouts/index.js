@@ -6,7 +6,7 @@ import FixedOptions from '../components/FixedOptions';
 import './index.css';
 
 const Background = styled.div`
-  background-image: url('img/Functional/chinese_street.jpg');
+  background-image: url('img/Functional/yellow_mountains.jpg');
   opacity: 0.5;
   width: 100%;
   height: 100%;
