@@ -1,13 +1,20 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import styled from 'styled-components';
+import { MuiThemeProvider, createMuiTheme } from 'material-ui/styles';
+import blueGrey from 'material-ui/colors/blueGrey';
 import Navbar from '../components/Navbar';
 import FixedOptions from '../components/FixedOptions';
 import './index.css';
 
+const theme = createMuiTheme({
+  palette: {
+    primary: blueGrey,
+  },
+});
+
 const Background = styled.div`
   background-image: url('img/Functional/yellow_mountains.jpg');
-  opacity: 0.5;
   width: 100%;
   height: 100%;
   position: fixed;
@@ -40,17 +47,19 @@ const BodyWrapper = styled.div`
 `;
 
 const TemplateWrapper = ({ children }) => (
-  <div>
-    <Background />
-    <Helmet title="Home | Year of the Challenge" />
-    <Navbar />
-    <LeftWrapper>
-      <BodyWrapper>
-        {children()}
-        <FixedOptions />
-      </BodyWrapper>
-    </LeftWrapper>
-  </div>
+  <MuiThemeProvider theme={theme}>
+    <div>
+      <Background />
+      <Helmet title="Home | Year of the Challenge" />
+      <Navbar />
+      <LeftWrapper>
+        <BodyWrapper>
+          {children()}
+          <FixedOptions />
+        </BodyWrapper>
+      </LeftWrapper>
+    </div>
+  </MuiThemeProvider>
 );
 
 export default TemplateWrapper;

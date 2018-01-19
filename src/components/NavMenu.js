@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import List, { ListItem } from 'material-ui/List';
+import blueGrey from 'material-ui/colors/blueGrey';
 import Link from 'gatsby-link';
 import MENU from '../constants/menu';
 import SubmitChallengePopup from './SubmitChallengePopup';
@@ -16,6 +17,9 @@ const StyledLink = styled(Link)`
 const StyledListItem = styled(ListItem)`
   margin: 0;
   cursor: pointer;
+  :hover{
+    background: ${blueGrey[200]}
+  }
 `;
 
 class NavMenu extends Component {

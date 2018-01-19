@@ -58,7 +58,9 @@ const LeftButtonContainer = styled.div`
 `;
 
 const RightButtonContainer = styled.div`
-
+  a {
+    text-decoration: none;
+  }
 `;
 
 class Navbar extends Component {
