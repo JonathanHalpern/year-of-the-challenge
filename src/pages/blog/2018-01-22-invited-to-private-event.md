@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Invited to private event
+title: Get Invited to a Private Event
 path: /private-event
 description: Get invited to a private event
 isPersonal: true
