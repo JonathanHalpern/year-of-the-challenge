@@ -6,7 +6,7 @@ description: Get invited to a private event
 isPersonal: true
 emotion: Excited
 difficulty: easy
-isCompleted: false
+isCompleted: true
 evidenceImage: /img/853c5f88-d019-4bdc-91b2-83929eb0f44d.jpeg
 location: 'Battanbang, Cambodia'
 date: 2018-01-16T15:33:39.000Z
