@@ -33,11 +33,11 @@ We stopped off for dinner at one of the street vendors, and got chatting about C
 
 Eventually, we reached Battambang. As our hotel drew close, Srey pointed out a brightly lit street and told us that karaoke was popular in Cambodia. It seemed too good an opportunity to pass up; I asked Own if she wanted to join us for some karaoke the following evening, and she said yes! We parted ways and trundled off to bed, dreaming of K-pop and tortoises.
 
-The next morning, we woke up excited for the day ahead in this bustling city. Jonny enjoyed a tasty breakfast with not one but two meaty flies in his noodles before we scooted off to look round some nearby temples left over from the Angkor period (dilapidated but still extremely impressive). Next, we rode on the infamous bamboo train, though “train” is an overstatement, as the entire contraption consisted of a bamboo raft precariously attached to a moped engine.
+The following morning, we woke up excited for the day ahead in this bustling city. Jonny enjoyed a tasty breakfast with not one but two meaty flies in his noodles, before we scooted off to look round some nearby temples left over from the Angkor period (dilapidated but still extremely impressive). Next, we rode on the infamous bamboo train, though “train” is an overstatement, as the entire contraption consisted of a bamboo raft precariously attached to a moped engine.
 
 ![null](/img/da5a05d1-107d-4a58-873c-571a5b1b1b89.png)
 
-Seemingly, this particular attraction used to be a white-knuckle ride, but it has recently moved location and become quite tame. Nonetheless, we met an interesting and insatiably talkative chap on the ride, whom we nicknamed ‘Fulton’ both due to the fact that this was printed on his T-shirt and because he was a self-confessed rather large man.
+Seemingly, this particular attraction used to be a white-knuckle ride, but it recently moved location and has become quite tame. Nonetheless, we met an interesting and insatiably talkative chap on the ride, whom we nicknamed ‘Fulton’ both due to the fact that this was printed on his T-shirt and because he was a self-confessed rather large man.
 
 ![null](/img/9446431a-b7d5-4533-af7b-25f1a7da36ba.png)
 
@@ -51,7 +51,7 @@ As dusk settled, we looked forward to our evening frivolities with Srey Own and 
 
 We didn’t know what to expect from the party, only imagining that it might involve booze, music and good company, so you can imagine our amusement when we turned the corner to discover the event was actually a children’s birthday party, complete with balloons, excitable kids and silly string! Srey tried to teach us to say ‘Happy Birthday’ in Khmer, but our western tongues were finding pronunciation tricky and eventually she thought it best we stuck to English. We were introduced to some of her family, including “the monsters” and a cousin, younger than us, who asked us to call her ‘Mom’. We felt truly welcomed.
 
-The only way the party seemed different to kids’ functions at home was the food. Here, children aren’t fussing around only eating bland or sugary foods. Instead, everyone eats together: spicy, chewy, even bitter (this “bitter flower” dish was a little too much for us, although the other food was delicious). Jonny even sampled some cow gut (photo below), which he was more apprehensive about eating than the rat! Otherwise, the essence of the party remained the same: kids playing together whilst the adults shared stories over a beer.
+The only way the party seemed different to kids’ functions at home was the food. Here, children aren’t fussing around only eating bland or sugary foods. Instead, everyone eats together: spicy, chewy, even bitter (this “bitter flower” dish was a little too much for us, although the other food was delicious). Jonny even sampled some cow gut, which he was more apprehensive about eating than the rat! Otherwise, the essence of the party remained the same: kids playing together whilst the adults shared stories over a beer.
 
 ![null](/img/b5fd9c46-c589-41ef-bd57-02a5e61a5106.jpeg)
 
