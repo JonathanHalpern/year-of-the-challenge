@@ -59,4 +59,4 @@ As we had a boat to catch early the next day (and because Jonny’s blue hair se
 
 ![null](/img/853c5f88-d019-4bdc-91b2-83929eb0f44d.jpeg)
 
-\*For definition of ferang, read our blog post [www.yearofthechallenge.com/new-food](www.yearofthechallenge.com/new-food)
+\*For definition of ferang, read our blog post on eating food from a new primary source
