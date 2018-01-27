@@ -1,19 +1,8 @@
-'use strict';
 import React from 'react';
-import createReactClass from 'create-react-class';
-import Carousel from 'nuka-carousel';
 import Link from 'gatsby-link';
 import styled from 'styled-components';
 import ChallengeItem from './ChallengeItem';
-
-const StyledCarousel = styled(Carousel)`
-  .slider-list {
-    height: 260px!important;
-  }
-  .challenge-item > div {
-    height: 260px;
-  }
-`;
+import CarouselWrapper from './CarouselWrapper';
 
 const StyledLink = styled(Link)`
   text-decoration: none;
@@ -23,29 +12,19 @@ const StyledLink = styled(Link)`
   }
 `;
 
-const App = createReactClass({
-  mixins: [Carousel.ControllerMixin],
-  render() {
-    return (
-      <div>
-        <StyledLink to="challenges">Challenges</StyledLink>
-        <StyledCarousel
-          wrapAround
-          decorators={Carousel.getDefaultProps().decorators.slice(0, 2)}
-          initialSlideHeight={200}
+const IncompletedCarousel = ({ posts }) => (
+  <div>
+    <StyledLink to="challenges">Challenges</StyledLink>
+    <CarouselWrapper>
+      {
+        posts.map(post => (
+          <ChallengeItem
+            post={post.node}
+          />
+        ))
+      }
+    </CarouselWrapper>
+  </div>
+);
 
-        >
-          {
-            this.props.posts.map(post => (
-              <ChallengeItem
-                post={post.node}
-              />
-            ))
-          }
-        </StyledCarousel>
-      </div>
-    );
-  },
-});
-
-export default App;
+export default IncompletedCarousel;

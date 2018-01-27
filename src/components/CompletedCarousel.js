@@ -1,19 +1,8 @@
-'use strict';
 import React from 'react';
-import createReactClass from 'create-react-class';
-import Carousel from 'nuka-carousel';
 import Link from 'gatsby-link';
 import styled from 'styled-components';
 import CompletedItem from '../components/CompletedItem';
-
-const StyledCarousel = styled(Carousel)`
-  .slider-list {
-    height: 270px!important;
-  }
-  .completed-item > div {
-
-  }
-`;
+import CarouselWrapper from './CarouselWrapper';
 
 const StyledLink = styled(Link)`
   text-decoration: none;
@@ -22,27 +11,23 @@ const StyledLink = styled(Link)`
     text-decoration:none;
   }
 `;
-const App = createReactClass({
-  mixins: [Carousel.ControllerMixin],
-  render() {
-    return (
-      <div>
-        <StyledLink to="completed">Completed</StyledLink>
-        <StyledCarousel
-          dragging={false}
-          decorators={Carousel.getDefaultProps().decorators.slice(0, 2)}
-        >
-          {
-            this.props.posts.map(post => (
-              <CompletedItem
-                post={post.node}
-              />
-            ))
-          }
-        </StyledCarousel>
-      </div>
-    );
-  },
-});
 
-export default App;
+const CompletedCarousel = ({ posts }) => (
+  <div>
+    <StyledLink to="completed">Completed</StyledLink>
+    <CarouselWrapper
+      dragging={false}
+      swiping={false}
+    >
+      {
+        posts.map(post => (
+          <CompletedItem
+            post={post.node}
+          />
+        ))
+      }
+    </CarouselWrapper>
+  </div>
+);
+
+export default CompletedCarousel;
