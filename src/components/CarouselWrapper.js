@@ -21,6 +21,7 @@ const StyledIconButton = styled(IconButton)`
   opacity: 0.7;
   i {
     font-size: 75px;
+    color: white;
   }
 `;
 
@@ -60,6 +61,7 @@ const CarouselWrapper = createReactClass({
         wrapAround
         decorators={Decorators}
         initialSlideHeight={200}
+        autoplay
         autoplayInterval={7000}
         {...this.props}
       >
