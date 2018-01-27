@@ -3,6 +3,7 @@ import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 import Script from 'react-load-script';
 import Grid from 'material-ui/Grid';
+import Divider from 'material-ui/Divider';
 import Content, { HTMLContent } from '../components/Content';
 import HomePageTemplate from '../templates/home-page';
 import CompletedCarousel from '../components/CompletedCarousel';
@@ -33,6 +34,7 @@ export default class IndexPage extends React.Component {
           url="https://identity.netlify.com/v1/netlify-identity-widget.js"
           onLoad={this.handleScriptLoad.bind(this)}
         />
+        <h1>Year of the Challenge</h1>
         <Grid container spacing={24}>
           <Grid item xs={12} sm={6} md={6}>
             <CompletedCarousel
@@ -45,7 +47,7 @@ export default class IndexPage extends React.Component {
             />
           </Grid>
         </Grid>
-
+        <Divider />
         <HomePageTemplate />
       </div>);
   }

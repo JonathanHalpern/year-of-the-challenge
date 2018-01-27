@@ -2,25 +2,50 @@
 import React from 'react';
 import createReactClass from 'create-react-class';
 import Carousel from 'nuka-carousel';
+import Link from 'gatsby-link';
+import styled from 'styled-components';
 import ChallengeItem from '../components/ChallengeItem';
+
+
+const StyledCarousel = styled(Carousel)`
+  .slider-list {
+    height: 250px!important;
+  }
+  .slider-slide >div >div {
+    
+    height: 250px!important;
+  }
+`;
+
+const StyledLink = styled(Link)`
+  text-decoration: none;
+  color: inherit;
+  :hover {
+    text-decoration:none;
+  }
+`;
 
 const App = createReactClass({
   mixins: [Carousel.ControllerMixin],
   render() {
-    console.log(this.props)
     return (
-      <Carousel
-        wrapAround
-        decorators={Carousel.getDefaultProps().decorators.slice(0, 2)}
-      >
-        {
-          this.props.posts.map(post => (
-            <ChallengeItem
-              post={post.node}
-            />
-          ))
-        }
-      </Carousel>
+      <div>
+        <StyledLink to="challenges">Challenges</StyledLink>
+        <StyledCarousel
+          wrapAround
+          decorators={Carousel.getDefaultProps().decorators.slice(0, 2)}
+          initialSlideHeight={200}
+
+        >
+          {
+            this.props.posts.map(post => (
+              <ChallengeItem
+                post={post.node}
+              />
+            ))
+          }
+        </StyledCarousel>
+      </div>
     );
   },
 });
