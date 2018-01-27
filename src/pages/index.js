@@ -6,8 +6,7 @@ import Grid from 'material-ui/Grid';
 import Divider from 'material-ui/Divider';
 import Content, { HTMLContent } from '../components/Content';
 import HomePageTemplate from '../templates/home-page';
-import CompletedCarousel from '../components/CompletedCarousel';
-import IncompletedCarousel from '../components/IncompletedCarousel';
+import ChallengePreview from '../components/ChallengePreview';
 
 export default class IndexPage extends React.Component {
     handleScriptLoad() {
@@ -26,8 +25,6 @@ export default class IndexPage extends React.Component {
   render() {
     const { markdownRemark: post } = this.props.data;
     const { edges: posts } = this.props.data.allMarkdownRemark;
-    const completedPosts = posts.filter(item => (item.node.frontmatter.templateKey === 'blog-post' && item.node.frontmatter.isCompleted))
-    const incompletePosts = posts.filter(item => (item.node.frontmatter.templateKey === 'blog-post' && !item.node.frontmatter.isCompleted))
     return (
       <div>
         <Script
@@ -35,18 +32,7 @@ export default class IndexPage extends React.Component {
           onLoad={this.handleScriptLoad.bind(this)}
         />
         <h1>Year of the Challenge</h1>
-        <Grid container spacing={24}>
-          <Grid item xs={12} sm={6} md={6}>
-            <CompletedCarousel
-              posts={completedPosts}
-            />
-          </Grid>
-          <Grid item xs={12} sm={6} md={6}>
-            <IncompletedCarousel
-              posts={incompletePosts}
-            />
-          </Grid>
-        </Grid>
+        <ChallengePreview posts={posts} />
         <Divider />
         <HomePageTemplate />
       </div>);

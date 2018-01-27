@@ -62,7 +62,7 @@ class ChallengeItem extends Component {
 
   render() {
     return (
-      <Card>
+      <Card className="challenge-item">
         <StyledCardContent
           color={this.state.challengeColor}
           background={this.state.challengeBackground}

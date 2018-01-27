@@ -34,7 +34,7 @@ class CompletedItem extends Component {
 
   render() {
     return (
-      <StyledCard onClick={this.togglePopup}>
+      <StyledCard onClick={this.togglePopup} className="completed-item">
         <StyledCardMedia
           className="media-image"
           image={this.props.post.frontmatter.evidenceImage}

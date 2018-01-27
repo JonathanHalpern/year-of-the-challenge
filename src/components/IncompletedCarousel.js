@@ -4,16 +4,14 @@ import createReactClass from 'create-react-class';
 import Carousel from 'nuka-carousel';
 import Link from 'gatsby-link';
 import styled from 'styled-components';
-import ChallengeItem from '../components/ChallengeItem';
-
+import ChallengeItem from './ChallengeItem';
 
 const StyledCarousel = styled(Carousel)`
   .slider-list {
-    height: 250px!important;
+    height: 260px!important;
   }
-  .slider-slide >div >div {
-    
-    height: 250px!important;
+  .challenge-item > div {
+    height: 260px;
   }
 `;
 

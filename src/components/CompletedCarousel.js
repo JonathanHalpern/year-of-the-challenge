@@ -6,6 +6,15 @@ import Link from 'gatsby-link';
 import styled from 'styled-components';
 import CompletedItem from '../components/CompletedItem';
 
+const StyledCarousel = styled(Carousel)`
+  .slider-list {
+    height: 270px!important;
+  }
+  .completed-item > div {
+
+  }
+`;
+
 const StyledLink = styled(Link)`
   text-decoration: none;
   color: inherit;
@@ -19,7 +28,7 @@ const App = createReactClass({
     return (
       <div>
         <StyledLink to="completed">Completed</StyledLink>
-        <Carousel
+        <StyledCarousel
           dragging={false}
           decorators={Carousel.getDefaultProps().decorators.slice(0, 2)}
         >
@@ -30,7 +39,7 @@ const App = createReactClass({
               />
             ))
           }
-        </Carousel>
+        </StyledCarousel>
       </div>
     );
   },

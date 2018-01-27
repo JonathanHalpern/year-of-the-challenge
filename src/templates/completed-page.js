@@ -2,10 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 
 import Grid from 'material-ui/Grid';
-import Content, { HTMLContent } from '../components/Content';
+import { HTMLContent } from '../components/Content';
 import CompletedItem from '../components/CompletedItem';
 
-export const AboutPageTemplate = ({ posts }) => (
+const CompletedPageTemplate = ({ posts }) => (
   <Grid container spacing={24}>
     {posts.filter(post => (post.node.frontmatter.templateKey === 'blog-post' && post.node.frontmatter.isCompleted)).map(({ node: post }) => (
       <Grid item xs={12} sm={6} md={4}>
@@ -25,7 +25,7 @@ export default ({ data }) => {
       <HTMLContent
         content={post.html}
       />
-      <AboutPageTemplate
+      <CompletedPageTemplate
         posts={posts}
       />
     </div>);
