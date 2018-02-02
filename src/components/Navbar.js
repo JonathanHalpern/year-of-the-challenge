@@ -11,6 +11,7 @@ import Helmet from 'react-helmet';
 import styled from 'styled-components';
 import Dimensions from 'react-dimensions';
 import NavMenu from './NavMenu';
+import Logo from '../../static/img/Functional/logo.png';
 import '../../static/fonts/fontawesome/style.css';
 
 const StyledAppBar = styled(AppBar)`
@@ -63,6 +64,12 @@ const RightButtonContainer = styled.div`
   }
 `;
 
+const StyledLogo = styled.img`
+  height: 50px;
+  width: initial;
+  margin: 0;
+`;
+
 class Navbar extends Component {
   constructor(props) {
     super(props);
@@ -86,6 +93,7 @@ class Navbar extends Component {
             <StyledIconButton color="contrast" aria-label="Menu">
               <MenuIcon onClick={this.toggleSideBar} />
             </StyledIconButton>
+            <StyledLogo src={Logo} />
             <StyledLink to="/">
               <StyledTypography type="title" color="inherit">
                  Year of the Challenge

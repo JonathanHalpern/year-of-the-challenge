@@ -4,9 +4,31 @@ import Helmet from 'react-helmet';
 import Script from 'react-load-script';
 import Grid from 'material-ui/Grid';
 import Divider from 'material-ui/Divider';
+import styled from 'styled-components';
 import Content, { HTMLContent } from '../components/Content';
 import HomePageTemplate from '../templates/home-page';
 import ChallengePreview from '../components/ChallengePreview';
+import Logo from '../../static/img/Functional/logo.png';
+
+const StyledLogo = styled.img`
+  height: 80px;
+  width: initial;
+  margin: 0;
+`;
+
+// flex-direction: column;
+// @media(min-width: 600px) {
+//   flex-direction: row;
+// }
+const LogoContainer = styled.div`
+  display: flex;
+  @media(max-width: 600px) {
+    align-items: center;
+    h1 {
+      margin: 0;
+    }
+  }
+`;
 
 export default class IndexPage extends React.Component {
     handleScriptLoad() {
@@ -31,7 +53,10 @@ export default class IndexPage extends React.Component {
           url="https://identity.netlify.com/v1/netlify-identity-widget.js"
           onLoad={this.handleScriptLoad.bind(this)}
         />
-        <h1>Year of the Challenge</h1>
+        <LogoContainer>
+          <StyledLogo src={Logo} />
+          <h1>Year of the Challenge</h1>
+        </LogoContainer>
         <ChallengePreview posts={posts} />
         <Divider />
         <HomePageTemplate />
