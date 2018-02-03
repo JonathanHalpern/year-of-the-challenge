@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
-title: Steel stomachs
-path: /steel-stomachs
+title: Abs of Steel
+path: /steel-abs
 description: Do an exercise routine every day while we are travelling
 isPersonal: true
 emotion: Anguished
