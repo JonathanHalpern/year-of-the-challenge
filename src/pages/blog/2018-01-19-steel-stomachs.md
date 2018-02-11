@@ -6,6 +6,7 @@ description: Do an exercise routine every day while we are travelling
 isPersonal: true
 emotion: Anguished
 difficulty: hard
+isFailed: false 
 isCompleted: false
 date: 2018-01-18T11:34:10.023Z
 ---

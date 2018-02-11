@@ -5,6 +5,7 @@ path: /spirit-fish
 author: Ben Operdike
 emotion: Hesitant
 difficulty: easy
+isFailed: false 
 isCompleted: false
 date: 2018-01-06T17:17:40.507Z
 description: >-

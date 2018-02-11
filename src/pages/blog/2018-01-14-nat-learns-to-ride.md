@@ -6,6 +6,7 @@ description: Natalie must learn to ride a moped
 isPersonal: true
 emotion: Excited
 difficulty: easy
+isFailed: false 
 isCompleted: true
 evidenceImage: /img/nat_bike_bridge.jpg
 location: Koh Kut

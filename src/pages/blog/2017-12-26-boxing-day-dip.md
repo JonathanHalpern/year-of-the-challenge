@@ -5,6 +5,7 @@ path: /boxing-day-dip
 author: Jonatty
 emotion: Hesitant
 difficulty: easy
+isFailed: false 
 isCompleted: true
 evidenceImage: /img/dip9.jpg
 date: 2017-12-26T23:13:06.884Z

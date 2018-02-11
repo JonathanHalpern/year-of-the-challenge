@@ -5,6 +5,7 @@ path: /juggling-act
 author: Danny Schwarz
 emotion: Amused
 difficulty: easy
+isFailed: false 
 isCompleted: false
 date: 2018-01-06T17:06:03.681Z
 description: >-

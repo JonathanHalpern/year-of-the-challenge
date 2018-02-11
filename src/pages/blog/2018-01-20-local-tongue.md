@@ -9,6 +9,7 @@ isPersonal: false
 author: Amy Kenyon
 emotion: Hesitant
 difficulty: medium
+isFailed: false 
 isCompleted: false
 date: 2018-01-20T00:00:00+07:00
 ---

@@ -7,6 +7,7 @@ isPersonal: false
 author: Paul Heller
 emotion: Hesitant
 difficulty: easy
+isFailed: false 
 isCompleted: true
 evidenceImage: /img/f7552275-0645-4b47-87c3-f9191f4a0f91.jpeg
 date: 2018-01-13T12:11:28.830Z

@@ -5,6 +5,7 @@ path: /long-lost-friend
 author: Oliver Woodward
 emotion: Amused
 difficulty: medium
+isFailed: false 
 isCompleted: false
 date: 2018-01-07T00:00:00+07:00
 description: >-

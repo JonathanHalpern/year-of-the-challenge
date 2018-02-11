@@ -5,6 +5,7 @@ path: /deconstruct-great-wall-of-china
 author: Paul Heller
 emotion: Confused
 difficulty: medium
+isFailed: false 
 isCompleted: false
 date: 2018-01-07T05:53:22.157Z
 description: >-

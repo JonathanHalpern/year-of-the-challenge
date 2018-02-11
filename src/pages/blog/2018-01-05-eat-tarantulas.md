@@ -6,6 +6,7 @@ description: Eat tarantulas (Cambodia)
 author: Owen Williams and Gabe McCarthy
 emotion: Hesitant
 difficulty: easy
+isFailed: false 
 isCompleted: true
 evidenceImage: /img/314860c5-cc32-4e7c-84ad-10b7c8d5a57c.jpeg
 location: Siem Reap

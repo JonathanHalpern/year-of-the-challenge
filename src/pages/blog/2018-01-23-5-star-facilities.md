@@ -7,6 +7,7 @@ isPersonal: false
 author: Trish Woodward
 emotion: Amused
 difficulty: easy
+isFailed: false 
 isCompleted: false
 date: 2018-01-23T00:18:23.599Z
 ---

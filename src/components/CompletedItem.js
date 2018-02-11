@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import Card, { CardContent, CardMedia } from 'material-ui/Card';
+import Card, { CardContent } from 'material-ui/Card';
 import CompletedPopup from './CompletedPopup';
+import ImageWithOverlay from './ImageWithOverlay';
+import failedStamp from '../../static/img/Functional/stamp-failed.png';
 
 const StyledCard = styled(Card)`
   cursor: pointer;
-`;
-
-const StyledCardMedia = styled(CardMedia)`
-  height: 200px;
 `;
 
 const ItemTitle = styled.h3`
@@ -35,9 +33,11 @@ class CompletedItem extends Component {
   render() {
     return (
       <StyledCard onClick={this.togglePopup} className="completed-item">
-        <StyledCardMedia
+        <ImageWithOverlay
           className="media-image"
-          image={this.props.post.frontmatter.evidenceImage}
+          baseImage={this.props.post.frontmatter.evidenceImage}
+          overlayImage={failedStamp}
+          showOverlay={this.props.post.frontmatter.isFailed}
         />
         <CardContent>
           <ItemTitle type="headline" component="h3">

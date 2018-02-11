@@ -6,6 +6,7 @@ description: Spend a day blindfolded
 isPersonal: true
 emotion: Hesitant
 difficulty: medium
+isFailed: false 
 isCompleted: false
 date: 2018-01-13T10:10:22.154Z
 ---

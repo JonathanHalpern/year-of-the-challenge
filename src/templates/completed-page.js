@@ -51,6 +51,7 @@ export const completedPageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             path
             isCompleted
+            isFailed
             evidenceImage
           }
           html

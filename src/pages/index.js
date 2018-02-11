@@ -77,6 +77,7 @@ export const indexPageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             path
             isCompleted
+            isFailed
             evidenceImage
             isPersonal
             description

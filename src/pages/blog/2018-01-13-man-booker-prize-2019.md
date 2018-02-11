@@ -8,6 +8,7 @@ description: >-
 isPersonal: true
 emotion: Hesitant
 difficulty: hard
+isFailed: false 
 isCompleted: false
 date: 2018-01-13T00:00:00+07:00
 ---
