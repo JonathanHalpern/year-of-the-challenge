@@ -9,8 +9,7 @@ isPersonal: false
 author: Oliver Raizon
 emotion: Confused
 difficulty: medium
-isFailed: true
-isCompleted: true
+isCompleted: false
 location: 'Don Dhet, Laos'
 date: 2018-01-19T17:00:00.000Z
 ---
@@ -32,9 +31,9 @@ Since we were staying on an island, we need to catch a splishvore (boat) back to
 
 After a short wait we boarded a maxvore (coach, max means big) and settled in for a long ride. We continued to work on the language which we called “Raizon” in honour of our challenger.
 
-Following some frustrating communication, I fancied some respite by listening to an audiobook. Hearing normal conversation must have lowered my guard, because I took my headphones out and said to Natalie “I think I’ll have a little snooze”. Plop. Could we carry on and forget this slip up? Would that undermine the whole thing, or would be foolish to give up when we had already made it to 3 pm. I think what made our made our minds up was that we were both feeling maxbadpathe (strong negative feelings) about having to speak in Raizon. Though it began well and we enjoyed playing with new vocabulary, it was getting awful. So we concluded that this challenge had been a failure and we don’t recommend you try it at home.
+Following some frustrating communication, I fancied some respite by listening to an audiobook. Hearing normal conversation must have lowered my guard, because I took my headphones out and said to Natalie “I think I’ll have a little snooze”. Plop. Could we carry on and forget this slip up? Would that undermine the whole thing, or would be foolish to give up when we had already made it to 3 pm. I think what made our made our minds up was that we were both feeling maxbadpathe (strong negative feelings) about having to speak in Raizon. Though it began well and we enjoyed playing with new vocabulary, it was getting awful. So we concluded that this challenge had been a failure and pulled the plug.
 
-I’m not really sure what we learnt or got out of the experience, other than to remind us both that we were - and still are - crap at languages... but at least we gave it a go. Do keep sending us your weird ideas.
+I’m not really sure what we learnt or got out of the experience, other than to remind us both that we were - and still are - crap at languages, even ones we have made up entirely by ourselves... but at least we gave it a go. Do keep sending us your weird ideas.
 
 
 
