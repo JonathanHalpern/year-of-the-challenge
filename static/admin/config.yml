@@ -41,7 +41,7 @@ collections:
       - label: "Technical Difficulty"
         name: "difficulty"
         widget: "select"
-        options: ["easy", "medium", "hard"]v
+        options: ["easy", "medium", "hard"]
       - label: "Photographic evidence"
         name: "evidenceImage"
         widget: "image"
