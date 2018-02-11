@@ -9,8 +9,7 @@ isPersonal: false
 author: Oliver Raizon
 emotion: Confused
 difficulty: medium
-isCompleted: true
-isFailed: true
+isCompleted: false
 location: 'Don Dhet, Laos'
 date: 2018-01-19T17:00:00.000Z
 ---
