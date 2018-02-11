@@ -42,14 +42,18 @@ collections:
         name: "difficulty"
         widget: "select"
         options: ["easy", "medium", "hard"]
-      - label: "Photographic evidence"
-        name: "evidenceImage"
-        widget: "image"
-        required: false
+      - label: "Completed"
+        name: "isCompleted"
+        widget: "boolean"
+        default: false
       - label: "Failed"
         name: "isFailed"
         widget: "boolean"
         default: false
+      - label: "Photographic evidence"
+        name: "evidenceImage"
+        widget: "image"
+        required: false
       - label: "Location"
         name: "location"
         widget: "string"
