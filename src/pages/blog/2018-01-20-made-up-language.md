@@ -24,7 +24,7 @@ To give you an idea for how we built our new language: we adopted a number syste
 
 <p class="iframeContainer">
 
-<iframe src="https://m.youtube.com/watch?v=1PBS2jEpyKM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/1PBS2jEpyKM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 </p>
 
@@ -44,6 +44,6 @@ p.s. This has nothing to do with the challenge, but I‘m quite proud of this dr
 
 <p class="iframeContainer">
 
-<iframe src="https://m.youtube.com/watch?v=DSOyc-un0Tk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/DSOyc-un0Tk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 </p>
