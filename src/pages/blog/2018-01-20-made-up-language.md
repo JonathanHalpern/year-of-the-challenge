@@ -24,13 +24,13 @@ To give you an idea for how we built our new language: we adopted a number syste
 
 <p class="iframeContainer">
 
-<iframe src="https://m.youtube.com/watch?v=1PBS2jEpyKM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/1PBS2jEpyKM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 </p>
 
-For breakfast we had flip-flaps (pancakes). While eating, a dog snuffled up to Natalie. Unfortunately, her love of animals overcame her and she exclaimed “hello”. We looked at each other in horror, had we failed the challenge already? Upon examination of the challenge’s wording, I concluded it was ok since it said not to “use a single word from a real language with anyone”, so a - at a push - perhaps a dog was ok. This did open up the possibility of having a proxy conversation via the dog, but that didn’t seem in the spirit of the challenge, plus the locals already thought we were bonkers.
+For breakfast we had flip-flaps (pancakes). While eating, a dog snuffled up to Natalie. Unfortunately, her love of animals overcame her and she exclaimed “hello”. We looked at each other in horror, had we failed the challenge already? Upon examination of the challenge’s wording, I concluded it was ok since it said not to “use a single word from a real language with anyone”, so - at a push - perhaps a dog was ok. This did open up the possibility of having a proxy conversation via the dog, but that didn’t seem in the spirit of the challenge, plus the locals already thought we were bonkers.
 
-Since we were staying on an island, we need to catch a splishvore (boat) back to the main land. The “splish” part should be obvious, the “vore” means vehicle and was inspired by Natalie’s observation when she was cycling in London, that the large buses sometimes felt like herbivores out of Jurassic park. Unless you have cycled down Tottenham Court Road in rush hour, you will have trouble relating to this.
+Since we were staying on an island, we needed to catch a splishvore (boat) back to the main land. The “splish” part should be obvious, the “vore” means vehicle and was inspired by Natalie’s observation when she was cycling in London, that the large buses sometimes felt like herbivores out of Jurassic park. Unless you have cycled down Tottenham Court Road in rush hour, you will have trouble relating to this.
 
 After a short wait we boarded a puppvore (coach, pupp means big) and settled in for a long ride. We continued to work on the language which we called “Raizon” in honour of our challenger.
 
@@ -44,6 +44,6 @@ p.s. This has nothing to do with the challenge, but I‘m quite proud of this dr
 
 <p class="iframeContainer">
 
-<iframe src="https://m.youtube.com/watch?v=DSOyc-un0Tk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/DSOyc-un0Tk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 </p>
