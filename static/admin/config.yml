@@ -41,15 +41,15 @@ collections:
       - label: "Technical Difficulty"
         name: "difficulty"
         widget: "select"
-        options: ["easy", "medium", "hard"]
-      - label: "Completed"
-        name: "isCompleted"
-        widget: "boolean"
-        default: false
+        options: ["easy", "medium", "hard"]v
       - label: "Photographic evidence"
         name: "evidenceImage"
         widget: "image"
         required: false
+      - label: "Failed"
+        name: "isFailed"
+        widget: "boolean"
+        default: false
       - label: "Location"
         name: "location"
         widget: "string"
