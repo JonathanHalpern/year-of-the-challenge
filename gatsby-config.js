@@ -6,7 +6,6 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-styled-components',
-    'gatsby-plugin-feed',
     {
       resolve: `gatsby-plugin-favicon`,
       options: {
