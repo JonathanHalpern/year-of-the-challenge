@@ -85,7 +85,7 @@ In short, I was beginning to wonder why Lily had sent us on this curiously mind-
 
 ...would pave the way to successful futures in our real lives:
 
-![](http://bit.ly/2p4oL0m)
+![](http://bit.ly/2G9477D)
 
 ![](http://bit.ly/2oWjokN)
 
@@ -102,3 +102,13 @@ True, some of our adventures in Trickeye led us down dark, argumentative routes 
 But, overall, I'd say the experience brought us closer together. After all, they say you never really know a person until you've walked a mile in their shoes; or, in our case, woken up trapped in each other's bodies
 
 ![](http://bit.ly/2G9YupT)
+
+As if to cement our bond, the final episode of our Trickeye adventures was a gaping crevasse which we could only cross if we worked as a team. Both Jonny and I experienced a stomach-clenching sense that, if we did not complete this challenge, we would be stuck in Phuket's version of wonderland for ever. Forgetting that I had only recently tried to eat him, Jonny reached out and pulled me to safety.
+
+![](http://bit.ly/2Hj3acc)
+
+On the other side of this gulf, our only option was to jump down a hole, which we did hand in hand... the darkness swirled in front of us, once more evocative of the starry night which had brought us into the frightful mess, and when we popped out of the museum we found ourselves ecstatic simply to be surrounded by normality.
+
+I wouldn't say the challenge changed us significantly, except that we now feel a greater sense of appreciation for a world at once normal and delightful and terrifying. Oh, and we now harbour an otherwise unfathomable phobia of Van Gogh paintings.
+
+Thanks, Lily, for challenging us to visit the Trickeye Museum. Little did we suspect that such an easy-sounding challenge would turn into this very truthful (completely and utterly truthful, I tell you) account of terror and awe!
