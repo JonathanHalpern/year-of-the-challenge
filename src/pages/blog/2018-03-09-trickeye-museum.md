@@ -17,40 +17,35 @@ date: 2018-03-09T11:08:23.000Z
 
 ![](http://bit.ly/2IfrvBc)
 
-Little did we know that Van Gogh had been waiting for two such art heathens to do this very thing, and his painting sucked us inside to live in a strange new dimension. Gawping, we found ourselves in an art gallery holding some of the world's most famous artworks... without a security guard in sight! Stranger still was Van Gogh's self-portrait which seemed, even more than its original swirling style suggests, so full of life that we gravitated towards it. Bizarrely, I felt the urge to reach out and touch Vincent's troubled face. His bandages came away in my hand!
+Little did we know that Van Gogh had been waiting for two such art heathens to do this very thing, and his painting sucked us inside to live in a strange new dimension. Gawping, we found ourselves in an art gallery holding some of the world's most famous artworks... without a security guard in sight! Stranger still was Van Gogh's self-portrait which seemed so full of life that we gravitated towards it. Bizarrely, I felt the urge to reach out and touch Vincent's troubled face. His bandages came away in my hand!
 
-(photo)
+![](http://bit.ly/2tvRAID)
 
 What tempted me then to pull at this poor invalid's bandages I cannot say, except perhaps that I wanted to see in what state his head was, with only one ear. It was a sick fancy and I cannot excuse myself.
 
 However, with this recklessness complete (leaving Vincent looking quite affronted), I could not sate a desire to destroy more artwork
 
-(photo)
+![](http://bit.ly/2oIbhIw)
 
 At first Jonny found the whole situation amusing, and even joined in with some silly antics
 
-(photo)
+![](http://bit.ly/2tjIUoE)
 
 but after blowing Mona Lisa to smithereens (she always struck me as a a moody old cow anyway), his sense of morality kicked in and he began cleaning up after our mess.
 
-(photo)
+![](http://bit.ly/2Fm5ORS)
+
+![](http://bit.ly/2HlOKYZ)
 
 In fact, he got so into his duties, I had to tear him away before he cleaned up the paintings themselves!
 
-(photo)
+![](http://bit.ly/2oW8XxC)
 
-After all this hard work, Zeus himself offered Jonny a stiff drink from out of his painting. Top lad.
+After all this hard work, God himself offered Jonny a stiff drink from out of his 'Creation of Adam' painting. Top lad. 
 
-(photo)
+![](http://bit.ly/2p27NQB)
 
 Jonny accepted gladly, but after my mischievous behaviour, all I was granted was some cherub's piss.
 
-(photo)
+![](http://bit.ly/2oYhsIo)
 
-(photo)
-
-![](http://bit.ly/2tjIUoE)
-
-![](http://bit.ly/2oIbhIw)
-
-Stuff
