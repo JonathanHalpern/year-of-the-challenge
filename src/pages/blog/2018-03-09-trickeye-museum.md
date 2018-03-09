@@ -11,11 +11,11 @@ isCompleted: true
 isFailed: false
 evidenceImage: /img/0306e73c-43b3-4bdf-941d-100b3d4b4e15.jpeg
 location: Phuket
-date: 2018-03-09T18:08:23+07:00
+date: 2018-03-09T11:08:23.000Z
 ---
 It all began at a museum in Phuket (well, in actual fact, it began with a challenge box in Hackney Road, and a certain Lily Molyneux... but let's not worry too much about that). We were surprised to find Van Gogh's original 'Starry Night' on display at an otherwise limited venue and, to show our appreciation, we sat in the frame of this magnificent work of art.
 
-
+![](http://bit.ly/2IfrvBc)
 
 Little did we know that Van Gogh had been waiting for two such art heathens to do this very thing, and his painting sucked us inside to live in a strange new dimension. Gawping, we found ourselves in an art gallery holding some of the world's most famous artworks... without a security guard in sight! Stranger still was Van Gogh's self-portrait which seemed, even more than its original swirling style suggests, so full of life that we gravitated towards it. Bizarrely, I felt the urge to reach out and touch Vincent's troubled face. His bandages came away in my hand!
 
@@ -39,11 +39,11 @@ In fact, he got so into his duties, I had to tear him away before he cleaned up 
 
 (photo)
 
-After all this hard work, Zeus himself offered Jonny a stiff drink from out of his painting.
+After all this hard work, Zeus himself offered Jonny a stiff drink from out of his painting. Top lad.
 
 (photo)
 
-Jonny accepted gladly, but after my mischievous behaviour, all I was granted was some cherub's piss. Tasted excellent, though.
+Jonny accepted gladly, but after my mischievous behaviour, all I was granted was some cherub's piss.
 
 (photo)
 
