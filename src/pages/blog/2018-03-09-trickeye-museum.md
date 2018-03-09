@@ -89,7 +89,7 @@ In short, I was beginning to wonder why Lily had sent us on this curiously mind-
 
 ![](http://bit.ly/2Hmn2LH)
 
-True, some of our adventures in Trickeye led us down dark, argumentative routes where, instead of sorting out our issues over a cup of tea as we would in the real world, we'd find our minds corporealizing cannibalistic revenge fantasies...
+True, some of our adventures in Trickeye led us down dark, argumentative routes where, instead of sorting out our issues over a cup of tea, we'd find our minds corporealizing cannibalistic revenge fantasies...
 
 ![](http://bit.ly/2FBWwRk)
 
