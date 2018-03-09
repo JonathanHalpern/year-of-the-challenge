@@ -69,7 +69,7 @@ Don't ask us how we got out of these perilous predicaments; in short, we couldn'
 
 ![](http://bit.ly/2oVW2vK)
 
-Whilst on one level we would have terrific power...
+One moment we would have terrific power...
 
 ![](http://bit.ly/2FBgEmu)
 
