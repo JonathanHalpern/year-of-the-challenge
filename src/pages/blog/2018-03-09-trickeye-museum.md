@@ -89,4 +89,16 @@ In short, I was beginning to wonder why Lily had sent us on this curiously mind-
 
 ![](http://bit.ly/2oWjokN)
 
-True, some of our adventures in Trickeye led us 
+True, some of our adventures in Trickeye led us down dark, argumentative routes where, instead of sorting out our issues over a cup of tea as we would in the real world, we'd find our minds corporealizing cannibalistic revenge fantasies...
+
+![](http://bit.ly/2FBWwRk)
+
+![](http://bit.ly/2FD99eJ)
+
+...or forging Tekken style combat games from our turbulent emotions:
+
+![](http://bit.ly/2Iey0E0)
+
+But, overall, I'd say the experience brought us closer together. After all, they say you never really know a person until you've walked a mile in their shoes; or, in our case, woken up trapped in each other's bodies
+
+![](http://bit.ly/2G9YupT)
