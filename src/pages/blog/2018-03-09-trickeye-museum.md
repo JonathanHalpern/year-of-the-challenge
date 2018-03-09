@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Trickeye Museum
+title: Visit ... and experience ... the Trickeye Museum
 path: /Trickeye
 description: Trickeye Museum
 isPersonal: false
@@ -9,7 +9,7 @@ emotion: Amused
 difficulty: easy
 isCompleted: true
 isFailed: false
-evidenceImage: /img/0306e73c-43b3-4bdf-941d-100b3d4b4e15.jpeg
+evidenceImage: /img/trickeye gulf.jpg
 location: Phuket
 date: 2018-03-09T11:08:23.000Z
 ---
