@@ -69,6 +69,24 @@ Don't ask us how we got out of these perilous predicaments; in short, we couldn'
 
 ![](http://bit.ly/2oVW2vK)
 
-![](http://bit.ly/2G9j6P0)
+Whilst on one level we would have terrific power...
 
-![](http://bit.ly/2G9j6P0)
+![](http://bit.ly/2FBgEmu)
+
+... the next would see us at the mercy of a hideous beast with a penchant for fresh human sushi:
+
+![](http://bit.ly/2G8dNPE)
+
+In short, I was beginning to wonder why Lily had sent us on this curiously mind-bending experience. It seemed completely out of character. Nonetheless, never ones to shy in face of a challenge, we persevered, hoping that the resilience we learnt from brute survival...
+
+![](http://bit.ly/2G8fvAy)
+
+![](http://bit.ly/2Hg7mcL)
+
+...would pave the way to successful futures in our real lives:
+
+![](http://bit.ly/2p4oL0m)
+
+![](http://bit.ly/2oWjokN)
+
+True, some of our adventures in Trickeye led us 
