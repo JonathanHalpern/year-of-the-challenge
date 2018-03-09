@@ -13,7 +13,9 @@ evidenceImage: /img/trickeyegulf.jpg
 location: Phuket
 date: 2018-03-09T11:08:23.000Z
 ---
-It all began at a museum in Phuket (well, in actual fact, it began with a challenge box in Hackney Road, and a certain Lily Molyneux... but let's not worry too much about that). We were surprised to find Van Gogh's original 'Starry Night' on display at an otherwise limited venue and, to show our appreciation, we sat in the frame of this magnificent work of art.
+The following story is 100% true. Not at all a made-up jumble where we've tried to piece together disparate pictures. That would be silly.
+
+It all began at a museum in Phuket. We were surprised to find Van Gogh's original 'Starry Night' on display at an otherwise limited venue and, to show our appreciation, we sat in the frame of this magnificent work of art.
 
 ![](http://bit.ly/2IfrvBc)
 
