@@ -51,23 +51,23 @@ Jonny accepted gladly, but after my mischievous behaviour, all I was granted was
 
 ![](http://bit.ly/2oYhsIo)
 
-Little did we know that our drinks were yet another step into our rabbit hole ... as our vision blurred and swirled like another Van Gogh, we saw another painting form; this time it was E.T. who pulled us in! Thinking this was a sign to "go home", we stepped forwards and took it in turns to reach out to our alien chaperone.
+Little did we know that our drinks were yet another step into our rabbit hole ... as our vision blurred and swirled like another Van Gogh, we saw another painting form; this time it was E.T. who pulled us in! Thinking this was a sign to "go home", we stepped forward to reach out to our alien chaperone.
 
 ![](http://bit.ly/2tunnJX)
 
-Alas! This was no portal to normality but an ingress to a world where fun and danger blurred so confoundingly that we knew not whether to laugh at our sudden good fortune
+Alas! This was no portal to normality but an ingress to a world where fun and danger blurred so confoundingly that we knew not whether to laugh at our sudden good fortune...
 
 ![](http://bit.ly/2FscVUW)
 
-or cry in terror, such as when our world turned upside down and we found ourselves at the mercy of a giant croc!
+...or cry in terror, such as when we clambered up to the ceiling beams to avoid the gnashers of a giant croc!
 
 ![](http://bit.ly/2tqbxR2)
 
-If this all sounds totally unbelievable, we hear you. We couldn't fathom what had happened either, or why we were in this terrible, terrific mess... yet here are the photos to prove it! Here, for example, is a picture which offers undeniable proof that we shrunk to a thousandth of our size and nearly got trampled upon by an unwitting passer-by, whom we could discern between a real person who had stumbled into our world, or a figment of our ever-warping imaginations:
+If this all sounds totally unbelievable, we hear you. We couldn't fathom what had happened either, or why we were in this terrible, terrific mess... yet here are the photos to prove it! Here, for example, is a picture which offers undeniable proof that we shrunk to a thousandth of our size and nearly got trampled upon by an unwitting passer-by, whom we could not discern between a real person who had stumbled into our world, or a figment of our ever-warping imaginations:
 
 ![](http://bit.ly/2G9j6P0)
 
-Don't ask us how we got out of these perilous predicaments; in short, we couldn't tell you. It was as if this was all some game on an unknown device, where the moment we got a grip on reality it would be washed away
+Don't ask us how we got out of these perilous predicaments; in short, we couldn't tell you. It was as if this was all some game on an unknown device, where the moment we got a grip on reality it would be washed away.
 
 ![](http://bit.ly/2oVW2vK)
 
@@ -114,3 +114,10 @@ On the other side of this gulf, our only option was to jump down a hole, which w
 I wouldn't say the challenge changed us significantly, except that we now feel a greater sense of appreciation for a world at once normal and delightful and terrifying. Oh, and we now harbour an otherwise unfathomable phobia of Van Gogh paintings.
 
 Thanks, Lily, for challenging us to visit the Trickeye Museum. Little did we suspect that such an easy-sounding challenge would turn into this very truthful (completely and utterly truthful, I tell you) account of terror and awe!
+
+p.s. here's one for the road
+
+![](http://bit.ly/2p0J0w4)
+
+
+
