@@ -11,6 +11,12 @@ isFailed: false
 evidenceImage: /img/sensorydeprivation.jpg
 date: 2018-03-20T06:37:54.193Z
 ---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ijvO7Fr0WDc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LHvnBFCEiZI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HhD6tJBlSU0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 Jonny and I have just completed three challenges, back to back in Goa (no, we were not back to back, though that does sound fun). As such, as a sort of meta-challenge, I’m going to attempt to write at least a couple up in quick succession whilst my fiancé is enjoying his siesta. That’s not to say I don’t believe these challenges are worth my time; rather, we are particularly excited to share them!
 
 We began at 3:30pm two days ago, when Jonny stopped talking and I stopped seeing for the remainder of the day and night (yes, we are aware that nighttime is usually a time for darkness and silence anyway, but if you know anything of our sleepwalking habits, I’m sure you realise that this was perhaps the hardest challenge of all). Jonny and I then swapped roles in the morning, until 3:30pm the following day. Excusing a couple of slip-ups, outlined below, we are proud to say we completed this difficult challenge with panache, and hope that the various challengers who asked us to spend a day in silence/ without speaking/ blindfolded won’t mind that we hybridised their ideas.
