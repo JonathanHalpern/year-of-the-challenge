@@ -9,14 +9,9 @@ difficulty: medium
 isCompleted: true
 isFailed: false
 evidenceImage: /img/sensorydeprivation.jpg
+location: Goa
 date: 2018-03-20T06:37:54.193Z
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ijvO7Fr0WDc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LHvnBFCEiZI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HhD6tJBlSU0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
 Jonny and I have just completed three challenges, back to back in Goa (no, we were not back to back, though that does sound fun). As such, as a sort of meta-challenge, I’m going to attempt to write at least a couple up in quick succession whilst my fiancé is enjoying his siesta. That’s not to say I don’t believe these challenges are worth my time; rather, we are particularly excited to share them!
 
 We began at 3:30pm two days ago, when Jonny stopped talking and I stopped seeing for the remainder of the day and night (yes, we are aware that nighttime is usually a time for darkness and silence anyway, but if you know anything of our sleepwalking habits, I’m sure you realise that this was perhaps the hardest challenge of all). Jonny and I then swapped roles in the morning, until 3:30pm the following day. Excusing a couple of slip-ups, outlined below, we are proud to say we completed this difficult challenge with panache, and hope that the various challengers who asked us to spend a day in silence/ without speaking/ blindfolded won’t mind that we hybridised their ideas.
@@ -41,13 +36,17 @@ Whether it was because of our T-shirts or because we had checked into a particul
 
 Eager to explore our new surroundings, I took a not-so-quick turn about the room, trying to feel my way to the toilet/bed/wardrobe etc (actually, by this time, Jonny had already plonked me on the toilet as a matter of urgency, after another night of Delhi-belly left me unsure of the boundary between pop-pop and pop-plop). After I could safely navigate myself around, we got changed into our cozzies and headed to the pool. A swimming experience which might otherwise have been taken for granted turned into a veritable adventure as I discovered the odd shape of our pool, its shisha bar, water-fall-feature and discombobulating wheel-on-a-stick (still have no clue what this is). In fact, it was all great fun until I was certain both that Jonny was pulling me around in circles (he was not) and that my swimming was straight (I was going round in tight circles), so we thought it best I left the water.
 
-![null]()
+![null](http://bit.ly/2Gabyhi)
 
 This sense of turning in circles continued for the rest of the day whenever I moved, which is why, later that evening, after our meal, Jonny joked he had not taken me to a different restaurant but had in fact driven me around in a circle back to the restaurant at our hotel, and I believed him. Our meal out is not to be glossed over, however. Mindful of my lack of sight, Jonny selected a restaurant which played live music, so that I could at least enjoy the sound if not the view.
 
 ![null](http://bit.ly/2FZ31dy)
 
 The singer was wonderful and we got a seat near the front, which would have suited a blind Natty and her mute mate perfectly well, had Jonny not discovered a Text-to-Speech app which allowed him to communicate with me through automated voice, somewhat in honour of the late and great Stephen Hawking. The combination of melodious tenor with robotic questions about the menu left me quite overwhelmed so we thought it best if Jonny decided what we should order without my input. That is, I still had to instruct our waiter to order one portion of everything Jonny pointed at, seeing as my personal dietician was unable to speak.
+
+<p class="iframeContainer">
+<iframe src="https://www.youtube.com/embed/ijvO7Fr0WDc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</p>
 
 The food was excellent (we ate shark and it was totally scrummy!) but not being able to find your mouth with a fork, let alone your food was pretty amusing. I was worried about my table manners but, according to Jonny, my mother would have been proud, which is about as good as I can ever hope for. Still, there were more than a few moments when my fork reached my lips devoid of any food, or when I accidentally speared half the steak all at once.
 
@@ -69,7 +68,9 @@ We got into bed exhausted from an adventurous day. I’d like to say we slept th
 
 Having led my fiancée around yesterday, I was quite looking forward to having my own personal carer for the day, complete with robotic voice. As she had not seen the resort’s layout, Natalie actually expected me to guide us to breakfast, but I lost my bearings 2 metres after we stepped out the room. We developed a system of hand movements to warn about change in terrain and elevation and soon we arrived at breakfast. I didn’t quite have Natalie’s panache for cutting my food blindfolded, as can be witnessed here:
 
-[video]
+<p class="iframeContainer">
+<iframe src="https://www.youtube.com/embed/LHvnBFCEiZI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</p>
 
 My lovely carer thought it would be amusing to bring me a selection of unusual breakfast options, which I had to identify: ‘idly, fried balls and tasty sludge’. Idly is our least favourite Indian breakfast option, basically it is like a bland starchy sponge, whose only purpose is to soak up flavours from other dishes, yet - in our experience - remains completely unobsorbant. In fairness, this was followed up by a selection of edible, even tasty treats and overall I enjoyed a good breakfast. During our meal the manager of the hotel came over and said he had heard about our blog from the other staff and wanted to set us a challenge. His initial suggestion was an idly eating competition... After we politely declined, he came up with a much better idea, which we will be discussing in our next blog entry.
 
@@ -89,7 +90,9 @@ Natalie then took me for a walk...
 
 She decided it would be useful for me to learn Braille and led me over to some engraved writing for me to decipher. It turns out I’m not very good at this, especially considering the word I was supposed to be spelling...
 
-[video]
+<p class="iframeContainer">
+<iframe src="https://www.youtube.com/embed/HhD6tJBlSU0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</p>
 
 After some further amusement at my expense, I asked to be led to the beach and shortly I felt sand between my toes. I asked Natalie if I could run freely into the sea. I could almost hear her thinking before \*squeeze squeeze\*. I found out later that she had tricked my by leading me into a sandy volley ball court, where I would have face-planted into the net. 
 
