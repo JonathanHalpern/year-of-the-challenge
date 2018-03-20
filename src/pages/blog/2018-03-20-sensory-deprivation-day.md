@@ -8,7 +8,7 @@ emotion: Hesitant
 difficulty: medium
 isCompleted: true
 isFailed: false
-evidenceImage: /img/0306e73c-43b3-4bdf-941d-100b3d4b4e15.jpeg
+evidenceImage: /img/sensorydeprivation.jpg
 date: 2018-03-20T06:37:54.193Z
 ---
 Jonny and I have just completed three challenges, back to back in Goa (no, we were not back to back, though that does sound fun). As such, as a sort of meta-challenge, I’m going to attempt to write at least a couple up in quick succession whilst my fiancé is enjoying his siesta. That’s not to say I don’t believe these challenges are worth my time; rather, we are particularly excited to share them!
@@ -91,8 +91,6 @@ After some further amusement at my expense, I asked to be led to the beach and s
 (We took this photo later that evening, when the grounds and volleyball court were lit up beautifully).
 
 A few minutes and several terrain shifts later, we reached the actual beach were I was allowed to run freely into the sea... or so I thought. Off I scampered, enjoying full confidence that my love would not let me run into any kind of danger. Natalie ran after me and managed to stop me a moment before I ploughed into the life guards tower. Let me remind you that I had a head-start and she wasn’t allowed to call out, so I guess I was in luck.
-
-[video]
 
 We had a good splash in the waves and I also discovered that, left free to float, I was convinced I was spinning in circles when I was actually still. Clearly, either we both have severe balance issues, or this is a normal outcome of losing your sight for a day.
 
