@@ -9,8 +9,9 @@ isPersonal: false
 author: Oliver Halpern
 emotion: Hesitant
 difficulty: medium
-isCompleted: false
+isCompleted: true
 isFailed: false
+location: Strike Casin Goa
 date: 2018-03-24T18:30:00.000Z
 ---
 Part 3 of our back-to-back challenges in Goa
@@ -25,7 +26,7 @@ Earlier that week we scoped out the casino and learnt that they were doing a ver
 
 ![null](https://bit.ly/2Gc3Gga)
 
-The chips they give you are called OTP chips, which stands for One Time Play. You can’t just go straight to the cashier and ask them to be turned back into cash, you have to actually play with them. When you bet a normal chip, if you win, you keep your bet as well as your payout. With an OTP chip, if you win you keep the payout, but you have to give the croupier your chip, hence: one time play. If you were playing a fair game with 50% odds, you would expect to convert half the chips to cash thus making 11,000 rupees. Sadly, casinos aren’t really into fair games, but the odds are still in favour of you finishing with more than the 10,000 rupee entrance fee. I’ll go through the mathsy bit at the end for the small proportion of Jonny-minded oddballs who get a kick out that sort of thing.
+The chips they give you are called OTP chips, which stands for One Time Play. You can’t just go straight to the cashier and ask them to be turned back into cash, you have to actually play with them. When you bet a normal chip, if you win, you keep your bet as well as your payout. With an OTP chip, if you win you keep the payout, but you have to give the croupier your chip, hence: one time play. If you were playing a fair game with 50% odds, you would expect to convert half the chips to cash thus ended up with 11,000 rupees. Sadly, casinos aren’t really into fair games, but the odds are still in favour of you finishing with more than the 10,000 rupee entrance fee. I’ll go through the mathsy bit at the end for the small proportion of Jonny-minded oddballs who get a kick out that sort of thing.
 
 Our chosen game was roulette, since it gave the best odds. In essence, if the ball landed on red, we converted an OTP chip to a real cash chip and if it landed on black, we ordered another gin and tonic and wished a bit harder next time. You might think this is a game of zero skill, yet our fellow gamblers were carefully scrutinizing the previous results in search of patterns. They would put down a smorgasbord of bets across the numbers and then make panicked last-second changes. At one point, Natalie was even advised by a croupier to “analyse” the hot and cold numbers so she could make a better bet. I don’t think he would have believed that our mathematically sound system was any better than superstitious guesswork.
 
@@ -34,7 +35,7 @@ Our chosen game was roulette, since it gave the best odds. In essence, if the ba
 Yes, dear reader, we did get rather tiddly and we also managed to leave 4000
 rupees (£43.50) up. Feeling rather satisfied with ourselves, we left the casino but, at the door, the fatalistic receptionist informed us that we could come back and get the same package tomorrow – in fact we could get 5 of them each! We probably should have let the matter rest there, but my pupils had been replaced with rupee symbols.
 
-So Oliver, please forgive me, but I decided to go a little off piste with this challenge. I thought it would be ‘fun’ to come back every day for a week and use the profits to live the life of a High Roller. Natalie, however, was not so keen. She thought going to the soulless cavern of a casino every day sounded awful, especially since it was our last week together before going separate ways for a month. She relented after I told her I had a life ambition of using a system to beat a casino. This isn’t entirely untrue: I had tried card counting in Vegas when I was younger, but my profits then were mostly from a kind stranger I hitched a lift with, who gave me $500 to spend on this very activity. So I guess that doesn’t count. Nonetheless, I’m still a bit of a rebel inside and I couldn’t pass by a chance to try and beat the system. I was also curious about the curried caviar.
+So Oliver, please forgive me, but I decided to go a little off-piste with this challenge. I thought it would be _fun _to come back every day for a week and use the profits to live an 'indulgent' lifestyle. Natalie, however, was not so keen. She thought going to the soulless cavern of a casino every day sounded awful, especially since it was our last week together before going separate ways for a month. She relented after I told her I had a life ambition of using a system to beat a casino. This isn’t entirely untrue: I had tried card counting in Vegas when I was younger, but my profits then were mostly from a kind stranger I hitched a lift with, who gave me $500 to spend on this very activity. So I guess that doesn’t count. Nonetheless, I’m still a bit of a rebel inside and I couldn’t pass by a chance to try and beat the system. I was also curious about the curried caviar.
 
 ![null](https://bit.ly/2Gb52HN)
 
@@ -42,7 +43,7 @@ After our first evening, we consistently did much worse than was statistically e
 “Good morning Sir Jonathan, 10 packages today?”
 Our 45 minute ‘commute’ down a busy Indian highway, got old pretty quickly.
 
-I was confident that if we kept going, our luck would even out. I also found a way to optimize the system. The casino days run from 6 am to 6 am. In theory if you are crazy enough, you could get to the casino early enough to get two sets of Indulgent packages in one outing. That way, you get loads of ‘time off’ in between visits. Again, Natalie wasn’t the most keen, but eventually consented to waking up at 4am to give us time to get to the casino and play through our stack of chips. Our first set went pretty badly and we left with a small loss. As did the next set.
+I was confident that if we kept going, our luck would even out. I also found a way to optimize the system. The casino days run from 6 am to 6 am. In theory if you are crazy enough, you could get to the casino in time to get two sets of Indulgent packages in one outing. That way, you get loads of ‘time off’ in between visits. Again, Natalie wasn’t the most keen, but eventually consented to waking up at 4 am to give us time to get to the casino and play through our stack of chips. Our first set went pretty badly and we left with a small loss. As did the next set.
 
 As such, we spent our last full day together very sleep deprived and without any budget to treat ourselves.
 
