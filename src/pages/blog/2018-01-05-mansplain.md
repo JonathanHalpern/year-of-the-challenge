@@ -37,6 +37,10 @@ Some of these, we recognised instantly. There were chopped tomatoes, onions and 
 
 Whilst we were busy cooing at our set and thanking the manager and chef, a camera crew appeared to shoot our challenge. By this point, Jonny and I had exchanged glances: clearly, these people thought ‘Year of the Challenge’ was something more renowned than it was (notice past tense: we are confident that, by the time you read this, we will have made it big time). We felt like minor celebs, and slightly embarrassed when crew members asked to add our group on Facebook; perhaps they were expecting us to have 148,000 followers rather than the current 148. Nonetheless, we decided that the only way to reach such a large following would be to ride the wave of celebrity, so we put on our best TV-presenter voices and introduced ourselves, our blog and our challenge. Perhaps this was the big break we needed!
 
+<p class="iframeContainer">
+<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fjonnyhalpern%2Fvideos%2F10101763193044414%2F&width=500&show_text=false&height=281&appId" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+</p>
+
 We didn’t need many takes for the crew to get the material they required (clearly, we were naturals), and after that it was up to us to begin the challenge. Ever the enthusiast, I had already begun cooking the garlic, but by this point it had already turned an unpromising shade of charcoal, and Chef Uganda looked less than impressed. At that point, Jonny and I agreed that number of ingredients set before us was too vast to use in one dish and, as we had been supplied with two bowls of chicken, we decided to split the ingredients to make separate dishes, which the chef would then judge to decide the winner. Who knows, maybe we were secretly being auditioned for Indian Masterchef!
 
 We decided to split the dishes using the same system as choosing a sport’s team back in primary school: I would pick an ingredient, then Jonny would have a go, etcetera (I speak as if I know what it is like to choose my team, as opposed to being the last one  picked). We decided that a few key ingredients (e.g. onions and cooking oil) could be shared. From the start, I felt I was choosing “safer” ingredients than my boy. Garlic was a must, and I was pretty sure that chilli powder and ginger would go well in most Indian dishes. Jonny, on the other hand, opted for some mystery-dust he liked the smell of, as well as some cinnamon sticks and what-he-thought-to-be yoghurt. Feeling confident I had some base ingredients for a winning dish, I also began choosing some mystery items. What is this acrid-smelling powder? Surely it would be the last to be picked. I felt a deep empathy for the useless matter and moved it over to my side. What were these leaves and could you eat them? No matter, they were set to be bung in with everything else.
@@ -61,6 +65,9 @@ Chef Uganda then proceeded to tell us how we could have improved our dishes. I h
 
 As if setting this challenge and providing fresh ingredients had not been generous enough, Chef Uganda then proceeded to make a real home-style Indian curry for us. Because he was out of chicken, he used mine (clearly testament to my being the rightful winner). Firstly, however, he cooked up his own paste - remembering to add the masala powder first - and let it simmer, in the manner you can see here:
 
+<p class="iframeContainer">
+<iframe src="https://www.youtube.com/embed/q2_TIpTQN0g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</p>
 
 When the dish was complete, it looked and smelled amazing. Alas, he finished it off with a generous handful of coriander (something Jonny may hate even more than idli) and a dollop of ghee (I try to avoid dairy). Nonetheless, we departed with our tasty food to guzzle it by the poolside. We offered to help tidy up but management were insistent we should relax. As we were certain that minor celebs would not push the matter, we conceded, and thoroughly enjoyed our meal.
 
