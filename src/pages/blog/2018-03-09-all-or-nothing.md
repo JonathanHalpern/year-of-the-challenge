@@ -9,10 +9,10 @@ isPersonal: false
 author: Oliver Halpern
 emotion: Hesitant
 difficulty: medium
-isCompleted: true
+isCompleted: false
 isFailed: false
 evidenceImage: /img/08ad7fde-68cf-48a7-981f-d498b0399086.jpeg
-location: Strike Casin Goa
+location: Casino Strike Goa
 date: 2018-03-24T18:30:00.000Z
 ---
 Part 3 of our back-to-back challenges in Goa
@@ -36,7 +36,7 @@ Our chosen game was roulette, since it gave the best odds. In essence, if the ba
 Yes, dear reader, we did get rather tiddly and we also managed to leave 4000
 rupees (£43.50) up. Feeling rather satisfied with ourselves, we left the casino but, at the door, the fatalistic receptionist informed us that we could come back and get the same package tomorrow – in fact we could get 5 of them each! We probably should have let the matter rest there, but my pupils had been replaced with rupee symbols.
 
-So Oliver, please forgive me, but I decided to go a little off-piste with this challenge. I thought it would be _fun _to come back every day for a week and use the profits to live an 'indulgent' lifestyle. Natalie, however, was not so keen. She thought going to the soulless cavern of a casino every day sounded awful, especially since it was our last week together before going separate ways for a month. She relented after I told her I had a life ambition of using a system to beat a casino. This isn’t entirely untrue: I had tried card counting in Vegas when I was younger, but my profits then were mostly from a kind stranger I hitched a lift with, who gave me $500 to spend on this very activity. So I guess that doesn’t count. Nonetheless, I’m still a bit of a rebel inside and I couldn’t pass by a chance to try and beat the system. I was also curious about the curried caviar.
+So Oliver, please forgive me, but I decided to go a little off-piste with this challenge. I thought it would be 'fun' to come back every day for a week and use the profits to live an 'indulgent' lifestyle. Natalie, however, was not so keen. She thought going to the soulless cavern of a casino every day sounded awful, especially since it was our last week together before going separate ways for a month. She relented after I told her I had a life ambition of using a system to beat a casino. This isn’t entirely untrue: I had tried card counting in Vegas when I was younger, but my profits then were mostly from a kind stranger I hitched a lift with, who gave me $500 to spend on this very activity. So I guess that doesn’t count. Nonetheless, I’m still a bit of a rebel inside and I couldn’t pass by a chance to try and beat the system. I was also curious about the curried caviar.
 
 ![null](https://bit.ly/2Gb52HN)
 
@@ -73,15 +73,11 @@ A roulette wheel has 36 numbers along with a zero. Half the non-zero numbers are
 
 Each package cost 10,000 rupees
 
-
 This gives you 22,000 rupees in OTP chips
-
 
 The estimated return will be 220,000 x 18/37 = 10,703 rupees
 
-
 Therefore, the estimated profit is 703 rupees
-
 
 Between us we could take out 10 packages, so the estimated daily profit was 7030 rupees (£76.50)
 
