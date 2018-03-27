@@ -17,7 +17,7 @@ Part 3 of our back-to-back challenges in Goa
 
 Oliver Halpern challenged us to “invest three days' living expenses on a visit to a casino. Whatever you leave with is your budget for the following three days”.
 
-I think my brother set us this challenge because he wanted to see how we would live on either a much larger or smaller budget. I expect he had visions of us sleeping in doorways and busking for our supper, or dining on curried caviar while getting an eight hand massage. I think that is what Natalie wanted too. I however, had other plans.
+I think my brother set us this challenge because he wanted to see how we would live on either a much larger or smaller budget. I expect he had visions of us sleeping in doorways and busking for our supper, or dining on curried caviar while getting an eight hand massage. I think that is what Natalie wanted too. I, however, had other plans.
  
 Goa, is one of the only parts of India that allows gambling. In other areas, it is very much frowned open, we even got told off by a waiter for playing Rummi in a Dunkin’ Donuts.
  
