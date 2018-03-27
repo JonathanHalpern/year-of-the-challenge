@@ -15,16 +15,6 @@ Part 2 of the back-to-back challenges in Goa!
 
 As you can imagine, Jonny and I attracted attention to ourselves whilst we were wandering around wearing a sleeping mask and mouth-bandanna, respectively. Fortunately, because we were also wearing our ‘Year of the Challenge’ T-shirts, this attention was much more positive than we could have hoped to imagine; so much so, that Planet Hollywood’s General Manager approached us at breakfast with a challenge of his own! After some squeezing on my part and realisation from blind Jonny, he did all the talking whilst I chipped in with the occasional nod or thumbs up.
 
-
-
-
-![null](https://bit.ly/2Gg4UD0)
-![null](https://bit.ly/2Gg4UD0)
-![null](https://bit.ly/2Gg4UD0)
-![null](https://bit.ly/2Gg4UD0)![null](https://bit.ly/2Gg4UD0)
-![null](https://bit.ly/2Gg4UD0)
-
-
 At first, the manager challenged us to an idli eating competition. Now, If you’ve read our previous blog entry, you’ll remember that idli are one of Jonny’s and my least favourite foods. One might wonder how something so bland could be so despised but - you see - that’s just it! At least something awful could be considered ‘an acquired taste’, or a challenge write-up could describe in detail its depth of horrid flavours. A write-up about idli would be as disappointing a read as it is a flavour: rather, it ‘required taste’. So we are doubly pleased that this is not the story we are about to tell. Instead, we were challenged to cook an Indian dish using traditional ingredients. The catch is, we were not going to be told what these ingredients were; we would have to work it out! At first, we thought the manager wished us to complete this challenge whilst we remind blind and mute, but I’m pretty sure that counts as a safety hazard, so he allowed us to complete it the following day instead.
 
 We arrived at the kitchens promptly at 2pm, expecting to be taking into a chrome-plated environment, promising for its utility rather than its beauty. Instead, we were ushered outside, past the pool and onto the resort’s grounds, overlooking palm trees and, in the distance, sand and sea. There, set up like a television shoot, was a ‘Planet Hollywood’ backdrop and mini-kitchen, complete with gas-stove, utensils and bowls full of ingredients.
@@ -53,13 +43,11 @@ In fact “bung it in” seemed to be the theme of my cooking, for which I was l
 
 Half way through, Jonny decided to let his concoction simmer whilst he took a break by the pool, hairnet et all. Meanwhile, I was still slaving away, making sure that my ingredients were cooked to perfection. At least one of us retained an air of professionalism, I thought, as I added in the acrid powder (I was later to be told that this was a lesser used ‘masala powder’ and that I’d added it at completely the wrong time). When he returned to check on his chicken, we were both set to serve up, but the chef warned Jonny his needed more time. Remembering that we’d started cooking simultaneously, I heeded this advice too. Little did I know that his chicken was from the leg, thus needing more time than my chicken breast. Perhaps the fact that we hadn’t even noticed this basic detail will give you a hint as to our cooking prowess.
 
-![null](https://bit.ly/2I5jZru)
+![null](https://bit.ly/2pImaKY)
 
-Nonetheless, after a short while longer, we served up. Jonny’s tasted surprisingly good, I thought. Then again, I adore anything that tastes Christmassy and Jonny’s might as well have been a rogue, meaty entry in the Christmas Bake Off Cookbook.
+Nonetheless, after a short while longer, we served up. Jonny’s tasted surprisingly good, I thought. Then again, I adore anything that tastes Christmassy and Jonny’s might as well have been a rogue, meaty entry in the Christmas Bake Off Cookbook. Mine was definitely Indian in theme, but lacked the smoothness of a good curry; in fact, it was decidedly gritty. We asked Chef Uganda to give us marks out of ten. He was kind enough to sample our poor efforts and even kinder to declare Jonny’s a 7-8/10 and mine a 8-9/10! Amusingly high scores for dishes that would have made any Indian contestant cry with shame. Ultimately, we learned, I won the competition because Jonny had cooked a dish ‘for western tastes’ and it was supposed to be an Indian cooking challenge... not because mine was particularly delicious. Fair.
 
-![null](https://bit.ly/2GbE7vL)
-
-Mine was definitely Indian in theme, but lacked the smoothness of a good curry; in fact, it was decidedly gritty. We asked Chef Uganda to give us marks out of ten. He was kind enough to sample our poor efforts and even kinder to declare Jonny’s a 7-8/10 and mine a 8-9/10! Amusingly high scores for dishes that would have made any Indian contestant cry with shame. Ultimately, we learned, I won the competition because Jonny had cooked a dish ‘for western tastes’ and it was supposed to be an Indian cooking challenge... not because mine was particularly delicious. Fair.
+![null](https://bit.ly/2I7midy)
 
 Chef Uganda then proceeded to tell us how we could have improved our dishes. I had added masala near the end when, in fact, it needed to go in way before the chicken. On the other hand, Jonny had cooked with fresh cream, not yoghurt, and the result was - to Uganda’s educated palate - sour. Jonny should have used ghee instead. “Ah, but we weren’t given ghee”, we exclaimed righteously. Bemused, Uganda pointed to the bowl of “mayonnaise” which we had both avoided, thinking it neither a good ingredient, nor particularly Indian.
 
@@ -70,5 +58,8 @@ As if setting this challenge and providing fresh ingredients had not been genero
 </p>
 
 When the dish was complete, it looked and smelled amazing. Alas, he finished it off with a generous handful of coriander (something Jonny may hate even more than idli) and a dollop of ghee (I try to avoid dairy). Nonetheless, we departed with our tasty food to guzzle it by the poolside. We offered to help tidy up but management were insistent we should relax. As we were certain that minor celebs would not push the matter, we conceded, and thoroughly enjoyed our meal.
+
+
+
 
 Thank you, Planet Hollywood, for this wonderful opportunity, and to Chef Uganda for teaching us Indian cooking skills! Also, we think this may count as completing Zoë’s challenge to ‘Mansplain to a local how to cook a dish from their country’, as we narrated our steps to bewildered onlookers. Please let us know if you disagree!
