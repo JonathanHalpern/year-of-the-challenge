@@ -11,6 +11,7 @@ emotion: Hesitant
 difficulty: medium
 isCompleted: true
 isFailed: false
+evidenceImage: /img/08ad7fde-68cf-48a7-981f-d498b0399086.jpeg
 location: Strike Casin Goa
 date: 2018-03-24T18:30:00.000Z
 ---
