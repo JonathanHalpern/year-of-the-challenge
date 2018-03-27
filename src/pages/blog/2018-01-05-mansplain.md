@@ -6,8 +6,9 @@ description: Create an Indian dish using western ingredients
 author: Planet Hollywood Goa
 emotion: Excited
 difficulty: medium
-isCompleted: false
+isCompleted: true
 isFailed: false
+evidenceImage: /img/de3ee054-28a6-4e7f-8594-53da0185ab3a.jpeg
 location: Planet Hollywood Goa
 date: 2018-03-21T16:06:20.000Z
 ---
