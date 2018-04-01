@@ -7,8 +7,9 @@ isPersonal: false
 author: Lucy Wright
 emotion: Hesitant
 difficulty: easy
-isCompleted: false
+isCompleted: true
 isFailed: false
+evidenceImage: /img/d7656280-8680-487c-b97d-668e8e4c9500.jpg
 location: 'Tokyo, Japan'
 date: 2018-04-01T10:13:29.966Z
 ---
@@ -24,7 +25,7 @@ In feudal Japan, the common hedgehog was a dangerous pest, since it could eat tw
 
 Today, hedgehog is still a popular dish in Japan and there are numerous hedgehog cafes to cater for this demand.  Since the blossoms were just blooming in Tokyo, we had to queue for 2 hours to get into one of these cafes. I found the experience a little psychologically challenging, especially when we had to pick which hedgehog to slaughter. However, rationally I know that they are far less intelligent that other animals we regularly eat in the West, so I should look past the fact that they are excruciatingly cute.
 
-![null](https://bit.ly/2IiUFyf)
+![null](https://bit.ly/2uzuBwZ)
 
 You pay by weight, so we examined a few of the creatures to try and find ones with a good amount of muscle. Once we had selected our meals, they were dropped into a vat of boiling honeyed milk. It is important to dunk them quickly while they are still alive, as hedgehogs have a tendency to curl into a ball when threatened, which makes it difficult to remove their needles. We were shown how to stroke and relax the hedgehog first, to prepare it for the cooking process. We thought this was a lot more humane that the panicked conditions of animals in Western abattoirs.
 
@@ -32,7 +33,7 @@ You pay by weight, so we examined a few of the creatures to try and find ones wi
 
 They are then served thinly sliced on a bowl of curried soba noodles. I now understand why hedgehogs have evolved their needles: it is because their flesh is exceptionally tasty. The meat is sweet with a mellow gamey flavour, reminiscent of chestnuts. After excellent cooking the meat was falling off the bone without a hint of dryness. Sadly, you don’t get too much meat on one hedgehog, so we both went back for seconds.
 
-![null](https://bit.ly/2pV5hga)
+![null](https://bit.ly/2IiUFyf)
 
 Thank you Lucy Wright for setting us this challenge. We wouldn’t have heard about this unusual delicacy otherwise. Hedgehog meat is extremely high in protein and low in fat and requires far less land per kg of flesh that beef or pork. Expect it to start being sold in the UK soon as we try to move toward more efficient farming. If you want to try cooking it at home, please follow this process to prepare the meat.
 
