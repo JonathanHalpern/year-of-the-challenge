@@ -11,10 +11,8 @@ isCompleted: true
 isFailed: false
 evidenceImage: /img/d7656280-8680-487c-b97d-668e8e4c9500.jpg
 location: 'Tokyo, Japan'
-date: 2018-04-01T10:13:29.966Z
+date: 2018-04-01T00:00:00+09:00
 ---
-Hedgehog cafe
-
 Natalie and I are travelling separately for a month and David Miller has flown out to join me in Japan.
 
 ![null](https://bit.ly/2uy6RZW)
