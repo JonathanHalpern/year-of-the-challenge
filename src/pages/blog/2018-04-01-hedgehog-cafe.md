@@ -19,7 +19,7 @@ Natalie and I are travelling separately for a month and David Miller has flown o
 
 It is cherry blossom season here in and the locals are obsessed. There is even a word for admiring the blossoms “hanami”. The arrival of the blossoms also signifies the start of hedgehog season.
 
-In feudal Japan, the common hedgehog was a dangerous pest, since it could eat twice its body weight of rice in a single day. They were particularly prolific during Spring and controlling their numbers was vital to securing a good rice harvest. When the first cherry blossoms appeared each year, signalling the start of Spring, Japanese children would don knitted bamboo gloves and head to the fields to capture as many hedgehogs as possible. The village would then hold a cherry blossom festival where locals would feast on the hedgehogs, marinated in cherry blossom wine.
+In feudal Japan, the common hedgehog was a dangerous pest, since it could eat twice its body weight of rice in a single day. They were particularly prolific during spring and controlling their numbers was vital to securing a good rice harvest. When the first cherry blossoms appeared each year, signalling the start of spring, Japanese children would don knitted bamboo gloves and head to the fields to capture as many hedgehogs as possible. The village would then hold a cherry blossom festival where locals would feast on the hedgehogs, marinated in cherry blossom wine.
 
 Today, hedgehog is still a popular dish in Japan and there are numerous hedgehog cafes to cater for this demand.  Since the blossoms were just blooming in Tokyo, we had to queue for 2 hours to get into one of these cafes. I found the experience a little psychologically challenging, especially when we had to pick which hedgehog to slaughter. However, rationally I know that they are far less intelligent that other animals we regularly eat in the West, so I should look past the fact that they are excruciatingly cute.
 
@@ -29,7 +29,7 @@ You pay by weight, so we examined a few of the creatures to try and find ones wi
 
 ![null](https://bit.ly/2GHDKIG)
 
-They are then served thinly sliced on a bowl of curried soba noodles. I now understand why hedgehogs have evolved their needles: it is because their flesh is exceptionally tasty. The meat is sweet with a mellow gamey flavour, reminiscent of chestnuts. After excellent cooking the meat was falling off the bone without a hint of dryness. Sadly, you don’t get too much meat on one hedgehog, so we both went back for seconds.
+The chefs carefully remove the genitalia (see instructions below) and garnish the meat with seasonal nuts and berries. I now understand why hedgehogs have evolved their needles: it is because their flesh is exceptionally tasty. The meat is sweet with a mellow gamey flavour, reminiscent of chestnuts. After excellent cooking the meat was falling off the bone without a hint of dryness. Sadly, you don’t get too much meat on one hedgehog, so we both went back for seconds.
 
 ![null](https://bit.ly/2IiUFyf)
 
