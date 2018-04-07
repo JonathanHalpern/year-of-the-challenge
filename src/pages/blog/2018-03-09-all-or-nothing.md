@@ -9,7 +9,7 @@ isPersonal: false
 author: Oliver Halpern
 emotion: Hesitant
 difficulty: medium
-isCompleted: false
+isCompleted: true
 isFailed: false
 evidenceImage: /img/08ad7fde-68cf-48a7-981f-d498b0399086.jpeg
 location: Casino Strike Goa
