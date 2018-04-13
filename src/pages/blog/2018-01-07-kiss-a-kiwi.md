@@ -10,7 +10,12 @@ isCompleted: false
 isFailed: false
 date: 2018-01-06T17:00:00.000Z
 ---
-When Flora challenged me to "kiss a kiwi bird (a photo or it didn't happen!)", neither of us realised that kiwis are an endangered species. Furthermore, they are nocturnal, meaning that the likelihood of me seeing one and taking a decent snap, let alone being able to kiss it, was always going to be nigh impossible. That's if you forget the fact that wild birds are not the most smoochable of beasts: imagine if the challenge had "simply" been to kiss a pigeon. You could walk to Trafalgar Square, where there are billions of the buggers, and unless you're prepared to dress up like Horatian Nelson and stand still as a statue with a seeded loaf poking out of your gob, your lips aren't going to get anywhere near them. So, you could say this challenge was doomed from the start. Nonetheless, it inspired me to at least try and see a kiwi on my New Zealand travels, even if getting intimate was out of the question.
+
+
+
+When Flora challenged me to "kiss a kiwi bird (a photo or it didn't happen!)", neither of us realised that kiwis are an endangered species. Furthermore, they are nocturnal, meaning that the likelihood of me seeing one and taking a decent snap, let alone being able to kiss it, was always going to be nigh impossible. That's if you forget the fact that wild birds are not the most smoochable of beasts: imagine if the challenge had "simply" been to kiss a pigeon. You could walk to Trafalgar Square, where there are billions of the buggers, and unless you're prepared to dress up like Horatian Nelson and stand still as a statue with a seeded loaf poking out of your gob, your lips aren't going to get anywhere near them.
+![null](https://bit.ly/2vaRKpU)
+So, you could say this challenge was doomed from the start. Nonetheless, it inspired me to at least try and see a kiwi on my New Zealand travels, even if getting intimate was out of the question.
 
 
 
@@ -22,7 +27,9 @@ Another possible way of cheating would be to go to a museum and kiss a dead kiwi
 
 
 
-I'd like to say I was above trying these two methods, but that would be a lie. [insert pics]
+I'd like to say I was above trying these two methods, but that would be a lie.
+
+![null](https://bit.ly/2Hw5opR)
 
 
 
@@ -30,7 +37,13 @@ So there I was, weighing up whether this challenge was even worth writing up as 
 
 
 
-On account of my desperately needing the loo, I paid and rushed in, barely giving the receptionist a chance to explain the layout of the sanctuary. We had arrived at 11:45 and were informed that the giant eels, which also found a home here, would be fed at midday. After my ablutions, I met Lucy by their large tank. We had already found the sanctuary to be somewhat lacking, both in decor and in live specimens (the number of fake or mounted animals gave the impression of a rundown Madame Tussaud for animals, rather than a sanctuary), but being able to feed and stroke the great eels was a rare treat. These particular beasts were all 85-110 years old, and female. 
+On account of my desperately needing the loo, I paid and rushed in, barely giving the receptionist a chance to explain the layout of the sanctuary. We had arrived at 11:45 and were informed that the giant eels, which also found a home here, would be fed at midday. After my ablutions, I met Lucy by their large tank.
+
+![null](https://bit.ly/2qs9TKN)
+![null](https://bit.ly/2qtnpOB)
+![null](https://bit.ly/2JIz5VI)
+
+We had already found the sanctuary to be somewhat lacking, both in decor and in live specimens (the number of fake or mounted animals gave the impression of a rundown Madame Tussaud for animals, rather than a sanctuary), but being able to feed and stroke the great eels was a rare treat. These particular beasts were all 85-110 years old, and female. 
 
 
 
@@ -52,11 +65,11 @@ Although I enjoyed feeding the eels, and was initially impressed by their antiqu
 
 In fact, these ones were positively immobile by comparison and it took me a moment or two to realise they weren't simply another set of waxworks in this mausoleum-cum-sanctuary. To feed them, I had to place the beef directly in front of their gaping mouths as otherwise they wouldn't be able to find it, which led me to believe that they wouldn't have lasted anywhere near as long in the wild. I'm pretty sure I could live to 110 if I sat still and waited to be fed 3 times a day, though I can't say I'd particularly enjoy being tickled by strangers at every mealtime.
 
-
+![null](https://bit.ly/2IQevRH)
 
 This sense of prolonged existence continued when we left the eel pool to visit the kiwis. Now, don't get me wrong, kiwis are bizarre and beautiful creatures, more so when you see them up close: you truly get a sense of their unique, iconic status in New Zealand. But, my gosh, they are unsuited to living in the wild. Once our eyes had adjusted to the gloom, we could just about see the outlines of the two rare birds. Already, we were surprised, expecting them to be much smaller. I think we had in mind the smaller, spotted kiwi, but these sizeable fellows were North island browns. As Lucy pointed out, they moved somewhat like a thief in a dated cartoon, trying and failing to sneak around, such was their stooped gait and heavy-footed tip-toeing. I imagine this is one of many reasons predators can hunt them out in the wild. As I - less astutely - pointed out, they were basically just a bum and a beak... but a magnificent, mammalian bum and a wondrous curved beak at that. Imagine a wombat's arse combined with an anteater's tongue. Now put it on legs and you basically have a kiwi.
 
-
+![null](https://bit.ly/2IQeBc1)
 
 There are many reasons kiwi-numbers have rapidly declined in the wild. Some of these are due to the birds' nature. For example, a kiwi egg is so large that the female has no room to eat for the final weeks of gestation. When she finally delivers this monster-egg (the equivalent in size to us pushing out a 6-year-old), she is understandably so fed up that she buggers off and leaves the male to care for their chick. He has to leave their nest to forage from time to time, leaving the chick vulnerable to predators. In fact, only 5% of hatched kiwi chicks survive to adulthood. Other reasons for their endangered status are out of their control: New Zealand was once free of all mammals except bats, meaning ground-dwelling birds blossomed. Now they have dogs, cats, stoats; all kinds of beasts trying to get their claws on a waddling, flightless bird (their tiny wings are about as much use as T-Rex arms). For this reason, one must feel very sorry for their declining population.
 
@@ -75,3 +88,5 @@ Nonetheless, it must be said that their aptlessness only added to the sense that
 
 
 No photos of this though I'm afraid, Flo... otherwise this story might have had a completely different, rather morbid ending. No doubt the sanctuary would have sent me packing, and the poor kiwi corpse straight off to the local taxidermy.
+
+![null](https://bit.ly/2HdTnbd)
