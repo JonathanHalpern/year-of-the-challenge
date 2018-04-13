@@ -10,9 +10,6 @@ isCompleted: false
 isFailed: false
 date: 2018-01-06T17:00:00.000Z
 ---
-
-
-
 When Flora challenged me to "kiss a kiwi bird (a photo or it didn't happen!)", neither of us realised that kiwis are an endangered species. Furthermore, they are nocturnal, meaning that the likelihood of me seeing one and taking a decent snap, let alone being able to kiss it, was always going to be nigh impossible. That's if you forget the fact that wild birds are not the most smoochable of beasts: imagine if the challenge had "simply" been to kiss a pigeon. You could walk to Trafalgar Square, where there are billions of the buggers, and unless you're prepared to dress up like Horatian Nelson and stand still as a statue with a seeded loaf poking out of your gob, your lips aren't going to get anywhere near them.
 ![null](https://bit.ly/2vaRKpU)
 So, you could say this challenge was doomed from the start. Nonetheless, it inspired me to at least try and see a kiwi on my New Zealand travels, even if getting intimate was out of the question.
@@ -30,7 +27,9 @@ Another possible way of cheating would be to go to a museum and kiss a dead kiwi
 I'd like to say I was above trying these two methods, but that would be a lie.
 
 ![null](https://bit.ly/2Hw5opR)
-
+<p class="iframeContainer">
+<iframe src="https://www.youtube.com/embed/2DSwlH3EhqM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</p>
 
 
 So there I was, weighing up whether this challenge was even worth writing up as a "Fail", when Lucy and I found we were going to be driving past a kiwi sanctuary in Hokitika, on the west coast of New Zealand's South Island! We had downloaded an app called ' Campermate' - invaluable if you ever want to drive around New Zealand or Aus - which gives descriptions, reviews and locations of camping spots and attractions across these countries. We are usually discerning with our choices as we have a lot of ground to cover in 3 weeks but, despite some mediocre to poor reviews of this sanctuary, Lucy was keen to see a kiwi and I thought it would offer a final glimmer of hope for this story.
@@ -58,9 +57,9 @@ The males, we were informed, were both unable to live that long and unsuited to 
 Although I enjoyed feeding the eels, and was initially impressed by their antiquity, they were nowhere near as vivacious as Eddie the eel and pals, whom we had fed at our campsite a few days beforehand.
 
 
-
-(Insert video)
-
+<p class="iframeContainer">
+<iframe src="https://www.youtube.com/embed/nWvonw1C69c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</p>
 
 
 In fact, these ones were positively immobile by comparison and it took me a moment or two to realise they weren't simply another set of waxworks in this mausoleum-cum-sanctuary. To feed them, I had to place the beef directly in front of their gaping mouths as otherwise they wouldn't be able to find it, which led me to believe that they wouldn't have lasted anywhere near as long in the wild. I'm pretty sure I could live to 110 if I sat still and waited to be fed 3 times a day, though I can't say I'd particularly enjoy being tickled by strangers at every mealtime.
