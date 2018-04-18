@@ -22,6 +22,7 @@ const CompletedCarousel = ({ posts }) => (
       {
         posts.map(post => (
           <CompletedItem
+            key={post.node.frontmatter.path}
             post={post.node}
           />
         ))

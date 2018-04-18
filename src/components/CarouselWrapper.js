@@ -30,7 +30,7 @@ const Decorators = [
     component: React.createClass({
       render() {
           return (
-            <StyledIconButton color="contrast" aria-label="Menu" onClick={this.props.previousSlide}>
+            <StyledIconButton aria-label="Menu" onClick={this.props.previousSlide}>
               <i className="fa fa-angle-left" />
             </StyledIconButton>
           );
@@ -43,7 +43,7 @@ const Decorators = [
     component: React.createClass({
       render() {
         return (
-          <StyledIconButton color="contrast" aria-label="Menu" onClick={this.props.nextSlide}>
+          <StyledIconButton aria-label="Menu" onClick={this.props.nextSlide}>
             <i className="fa fa-angle-right" />
           </StyledIconButton>
         );

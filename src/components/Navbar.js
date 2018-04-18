@@ -90,7 +90,7 @@ class Navbar extends Component {
       <StyledAppBar position="static">
         <StyledToolbar>
           <LeftButtonContainer>
-            <StyledIconButton color="contrast" aria-label="Menu">
+            <StyledIconButton aria-label="Menu">
               <MenuIcon onClick={this.toggleSideBar} />
             </StyledIconButton>
             <StyledLogo src={Logo} />
@@ -101,10 +101,10 @@ class Navbar extends Component {
             </StyledLink>
           </LeftButtonContainer>
           <RightButtonContainer>
-            <IconButton color="contrast" href="https://www.instagram.com/yearofthechallenge/" target="_blank">
+            <IconButton href="https://www.instagram.com/yearofthechallenge/" target="_blank">
               <i className="fa fa-instagram" />
             </IconButton>
-            <IconButton color="contrast" href="https://web.facebook.com/groups/2001054326819046/" target="_blank">
+            <IconButton href="https://web.facebook.com/groups/2001054326819046/" target="_blank">
               <i className="fa fa-facebook" />
             </IconButton>
           </RightButtonContainer>

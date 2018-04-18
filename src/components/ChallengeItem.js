@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import Link from 'gatsby-link';
-import Card, { CardContent, CardMedia, CardActions } from 'material-ui/Card';
-import Button from 'material-ui/Button';
-import Typography from 'material-ui/Typography';
+import Card, { CardContent } from 'material-ui/Card';
 import fontPickerService from '../services/fontPicker';
 import colorPickerService from '../services/colorPicker';
 import emojiPickerService from '../services/emojiPicker';
@@ -15,22 +12,8 @@ const StyledCardContent = styled(CardContent)`
   position: relative;
 `;
 
-const StyledCardMedia = styled(CardMedia)`
-  height: 200px;
-`;
-
 const ItemAuthor = styled.p`
   margin: 0;
-`;
-
-const ItemTitle = styled.h3`
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  margin: 0;
-  font-size: 1em;
 `;
 
 const ChallengeText = styled.div`

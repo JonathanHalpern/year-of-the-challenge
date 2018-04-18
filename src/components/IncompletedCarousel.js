@@ -19,6 +19,7 @@ const IncompletedCarousel = ({ posts }) => (
       {
         posts.map(post => (
           <ChallengeItem
+            key={post.node.frontmatter.path}
             post={post.node}
           />
         ))
