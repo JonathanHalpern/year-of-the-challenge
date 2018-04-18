@@ -10,7 +10,7 @@ const StyledCardContent = styled(CardContent)`
   color: ${props => props.color};
   background: ${props => props.background};
   position: relative;
-`;
+`.withComponent(({ background, color, ...rest }) => <CardContent {...rest} />)
 
 const ItemAuthor = styled.p`
   margin: 0;

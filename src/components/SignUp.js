@@ -26,7 +26,7 @@ const SignUp = () => (
     data-netlify-honeypot="bot-field"
     action="/"
   >
-    <input style={{ display: 'none' }} type="text" name="form-name" value="subscribe" />
+    <input style={{ display: 'none' }} type="text" name="form-name" value="subscribe" readOnly />
     <StyledTextField
       id="email"
       label="Email"
