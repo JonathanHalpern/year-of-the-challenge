@@ -1,11 +1,8 @@
 import React from 'react';
-import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 import Script from 'react-load-script';
-import Grid from 'material-ui/Grid';
 import Divider from 'material-ui/Divider';
 import styled from 'styled-components';
-import Content, { HTMLContent } from '../components/Content';
 import HomePageTemplate from '../templates/home-page';
 import ChallengePreview from '../components/ChallengePreview';
 import Logo from '../../static/img/Functional/logo.png';
@@ -16,10 +13,6 @@ const StyledLogo = styled.img`
   margin: 0;
 `;
 
-// flex-direction: column;
-// @media(min-width: 600px) {
-//   flex-direction: row;
-// }
 const LogoContainer = styled.div`
   display: flex;
   @media(max-width: 600px) {
@@ -31,18 +24,18 @@ const LogoContainer = styled.div`
 `;
 
 export default class IndexPage extends React.Component {
-    handleScriptLoad() {
-      if (window.netlifyIdentity) {
-        window.netlifyIdentity.on('init', (user) => {
-          if (!user) {
-            window.netlifyIdentity.on('login', () => {
-              document.location.href = '/admin/';
-            });
-          }
-        });
-      }
-      window.netlifyIdentity.init();
+  handleScriptLoad() {
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on('init', (user) => {
+        if (!user) {
+          window.netlifyIdentity.on('login', () => {
+            document.location.href = '/admin/';
+          });
+        }
+      });
     }
+    window.netlifyIdentity.init();
+  }
 
   render() {
     const { markdownRemark: post } = this.props.data;

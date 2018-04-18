@@ -19,7 +19,7 @@ const StyledDialog = styled(Dialog)`
   }
 `;
 
-const SubmitChallenge = ({ isOpen, handleClose }) => (
+const SubmitChallengePopup = ({ isOpen, handleClose }) => (
   <StyledDialog
     open={isOpen}
     onClose={handleClose}
@@ -35,7 +35,13 @@ const SubmitChallenge = ({ isOpen, handleClose }) => (
         data-netlify-honeypot="bot-field"
         action="/"
       >
-        <input style={{ display: 'none' }} type="text" name="form-name" value="newChallenges" />
+        <input
+          readOnly
+          style={{ display: 'none' }}
+          type="text"
+          name="form-name"
+          value="newChallenges"
+        />
         <Grid container spacing={24}>
           <Grid item xs={12} sm={6}>
             <TextField
@@ -72,4 +78,4 @@ const SubmitChallenge = ({ isOpen, handleClose }) => (
   </StyledDialog>
 );
 
-export default SubmitChallenge;
+export default SubmitChallengePopup;

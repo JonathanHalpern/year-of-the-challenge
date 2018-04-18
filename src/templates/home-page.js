@@ -29,7 +29,7 @@ const StyledSection = styled.div`
   }
 `;
 
-export const HomePageTemplate = () => (
+const HomePageTemplate = () => (
   <StyledSection>
     <h1>About us</h1>
     <p>

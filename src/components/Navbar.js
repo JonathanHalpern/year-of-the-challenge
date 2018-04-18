@@ -1,3 +1,4 @@
+import React, { Component } from 'react';
 import AppBar from 'material-ui/AppBar';
 import Toolbar from 'material-ui/Toolbar';
 import Typography from 'material-ui/Typography';
@@ -5,7 +6,6 @@ import IconButton from 'material-ui/IconButton';
 import MenuIcon from 'material-ui-icons/Menu';
 import Drawer from 'material-ui/Drawer';
 import Divider from 'material-ui/Divider';
-import React, { Component } from 'react';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 import styled from 'styled-components';
@@ -118,7 +118,7 @@ class Navbar extends Component {
             role="button"
             onKeyDown={this.toggleSideBar}
           >
-            <DrawerHeader type="title" color="inherit" anchor="top" onClick={this.toggleSideBar}>
+            <DrawerHeader type="title" color="inherit" onClick={this.toggleSideBar}>
               <StyledLink to="/">
                 Year of the Challenge
               </StyledLink>

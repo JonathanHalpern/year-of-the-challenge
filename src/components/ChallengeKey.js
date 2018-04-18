@@ -59,15 +59,15 @@ class ChallengeKey extends Component {
           <Typography>Key</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
-          <StyledColumns queries={queries} className="colllll">
+          <StyledColumns queries={queries}>
             {[..._.map(DIFFICULTIES, difficulty => (
-              <EmojiContainer>
+              <EmojiContainer key={difficulty.label}>
                 <ChallengeColorBlock background={difficulty.background} />
                 <EmojiLabel>{difficulty.label} </EmojiLabel>
               </EmojiContainer>
             )),
               ..._.map(EMOJIS, emoji => (
-                <EmojiContainer>
+                <EmojiContainer key={emoji.label}>
                   <EmojiImage src={emoji.src} />
                   <EmojiLabel>{emoji.label} </EmojiLabel>
                 </EmojiContainer>

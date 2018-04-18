@@ -1,13 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import Columns from 'react-columns';
-import Content, { HTMLContent } from '../components/Content';
+import { HTMLContent } from '../components/Content';
 import ChallengeItem from '../components/ChallengeItem';
 import ChallengeKey from '../components/ChallengeKey';
-
-const ColumnItem = styled.div`
-
-`;
 
 const StyledColumns = styled(Columns)`
   >div>div{
@@ -45,11 +41,11 @@ const queries = [{
 export const ChallengeList = ({ posts }) => (
   <StyledColumns queries={queries}>
     {posts.filter(post => (post.node.frontmatter.templateKey === 'blog-post' && !post.node.frontmatter.isCompleted)).map(({ node: post }) => (
-      <ColumnItem key={post.id}>
+      <div key={post.id}>
         <ChallengeItem
           post={post}
         />
-      </ColumnItem>
+      </div>
     ))}
   </StyledColumns>
 );
