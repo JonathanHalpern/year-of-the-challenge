@@ -1,4 +1,4 @@
-# Gatsby + Netlify CMS Starter
+# Year of the Challenge
 
 This repo contains an example business website that is built with [Gatsby](https://www.gatsbyjs.org/), and [Netlify CMS](netlifycms.org): **[Demo Link](https://gatsby-netlify-cms.netlify.com/)**.
 
