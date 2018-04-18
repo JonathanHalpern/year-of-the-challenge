@@ -1,5 +1,4 @@
 import React from 'react';
-import Typography from 'material-ui/Typography';
 import styled from 'styled-components';
 import Grid from 'material-ui/Grid';
 import TextField from 'material-ui/TextField';
@@ -65,7 +64,7 @@ const SubmitChallenge = ({ isOpen, handleClose }) => (
             />
           </Grid>
         </Grid>
-        <SubmitButton color="primary" raised type="submit">
+        <SubmitButton color="primary" variant="raised" type="submit">
           Send
         </SubmitButton>
       </form>

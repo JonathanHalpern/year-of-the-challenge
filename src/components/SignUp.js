@@ -32,7 +32,7 @@ const SignUp = () => (
       label="Email"
       name="email"
     />
-    <SubmitButton color="primary" raised type="submit">
+    <SubmitButton color="primary" variant="raised" type="submit">
       Join mailing list
     </SubmitButton>
   </StyledForm>

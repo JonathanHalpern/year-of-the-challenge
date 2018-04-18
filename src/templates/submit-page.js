@@ -1,14 +1,9 @@
 import React from 'react';
-import Link from 'gatsby-link';
-import Card, { CardContent, CardMedia } from 'material-ui/Card';
-import Typography from 'material-ui/Typography';
-import styled from 'styled-components';
-import Columns from 'react-columns';
-import Grid from 'material-ui/Grid';
-import Content, { HTMLContent } from '../components/Content';
-import ChallengeItem from '../components/ChallengeItem';
 import TextField from 'material-ui/TextField';
 import Button from 'material-ui/Button';
+import styled from 'styled-components';
+import Grid from 'material-ui/Grid';
+import { HTMLContent } from '../components/Content';
 
 const SubmitButton = styled(Button)`
   margin-top: 20px;
@@ -51,7 +46,7 @@ export const SubmitForm = () => (
         />
       </Grid>
     </Grid>
-    <SubmitButton color="primary" raised type="submit">
+    <SubmitButton color="primary" variant="raised" type="submit">
       Send
     </SubmitButton>
   </form>
@@ -59,7 +54,6 @@ export const SubmitForm = () => (
 
 export default ({ data }) => {
   const { markdownRemark: post } = data;
-  const { edges: posts } = data.allMarkdownRemark;
   return (
     <div>
       <HTMLContent
