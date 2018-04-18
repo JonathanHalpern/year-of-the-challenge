@@ -37,6 +37,7 @@
         "jest": true
     },
     "settings": {
+      "import/core-modules": ['react'],
       "import/resolver": {
         "node": {
           "paths": ['/src'],

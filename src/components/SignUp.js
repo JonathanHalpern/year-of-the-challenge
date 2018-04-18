@@ -4,7 +4,7 @@ import TextField from 'material-ui/TextField';
 import Button from 'material-ui/Button';
 
 const SubmitButton = styled(Button)`
-  margin-top: 20px;
+  margin-top: 20px!important;
   width: 100%;
 `;
 

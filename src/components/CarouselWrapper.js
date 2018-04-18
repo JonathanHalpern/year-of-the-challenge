@@ -1,6 +1,4 @@
-'use strict';
 import React from 'react';
-import createReactClass from 'create-react-class';
 import Carousel from 'nuka-carousel';
 import styled from 'styled-components';
 
@@ -22,55 +20,42 @@ const StyledIconButton = styled(IconButton)`
   i {
     font-size: 75px;
     color: white;
+    margin-top: -12px;
   }
 `;
 
 const Decorators = [
   {
-    component: React.createClass({
-      render() {
-          return (
-            <StyledIconButton aria-label="Menu" onClick={this.props.previousSlide}>
-              <i className="fa fa-angle-left" />
-            </StyledIconButton>
-          );
-      },
-      shouldComponentUpdate() { return this.props.currentSlide === 0; },
-    }),
-    position: 'CenterLeft'
+    component: props => (
+      <StyledIconButton aria-label="Menu" onClick={props.previousSlide}>
+        <i className="fa fa-angle-left" />
+      </StyledIconButton>
+    ),
+    position: 'CenterLeft',
   },
   {
-    component: React.createClass({
-      render() {
-        return (
-          <StyledIconButton aria-label="Menu" onClick={this.props.nextSlide}>
-            <i className="fa fa-angle-right" />
-          </StyledIconButton>
-        );
-      },
-    }),
+    component: props => (
+      <StyledIconButton aria-label="Menu" onClick={props.nextSlide}>
+        <i className="fa fa-angle-right" />
+      </StyledIconButton>
+    ),
     position: 'CenterRight',
   },
 ];
 
-const CarouselWrapper = createReactClass({
-  mixins: [Carousel.ControllerMixin],
-  render() {
-    return (
-      <StyledCarousel
-        wrapAround
-        decorators={Decorators}
-        initialSlideHeight={200}
-        autoplay
-        autoplayInterval={7000}
-        {...this.props}
-      >
-        {
-          this.props.children
-        }
-      </StyledCarousel>
-    );
-  },
-});
+const CarouselWrapper = props => (
+  <StyledCarousel
+    wrapAround
+    decorators={Decorators}
+    initialSlideHeight={200}
+    autoplay
+    autoplayInterval={7000}
+    {...props}
+  >
+    {
+      props.children
+    }
+  </StyledCarousel>
+);
 
 export default CarouselWrapper;

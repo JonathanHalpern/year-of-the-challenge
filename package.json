@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-netlify-cms",
-  "description": "Example Gatsby, and Netlify CMS project",
+  "name": "year of the challenge",
+  "description": "Travel blog, built using Gatsby and Netlify CMS",
   "version": "1.0.0",
-  "author": "Austin Green",
+  "author": "Jonathan Halpern",
   "dependencies": {
     "bulma": "^0.6.2",
     "gatsby": "^1.9.250",
@@ -31,6 +31,7 @@
     "typography-theme-sutro": "^0.15.10"
   },
   "keywords": [
+    "yearOfTheChallenge",
     "gatsby"
   ],
   "settings": {
