@@ -6,18 +6,10 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-styled-components',
-    // 'gatsby-plugin-material-ui',
-    // {
-    //   resolve: `gatsby-plugin-nprogress`,
-    //   options: {
-    //     color: `tomato`,
-    //     showSpinner: true,
-    //   },
-    // },
     {
-      resolve: `gatsby-plugin-favicon`,
+      resolve: 'gatsby-plugin-favicon',
       options: {
-        logo: "./src/favicon.png",
+        logo: './src/favicon.png',
         injectHTML: true,
         icons: {
           android: true,
@@ -28,9 +20,9 @@ module.exports = {
           firefox: true,
           twitter: false,
           yandex: false,
-          windows: false
-        }
-      }
+          windows: false,
+        },
+      },
     },
     {
       resolve: 'gatsby-plugin-typography',
