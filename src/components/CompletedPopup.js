@@ -4,7 +4,7 @@ import Dialog, {
   DialogContent,
   DialogTitle
 } from 'material-ui/Dialog';
-import { HTMLContent } from '../components/Content';
+import HTMLContent from '../components/Content';
 
 const StyledDialogContent = styled(DialogContent)`
   p {

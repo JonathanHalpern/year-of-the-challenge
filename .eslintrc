@@ -37,7 +37,7 @@
         "jest": true
     },
     "settings": {
-      "import/core-modules": ['react'],
+      "import/core-modules": ['react', 'react-helmet'],
       "import/resolver": {
         "node": {
           "paths": ['/src'],

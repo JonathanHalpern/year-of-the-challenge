@@ -1,22 +1,7 @@
 import React from 'react';
-import Link from 'gatsby-link';
 import styled from 'styled-components';
-import challengeBox from '../../static/img/challengeBox.png';
 import engagementPhoto from '../../static/img/engagementPhoto.jpg';
 
-const CentreContentContainer = styled.div`
-  display: flex;
-  > * {
-    margin: auto;
-  }
-`;
-
-const ChallengeBox = styled.img`
-  opacity: 0.8;
-  :hover {
-    opacity: 1
-  }
-`;
 
 const StyledSection = styled.div`
   p {
@@ -51,7 +36,7 @@ const HomePageTemplate = () => (
       So what have we got?
     </p>
     <p>
-      <img src={engagementPhoto} />
+      <img role="presentation" src={engagementPhoto} />
     </p>
     <br />
     <p>
@@ -82,11 +67,6 @@ const HomePageTemplate = () => (
       So, even if you think it&apos;s a bit off-the-wall,
       send it in: we&apos;ve probably seen worse.
     </p>
-    <CentreContentContainer>
-      <Link to="/challenges">
-        <ChallengeBox src={challengeBox} alt="" />
-      </Link>
-    </CentreContentContainer>
   </StyledSection>
 );
 

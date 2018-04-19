@@ -1,7 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import styled from 'styled-components';
-import Content, { HTMLContent } from '../components/Content';
+import HTMLContent from '../components/Content';
 
 const StyledSection = styled.section`
   p {
@@ -28,26 +28,24 @@ const StyledSection = styled.section`
   }
 `;
 
-export const BlogPostTemplate = ({ content, contentComponent, description, title, isCompleted, helmet }) => {
-  const PostContent = contentComponent || Content;
-  return (<StyledSection className="section">
-    { helmet ? helmet : ""}
+export const BlogPostTemplate = ({ content, title, helmet }) => (
+  <StyledSection>
+    { helmet }
     <h1>{title}</h1>
-    <PostContent content={content} />
-  </StyledSection>);
-}
+    <HTMLContent content={content} />
+  </StyledSection>
+);
 
 export default ({ data }) => {
   const { markdownRemark: post } = data;
-  return <BlogPostTemplate
+  return (<BlogPostTemplate
     content={post.html}
-    contentComponent={HTMLContent}
     description={post.frontmatter.description}
     helmet={<Helmet title={`Blog | ${post.frontmatter.title}`} />}
     title={post.frontmatter.title}
     isCompleted={post.frontmatter.isCompleted}
-  />;
-}
+  />);
+};
 
 export const pageQuery = graphql`
   query BlogPostByPath($path: String!) {

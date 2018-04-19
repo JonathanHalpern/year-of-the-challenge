@@ -3,7 +3,7 @@ import TextField from 'material-ui/TextField';
 import Button from 'material-ui/Button';
 import styled from 'styled-components';
 import Grid from 'material-ui/Grid';
-import { HTMLContent } from '../components/Content';
+import HTMLContent from '../components/Content';
 
 const SubmitButton = styled(Button)`
   margin-top: 20px;
