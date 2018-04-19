@@ -12,7 +12,6 @@ import styled from 'styled-components';
 import Dimensions from 'react-dimensions';
 import NavMenu from './NavMenu';
 import Logo from '../../static/img/Functional/logo.png';
-import '../../static/fonts/fontawesome/style.css';
 
 const StyledAppBar = styled(AppBar)`
   @media(max-width: 1223px) {

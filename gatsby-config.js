@@ -2,17 +2,18 @@ module.exports = {
   siteMetadata: {
     title: 'Year of the Challenge Gatsby Blog',
     description: 'Travel blog',
-    siteUrl: 'http://www.yearofthechallenge.com/'
+    siteUrl: 'http://www.yearofthechallenge.com/',
   },
   plugins: [
-    // 'gatsby-plugin-styled-components',
-    {
-      resolve: `gatsby-plugin-nprogress`,
-      options: {
-        color: `tomato`,
-        showSpinner: true,
-      },
-    },
+    'gatsby-plugin-styled-components',
+    // 'gatsby-plugin-material-ui',
+    // {
+    //   resolve: `gatsby-plugin-nprogress`,
+    //   options: {
+    //     color: `tomato`,
+    //     showSpinner: true,
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-favicon`,
       options: {

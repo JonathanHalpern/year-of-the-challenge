@@ -4,8 +4,6 @@ import styled from 'styled-components';
 
 import IconButton from 'material-ui/IconButton';
 
-import '../../static/fonts/fontawesome/style.css';
-
 const StyledCarousel = styled(Carousel)`
   .slider-list {
     height: 260px!important;
