@@ -9,55 +9,34 @@ const SubmitButton = styled(Button)`
 `;
 
 const CommentForm = props => (
-  // <form
-  //   name="newComment"
-  //   method="post"
-  //   data-netlify="true"
-  //   data-netlify-honeypot="bot-field"
-  //   action="/"
-  // >
-  //   <input
-  //     readOnly
-  //     style={{ display: 'none' }}
-  //     type="text"
-  //     name="form-name"
-  //     value="newComment"
-  //   />
-  //   <input
-  //     readOnly
-  //     style={{ display: 'none' }}
-  //     type="text"
-  //     name="post-name"
-  //     value={props.postName}
-  //   />
-  //   <Grid container spacing={24}>
-  //     <Grid item xs={12} sm={6}>
-  //       <TextField
-  //         id="name"
-  //         label="Your name"
-  //         name="name"
-  //         fullWidth
-  //       />
-  //     </Grid>
-  //     <Grid item xs={12}>
-  //       <TextField
-  //         id="comment"
-  //         label="Comment"
-  //         name="comment"
-  //         fullWidth
-  //         multiline
-  //         rows={2}
-  //       />
-  //     </Grid>
-  //   </Grid>
-  //   <SubmitButton color="primary" variant="raised" type="submit">
-  //     Send
-  //   </SubmitButton>
-  // </form>
-  <form method="POST" action="https://api.staticman.net/v2/entry/JonathanHalpern/year-of-the-challenge/master">
-    <label><input name="fields[name]" type="text" />Name</label>
-    <label><textarea name="fields[message]" />Message</label>
-    <button type="submit">Go!</button>
+  <form method="POST" action="https://api.staticman.net/v2/entry/JonathanHalpern/year-of-the-challenge/master/comments">
+    <input name="options[slug]" type="hidden" value={props.postName.substr(1)} />
+    <input name="options[redirect]" type="hidden" value="http://yearofthechallenge.com" />
+    <Grid container spacing={24}>
+      <Grid item xs={12} sm={6}>
+        <TextField
+          id="name"
+          label="Your name"
+          name="fields[name]"
+          type="text"
+        />
+      </Grid>
+    </Grid>
+    <Grid container spacing={24}>
+      <Grid item xs={12} sm={6}>
+        <TextField
+          id="name"
+          label="Comment"
+          name="fields[message]"
+          type="text"
+          multiline
+          rows={2}
+        />
+      </Grid>
+    </Grid>
+    <SubmitButton color="primary" variant="raised" type="submit">
+      Post
+    </SubmitButton>
   </form>
 );
 
