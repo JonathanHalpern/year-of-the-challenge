@@ -37,7 +37,6 @@ export default class IndexPage extends React.Component {
   }
 
   render() {
-    const { markdownRemark: post } = this.props.data;
     const { edges: posts } = this.props.data.allMarkdownRemark;
     return (
       <div>
