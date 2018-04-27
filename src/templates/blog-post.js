@@ -1,6 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import styled from 'styled-components';
+import CommentForm from '../components/CommentForm';
 import HTMLContent from '../components/Content';
 
 const StyledSection = styled.section`
@@ -28,11 +29,12 @@ const StyledSection = styled.section`
   }
 `;
 
-export const BlogPostTemplate = ({ content, title, helmet }) => (
+export const BlogPostTemplate = ({ content, title, path, helmet }) => (
   <StyledSection>
     { helmet }
     <h1>{title}</h1>
     <HTMLContent content={content} />
+    <CommentForm postName={path} />
   </StyledSection>
 );
 
@@ -43,6 +45,7 @@ export default ({ data }) => {
     description={post.frontmatter.description}
     helmet={<Helmet title={`Blog | ${post.frontmatter.title}`} />}
     title={post.frontmatter.title}
+    path={post.frontmatter.path}
     isCompleted={post.frontmatter.isCompleted}
   />);
 };
