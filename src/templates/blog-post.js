@@ -31,7 +31,6 @@ const StyledSection = styled.section`
 export const BlogPostTemplate = ({ content, title, helmet }) => (
   <StyledSection>
     { helmet }
-    { console.log(content) }
     <h1>{title}</h1>
     <HTMLContent content={content} />
   </StyledSection>

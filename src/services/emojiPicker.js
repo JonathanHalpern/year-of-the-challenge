@@ -1,8 +1,6 @@
 import EMOJIS from '../constants/emojis';
 
-const getEmojisByEmotion = (emotion) => {
-  return EMOJIS[emotion];
-};
+const getEmojisByEmotion = emotion => EMOJIS[emotion];
 
 export default {
   getEmojisByEmotion,

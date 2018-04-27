@@ -1,9 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import Dialog, {
-  DialogContent,
-  DialogTitle
-} from 'material-ui/Dialog';
 
 import { CardMedia } from 'material-ui/Card';
 

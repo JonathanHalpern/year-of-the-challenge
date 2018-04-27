@@ -1,5 +1,4 @@
 import React from 'react';
-import Helmet from 'react-helmet';
 import Script from 'react-load-script';
 import Divider from 'material-ui/Divider';
 import styled from 'styled-components';

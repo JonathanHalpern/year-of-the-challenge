@@ -44,6 +44,7 @@ export default ({ isOpen, handleClose, post }) => (
     onClose={handleClose}
     aria-labelledby="responsive-dialog-title"
     fullWidth
+    transitionDuration={750}
   >
     <DialogTitle id="responsive-dialog-title">{post.frontmatter.title}</DialogTitle>
     <StyledDialogContent>
