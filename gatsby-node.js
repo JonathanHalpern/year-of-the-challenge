@@ -8,7 +8,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
       allMarkdownRemark(
         sort: { order: DESC, fields: [frontmatter___date] },
         limit: 1000,
-        filter:{frontmatter:{templateKey:{ne:"comments"}}}
+        filter:{frontmatter:{pageless:{ne:true}}}
       ) {
         edges {
           node {
