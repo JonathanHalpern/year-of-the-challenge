@@ -11,7 +11,7 @@ const SubmitButton = styled(Button)`
 const CommentForm = props => (
   <form method="POST" action="https://api.staticman.net/v2/entry/JonathanHalpern/year-of-the-challenge/master/comments">
     <input name="fields[post]" type="hidden" value={props.postName} />
-    <input name="options[redirect]" type="hidden" value="http://yearofthechallenge.com" />
+    <input name="options[redirect]" type="hidden" value={`http://yearofthechallenge.com${props.postName}}`} />
     <Grid container spacing={24}>
       <Grid item xs={12} sm={6}>
         <TextField
