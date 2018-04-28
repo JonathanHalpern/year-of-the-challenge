@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Script from 'react-load-script';
 import Divider from 'material-ui/Divider';
 import styled from 'styled-components';
@@ -22,7 +22,7 @@ const LogoContainer = styled.div`
   }
 `;
 
-export default class IndexPage extends React.Component {
+export default class IndexPage extends Component {
   handleScriptLoad() {
     if (window.netlifyIdentity) {
       window.netlifyIdentity.on('init', (user) => {
