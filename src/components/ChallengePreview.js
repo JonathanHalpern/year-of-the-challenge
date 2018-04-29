@@ -23,6 +23,7 @@ class SubmitChallenge extends Component {
           <Grid item xs={12} sm={6} md={6}>
             <CompletedCarousel
               posts={this.state.completedPosts}
+              comments={this.props.comments}
             />
           </Grid>
           <Grid item xs={12} sm={6} md={6}>

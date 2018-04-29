@@ -12,7 +12,7 @@ const StyledLink = styled(Link)`
   }
 `;
 
-const CompletedCarousel = ({ posts }) => (
+const CompletedCarousel = ({ posts, comments }) => (
   <div>
     <StyledLink to="completed">Completed</StyledLink>
     <CarouselWrapper
@@ -24,6 +24,11 @@ const CompletedCarousel = ({ posts }) => (
           <CompletedItem
             key={post.node.frontmatter.path}
             post={post.node}
+            comments={
+              comments.edges.filter(comment =>
+                (comment.node.frontmatter.post === post.node.frontmatter.path)
+              )
+            }
           />
         ))
       }
