@@ -1,6 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import styled from 'styled-components';
+import Divider from 'material-ui/Divider';
 import CommentForm from '../components/CommentForm';
 import CommentList from '../components/CommentList';
 import HTMLContent from '../components/Content';
@@ -41,12 +42,12 @@ export const BlogPostTemplate = ({ content, title, path, helmet, comments }) => 
 );
 
 export default ({ data }) => {
-  console.log(data);
   const { blogPost: post, comments } = data;
   return (<StyledSection>
     <Helmet title={`Blog | ${post.frontmatter.title}`} />
     <h1>{post.frontmatter.title}</h1>
     <HTMLContent content={post.html} />
+    <Divider />
     <CommentForm postName={post.frontmatter.path} />
     {
       comments && <CommentList comments={comments.edges} />
