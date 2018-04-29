@@ -31,18 +31,9 @@ const StyledSection = styled.section`
   }
 `;
 
-export const BlogPostTemplate = ({ content, title, path, helmet, comments }) => (
-  <StyledSection>
-    { helmet }
-    <h1>{title}</h1>
-    <HTMLContent content={content} />
-    <CommentList comments={comments} />
-    <CommentForm postName={path} />
-  </StyledSection>
-);
-
 export default ({ data }) => {
   const { blogPost: post, comments } = data;
+  const isReadonly = typeof (content) === 'string';
   return (<StyledSection>
     <Helmet title={`Blog | ${post.frontmatter.title}`} />
     <h1>{post.frontmatter.title}</h1>
@@ -50,7 +41,7 @@ export default ({ data }) => {
     <Divider />
     <CommentForm postName={post.frontmatter.path} />
     {
-      comments && <CommentList comments={comments.edges} />
+      isReadonly && comments && <CommentList comments={comments.edges} />
     }
   </StyledSection>);
 };
