@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import Grid from 'material-ui/Grid';
 import TextField from 'material-ui/TextField';
 import Button from 'material-ui/Button';
 import { CircularProgress } from 'material-ui/Progress';
@@ -11,8 +10,12 @@ const FormHeader = styled.p`
   margin: 20px 0 15px 0;
 `;
 
+const SubmittedCommentList = styled.div`
+  margin-top: 25px;
+`;
+
 const SubmitButton = styled(Button)`
-  margin-top: 20px!important;
+  margin: 20px 0!important;
 `;
 
 const StyledCircularProgress = styled(CircularProgress)`
@@ -107,15 +110,15 @@ class CommentForm extends Component {
           disabled={this.state.isSubmitting}
         >
           { this.state.isSubmitting ? 'Loading...' : 'Send Comment' }
-          { this.state.isSubmitting && <StyledCircularProgress color="default" size={20} /> }
+          { this.state.isSubmitting && <StyledCircularProgress color="inherit" size={20} /> }
         </SubmitButton>
-        <div>
+        <SubmittedCommentList>
           {
-            this.state.submittedComments.map(comment => (
-              <CommentItem name={comment.name} message={comment.message} />
+            this.state.submittedComments.map((comment, index) => (
+              <CommentItem key={index} name={comment.name} message={comment.message} />
             ))
           }
-        </div>
+        </SubmittedCommentList>
       </form>
     );
   }

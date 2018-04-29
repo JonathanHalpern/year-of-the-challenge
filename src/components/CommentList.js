@@ -9,6 +9,7 @@ const CommentList = props => (
           <CommentItem
             name={comment.node.frontmatter.name}
             message={comment.node.excerpt}
+            date={comment.node.frontmatter.date}
             key={comment.node.id}
           />
         ))
