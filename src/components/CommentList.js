@@ -3,11 +3,14 @@ import CommentItem from './CommentItem';
 
 const CommentList = props => (
   <div>
-    <p>Comments</p>
     <ul>
       {
         props.comments.map(comment => (
-          <CommentItem comment={comment.node} />
+          <CommentItem
+            name={comment.node.frontmatter.name}
+            message={comment.node.excerpt}
+            key={comment.node.id}
+          />
         ))
       }
     </ul>

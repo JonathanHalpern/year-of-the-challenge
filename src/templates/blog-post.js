@@ -47,10 +47,10 @@ export default ({ data }) => {
     <Helmet title={`Blog | ${post.frontmatter.title}`} />
     <h1>{post.frontmatter.title}</h1>
     <HTMLContent content={post.html} />
+    <CommentForm postName={post.frontmatter.path} />
     {
       comments && <CommentList comments={comments.edges} />
     }
-    <CommentForm postName={post.frontmatter.path} />
   </StyledSection>);
 };
 
@@ -67,6 +67,7 @@ query BlogPostByPath($path: String!) {
           frontmatter {
             templateKey
             path
+            title
           }
       },
   comments: allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, limit: 1000, filter: {frontmatter: {templateKey: {eq: "comments"}, post: {eq: $path}}}) {
@@ -77,6 +78,7 @@ query BlogPostByPath($path: String!) {
         id
         frontmatter {
           name
+          date
         }
       }
     }

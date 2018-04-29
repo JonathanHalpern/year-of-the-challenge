@@ -1,9 +1,9 @@
 import React from 'react';
 
-const CommentItem = props => console.log(props) || (
+const CommentItem = props => (
   <div>
     <p>
-      {props.comment.frontmatter.name}: {props.comment.excerpt}
+      {props.name}: {props.message}
     </p>
   </div>
 );
