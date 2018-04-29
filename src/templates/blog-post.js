@@ -33,16 +33,21 @@ const StyledSection = styled.section`
 
 export default ({ data }) => {
   const { blogPost: post, comments } = data;
-  const isReadonly = typeof (content) === 'string';
+  const isReadonly = typeof (post.HTML) === 'string';
   return (<StyledSection>
     <Helmet title={`Blog | ${post.frontmatter.title}`} />
     <h1>{post.frontmatter.title}</h1>
     <HTMLContent content={post.html} />
     <Divider />
-    <CommentForm postName={post.frontmatter.path} />
     {
-      isReadonly && comments && <CommentList comments={comments.edges} />
+      !isReadonly && <div>
+        <CommentForm postName={post.frontmatter.path} />
+        {
+          comments && <CommentList comments={comments.edges} />
+        }
+        </div>
     }
+
   </StyledSection>);
 };
 
