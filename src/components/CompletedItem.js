@@ -46,6 +46,7 @@ class CompletedItem extends Component {
         </CardContent>
         <CompletedPopup
           post={this.props.post}
+          comments={this.props.comments}
           isOpen={this.state.isPopupOpen}
           handleClose={this.togglePopup}
         />
