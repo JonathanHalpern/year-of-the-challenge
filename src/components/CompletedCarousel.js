@@ -25,7 +25,7 @@ const CompletedCarousel = ({ posts, comments }) => (
             key={post.node.frontmatter.path}
             post={post.node}
             comments={
-              comments.edges.filter(comment =>
+              comments && comments.edges.filter(comment =>
                 (comment.node.frontmatter.post === post.node.frontmatter.path)
               )
             }

@@ -43,7 +43,7 @@ export default ({ data }) => {
       !isReadonly && <div>
         <CommentForm postName={post.frontmatter.path} />
         {
-          comments && <CommentList comments={comments.edges} />
+          comments && <CommentList comments={comments && comments.edges} />
         }
         </div>
     }
