@@ -2,7 +2,6 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import styled from 'styled-components';
 import Divider from 'material-ui/Divider';
-import HTMLContent from '../components/Content';
 
 const StyledSection = styled.section`
   p {
@@ -34,7 +33,6 @@ export default ({ data }) => {
   return (<StyledSection>
     <Helmet title={`Blog | ${post.frontmatter.title}`} />
     <h1>{post.frontmatter.title}</h1>
-    <HTMLContent content={post.html} />
     <Divider />
   </StyledSection>);
 };
