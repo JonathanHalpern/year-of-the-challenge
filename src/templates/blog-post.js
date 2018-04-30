@@ -2,8 +2,6 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import styled from 'styled-components';
 import Divider from 'material-ui/Divider';
-import CommentForm from '../components/CommentForm';
-import CommentList from '../components/CommentList';
 import HTMLContent from '../components/Content';
 
 const StyledSection = styled.section`
@@ -32,22 +30,12 @@ const StyledSection = styled.section`
 `;
 
 export default ({ data }) => {
-  const { blogPost: post, comments } = data;
-  const isReadonly = typeof (post.HTML) === 'string';
+  const { blogPost: post } = data;
   return (<StyledSection>
     <Helmet title={`Blog | ${post.frontmatter.title}`} />
     <h1>{post.frontmatter.title}</h1>
     <HTMLContent content={post.html} />
     <Divider />
-    {
-      !isReadonly && <div>
-        <CommentForm postName={post.frontmatter.path} />
-        {
-          comments && <CommentList comments={comments && comments.edges} />
-        }
-        </div>
-    }
-
   </StyledSection>);
 };
 
@@ -67,18 +55,5 @@ query BlogPostByPath($path: String!) {
             title
           }
       },
-  comments: allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, limit: 1000, filter: {frontmatter: {templateKey: {eq: "comments"}, post: {eq: $path}}}) {
-    edges {
-      node {
-        excerpt(pruneLength: 400)
-        html
-        id
-        frontmatter {
-          name
-          date
-        }
-      }
-    }
-  }
 }
 `;
