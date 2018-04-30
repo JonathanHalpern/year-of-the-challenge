@@ -6,10 +6,10 @@ description: 'Kiss a kiwi on the cheek (yes, the bird!)'
 author: Flora Mearon
 emotion: Hesitant
 difficulty: medium
-isFailed: false
+isFailed: true
 isCompleted: true
-evidenceImage: /img/dip9.jpg
-date: 2018-01-06T17:00:00.000Z
+evidenceImage: /img/kissAKiwi.jpg
+date: 2018-04-10T17:00:00.000Z
 ---
 When Flora challenged me to "kiss a kiwi bird (a photo or it didn't happen!)", neither of us realised that kiwis are an endangered species. Furthermore, they are nocturnal, meaning that the likelihood of me seeing one and taking a decent snap, let alone being able to kiss it, was always going to be nigh impossible. That's if you forget the fact that wild birds are not the most smoochable of beasts: imagine if the challenge had "simply" been to kiss a pigeon. You could walk to Trafalgar Square, where there are billions of the buggers, and unless you're prepared to dress up like Horatian Nelson and stand still as a statue with a seeded loaf poking out of your gob, your lips aren't going to get anywhere near them.
 
@@ -44,7 +44,7 @@ In fact, these ones were positively immobile by comparison and it took me a mome
 
 This sense of prolonged existence continued when we left the eel pool to visit the kiwis. Now, don't get me wrong, kiwis are bizarre and beautiful creatures, more so when you see them up close: you truly get a sense of their unique, iconic status in New Zealand. But, my gosh, they are unsuited to living in the wild. Once our eyes had adjusted to the gloom, we could just about see the outlines of the two rare birds. Already, we were surprised, expecting them to be much smaller. I think we had in mind the smaller, spotted kiwi, but these sizeable fellows were North island browns. As Lucy pointed out, they moved somewhat like a thief in a dated cartoon, trying and failing to sneak around, such was their stooped gait and heavy-footed tip-toeing. I imagine this is one of many reasons predators can hunt them out in the wild. As I - less astutely - pointed out, they were basically just a bum and a beak... but a magnificent, mammalian bum and a wondrous curved beak at that. Imagine a wombat's arse combined with an anteater's tongue. Now put it on legs and you basically have a kiwi.
 
-![null](https://bit.ly/2jf5YwX)
+![null](https://bit.ly/2HAGnx2)
 
 There are many reasons kiwi-numbers have rapidly declined in the wild. Some of these are due to the birds' nature. For example, a kiwi egg is so large that the female has no room to eat for the final weeks of gestation. When she finally delivers this monster-egg (the equivalent in size to us pushing out a 6-year-old), she is understandably so fed up that she buggers off and leaves the male to care for their chick. He has to leave their nest to forage from time to time, leaving the chick vulnerable to predators. In fact, only 5% of hatched kiwi chicks survive to adulthood.
 
@@ -52,13 +52,13 @@ There are many reasons kiwi-numbers have rapidly declined in the wild. Some of t
 
 Other reasons for their endangered status are out of their control: New Zealand was once free of all mammals except bats, meaning ground-dwelling birds blossomed. Now they have dogs, cats, stoats; all kinds of beasts trying to get their claws on a waddling, flightless bird (their tiny wings are about as much use as T-Rex arms). For this reason, one must feel very sorry for their declining population.
 
-![null](https://bit.ly/2HFQ6y4)
+![null](https://bit.ly/2FtoFWu)
 
 However, one further reason was laid bare when I produced my camera. You see, I had entered the sanctuary in such a rush that the receptionist had not a moment to tell me that cameras were prohibited in the kiwi sanctuary. Just as I was about to snap a photo of the lesser sighted bum'n'beak, a guide rushed over in a panic and chastised me. Seemingly, another tourist had taken a photo in this enclosure, and her flash (which I at least had the foresight to turn off) caused one bird to run straight into a wall in blind panic, killing itself instantly.
 
 Clearly, this is not a bird suited to 21st century living.
 
-![null](https://bit.ly/2r9EzkF)
+![null](https://bit.ly/2JBnQgO)
 
 Nonetheless, it must be said that their aptlessness only added to the sense that we had come face-to-face with a rare and other-worldly creature, for which we were profoundly grateful... and when one came peck-peck-pecking at the small gap between the walls of her enclosure, I put my lips to the glass and got exceedingly close to pecking her right back.
 No photos of this though I'm afraid, Flo... otherwise this story might have had a completely different, rather morbid ending. No doubt the sanctuary would have sent me packing, and the poor kiwi corpse straight off to the local taxidermy.
