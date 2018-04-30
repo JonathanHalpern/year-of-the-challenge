@@ -3,7 +3,6 @@ import Script from 'react-load-script';
 import Divider from 'material-ui/Divider';
 import styled from 'styled-components';
 import HomePageTemplate from '../templates/home-page';
-import ChallengePreview from '../components/ChallengePreview';
 import Logo from '../../static/img/Functional/logo.png';
 
 const StyledLogo = styled.img`
@@ -38,7 +37,6 @@ export default class IndexPage extends Component {
 
   render() {
     const { edges: posts } = this.props.data.allMarkdownRemark;
-    const comments = this.props.data.comments;
     return (
       <div>
         <Script
@@ -49,7 +47,6 @@ export default class IndexPage extends Component {
           <StyledLogo src={Logo} />
           <h1>Year of the Challenge</h1>
         </LogoContainer>
-        <ChallengePreview posts={posts} comments={comments} />
         <Divider />
         <HomePageTemplate />
       </div>);
@@ -78,20 +75,6 @@ export const indexPageQuery = graphql`
             emotion
           }
           html
-        }
-      }
-    },
-    comments: allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, limit: 1000, filter: {frontmatter: {templateKey: {eq: "comments"}}}) {
-      edges {
-        node {
-          excerpt(pruneLength: 400)
-          html
-          id
-          frontmatter {
-            name
-            date
-            post
-          }
         }
       }
     }
