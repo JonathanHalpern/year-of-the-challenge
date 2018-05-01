@@ -33,7 +33,7 @@ export const BlogPostTemplate = ({ content, title, path, helmet }) => (
   <StyledSection>
     { helmet }
     <h1>{title}</h1>
-    <p> test3 </p>
+    <p> test4 </p>
     <HTMLContent content={content} />
     <CommentForm postName={path} />
   </StyledSection>
@@ -61,6 +61,19 @@ export const pageQuery = graphql`
         title
         description
         isCompleted
+      }
+    },
+    comments: allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, limit: 1000, filter: {frontmatter: {templateKey: {eq: "comments"}, post: {eq: $path}}}) {
+      edges {
+        node {
+          excerpt(pruneLength: 400)
+          html
+          id
+          frontmatter {
+            name
+            date
+          }
+        }
       }
     }
   }
