@@ -32,24 +32,24 @@ const StyledSection = styled.section`
   }
 `;
 
-export const BlogPostTemplate = ({ content, title, path, helmet }) => (
+export const BlogPostTemplate = ({ content, title, path, helmet, comments }) => (
   <StyledSection>
     { helmet }
     <h1>{title}</h1>
-    <p> test14 { _.isString(content) ? 'true' : 'false' } </p>
-    <p> { typeof (content) } </p>
+    <p> test15 </p>
     <HTMLContent content={content} />
     <Divider />
     {
       _.isString(content) && <div>
         <CommentForm postName={path} />
+        { comments && <CommentList comments={comments.edges} /> }
         </div>
     }
   </StyledSection>
 );
 
 export default ({ data }) => {
-  const { markdownRemark: post } = data;
+  const { markdownRemark: post, comments } = data;
   return (<BlogPostTemplate
     content={post.html}
     description={post.frontmatter.description}
@@ -57,6 +57,7 @@ export default ({ data }) => {
     title={post.frontmatter.title}
     path={post.frontmatter.path}
     isCompleted={post.frontmatter.isCompleted}
+    comments={comments}
   />);
 };
 
