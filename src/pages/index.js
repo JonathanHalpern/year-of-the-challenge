@@ -80,6 +80,20 @@ export const indexPageQuery = graphql`
           html
         }
       }
+    },
+    comments: allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, limit: 1000, filter: {frontmatter: {templateKey: {eq: "comments"}}}) {
+      edges {
+        node {
+          excerpt(pruneLength: 400)
+          html
+          id
+          frontmatter {
+            name
+            date
+            post
+          }
+        }
+      }
     }
   }
 `;

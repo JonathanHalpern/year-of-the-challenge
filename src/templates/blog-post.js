@@ -39,6 +39,7 @@ export const BlogPostTemplate = ({ content, title, path, helmet }) => (
 );
 
 export default ({ data }) => {
+  console.log('step 1')
   const { markdownRemark: post } = data;
   return (<BlogPostTemplate
     content={post.html}
