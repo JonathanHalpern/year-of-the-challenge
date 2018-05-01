@@ -39,7 +39,6 @@ export default class IndexPage extends Component {
   render() {
     const { edges: posts } = this.props.data.allMarkdownRemark;
     const comments = this.props.data.comments;
-    console.log(comments)
     return (
       <div>
         <Script

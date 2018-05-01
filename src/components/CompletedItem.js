@@ -17,7 +17,6 @@ const ItemTitle = styled.h3`
 
 class CompletedItem extends Component {
   constructor(props) {
-    console.log(props.comments)
     super(props);
     this.state = {
       isPopupOpen: false,
