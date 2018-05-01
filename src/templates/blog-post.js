@@ -1,6 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import styled from 'styled-components';
+import CommentForm from '../components/CommentForm';
 import HTMLContent from '../components/Content';
 
 const StyledSection = styled.section`
@@ -28,45 +29,39 @@ const StyledSection = styled.section`
   }
 `;
 
-export default ({ data }) => {
-  const { blogPost: post } = data;
-  return (<StyledSection>
-    <Helmet title={`Blog | ${post.frontmatter.title}`} />
-    <h1>{post.frontmatter.title}</h1>
-    <p>Test 2 </p>
-    <HTMLContent content={post.html} />
+export const BlogPostTemplate = ({ content, title, path, helmet }) => (
+  <StyledSection>
+    { helmet }
+    <h1>{title}</h1>
+    <p> test3 </p>
+    <HTMLContent content={content} />
+    <CommentForm postName={path} />
+  </StyledSection>
+);
 
-  </StyledSection>);
+export default ({ data }) => {
+  const { markdownRemark: post } = data;
+  return (<BlogPostTemplate
+    content={post.html}
+    description={post.frontmatter.description}
+    helmet={<Helmet title={`Blog | ${post.frontmatter.title}`} />}
+    title={post.frontmatter.title}
+    path={post.frontmatter.path}
+    isCompleted={post.frontmatter.isCompleted}
+  />);
 };
 
 export const pageQuery = graphql`
-query BlogPostByPath($path: String!) {
-  blogPost: markdownRemark(
-        frontmatter:{
-          path:{eq:$path},
-          templateKey:{eq:"blog-post"}
-          }
-      ) {
-          html
-          id
-          frontmatter {
-            templateKey
-            path
-            title
-          }
-      },
-  comments: allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, limit: 1000, filter: {frontmatter: {templateKey: {eq: "comments"}, post: {eq: $path}}}) {
-    edges {
-      node {
-        excerpt(pruneLength: 400)
-        html
-        id
-        frontmatter {
-          name
-          date
-        }
+  query BlogPostByPath($path: String!) {
+    markdownRemark(frontmatter: { path: { eq: $path } }) {
+      html
+      frontmatter {
+        path
+        date(formatString: "MMMM DD, YYYY")
+        title
+        description
+        isCompleted
       }
     }
   }
-}
 `;
