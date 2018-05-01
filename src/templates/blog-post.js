@@ -1,6 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import styled from 'styled-components';
+import Divider from 'material-ui/Divider';
 import CommentForm from '../components/CommentForm';
 import HTMLContent from '../components/Content';
 
@@ -33,14 +34,16 @@ export const BlogPostTemplate = ({ content, title, path, helmet }) => (
   <StyledSection>
     { helmet }
     <h1>{title}</h1>
-    <p> test4 </p>
+    <p> test5 </p>
     <HTMLContent content={content} />
+    <Divider />
     <CommentForm postName={path} />
   </StyledSection>
 );
 
 export default ({ data }) => {
   const { markdownRemark: post } = data;
+  const isReadonly = typeof (post.HTML) === 'string';
   return (<BlogPostTemplate
     content={post.html}
     description={post.frontmatter.description}
