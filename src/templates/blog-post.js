@@ -61,15 +61,31 @@ export default ({ data }) => {
 };
 
 export const pageQuery = graphql`
-  query BlogPostByPath($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
-      html
-      frontmatter {
-        path
-        date(formatString: "MMMM DD, YYYY")
-        title
-        description
-        isCompleted
+query BlogPostByPath($path: String!) {
+  blogPost: markdownRemark(
+        frontmatter:{
+          path:{eq:$path},
+          templateKey:{eq:"blog-post"}
+          }
+      ) {
+          html
+          id
+          frontmatter {
+            templateKey
+            path
+            title
+          }
+      },
+  comments: allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, limit: 1000, filter: {frontmatter: {templateKey: {eq: "comments"}, post: {eq: $path}}}) {
+    edges {
+      node {
+        excerpt(pruneLength: 400)
+        html
+        id
+        frontmatter {
+          name
+          date
+        }
       }
     },
     comments: allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, limit: 1000, filter: {frontmatter: {templateKey: {eq: "comments"}, post: {eq: $path}}}) {
@@ -86,4 +102,5 @@ export const pageQuery = graphql`
       }
     }
   }
+}
 `;
