@@ -2,8 +2,6 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import styled from 'styled-components';
 import Divider from 'material-ui/Divider';
-import _ from 'lodash';
-import CommentForm from '../components/CommentForm';
 import HTMLContent from '../components/Content';
 
 const StyledSection = styled.section`
@@ -36,7 +34,7 @@ export default ({ data }) => {
   return (<StyledSection>
     <Helmet title={`Blog | ${post.frontmatter.title}`} />
     <h1>{post.frontmatter.title}</h1>
-    <p> test12 </p>
+    <p> test13 </p>
     <HTMLContent content={post.html} />
     <Divider />
   </StyledSection>);
