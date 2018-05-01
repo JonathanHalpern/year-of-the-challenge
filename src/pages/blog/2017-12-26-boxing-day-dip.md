@@ -5,11 +5,15 @@ path: /boxing-day-dip
 author: Jonatty
 emotion: Hesitant
 difficulty: easy
-isFailed: false 
+isFailed: false
 isCompleted: true
 evidenceImage: /img/dip9.jpg
 date: 2017-12-26T23:13:06.884Z
 description: Swim in the Solent on Boxing Day
+name: dip
+pageless: false
+post: dip
+
 ---
 NB: We are aware this doesn't fit with our "Year Travelling" theme, but it was a challenging way to see out 2017!
 
