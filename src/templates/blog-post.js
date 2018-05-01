@@ -30,14 +30,18 @@ const StyledSection = styled.section`
   }
 `;
 
-export const BlogPostTemplate = ({ content, title, path, helmet }) => (
+export const BlogPostTemplate = ({ content, title, path, helmet, isReadonly }) => (
   <StyledSection>
     { helmet }
     <h1>{title}</h1>
-    <p> test5 </p>
+    <p> test6 </p>
     <HTMLContent content={content} />
     <Divider />
-    <CommentForm postName={path} />
+    {
+      !isReadonly && <div>
+        <CommentForm postName={path} />
+        </div>
+    }
   </StyledSection>
 );
 
@@ -51,6 +55,7 @@ export default ({ data }) => {
     title={post.frontmatter.title}
     path={post.frontmatter.path}
     isCompleted={post.frontmatter.isCompleted}
+    isReadonly={isReadonly}
   />);
 };
 
