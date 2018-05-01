@@ -36,7 +36,6 @@ export const BlogPostTemplate = ({ content, title, path, helmet, comments }) => 
   <StyledSection>
     { helmet }
     <h1>{title}</h1>
-    <p> test15 </p>
     <HTMLContent content={content} />
     <Divider />
     {
