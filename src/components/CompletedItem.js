@@ -17,6 +17,7 @@ const ItemTitle = styled.h3`
 
 class CompletedItem extends Component {
   constructor(props) {
+    console.log(props.comments)
     super(props);
     this.state = {
       isPopupOpen: false,
@@ -46,6 +47,7 @@ class CompletedItem extends Component {
         </CardContent>
         <CompletedPopup
           post={this.props.post}
+          comments={this.props.comments}
           isOpen={this.state.isPopupOpen}
           handleClose={this.togglePopup}
         />

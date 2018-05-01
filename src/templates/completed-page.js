@@ -4,12 +4,17 @@ import Grid from 'material-ui/Grid';
 import HTMLContent from '../components/Content';
 import CompletedItem from '../components/CompletedItem';
 
-const CompletedPageTemplate = ({ posts }) => (
+const CompletedPageTemplate = ({ posts, comments }) => (
   <Grid container spacing={24}>
     {posts.filter(post => (post.node.frontmatter.templateKey === 'blog-post' && post.node.frontmatter.isCompleted)).map(({ node: post }) => (
       <Grid item xs={12} sm={6} md={4} key={post.frontmatter.path}>
         <CompletedItem
           post={post}
+          comments={
+            comments.edges.filter(comment =>
+              (comment.node.frontmatter.post === post.frontmatter.path)
+            )
+          }
         />
       </Grid>
     ))}
@@ -18,6 +23,7 @@ const CompletedPageTemplate = ({ posts }) => (
 
 export default ({ data }) => {
   const { markdownRemark: post } = data;
+  const { comments } = data;
   const { edges: posts } = data.allMarkdownRemark;
   return (
     <div>
@@ -26,6 +32,7 @@ export default ({ data }) => {
       />
       <CompletedPageTemplate
         posts={posts}
+        comments={comments}
       />
     </div>);
 };
@@ -54,6 +61,20 @@ export const completedPageQuery = graphql`
             evidenceImage
           }
           html
+        }
+      }
+    },
+    comments: allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, limit: 1000, filter: {frontmatter: {templateKey: {eq: "comments"}}}) {
+      edges {
+        node {
+          excerpt(pruneLength: 400)
+          html
+          id
+          frontmatter {
+            name
+            date
+            post
+          }
         }
       }
     }

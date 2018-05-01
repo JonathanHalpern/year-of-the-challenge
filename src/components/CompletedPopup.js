@@ -4,7 +4,10 @@ import Dialog, {
   DialogContent,
   DialogTitle
 } from 'material-ui/Dialog';
+import Divider from 'material-ui/Divider';
 import HTMLContent from '../components/Content';
+import CommentForm from './CommentForm';
+import CommentList from './CommentList';
 
 const StyledDialogContent = styled(DialogContent)`
   p {
@@ -38,7 +41,7 @@ const StyledDialog = styled(Dialog)`
   }
 `;
 
-export default ({ isOpen, handleClose, post }) => (
+export default ({ isOpen, handleClose, post, comments }) => (
   <StyledDialog
     open={isOpen}
     onClose={handleClose}
@@ -49,6 +52,11 @@ export default ({ isOpen, handleClose, post }) => (
     <DialogTitle id="responsive-dialog-title">{post.frontmatter.title}</DialogTitle>
     <StyledDialogContent>
       <HTMLContent content={post.html} />
+      <Divider />
+      <CommentForm postName={post.frontmatter.path} />
+      {
+        comments && <CommentList comments={comments} />
+      }
     </StyledDialogContent>
   </StyledDialog>
 );

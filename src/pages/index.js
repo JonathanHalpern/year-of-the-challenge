@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Script from 'react-load-script';
 import Divider from 'material-ui/Divider';
 import styled from 'styled-components';
@@ -22,7 +22,7 @@ const LogoContainer = styled.div`
   }
 `;
 
-export default class IndexPage extends React.Component {
+export default class IndexPage extends Component {
   handleScriptLoad() {
     if (window.netlifyIdentity) {
       window.netlifyIdentity.on('init', (user) => {
@@ -37,8 +37,9 @@ export default class IndexPage extends React.Component {
   }
 
   render() {
-    const { markdownRemark: post } = this.props.data;
     const { edges: posts } = this.props.data.allMarkdownRemark;
+    const comments = this.props.data.comments;
+    console.log(comments)
     return (
       <div>
         <Script
@@ -49,7 +50,7 @@ export default class IndexPage extends React.Component {
           <StyledLogo src={Logo} />
           <h1>Year of the Challenge</h1>
         </LogoContainer>
-        <ChallengePreview posts={posts} />
+        <ChallengePreview posts={posts} comments={comments} />
         <Divider />
         <HomePageTemplate />
       </div>);
