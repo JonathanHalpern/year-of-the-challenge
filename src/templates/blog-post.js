@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import Divider from 'material-ui/Divider';
 import _ from 'lodash';
 import CommentForm from '../components/CommentForm';
+import CommentList from '../components/CommentList';
 import HTMLContent from '../components/Content';
 
 const StyledSection = styled.section`
@@ -35,7 +36,7 @@ export const BlogPostTemplate = ({ content, title, path, helmet }) => (
   <StyledSection>
     { helmet }
     <h1>{title}</h1>
-    <p> test9b { _.isString(content) ? 'true' : 'false' } </p>
+    <p> test14 { _.isString(content) ? 'true' : 'false' } </p>
     <p> { typeof (content) } </p>
     <HTMLContent content={content} />
     <Divider />
