@@ -33,6 +33,9 @@ const StyledSection = styled.section`
 export const BlogPostTemplate = ({ content, title, path, helmet, isReadonly }) => (
   <StyledSection>
     { helmet }
+    {
+      console.log(typeof (content) === 'string')
+    }
     <h1>{title}</h1>
     <p> test7 { isReadonly ? 'true' : 'false' } </p>
     <p> { typeof (content) } </p>
@@ -49,15 +52,19 @@ export const BlogPostTemplate = ({ content, title, path, helmet, isReadonly }) =
 export default ({ data }) => {
   const { markdownRemark: post } = data;
   const isReadonly = typeof (post.HTML) === 'string';
-  return (<BlogPostTemplate
-    content={post.html}
-    description={post.frontmatter.description}
-    helmet={<Helmet title={`Blog | ${post.frontmatter.title}`} />}
-    title={post.frontmatter.title}
-    path={post.frontmatter.path}
-    isCompleted={post.frontmatter.isCompleted}
-    isReadonly={isReadonly}
-  />);
+  return (<StyledSection>
+    <Helmet title={`Blog | ${post.frontmatter.title}`} />
+    <h1>{post.frontmatter.title}</h1>
+    <p> test8 { isReadonly ? 'true' : 'false' } </p>
+    <p> { typeof (post.html) } </p>
+    <HTMLContent content={post.html} />
+    <Divider />
+    {
+      !isReadonly && <div>
+        <CommentForm postName={post.frontmatter.path} />
+        </div>
+    }
+  </StyledSection>);
 };
 
 export const pageQuery = graphql`
