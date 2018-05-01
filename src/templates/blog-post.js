@@ -31,16 +31,16 @@ const StyledSection = styled.section`
   }
 `;
 
-export const BlogPostTemplate = ({ content, title, path, helmet, isReadonly }) => (
+export const BlogPostTemplate = ({ content, title, path, helmet }) => (
   <StyledSection>
     { helmet }
     <h1>{title}</h1>
-    <p> test8b { _.isString(content) ? 'true' : 'false' } </p>
+    <p> test9b { _.isString(content) ? 'true' : 'false' } </p>
     <p> { typeof (content) } </p>
     <HTMLContent content={content} />
     <Divider />
     {
-      !isReadonly && <div>
+      _.isString(content) && <div>
         <CommentForm postName={path} />
         </div>
     }
@@ -49,7 +49,6 @@ export const BlogPostTemplate = ({ content, title, path, helmet, isReadonly }) =
 
 export default ({ data }) => {
   const { markdownRemark: post } = data;
-  const isReadonly = typeof (post.HTML) === 'string';
   return (<BlogPostTemplate
     content={post.html}
     description={post.frontmatter.description}
@@ -57,7 +56,6 @@ export default ({ data }) => {
     title={post.frontmatter.title}
     path={post.frontmatter.path}
     isCompleted={post.frontmatter.isCompleted}
-    isReadonly={isReadonly}
   />);
 };
 
