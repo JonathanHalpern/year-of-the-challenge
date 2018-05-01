@@ -48,7 +48,7 @@ export const BlogPostTemplate = ({ content, title, path, helmet, comments }) => 
 );
 
 export default ({ data }) => {
-  const { markdownRemark: post, comments } = data;
+  const { blogPost: post, comments } = data;
   return (<BlogPostTemplate
     content={post.html}
     description={post.frontmatter.description}
@@ -76,18 +76,6 @@ query BlogPostByPath($path: String!) {
             title
           }
       },
-  comments: allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, limit: 1000, filter: {frontmatter: {templateKey: {eq: "comments"}, post: {eq: $path}}}) {
-    edges {
-      node {
-        excerpt(pruneLength: 400)
-        html
-        id
-        frontmatter {
-          name
-          date
-        }
-      }
-    },
     comments: allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, limit: 1000, filter: {frontmatter: {templateKey: {eq: "comments"}, post: {eq: $path}}}) {
       edges {
         node {
@@ -102,5 +90,4 @@ query BlogPostByPath($path: String!) {
       }
     }
   }
-}
 `;

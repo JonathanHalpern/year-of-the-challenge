@@ -11,7 +11,7 @@ const CompletedPageTemplate = ({ posts, comments }) => (
         <CompletedItem
           post={post}
           comments={
-            comments.edges.filter(comment =>
+            comments && comments.edges.filter(comment =>
               (comment.node.frontmatter.post === post.frontmatter.path)
             )
           }
