@@ -36,8 +36,7 @@ export default ({ data }) => {
   return (<StyledSection>
     <Helmet title={`Blog | ${post.frontmatter.title}`} />
     <h1>{post.frontmatter.title}</h1>
-    <p> test11 </p>
-    <p> { _.isString(post.html) ? 'string' : 'nope'} </p>
+    <p> test12 </p>
     <HTMLContent content={post.html} />
     <Divider />
   </StyledSection>);
