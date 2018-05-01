@@ -34,7 +34,8 @@ export const BlogPostTemplate = ({ content, title, path, helmet, isReadonly }) =
   <StyledSection>
     { helmet }
     <h1>{title}</h1>
-    <p> test6 </p>
+    <p> test7 { isReadonly ? 'true' : 'false' } </p>
+    <p> { typeof (content) } </p>
     <HTMLContent content={content} />
     <Divider />
     {
