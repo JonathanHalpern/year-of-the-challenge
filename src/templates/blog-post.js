@@ -3,7 +3,6 @@ import Helmet from 'react-helmet';
 import styled from 'styled-components';
 import Divider from 'material-ui/Divider';
 import CommentForm from '../components/CommentForm';
-import CommentList from '../components/CommentList';
 import HTMLContent from '../components/Content';
 
 const StyledSection = styled.section`
@@ -43,9 +42,6 @@ export default ({ data }) => {
     {
       !isReadonly && <div>
         <CommentForm postName={post.frontmatter.path} />
-        {
-          comments && <CommentList comments={comments.edges} />
-        }
         </div>
     }
 
