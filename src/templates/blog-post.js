@@ -30,32 +30,13 @@ const StyledSection = styled.section`
   }
 `;
 
-export const BlogPostTemplate = ({ content, title, path, helmet, isReadonly }) => (
-  <StyledSection>
-    { helmet }
-    {
-      console.log(typeof (content) === 'string')
-    }
-    <h1>{title}</h1>
-    <p> test7 { isReadonly ? 'true' : 'false' } </p>
-    <p> { typeof (content) } </p>
-    <HTMLContent content={content} />
-    <Divider />
-    {
-      !isReadonly && <div>
-        <CommentForm postName={path} />
-        </div>
-    }
-  </StyledSection>
-);
-
 export default ({ data }) => {
   const { markdownRemark: post } = data;
-  const isReadonly = typeof (post.HTML) === 'string';
+  const isReadonly = typeof (post.html) === 'string';
   return (<StyledSection>
     <Helmet title={`Blog | ${post.frontmatter.title}`} />
     <h1>{post.frontmatter.title}</h1>
-    <p> test8 { isReadonly ? 'true' : 'false' } </p>
+    <p> test9 { isReadonly ? 'true' : 'false' } </p>
     <p> { typeof (post.html) } </p>
     <HTMLContent content={post.html} />
     <Divider />
