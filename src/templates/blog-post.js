@@ -1,8 +1,6 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import styled from 'styled-components';
-import Divider from 'material-ui/Divider';
-import CommentForm from '../components/CommentForm';
 import HTMLContent from '../components/Content';
 
 const StyledSection = styled.section`
@@ -31,19 +29,12 @@ const StyledSection = styled.section`
 `;
 
 export default ({ data }) => {
-  const { blogPost: post, comments } = data;
-  const isReadonly = typeof (post.HTML) === 'string';
+  const { blogPost: post } = data;
   return (<StyledSection>
     <Helmet title={`Blog | ${post.frontmatter.title}`} />
     <h1>{post.frontmatter.title}</h1>
-    <p>Test 1 </p>
+    <p>Test 2 </p>
     <HTMLContent content={post.html} />
-    <Divider />
-    {
-      !isReadonly && <div>
-        <CommentForm postName={post.frontmatter.path} />
-        </div>
-    }
 
   </StyledSection>);
 };
