@@ -2,6 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import styled from 'styled-components';
 import Divider from 'material-ui/Divider';
+import _ from 'lodash';
 import CommentForm from '../components/CommentForm';
 import HTMLContent from '../components/Content';
 
@@ -34,7 +35,7 @@ export const BlogPostTemplate = ({ content, title, path, helmet, isReadonly }) =
   <StyledSection>
     { helmet }
     <h1>{title}</h1>
-    <p> test7b { isReadonly ? 'true' : 'false' } </p>
+    <p> test8b { _.isString(content) ? 'true' : 'false' } </p>
     <p> { typeof (content) } </p>
     <HTMLContent content={content} />
     <Divider />
