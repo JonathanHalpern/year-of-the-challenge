@@ -6,16 +6,31 @@ description: 'Kiss a kiwi on the cheek (yes, the bird!)'
 author: Flora Mearon
 emotion: Hesitant
 difficulty: medium
-isFailed: true
 isCompleted: true
+isFailed: true
 evidenceImage: /img/kissAKiwi.jpg
+location: New Zealand
 date: 2018-04-10T17:00:00.000Z
 ---
-When Flora challenged me to "kiss a kiwi bird (a photo or it didn't happen!)", neither of us realised that kiwis are an endangered species. Furthermore, they are nocturnal, meaning that the likelihood of me seeing one and taking a decent snap, let alone being able to kiss it, was always going to be nigh impossible. That's if you forget the fact that wild birds are not the most smoochable of beasts: imagine if the challenge had "simply" been to kiss a pigeon. You could walk to Trafalgar Square, where there are billions of the buggers, and unless you're prepared to dress up like Horatian Nelson and stand still as a statue with a seeded loaf poking out of your gob, your lips aren't going to get anywhere near them.
+
+
+
+
+
+
+
+
+When Flora challenged me to "kiss a kiwi bird (a photo or it didn't happen!)", neither of us realised that kiwis are an endangered species. Furthermore, they are nocturnal, meaning that the likelihood of me seeing one and taking a decent snap, let alone being able to kiss it, was always going to be nigh impossible. That's if you forget the fact that wild birds are not the most smoochable of beasts: imagine if the challenge had "simply" been to kiss a pigeon. You could walk to Trafalgar Square, where there are billions of the buggers, and unless you're prepared to dress up like Horatio Nelson and stand still as a statue with a seeded loaf poking out of your gob, your lips aren't going to get anywhere near them.
+
+![null](https://bit.ly/2FyGbJ1)
 
 So, you could say this challenge was doomed from the start. Nonetheless, it inspired me to at least try and see a kiwi on my New Zealand travels, even if getting intimate was out of the question.
 
-There are a few ways I could have cheated to achieve this challenge, though I don't believe that's in the spirit of our blog. For example, I stayed a week with Owen Williams' family in Levin, all of whom are from New Zealand and therefore may be considered kiwis. I definitely kissed Owen on the cheek once or twice, and I'm sure he wouldn't have minded dressing up as a bird to adhere to the exact wording of the challenge. Furthermore, I greeted and said farewell to his mother with a gracious peck on the cheek, but I don't think Jaki would much appreciate being referred to as a "kiwi bird". Not only do I consider the term 'bird' to be horribly belittling for a woman (especially someone's mother who has been kind enough to host me for a week), I also don't believe it shares the same double meaning as it does in the U.K., meaning I would be mixing idioms... and we can't be having that.
+There are a few ways I could have cheated to achieve this challenge, though I don't believe that's in the spirit of our blog. For example, I stayed a week with Owen Williams' family in Levin, all of whom are from New Zealand and therefore may be considered kiwis. I definitely kissed Owen on the cheek once or twice, and I'm sure he wouldn't have minded dressing up as a bird to adhere to the exact wording of the challenge.
+
+![null](https://bit.ly/2HIbNBV)
+
+Furthermore, I greeted and said farewell to his mother with a gracious peck on the cheek, but I don't think Jaki would much appreciate being referred to as a "kiwi bird". Not only do I consider the term 'bird' to be horribly belittling for a woman (especially someone's mother who has been kind enough to host me for a week), I also don't believe it shares the same double meaning as it does in the U.K., meaning I would be mixing idioms... and we can't be having that.
 
 Another possible way of cheating would be to go to a museum and kiss a dead kiwi. Taxidermy, when done well, can be strikingly realistic to the eye but, beyond a soft outer layer of fur and feathers, the stiffness of rigor mortis combined with dried glue and the ridges of upturned stitches means there is something rather unsettling about kissing a stuffed beast. Furthermore, I could have found a toy kiwi and kissed that. Almost opposite to its taxidermic counterpart, this would be soft, cuddly and not at all creepy, but perhaps wouldn't share its stuffed companion's uncanny likeness.
 I'd like to say I was above trying these two methods, but that would be a lie.
@@ -29,9 +44,14 @@ I'd like to say I was above trying these two methods, but that would be a lie.
 So there I was, weighing up whether this challenge was even worth writing up as a "Fail", when Lucy and I found we were going to be driving past a kiwi sanctuary in Hokitika, on the west coast of New Zealand's South Island! We had downloaded an app called 'Campermate' - invaluable if you ever want to drive around New Zealand or Aus - which gives descriptions, reviews and locations of camping spots and attractions across these countries. We are usually discerning with our choices as we have a lot of ground to cover in 3 weeks but, despite some mediocre to poor reviews of this sanctuary, Lucy was keen to see a kiwi and I thought it would offer a final glimmer of hope for this story.
 On account of my desperately needing the loo, I paid and rushed in, barely giving the receptionist a chance to explain the layout of the sanctuary. We had arrived at 11:45 and were informed that the giant eels, which also found a home here, would be fed at midday. After my ablutions, I met Lucy by their large tank.
 
+![null](https://bit.ly/2w5F3wP)
+
+We had already found the sanctuary to be somewhat lacking, both in decor and in live specimens. Indeed - polystyrene duck et al - the number of fake or mounted animals gave the impression of a rundown Madame Tussaud for animals, rather than a sanctuary.
+
 ![null](https://bit.ly/2r8c3Pq)
 
-We had already found the sanctuary to be somewhat lacking, both in decor and in live specimens. Indeed, as you can see from the above photo - polystyrene duck et al - the number of fake or mounted animals gave the impression of a rundown Madame Tussaud for animals, rather than a sanctuary. Nonetheless, being able to feed and stroke the great eels was a rare treat. These particular beasts were all 85-110 years old, and female (if all else fails, David Halpern, perhaps this counts as taking my photo with a centenarian?!)
+Nonetheless, being able to feed and stroke the great eels was a rare treat. These particular beasts were all 85-110 years old, and female (if all else fails, David Halpern, perhaps this counts as taking my photo with a centenarian?!)
+
 Although I enjoyed feeding the eels, and was initially impressed by their antiquity, they were nowhere near as vivacious as Eddie the eel and pals, whom we had fed at our campsite a few days beforehand.
 
 <p class="iframeContainer">
