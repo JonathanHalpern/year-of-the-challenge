@@ -53,10 +53,10 @@ export default ({ isOpen, handleClose, post, comments }) => (
     <StyledDialogContent>
       <HTMLContent content={post.html} />
       <Divider />
-      <CommentForm postName={post.frontmatter.path} />
       {
         comments && <CommentList comments={comments} />
       }
+      <CommentForm postName={post.frontmatter.path} />
     </StyledDialogContent>
   </StyledDialog>
 );

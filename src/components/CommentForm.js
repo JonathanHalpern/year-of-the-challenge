@@ -45,7 +45,7 @@ class CommentForm extends Component {
     const data = {
       fields: {
         name: this.state.name,
-        message: this.state.message,
+        body: this.state.message,
         post: this.state.post,
       },
     };
@@ -57,7 +57,7 @@ class CommentForm extends Component {
       },
       body: JSON.stringify(data),
     }).then(() => {
-      this.setState({ isSubmitting: false });
+      this.setState({ isSubmitting: false, name: '', message: '' });
       this.appendComment(data.fields);
     });
   }
@@ -81,6 +81,13 @@ class CommentForm extends Component {
   render() {
     return (
       <form onSubmit={this.handleSubmit}>
+        <SubmittedCommentList>
+          {
+            this.state.submittedComments.map((comment, index) => (
+              <CommentItem key={index} name={comment.name} message={comment.body} />
+            ))
+          }
+        </SubmittedCommentList>
         <FormHeader> Leave a Comment </FormHeader>
         <input name="fields[post]" type="hidden" value={this.props.postName} />
         <TextField
@@ -112,13 +119,6 @@ class CommentForm extends Component {
           { this.state.isSubmitting ? 'Loading...' : 'Send Comment' }
           { this.state.isSubmitting && <StyledCircularProgress color="inherit" size={20} /> }
         </SubmitButton>
-        <SubmittedCommentList>
-          {
-            this.state.submittedComments.map((comment, index) => (
-              <CommentItem key={index} name={comment.name} message={comment.message} />
-            ))
-          }
-        </SubmittedCommentList>
       </form>
     );
   }
