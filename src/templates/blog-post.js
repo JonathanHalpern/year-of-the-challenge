@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import Divider from 'material-ui/Divider';
 import CommentForm from '../components/CommentForm';
 import CommentList from '../components/CommentList';
-import { HTMLContent } from '../components/Content';
+import Content, { HTMLContent } from '../components/Content';
 
 const StyledSection = styled.section`
   p {
@@ -35,7 +35,11 @@ export const BlogPostTemplate = ({ content, title, path, helmet, comments, isCms
   <StyledSection>
     { helmet }
     <h1>{title}</h1>
-    <HTMLContent content={content} />
+    {
+      isCms ?
+        <Content content={content} /> :
+        <HTMLContent content={content} />
+    }
     <Divider />
     {
       !isCms && <div>
