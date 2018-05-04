@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Script from 'react-load-script';
 import Divider from 'material-ui/Divider';
 import styled from 'styled-components';
-import HTMLContent from '../components/Content';
+import { HTMLContent } from '../components/Content';
 import ChallengePreview from '../components/ChallengePreview';
 import Logo from '../../static/img/Functional/logo.png';
 
