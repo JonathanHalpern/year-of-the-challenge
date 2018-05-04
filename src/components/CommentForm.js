@@ -26,12 +26,15 @@ class CommentForm extends Component {
 
   constructor(props) {
     super(props);
+    const staticmanApi = 'https://api.staticman.net/v2/entry/JonathanHalpern/year-of-the-challenge';
+    const branch = 'master';
     this.state = {
       name: '',
       message: '',
       post: props.postName,
       isSubmitting: false,
       submittedComments: [],
+      commentUrl: `${staticmanApi}/${branch}/comments`,
     };
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handleNameChange = this.handleNameChange.bind(this);
@@ -49,7 +52,7 @@ class CommentForm extends Component {
         post: this.state.post,
       },
     };
-    fetch('https://api.staticman.net/v2/entry/JonathanHalpern/year-of-the-challenge/master/comments', {
+    fetch(this.state.commentUrl, {
       method: 'POST',
       headers: {
         Accept: 'application/json',

@@ -65,3 +65,20 @@ collections:
         name: "body"
         widget: "markdown"
         required: false
+
+  - name: "comments"
+    label: "Comments"
+    folder: "src/pages/comments"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - label: "Template Key"
+        name: "templateKey"
+        widget: "hidden"
+        default: "coomments"
+      - label: "Author"
+        name: "name"
+        widget: "string"
+      - label: "Path"
+        name: "post"
+        widget: "string"

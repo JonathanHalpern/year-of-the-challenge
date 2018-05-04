@@ -32,9 +32,10 @@ const StyledSection = styled.section`
   }
 `;
 
-export const BlogPostTemplate = ({ content, title, path, helmet, comments }) => (
+export const BlogPostTemplate = ({ content, title, path, helmet, comments, isCms }) => (
   <StyledSection>
     { helmet }
+    { console.log(isCms) }
     <h1>{title}</h1>
     <HTMLContent content={content} />
     <Divider />
