@@ -45,6 +45,7 @@ export const BlogPostTemplate = ({ content, title, path, helmet, comments, isCms
       !isCms && <div>
         <CommentForm postName={path} />
         { comments && <CommentList comments={comments.edges} /> }
+        <CommentForm postName={path} />
         </div>
     }
   </StyledSection>

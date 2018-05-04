@@ -78,7 +78,7 @@ However, one further reason was laid bare when I produced my camera. You see, I 
 
 Clearly, this is not a bird suited to 21st century living.
 
-![null](https://bit.ly/2JBnQgO)
+![null](https://bit.ly/2I9wXYR)
 
 Nonetheless, it must be said that their aptlessness only added to the sense that we had come face-to-face with a rare and other-worldly creature, for which we were profoundly grateful... and when one came peck-peck-pecking at the small gap between the walls of her enclosure, I put my lips to the glass and got exceedingly close to pecking her right back.
 No photos of this though I'm afraid, Flo... otherwise this story might have had a completely different, rather morbid ending. No doubt the sanctuary would have sent me packing, and the poor kiwi corpse straight off to the local taxidermy.

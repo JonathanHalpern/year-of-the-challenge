@@ -5,7 +5,7 @@ import Dialog, {
   DialogTitle
 } from 'material-ui/Dialog';
 import Divider from 'material-ui/Divider';
-import HTMLContent from '../components/Content';
+import { HTMLContent } from '../components/Content';
 import CommentForm from './CommentForm';
 import CommentList from './CommentList';
 
@@ -53,10 +53,10 @@ export default ({ isOpen, handleClose, post, comments }) => (
     <StyledDialogContent>
       <HTMLContent content={post.html} />
       <Divider />
-      <CommentForm postName={post.frontmatter.path} />
       {
         comments && <CommentList comments={comments} />
       }
+      <CommentForm postName={post.frontmatter.path} />
     </StyledDialogContent>
   </StyledDialog>
 );
