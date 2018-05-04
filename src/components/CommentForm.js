@@ -36,6 +36,7 @@ class CommentForm extends Component {
       submittedComments: [],
       commentUrl: `${staticmanApi}/${branch}/comments`,
     };
+    console.log(process.env.API_STATIC_MAN, this.state.commentUrl)
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handleNameChange = this.handleNameChange.bind(this);
     this.handleMessageChange = this.handleMessageChange.bind(this);
@@ -52,7 +53,7 @@ class CommentForm extends Component {
         post: this.state.post,
       },
     };
-    fetch(this.state.commentUrl, {
+    fetch(process.env.API_STATIC_MAN, {
       method: 'POST',
       headers: {
         Accept: 'application/json',
