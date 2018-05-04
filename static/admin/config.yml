@@ -10,15 +10,6 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-      - file: "src/pages/home/home.md"
-        label: "Home"
-        name: "home"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "completed-page"}
-          - {label: "Path", name: "path", widget: "hidden", default: "/completed"}
-          - {label: "Pageless", name: "pageless", widget: "hidden", default: "true"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/completed/completed.md"
         label: "Completed"
         name: "completed"
@@ -100,20 +91,3 @@ collections:
         name: "body"
         widget: "markdown"
         required: false
-
-  - name: "comments"
-    label: "Comments"
-    folder: "src/pages/comments"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - label: "Template Key"
-        name: "templateKey"
-        widget: "hidden"
-        default: "coomments"
-      - label: "Author"
-        name: "name"
-        widget: "string"
-      - label: "Path"
-        name: "post"
-        widget: "string"
