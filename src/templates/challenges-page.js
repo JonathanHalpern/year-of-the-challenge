@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Columns from 'react-columns';
-import HTMLContent from '../components/Content';
+import { HTMLContent } from '../components/Content';
 import ChallengeItem from '../components/ChallengeItem';
 import ChallengeKey from '../components/ChallengeKey';
 

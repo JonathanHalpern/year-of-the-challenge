@@ -1,5 +1,5 @@
 import React from 'react';
-import HTMLContent from '../components/Content';
+import { HTMLContent } from '../components/Content';
 import SubmitChallengeForm from '../components/SubmitChallengeForm';
 
 export default ({ data }) => {

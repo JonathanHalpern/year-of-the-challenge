@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Grid from 'material-ui/Grid';
-import HTMLContent from '../components/Content';
+import { HTMLContent } from '../components/Content';
 import CompletedItem from '../components/CompletedItem';
 
 const CompletedPageTemplate = ({ posts, comments }) => (
