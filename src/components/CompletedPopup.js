@@ -5,7 +5,7 @@ import Dialog, {
   DialogTitle
 } from 'material-ui/Dialog';
 import Divider from 'material-ui/Divider';
-import HTMLContent from '../components/Content';
+import { HTMLContent } from '../components/Content';
 import CommentForm from './CommentForm';
 import CommentList from './CommentList';
 

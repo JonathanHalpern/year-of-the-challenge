@@ -1,15 +1,17 @@
 ---
 path: /home
 title: Home
-isNonPage: true
+pageless: true
 ---
-### What is Year of the Challenge
+# About us
 
 When it comes to writing blogs, it is common sense that you play to your strengths. We are not great cooks or talented sportspersons; we are about as adept with a camera as your average macaques monkey (and much worse at taking selfies). We might fancy ourselves as the next Bear Grylls and Megan Hine, but the harsh reality is that we are more likely to be killed by a stingray than survive a desert night inside the skin of a camel.
 
 The last thing we want to do is describe to you how we found ourselves under the orange glow of a Cambodian sunrise, or how the Great Wall of China put our small lives into perspective. No one needs that shit.
 
 So what have we got?
+
+![null](/img/engagementPhoto.jpg)
 
 We're up for stuff. Whether it's on or off the beaten trail, socially acceptable or  - more often than not - way beyond the line, we'll usually give it a go. And, from previous experience, we've found being open to a challenge usually ends in a good anecdote.
 

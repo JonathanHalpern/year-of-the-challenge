@@ -1,10 +1,7 @@
 import React from 'react';
 
-export default ({ content }) => {
-  if (typeof (content) === 'string') {
-    return (<div
-      dangerouslySetInnerHTML={{ __html: content }}
-    />);
-  }
-  return <div>{content}</div>;
-};
+export default ({ content, className }) => <div className={className}>{content}</div>;
+export const HTMLContent = ({ content, className }) => <div
+  className={className}
+  dangerouslySetInnerHTML={{ __html: content }}
+/>;

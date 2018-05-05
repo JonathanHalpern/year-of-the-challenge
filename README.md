@@ -18,3 +18,13 @@ $ cd [REPO_NAME]
 $ npm i
 $ gatsby develop
 ```
+
+
+### Points to work on
+
+access home page and comments from CMS
+staticman development
+google analytics
+graphql shape
+transitions
+image loading

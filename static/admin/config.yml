@@ -6,6 +6,32 @@ media_folder: static/img
 public_folder: /img
 
 collections:
+
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "src/pages/completed/completed.md"
+        label: "Completed"
+        name: "completed"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "completed-page"}
+          - {label: "Path", name: "path", widget: "hidden", default: "/completed"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/challenges/challenges.md"
+        label: "Challenges"
+        name: "challenges"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "completed-page"}
+          - {label: "Path", name: "path", widget: "hidden", default: "/completed"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/submit/submit.md"
+        label: "Submit"
+        name: "submit"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "completed-page"}
+          - {label: "Path", name: "path", widget: "hidden", default: "/completed"}
+          - {label: "Body", name: "body", widget: "markdown"}
+
   - name: "blog"
     label: "Blog"
     folder: "src/pages/blog"

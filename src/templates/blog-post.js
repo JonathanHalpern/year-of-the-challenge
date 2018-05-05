@@ -2,10 +2,9 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import styled from 'styled-components';
 import Divider from 'material-ui/Divider';
-import _ from 'lodash';
 import CommentForm from '../components/CommentForm';
 import CommentList from '../components/CommentList';
-import HTMLContent from '../components/Content';
+import Content, { HTMLContent } from '../components/Content';
 
 const StyledSection = styled.section`
   p {
@@ -32,14 +31,19 @@ const StyledSection = styled.section`
   }
 `;
 
-export const BlogPostTemplate = ({ content, title, path, helmet, comments }) => (
+export const BlogPostTemplate = ({ content, title, path, helmet, comments, isCms }) => (
   <StyledSection>
     { helmet }
     <h1>{title}</h1>
-    <HTMLContent content={content} />
+    {
+      isCms ?
+        <Content content={content} /> :
+        <HTMLContent content={content} />
+    }
     <Divider />
     {
-      _.isString(content) && <div>
+      !isCms && <div>
+        <CommentForm postName={path} />
         { comments && <CommentList comments={comments.edges} /> }
         <CommentForm postName={path} />
         </div>
