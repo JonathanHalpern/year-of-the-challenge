@@ -49,7 +49,7 @@ class CommentForm extends Component {
         post: this.state.post,
       },
     };
-    fetch('https://api.staticman.net/v2/entry/JonathanHalpern/year-of-the-challenge/master/comments', {
+    fetch(process.env.API_STATIC_MAN, {
       method: 'POST',
       headers: {
         Accept: 'application/json',

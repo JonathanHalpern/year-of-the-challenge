@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import Script from 'react-load-script';
 import Divider from 'material-ui/Divider';
 import styled from 'styled-components';
-import HTMLContent from '../components/Content';
+import { HTMLContent } from '../components/Content';
 import ChallengePreview from '../components/ChallengePreview';
 import Logo from '../../static/img/Functional/logo.png';
+import Fragments from '../graphql/fragments';
 
 const StyledLogo = styled.img`
   height: 80px;
@@ -37,8 +38,8 @@ export default class IndexPage extends Component {
   }
 
   render() {
-    const { edges: posts } = this.props.data.allMarkdownRemark;
-    const { comments, pageContent } = this.props.data;
+    const { homePageMarkdown, comments, allMarkdownRemark: { edges: posts } } = this.props.data;
+    console.log(this.props.data)
     return (
       <div>
         <Script
@@ -52,7 +53,7 @@ export default class IndexPage extends Component {
         <ChallengePreview posts={posts} comments={comments} />
         <Divider />
         <HTMLContent
-          content={pageContent.html}
+          content={homePageMarkdown.html}
         />
       </div>);
   }
@@ -60,32 +61,15 @@ export default class IndexPage extends Component {
 
 export const indexPageQuery = graphql`
   query IndexPage($path: String!) {
-    pageContent: markdownRemark(frontmatter: { path: { eq: $path } }) {
-      html
-      frontmatter {
-        path
-        title
-      }
+    homePageMarkdown: markdownRemark(frontmatter: { path: { eq: $path } }) {
+      ...MarkdownFrontmatter
     },
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {
           excerpt(pruneLength: 400)
           id
-          frontmatter {
-            title
-            templateKey
-            date(formatString: "MMMM DD, YYYY")
-            path
-            isCompleted
-            isFailed
-            evidenceImage
-            isPersonal
-            description
-            author
-            difficulty
-            emotion
-          }
+          ...BlogPostFragment
           html
         }
       }

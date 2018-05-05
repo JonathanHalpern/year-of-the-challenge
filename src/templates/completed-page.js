@@ -1,12 +1,12 @@
 import React from 'react';
 
 import Grid from 'material-ui/Grid';
-import HTMLContent from '../components/Content';
+import { HTMLContent } from '../components/Content';
 import CompletedItem from '../components/CompletedItem';
 
 const CompletedPageTemplate = ({ posts, comments }) => (
   <Grid container spacing={24}>
-    {posts.filter(post => (post.node.frontmatter.templateKey === 'blog-post' && post.node.frontmatter.isCompleted)).map(({ node: post }) => (
+    {posts.map(({ node: post }) => (
       <Grid item xs={12} sm={6} md={4} key={post.frontmatter.path}>
         <CompletedItem
           post={post}
@@ -22,13 +22,13 @@ const CompletedPageTemplate = ({ posts, comments }) => (
 );
 
 export default ({ data }) => {
-  const { markdownRemark: post } = data;
-  const { comments } = data;
+  const { completedPageMarkdown, comments } = data;
   const { edges: posts } = data.allMarkdownRemark;
+  console.log(posts)
   return (
     <div>
       <HTMLContent
-        content={post.html}
+        content={completedPageMarkdown.html}
       />
       <CompletedPageTemplate
         posts={posts}
@@ -39,28 +39,18 @@ export default ({ data }) => {
 
 export const completedPageQuery = graphql`
   query CompletedPage($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
+    completedPageMarkdown: markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {
         path
         title
       }
     },
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }, filter: {frontmatter: {templateKey: {eq: "blog-post"}, isCompleted: {eq: true}}}) {
       edges {
         node {
           excerpt(pruneLength: 400)
-          id
-          frontmatter {
-            title
-            templateKey
-            date(formatString: "MMMM DD, YYYY")
-            path
-            isCompleted
-            isFailed
-            evidenceImage
-          }
-          html
+          ...BlogPostPreviewFragment
         }
       }
     },
