@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Script from 'react-load-script';
 import Divider from 'material-ui/Divider';
 import styled from 'styled-components';
-import HomePageTemplate from '../templates/home-page';
+import HTMLContent from '../components/Content';
 import ChallengePreview from '../components/ChallengePreview';
 import Logo from '../../static/img/Functional/logo.png';
 
@@ -38,7 +38,7 @@ export default class IndexPage extends Component {
 
   render() {
     const { edges: posts } = this.props.data.allMarkdownRemark;
-    const comments = this.props.data.comments;
+    const { comments, pageContent } = this.props.data;
     return (
       <div>
         <Script
@@ -51,13 +51,22 @@ export default class IndexPage extends Component {
         </LogoContainer>
         <ChallengePreview posts={posts} comments={comments} />
         <Divider />
-        <HomePageTemplate />
+        <HTMLContent
+          content={pageContent.html}
+        />
       </div>);
   }
 }
 
 export const indexPageQuery = graphql`
-  query IndexPage {
+  query IndexPage($path: String!) {
+    pageContent: markdownRemark(frontmatter: { path: { eq: $path } }) {
+      html
+      frontmatter {
+        path
+        title
+      }
+    },
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {
