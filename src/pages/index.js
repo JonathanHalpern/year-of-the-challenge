@@ -40,11 +40,10 @@ export default class IndexPage extends Component {
   render() {
     const {
       currentPageMarkdown,
-      comments,
+      allCommentsMarkdown,
       completedChallengesMarkdownRemark: { edges: completedChallenges },
       incompleteChallengesMarkdownRemark: { edges: incompleteChallenges },
     } = this.props.data;
-    console.log(this.props.data)
     return (
       <div>
         <Script
@@ -58,7 +57,7 @@ export default class IndexPage extends Component {
         <ChallengesPreview
           completedChallenges={completedChallenges}
           incompleteChallenges={incompleteChallenges}
-          comments={comments}
+          comments={allCommentsMarkdown}
         />
         <Divider />
         <HTMLContent
@@ -73,6 +72,6 @@ export const indexPageQuery = graphql`
     ...CurrentPageFragment,
     ...CompletedChallengesMarkdownFragment,
     ...IncompleteChallengesMarkdownFragment,
-    ...AllCommentsFragment
+    ...AllCommentsMarkdownFragment
   }
 `;

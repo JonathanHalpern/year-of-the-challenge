@@ -23,9 +23,10 @@ const CompletedPageTemplate = ({ posts, comments }) => (
 
 export default ({
   data: {
-    currentPageMarkdown,
-    completedChallengesMarkdownRemark: { edges: completedChallenges } },
-    comments,
+      currentPageMarkdown,
+      completedChallengesMarkdownRemark: { edges: completedChallenges },
+      allCommentsMarkdown,
+    },
   }) => (
     <div>
       <HTMLContent
@@ -33,7 +34,7 @@ export default ({
       />
       <CompletedPageTemplate
         posts={completedChallenges}
-        comments={comments}
+        comments={allCommentsMarkdown}
       />
     </div>
   );
@@ -42,6 +43,6 @@ export const completedPageQuery = graphql`
   query CompletedPage($path: String!) {
     ...CurrentPageFragment,
     ...CompletedChallengesMarkdownFragment,
-    ...AllCommentsFragment
+    ...AllCommentsMarkdownFragment
   }
 `;

@@ -8,8 +8,21 @@ export const markdownFrontmatterFragment = graphql`
   }
 `;
 
-export const blogPostFragment = graphql`
-  fragment BlogPostFragment on MarkdownRemark {
+export const markdownCommentFragment = graphql`
+  fragment MarkdownCommentFrontmatter on MarkdownRemark {
+    html
+    id
+    frontmatter {
+      name
+      date
+      post
+    }
+  }
+`;
+
+export const completedChallengeMarkdownFrontmatter = graphql`
+  fragment CompletedChallengeMarkdownFrontmatter on MarkdownRemark {
+    html
     frontmatter {
       title
       templateKey
@@ -27,56 +40,35 @@ export const blogPostFragment = graphql`
   }
 `;
 
-
-export const blogPostPreviewFragment = graphql`
-  fragment BlogPostPreviewFragment on MarkdownRemark {
-    id
-    html
-    frontmatter {
-      title
-      templateKey
-      date(formatString: "MMMM DD, YYYY")
-      path
-      isCompleted
-      isFailed
-      evidenceImage
-    }
-  }
-`;
-
-
-// export const allCompletedQuery = graphql`
-// query AllCompletedQuery {
-//   postList: allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }, filter: {frontmatter: {templateKey: {eq: "blog-post"}, isCompleted: {eq: true}}}) {
-//     edges {
-//       node {
-//         excerpt(pruneLength: 400)
-//         {
-//          id
-//          html
-//          frontmatter {
-//            title
-//            templateKey
-//            date(formatString: "MMMM DD, YYYY")
-//            path
-//            isCompleted
-//            isFailed
-//            evidenceImage
-//          }
-//        }
-//       }
+//
+// export const blogPostPreviewFragment = graphql`
+//   fragment BlogPostPreviewFragment on MarkdownRemark {
+//     id
+//     html
+//     frontmatter {
+//       title
+//       templateKey
+//       date(formatString: "MMMM DD, YYYY")
+//       path
+//       isCompleted
+//       isFailed
+//       evidenceImage
 //     }
-//   },
+//   }
 // `;
 
 export const currentPageFragment = graphql`
   fragment CurrentPageFragment on RootQueryType {
     currentPageMarkdown: markdownRemark(frontmatter: { path: { eq: $path } }) {
-      html
-      frontmatter {
-        path
-        title
-      }
+      ...MarkdownFrontmatter
+    }
+  }
+`;
+
+export const currentChallengeFragment = graphql`
+  fragment CurrentChallengeFragment on RootQueryType {
+    currentChallengeMarkdown: markdownRemark(frontmatter: { path: { eq: $path } }) {
+      ...CompletedChallengeMarkdownFrontmatter
     }
   }
 `;
@@ -119,7 +111,6 @@ export const incompleteChallengesMarkdownFragment = graphql`
             path
             isCompleted
             isPersonal
-            evidenceImage
             description
             author
             difficulty
@@ -131,19 +122,24 @@ export const incompleteChallengesMarkdownFragment = graphql`
   }
 `;
 
-export const allCommentsFragment = graphql`
-  fragment AllCommentsFragment on RootQueryType {
-    comments: allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, limit: 1000, filter: {frontmatter: {templateKey: {eq: "comments"}}}) {
+export const allCommentsMarkdownFragment = graphql`
+  fragment AllCommentsMarkdownFragment on RootQueryType {
+    allCommentsMarkdown: allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, limit: 1000, filter: {frontmatter: {templateKey: {eq: "comments"}}}) {
       edges {
         node {
-          excerpt(pruneLength: 400)
-          html
-          id
-          frontmatter {
-            name
-            date
-            post
-          }
+          ...MarkdownCommentFrontmatter
+        }
+      }
+    }
+  }
+`;
+
+export const commentsMarkdownFragment = graphql`
+  fragment CommentsMarkdownFragment on RootQueryType {
+    commentsMarkdown: allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, limit: 1000, filter: {frontmatter: {templateKey: {eq: "comments"}, post: {eq: $path}}}) {
+      edges {
+        node {
+          ...MarkdownCommentFrontmatter
         }
       }
     }

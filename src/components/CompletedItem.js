@@ -14,7 +14,6 @@ const ItemTitle = styled.h3`
   font-size: 1em;
 `;
 
-
 class CompletedItem extends Component {
   constructor(props) {
     super(props);

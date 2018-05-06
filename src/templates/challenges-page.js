@@ -52,8 +52,9 @@ export const ChallengeList = ({ posts }) => (
 
 export default ({
   data: {
-    currentPageMarkdown,
-    incompleteChallengesMarkdownRemark: { edges: incompleteChallenges } },
+      currentPageMarkdown,
+      incompleteChallengesMarkdownRemark: { edges: incompleteChallenges },
+    },
   }) => (
     <div>
       <HTMLContent
