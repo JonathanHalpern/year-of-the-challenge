@@ -40,7 +40,7 @@ const queries = [{
 
 export const ChallengeList = ({ posts }) => (
   <StyledColumns queries={queries}>
-    {posts.filter(post => (post.node.frontmatter.templateKey === 'blog-post' && !post.node.frontmatter.isCompleted)).map(({ node: post }) => (
+    {posts.map(({ node: post }) => (
       <div key={post.id}>
         <ChallengeItem
           post={post}
@@ -50,55 +50,30 @@ export const ChallengeList = ({ posts }) => (
   </StyledColumns>
 );
 
-export default ({ data }) => {
-  const { markdownRemark: post } = data;
-  const { edges: posts } = data.allMarkdownRemark;
-  return (
+export default ({
+  data: {
+    currentPageMarkdown,
+    incompleteChallengesMarkdownRemark: { edges: incompleteChallenges } },
+  }) => (
     <div>
       <HTMLContent
-        content={post.html}
+        content={currentPageMarkdown.html}
       />
       <ChallengeKey />
       <h4>You challenged us:</h4>
       <ChallengeList
-        posts={posts.filter(item => !item.node.frontmatter.isPersonal)}
+        posts={incompleteChallenges.filter(item => !item.node.frontmatter.isPersonal)}
       />
       <h4>We challenged ourselves:</h4>
       <ChallengeList
-        posts={posts.filter(item => item.node.frontmatter.isPersonal)}
+        posts={incompleteChallenges.filter(item => item.node.frontmatter.isPersonal)}
       />
-    </div>);
-};
+    </div>
+);
 
 export const challengesPageQuery = graphql`
   query ChallengesPage($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
-      html
-      frontmatter {
-        path
-        title
-      }
-    },
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
-      edges {
-        node {
-          excerpt(pruneLength: 400)
-          id
-          frontmatter {
-            title
-            templateKey
-            date(formatString: "MMMM DD, YYYY")
-            path
-            isCompleted
-            isPersonal
-            evidenceImage
-            description
-            author
-            difficulty
-            emotion
-          }
-        }
-      }
-    }
+    ...CurrentPageFragment,
+    ...IncompleteChallengesMarkdownFragment
   }
 `;

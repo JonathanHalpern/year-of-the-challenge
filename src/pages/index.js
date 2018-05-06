@@ -3,7 +3,7 @@ import Script from 'react-load-script';
 import Divider from 'material-ui/Divider';
 import styled from 'styled-components';
 import { HTMLContent } from '../components/Content';
-import ChallengePreview from '../components/ChallengePreview';
+import ChallengesPreview from '../components/ChallengesPreview';
 import Logo from '../../static/img/Functional/logo.png';
 import Fragments from '../graphql/fragments';
 
@@ -38,7 +38,12 @@ export default class IndexPage extends Component {
   }
 
   render() {
-    const { homePageMarkdown, comments, allMarkdownRemark: { edges: posts } } = this.props.data;
+    const {
+      currentPageMarkdown,
+      comments,
+      completedChallengesMarkdownRemark: { edges: completedChallenges },
+      incompleteChallengesMarkdownRemark: { edges: incompleteChallenges },
+    } = this.props.data;
     console.log(this.props.data)
     return (
       <div>
@@ -50,10 +55,14 @@ export default class IndexPage extends Component {
           <StyledLogo src={Logo} />
           <h1>Year of the Challenge</h1>
         </LogoContainer>
-        <ChallengePreview posts={posts} comments={comments} />
+        <ChallengesPreview
+          completedChallenges={completedChallenges}
+          incompleteChallenges={incompleteChallenges}
+          comments={comments}
+        />
         <Divider />
         <HTMLContent
-          content={homePageMarkdown.html}
+          content={currentPageMarkdown.html}
         />
       </div>);
   }
@@ -61,32 +70,9 @@ export default class IndexPage extends Component {
 
 export const indexPageQuery = graphql`
   query IndexPage($path: String!) {
-    homePageMarkdown: markdownRemark(frontmatter: { path: { eq: $path } }) {
-      ...MarkdownFrontmatter
-    },
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
-      edges {
-        node {
-          excerpt(pruneLength: 400)
-          id
-          ...BlogPostFragment
-          html
-        }
-      }
-    },
-    comments: allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, limit: 1000, filter: {frontmatter: {templateKey: {eq: "comments"}}}) {
-      edges {
-        node {
-          excerpt(pruneLength: 400)
-          html
-          id
-          frontmatter {
-            name
-            date
-            post
-          }
-        }
-      }
-    }
+    ...CurrentPageFragment,
+    ...CompletedChallengesMarkdownFragment,
+    ...IncompleteChallengesMarkdownFragment,
+    ...AllCommentsFragment
   }
 `;

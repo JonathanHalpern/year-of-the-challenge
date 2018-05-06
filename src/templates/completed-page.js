@@ -21,52 +21,27 @@ const CompletedPageTemplate = ({ posts, comments }) => (
   </Grid>
 );
 
-export default ({ data }) => {
-  const { completedPageMarkdown, comments } = data;
-  const { edges: posts } = data.allMarkdownRemark;
-  console.log(posts)
-  return (
+export default ({
+  data: {
+    currentPageMarkdown,
+    completedChallengesMarkdownRemark: { edges: completedChallenges } },
+    comments,
+  }) => (
     <div>
       <HTMLContent
-        content={completedPageMarkdown.html}
+        content={currentPageMarkdown.html}
       />
       <CompletedPageTemplate
-        posts={posts}
+        posts={completedChallenges}
         comments={comments}
       />
-    </div>);
-};
+    </div>
+  );
 
 export const completedPageQuery = graphql`
   query CompletedPage($path: String!) {
-    completedPageMarkdown: markdownRemark(frontmatter: { path: { eq: $path } }) {
-      html
-      frontmatter {
-        path
-        title
-      }
-    },
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }, filter: {frontmatter: {templateKey: {eq: "blog-post"}, isCompleted: {eq: true}}}) {
-      edges {
-        node {
-          excerpt(pruneLength: 400)
-          ...BlogPostPreviewFragment
-        }
-      }
-    },
-    comments: allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, limit: 1000, filter: {frontmatter: {templateKey: {eq: "comments"}}}) {
-      edges {
-        node {
-          excerpt(pruneLength: 400)
-          html
-          id
-          frontmatter {
-            name
-            date
-            post
-          }
-        }
-      }
-    }
+    ...CurrentPageFragment,
+    ...CompletedChallengesMarkdownFragment,
+    ...AllCommentsFragment
   }
 `;
