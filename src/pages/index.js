@@ -5,7 +5,6 @@ import styled from 'styled-components';
 import { HTMLContent } from '../components/Content';
 import ChallengesPreview from '../components/ChallengesPreview';
 import Logo from '../../static/img/Functional/logo.png';
-import Fragments from '../graphql/fragments';
 
 const StyledLogo = styled.img`
   height: 80px;
@@ -38,7 +37,6 @@ export default class IndexPage extends Component {
   }
 
   render() {
-    console.log(this.props.data)
     const {
       currentPageMarkdown,
       allCommentsMarkdown,
