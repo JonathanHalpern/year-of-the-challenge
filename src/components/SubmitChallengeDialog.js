@@ -13,7 +13,7 @@ const StyledDialog = styled(Dialog)`
   }
 `;
 
-const SubmitChallengePopup = ({ isOpen, handleClose }) => (
+const SubmitChallengeDialog = ({ isOpen, handleClose }) => (
   <StyledDialog
     open={isOpen}
     onClose={handleClose}
@@ -28,4 +28,4 @@ const SubmitChallengePopup = ({ isOpen, handleClose }) => (
   </StyledDialog>
 );
 
-export default SubmitChallengePopup;
+export default SubmitChallengeDialog;

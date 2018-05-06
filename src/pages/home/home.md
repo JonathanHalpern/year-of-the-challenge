@@ -1,5 +1,5 @@
 ---
-path: /home
+path: /
 title: Home
 pageless: true
 ---

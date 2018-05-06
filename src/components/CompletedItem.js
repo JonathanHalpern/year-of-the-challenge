@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import Card, { CardContent } from 'material-ui/Card';
-import CompletedPopup from './CompletedPopup';
+import CompletedDialog from './CompletedDialog';
 import ImageWithOverlay from './ImageWithOverlay';
 import failedStamp from '../../static/img/Functional/stamp-failed.png';
 
@@ -13,7 +13,6 @@ const ItemTitle = styled.h3`
   margin: 0;
   font-size: 1em;
 `;
-
 
 class CompletedItem extends Component {
   constructor(props) {
@@ -44,7 +43,7 @@ class CompletedItem extends Component {
             {this.props.post.frontmatter.title}
           </ItemTitle>
         </CardContent>
-        <CompletedPopup
+        <CompletedDialog
           post={this.props.post}
           comments={this.props.comments}
           isOpen={this.state.isPopupOpen}

@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Moment from 'react-moment';
+import { HTMLContent } from '../components/Content';
 
 const Container = styled.div`
   margin: 15px 0 50px 0;
@@ -15,16 +16,18 @@ const Date = styled(Moment)`
   font-size: 12px;
 `;
 
-const Message = styled.p`
+const Message = styled.div`
   font-size: 16px;
   margin: 10px 0 0 0;
 `;
 
-const CommentItem = props => (
+const CommentItem = ({ name, date, html }) => (
   <Container>
-    <Author> {props.name} </Author>
-    <Date format="LLLL">{props.date}</Date>
-    <Message> {props.message} </Message>
+    <Author> {name} </Author>
+    <Date format="LLLL">{date}</Date>
+    <Message>
+      <HTMLContent content={html} />
+    </Message>
   </Container>
 );
 

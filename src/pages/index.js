@@ -3,7 +3,7 @@ import Script from 'react-load-script';
 import Divider from 'material-ui/Divider';
 import styled from 'styled-components';
 import { HTMLContent } from '../components/Content';
-import ChallengePreview from '../components/ChallengePreview';
+import ChallengesPreview from '../components/ChallengesPreview';
 import Logo from '../../static/img/Functional/logo.png';
 
 const StyledLogo = styled.img`
@@ -37,7 +37,12 @@ export default class IndexPage extends Component {
   }
 
   render() {
-    const { homePageMarkdown, comments, allMarkdownRemark: { edges: posts } } = this.props.data;
+    const {
+      currentPageMarkdown,
+      allCommentsMarkdown,
+      completedChallengesMarkdownRemark: { edges: completedChallenges },
+      incompleteChallengesMarkdownRemark: { edges: incompleteChallenges },
+    } = this.props.data;
     return (
       <div>
         <Script
@@ -48,60 +53,24 @@ export default class IndexPage extends Component {
           <StyledLogo src={Logo} />
           <h1>Year of the Challenge</h1>
         </LogoContainer>
-        <ChallengePreview posts={posts} comments={comments} />
+        <ChallengesPreview
+          completedChallenges={completedChallenges}
+          incompleteChallenges={incompleteChallenges}
+          comments={allCommentsMarkdown}
+        />
         <Divider />
         <HTMLContent
-          content={homePageMarkdown.html}
+          content={currentPageMarkdown.html}
         />
       </div>);
   }
 }
 
 export const indexPageQuery = graphql`
-  query IndexPage {
-    homePageMarkdown: markdownRemark(frontmatter: { path: { eq: "/home" } }) {
-      html
-      frontmatter {
-        path
-        title
-      }
-    },
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
-      edges {
-        node {
-          excerpt(pruneLength: 400)
-          id
-          frontmatter {
-            title
-            templateKey
-            date(formatString: "MMMM DD, YYYY")
-            path
-            isCompleted
-            isFailed
-            evidenceImage
-            isPersonal
-            description
-            author
-            difficulty
-            emotion
-          }
-          html
-        }
-      }
-    },
-    comments: allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, limit: 1000, filter: {frontmatter: {templateKey: {eq: "comments"}}}) {
-      edges {
-        node {
-          excerpt(pruneLength: 400)
-          html
-          id
-          frontmatter {
-            name
-            date
-            post
-          }
-        }
-      }
-    }
+  query IndexPage($path: String!) {
+    ...CurrentPageFragment,
+    ...CompletedChallengesMarkdownFragment,
+    ...IncompleteChallengesMarkdownFragment,
+    ...AllCommentsMarkdownFragment
   }
 `;

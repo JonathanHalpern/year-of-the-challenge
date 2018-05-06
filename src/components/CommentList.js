@@ -7,7 +7,7 @@ const CommentList = props => (
       props.comments.map(comment => (
         <CommentItem
           name={comment.node.frontmatter.name}
-          message={comment.node.excerpt}
+          html={comment.node.html}
           date={comment.node.frontmatter.date}
           key={comment.node.id}
         />

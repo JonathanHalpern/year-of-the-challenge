@@ -4,7 +4,7 @@ import List, { ListItem } from 'material-ui/List';
 import blueGrey from 'material-ui/colors/blueGrey';
 import Link from 'gatsby-link';
 import MENU from '../constants/menu';
-import SubmitChallengePopup from './SubmitChallengePopup';
+import SubmitChallengeDialog from './SubmitChallengeDialog';
 
 const StyledLink = styled(Link)`
   text-decoration: none;
@@ -51,7 +51,7 @@ class NavMenu extends Component {
         <StyledListItem onClick={this.togglePopup} >
           Send us a Challenge
         </StyledListItem>
-        <SubmitChallengePopup
+        <SubmitChallengeDialog
           isOpen={this.state.isPopupOpen}
           handleClose={this.togglePopup}
         />

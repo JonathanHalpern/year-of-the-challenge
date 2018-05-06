@@ -43,7 +43,6 @@ export const BlogPostTemplate = ({ content, title, path, helmet, comments, isCms
     <Divider />
     {
       !isCms && <div>
-        <CommentForm postName={path} />
         { comments && <CommentList comments={comments.edges} /> }
         <CommentForm postName={path} />
         </div>
@@ -51,47 +50,21 @@ export const BlogPostTemplate = ({ content, title, path, helmet, comments, isCms
   </StyledSection>
 );
 
-export default ({ data }) => {
-  const { blogPost: post, comments } = data;
-  return (<BlogPostTemplate
-    content={post.html}
-    description={post.frontmatter.description}
-    helmet={<Helmet title={`Blog | ${post.frontmatter.title}`} />}
-    title={post.frontmatter.title}
-    path={post.frontmatter.path}
-    isCompleted={post.frontmatter.isCompleted}
-    comments={comments}
-  />);
-};
+export default ({ data: { currentChallengeMarkdown, commentsMarkdown } }) => (
+  <BlogPostTemplate
+    content={currentChallengeMarkdown.html}
+    description={currentChallengeMarkdown.frontmatter.description}
+    helmet={<Helmet title={`Blog | ${currentChallengeMarkdown.frontmatter.title}`} />}
+    title={currentChallengeMarkdown.frontmatter.title}
+    path={currentChallengeMarkdown.frontmatter.path}
+    isCompleted={currentChallengeMarkdown.frontmatter.isCompleted}
+    comments={commentsMarkdown}
+  />
+);
 
 export const pageQuery = graphql`
-query BlogPostByPath($path: String!) {
-  blogPost: markdownRemark(
-        frontmatter:{
-          path:{eq:$path},
-          templateKey:{eq:"blog-post"}
-          }
-      ) {
-          html
-          id
-          frontmatter {
-            templateKey
-            path
-            title
-          }
-      },
-    comments: allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, limit: 1000, filter: {frontmatter: {templateKey: {eq: "comments"}, post: {eq: $path}}}) {
-      edges {
-        node {
-          excerpt(pruneLength: 400)
-          html
-          id
-          frontmatter {
-            name
-            date
-          }
-        }
-      }
-    }
+  query BlogPostByPath($path: String!) {
+    ...CurrentChallengeFragment,
+    ...CommentsMarkdownFragment
   }
 `;
