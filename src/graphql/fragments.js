@@ -1,5 +1,5 @@
-export const markdownFrontmatterFragment = graphql`
-  fragment MarkdownFrontmatter on MarkdownRemark {
+export const pageFrontmatterFragment = graphql`
+  fragment PageFrontmatterFragment on MarkdownRemark {
     html
     frontmatter {
       path
@@ -8,8 +8,8 @@ export const markdownFrontmatterFragment = graphql`
   }
 `;
 
-export const markdownCommentFragment = graphql`
-  fragment MarkdownCommentFrontmatter on MarkdownRemark {
+export const commentFrontmatterFragment = graphql`
+  fragment CommentFrontmatterFragment on MarkdownRemark {
     html
     id
     frontmatter {
@@ -20,8 +20,8 @@ export const markdownCommentFragment = graphql`
   }
 `;
 
-export const completedChallengeMarkdownFrontmatter = graphql`
-  fragment CompletedChallengeMarkdownFrontmatter on MarkdownRemark {
+export const completedChallengeFrontmatterFragment = graphql`
+  fragment CompletedChallengeFrontmatterFragment on MarkdownRemark {
     html
     frontmatter {
       title
@@ -40,27 +40,29 @@ export const completedChallengeMarkdownFrontmatter = graphql`
   }
 `;
 
-//
-// export const blogPostPreviewFragment = graphql`
-//   fragment BlogPostPreviewFragment on MarkdownRemark {
-//     id
-//     html
-//     frontmatter {
-//       title
-//       templateKey
-//       date(formatString: "MMMM DD, YYYY")
-//       path
-//       isCompleted
-//       isFailed
-//       evidenceImage
-//     }
-//   }
-// `;
+export const incompleteChallengeFrontmatterFragment = graphql`
+  fragment IncompleteChallengeFrontmatterFragment on MarkdownRemark {
+    frontmatter {
+      title
+      templateKey
+      date(formatString: "MMMM DD, YYYY")
+      path
+      isCompleted
+      isFailed
+      evidenceImage
+      isPersonal
+      description
+      author
+      difficulty
+      emotion
+    }
+  }
+`;
 
 export const currentPageFragment = graphql`
   fragment CurrentPageFragment on RootQueryType {
     currentPageMarkdown: markdownRemark(frontmatter: { path: { eq: $path } }) {
-      ...MarkdownFrontmatter
+      ...PageFrontmatterFragment
     }
   }
 `;
@@ -68,7 +70,7 @@ export const currentPageFragment = graphql`
 export const currentChallengeFragment = graphql`
   fragment CurrentChallengeFragment on RootQueryType {
     currentChallengeMarkdown: markdownRemark(frontmatter: { path: { eq: $path } }) {
-      ...CompletedChallengeMarkdownFrontmatter
+      ...CompletedChallengeFrontmatterFragment
     }
   }
 `;
@@ -78,18 +80,7 @@ export const completedChallengesMarkdownFragment = graphql`
     completedChallengesMarkdownRemark: allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }, filter: {frontmatter: {templateKey: {eq: "blog-post"}, isCompleted: {eq: true}}}) {
       edges {
         node {
-          excerpt(pruneLength: 400)
-          id
-          html
-          frontmatter {
-            title
-            templateKey
-            date(formatString: "MMMM DD, YYYY")
-            path
-            isCompleted
-            isFailed
-            evidenceImage
-          }
+          ...CompletedChallengeFrontmatterFragment
         }
       }
     }
@@ -101,21 +92,7 @@ export const incompleteChallengesMarkdownFragment = graphql`
     incompleteChallengesMarkdownRemark: allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }, filter: {frontmatter: {templateKey: {eq: "blog-post"}, isCompleted: {eq: false}}}) {
       edges {
         node {
-          excerpt(pruneLength: 400)
-          id
-          html
-          frontmatter {
-            title
-            templateKey
-            date(formatString: "MMMM DD, YYYY")
-            path
-            isCompleted
-            isPersonal
-            description
-            author
-            difficulty
-            emotion
-          }
+          ...IncompleteChallengeFrontmatterFragment
         }
       }
     }
@@ -127,7 +104,7 @@ export const allCommentsMarkdownFragment = graphql`
     allCommentsMarkdown: allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, limit: 1000, filter: {frontmatter: {templateKey: {eq: "comments"}}}) {
       edges {
         node {
-          ...MarkdownCommentFrontmatter
+          ...CommentFrontmatterFragment
         }
       }
     }
@@ -139,7 +116,7 @@ export const commentsMarkdownFragment = graphql`
     commentsMarkdown: allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, limit: 1000, filter: {frontmatter: {templateKey: {eq: "comments"}, post: {eq: $path}}}) {
       edges {
         node {
-          ...MarkdownCommentFrontmatter
+          ...CommentFrontmatterFragment
         }
       }
     }

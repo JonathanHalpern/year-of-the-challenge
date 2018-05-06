@@ -38,6 +38,7 @@ export default class IndexPage extends Component {
   }
 
   render() {
+    console.log(this.props.data)
     const {
       currentPageMarkdown,
       allCommentsMarkdown,
