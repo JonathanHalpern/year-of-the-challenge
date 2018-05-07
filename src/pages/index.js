@@ -71,6 +71,11 @@ export const indexPageQuery = graphql`
     ...CurrentPageFragment,
     ...CompletedChallengesMarkdownFragment,
     ...IncompleteChallengesMarkdownFragment,
-    ...AllCommentsMarkdownFragment
+    ...AllCommentsMarkdownFragment,
+    reddImageMobile: imageSharp(id: {regex: "/readasdd/"}) {
+      resolutions(width: 125) {
+        width
+      }
+    }
   }
 `;
