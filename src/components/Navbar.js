@@ -9,9 +9,8 @@ import Divider from 'material-ui/Divider';
 import Link from 'gatsby-link';
 import styled from 'styled-components';
 import Dimensions from 'react-dimensions';
-import Img from "gatsby-image"
+import Img from 'gatsby-image';
 import NavMenu from './NavMenu';
-import Logo from '../../static/img/Functional/logo.png';
 
 const StyledAppBar = styled(AppBar)`
   @media(max-width: 1223px) {
@@ -65,7 +64,6 @@ const RightButtonContainer = styled.div`
 
 class Navbar extends Component {
   constructor(props) {
-    console.log(props)
     super(props);
     this.state = {
       isSideBarOpen: false,
@@ -89,6 +87,7 @@ class Navbar extends Component {
             </StyledIconButton>
             <Img
               resolutions={this.props.logoResolutions}
+              fadeIn={false}
             />
             <StyledLink to="/">
               <StyledTypography type="title" color="inherit">

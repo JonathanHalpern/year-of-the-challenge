@@ -90,7 +90,6 @@ export const layoutQuery = graphql`
     }
     logo: imageSharp(id: { regex: "/logo/" }) {
       resolutions(width: 65) {
-        base64
         width
         height
         src
