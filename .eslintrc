@@ -5,7 +5,12 @@
         "import",
     ],
     "parserOptions": {
-        "ecmaVersion" : 2015
+        "ecmaVersion" : 2015,
+        "sourceType": "module",
+        "ecmaFeatures": {
+          "experimentalObjectRestSpread": true,
+          "jsx": true,
+        },
     },
     "rules": {
         "react/prop-types": "off",
@@ -30,11 +35,12 @@
         }]
     },
     "globals": {
-      "graphql": true
+      "graphql": false
     },
     "env": {
-        "browser" : true,
-        "jest": true
+      "browser" : true,
+      "jest": true,
+      "es6": true
     },
     "settings": {
       "import/core-modules": ['react', 'react-helmet'],
