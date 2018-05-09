@@ -1,0 +1,93 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "src/pages/completed/completed.md"
+        label: "Completed"
+        name: "completed"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "completed-page"}
+          - {label: "Path", name: "path", widget: "hidden", default: "/completed"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/challenges/challenges.md"
+        label: "Challenges"
+        name: "challenges"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "completed-page"}
+          - {label: "Path", name: "path", widget: "hidden", default: "/completed"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/submit/submit.md"
+        label: "Submit"
+        name: "submit"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "completed-page"}
+          - {label: "Path", name: "path", widget: "hidden", default: "/completed"}
+          - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "blog"
+    label: "Blog"
+    folder: "src/pages/blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - label: "Template Key"
+        name: "templateKey"
+        widget: "hidden"
+        default: "blog-post"
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Path"
+        name: "path"
+        widget: "string"
+      - label: "Description"
+        name: "description"
+        widget: "text"
+      - label: "Personal Challenge"
+        name: "isPersonal"
+        widget: "boolean"
+        default: false
+        required: false
+      - label: "Challenger"
+        name: "author"
+        widget: "string"
+        required: false
+      - label: "Emotional response"
+        name: "emotion"
+        widget: "select"
+        options: ["Excited", "Amused", "Confused", "Hesitant", "Embarrassed", "Anguished"]
+      - label: "Technical Difficulty"
+        name: "difficulty"
+        widget: "select"
+        options: ["easy", "medium", "hard"]
+      - label: "Completed"
+        name: "isCompleted"
+        widget: "boolean"
+        default: false
+      - label: "Failed"
+        name: "isFailed"
+        widget: "boolean"
+        default: false
+      - label: "Photographic evidence"
+        name: "evidenceImage"
+        widget: "image"
+        required: false
+      - label: "Location"
+        name: "location"
+        widget: "string"
+        required: false
+      - label: "Publish Date"
+        name: "date"
+        widget: "datetime"
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+        required: false

@@ -9,6 +9,7 @@ import Divider from 'material-ui/Divider';
 import Link from 'gatsby-link';
 import styled from 'styled-components';
 import Dimensions from 'react-dimensions';
+import Img from "gatsby-image"
 import NavMenu from './NavMenu';
 import Logo from '../../static/img/Functional/logo.png';
 
@@ -62,14 +63,9 @@ const RightButtonContainer = styled.div`
   }
 `;
 
-const StyledLogo = styled.img`
-  height: 50px;
-  width: initial;
-  margin: 0;
-`;
-
 class Navbar extends Component {
   constructor(props) {
+    console.log(props)
     super(props);
     this.state = {
       isSideBarOpen: false,
@@ -91,7 +87,9 @@ class Navbar extends Component {
             <StyledIconButton aria-label="Menu">
               <MenuIcon onClick={this.toggleSideBar} />
             </StyledIconButton>
-            <StyledLogo src={Logo} />
+            <Img
+              resolutions={this.props.logoResolutions}
+            />
             <StyledLink to="/">
               <StyledTypography type="title" color="inherit">
                  Year of the Challenge

@@ -1,86 +1,70 @@
-import React from 'react'
-import Helmet from 'react-helmet'
-import Link from 'gatsby-link'
-import get from 'lodash/get'
+import React from 'react';
+import Helmet from 'react-helmet';
+import styled from 'styled-components';
+import Divider from 'material-ui/Divider';
+import CommentForm from '../components/CommentForm';
+import CommentList from '../components/CommentList';
+import Content, { HTMLContent } from '../components/Content';
 
-import Bio from '../components/Bio'
-import { rhythm, scale } from '../utils/typography'
-
-class BlogPostTemplate extends React.Component {
-  render() {
-    const post = this.props.data.markdownRemark
-    const siteTitle = get(this.props, 'data.site.siteMetadata.title')
-    const { previous, next } = this.props.pathContext
-
-    return (
-      <div>
-        <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
-        <h1>{post.frontmatter.title}</h1>
-        <p
-          style={{
-            ...scale(-1 / 5),
-            display: 'block',
-            marginBottom: rhythm(1),
-            marginTop: rhythm(-1),
-          }}
-        >
-          {post.frontmatter.date}
-        </p>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr
-          style={{
-            marginBottom: rhythm(1),
-          }}
-        />
-        <Bio />
-
-        <ul
-          style={{
-            display: 'flex',
-            flexWrap: 'wrap',
-            justifyContent: 'space-between',
-            listStyle: 'none',
-            padding: 0,
-          }}
-        >
-          {previous && (
-            <li>
-              <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
-              </Link>
-            </li>
-          )}
-
-          {next && (
-            <li>
-              <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
-              </Link>
-            </li>
-          )}
-        </ul>
-      </div>
-    )
+const StyledSection = styled.section`
+  p {
+    display: flex;
+    img {
+      max-width: 400px;
+      height: 100%;
+      margin: 0 auto;
+    }
   }
-}
+  .iframeContainer {
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:30px;
+    height:0;
+    overflow:hidden;
+    iframe, object, embed {
+      position:absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+    }
+  }
+`;
 
-export default BlogPostTemplate
+export const BlogPostTemplate = ({ content, title, path, helmet, comments, isCms }) => (
+  <StyledSection>
+    { helmet }
+    <h1>{title}</h1>
+    {
+      isCms ?
+        <Content content={content} /> :
+        <HTMLContent content={content} />
+    }
+    <Divider />
+    {
+      !isCms && <div>
+        { comments && <CommentList comments={comments.edges} /> }
+        <CommentForm postName={path} />
+      </div>
+    }
+  </StyledSection>
+);
+
+export default ({ data: { currentChallengeMarkdown, commentsMarkdown } }) => (
+  <BlogPostTemplate
+    content={currentChallengeMarkdown.html}
+    description={currentChallengeMarkdown.frontmatter.description}
+    helmet={<Helmet title={`Blog | ${currentChallengeMarkdown.frontmatter.title}`} />}
+    title={currentChallengeMarkdown.frontmatter.title}
+    path={currentChallengeMarkdown.frontmatter.path}
+    isCompleted={currentChallengeMarkdown.frontmatter.isCompleted}
+    comments={commentsMarkdown}
+  />
+);
 
 export const pageQuery = graphql`
-  query BlogPostBySlug($slug: String!) {
-    site {
-      siteMetadata {
-        title
-        author
-      }
-    }
-    markdownRemark(fields: { slug: { eq: $slug } }) {
-      id
-      html
-      frontmatter {
-        title
-        date(formatString: "MMMM DD, YYYY")
-      }
-    }
+  query BlogPostByPath($path: String!) {
+    ...CurrentChallengeFragment,
+    ...CommentsMarkdownFragment
   }
-`
+`;

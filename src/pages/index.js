@@ -1,84 +1,81 @@
-import React from 'react'
-import Link from 'gatsby-link'
-import get from 'lodash/get'
-import Helmet from 'react-helmet'
-import Img from "gatsby-image"
+import React, { Component } from 'react';
+import Script from 'react-load-script';
+import Divider from 'material-ui/Divider';
+import styled from 'styled-components';
+import { HTMLContent } from '../components/Content';
+import ChallengesPreview from '../components/ChallengesPreview';
+import Logo from '../../static/img/Functional/logo.png';
 
-import Bio from '../components/Bio'
-import { rhythm } from '../utils/typography'
+const StyledLogo = styled.img`
+  height: 80px;
+  width: initial;
+  margin: 0;
+`;
 
-class BlogIndex extends React.Component {
+const LogoContainer = styled.div`
+  display: flex;
+  @media(max-width: 600px) {
+    align-items: center;
+    h1 {
+      margin: 0;
+    }
+  }
+`;
+
+export default class IndexPage extends Component {
+  handleScriptLoad() {
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on('init', (user) => {
+        if (!user) {
+          window.netlifyIdentity.on('login', () => {
+            document.location.href = '/admin/';
+          });
+        }
+      });
+    }
+    window.netlifyIdentity.init();
+  }
+
   render() {
-    console.log(this.props.data.reddImageMobile)
-    const siteTitle = get(this, 'props.data.site.siteMetadata.title')
-    const posts = get(this, 'props.data.allMarkdownRemark.edges')
-
+    const {
+      currentPageMarkdown,
+      allCommentsMarkdown,
+      completedChallengesMarkdownRemark: { edges: completedChallenges },
+      incompleteChallengesMarkdownRemark: { edges: incompleteChallenges },
+    } = this.props.data;
     return (
       <div>
-        <Helmet title={siteTitle} />
-        <Bio />
-        <p>test</p>
-        <Img
-  style={{ display: `inherit` }}
-  title={`Photo by Redd Angelo on Unsplash`}
-  resolutions={this.props.data.reddImageMobile.resolutions}
-/>
-        {posts.map(({ node }) => {
-          const title = get(node, 'frontmatter.title') || node.fields.slug
-          return (
-            <div key={node.fields.slug}>
-              <h3
-                style={{
-                  marginBottom: rhythm(1 / 4),
-                }}
-              >
-                <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
-                  {title}
-                </Link>
-              </h3>
-              <small>{node.frontmatter.date}</small>
-              <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
-            </div>
-          )
-        })}
-      </div>
-    )
+        <Script
+          url="https://identity.netlify.com/v1/netlify-identity-widget.js"
+          onLoad={this.handleScriptLoad.bind(this)}
+        />
+        <LogoContainer>
+          <StyledLogo src={Logo} />
+          <h1>Year of the Challenge</h1>
+        </LogoContainer>
+        <ChallengesPreview
+          completedChallenges={completedChallenges}
+          incompleteChallenges={incompleteChallenges}
+          comments={allCommentsMarkdown}
+        />
+        <Divider />
+        <HTMLContent
+          content={currentPageMarkdown.html}
+        />
+      </div>);
   }
 }
 
-export default BlogIndex
-
-export const pageQuery = graphql`
-  query IndexQuery {
-    reddImageMobile: imageSharp(id: {regex: "/logo/"}) {
-      resolutions(width: 250) {
-        base64
+export const indexPageQuery = graphql`
+  query IndexPage($path: String!) {
+    ...CurrentPageFragment,
+    ...CompletedChallengesMarkdownFragment,
+    ...IncompleteChallengesMarkdownFragment,
+    ...AllCommentsMarkdownFragment,
+    reddImageMobile: imageSharp(id: {regex: "/readasdd/"}) {
+      resolutions(width: 125) {
         width
-        height
-        src
-        srcSet
-        srcWebp
-        srcSetWebp
-      }
-    }
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-      edges {
-        node {
-          excerpt
-          fields {
-            slug
-          }
-          frontmatter {
-            date(formatString: "DD MMMM, YYYY")
-            title
-          }
-        }
       }
     }
   }
-`
+`;
