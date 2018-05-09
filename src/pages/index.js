@@ -68,14 +68,8 @@ export default class IndexPage extends Component {
 
 export const indexPageQuery = graphql`
   query IndexPage($path: String!) {
-    ...CurrentPageFragment,
-    ...CompletedChallengesMarkdownFragment,
-    ...IncompleteChallengesMarkdownFragment,
-    ...AllCommentsMarkdownFragment,
-    reddImageMobile: imageSharp(id: {regex: "/readasdd/"}) {
-      resolutions(width: 125) {
-        width
-      }
-    }
+    ...CurrentPageFragment
+    ...CompletedChallengesMarkdownFragment
+    ...IncompleteChallengesMarkdownFragment
   }
 `;

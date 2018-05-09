@@ -47,7 +47,7 @@ const BodyWrapper = styled.div`
   }
 `;
 
-const TemplateWrapper = ({ children, data }) => console.log('data', data) || (
+const TemplateWrapper = ({ children, data }) => (
   <MuiThemeProvider theme={theme}>
     <div>
       <Img

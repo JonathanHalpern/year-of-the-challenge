@@ -40,17 +40,25 @@ export const completedChallengeFrontmatterFragment = graphql`
   }
 `;
 
-export const incompleteChallengeFrontmatterFragment = graphql`
-  fragment IncompleteChallengeFrontmatterFragment on MarkdownRemark {
+export const completedChallengePreviewFrontmatterFragment = graphql`
+  fragment CompletedChallengePreviewFrontmatterFragment on MarkdownRemark {
     frontmatter {
       title
-      templateKey
       date(formatString: "MMMM DD, YYYY")
       path
-      isCompleted
       isFailed
       evidenceImage
       isPersonal
+    }
+  }
+`;
+
+export const incompleteChallengeFrontmatterFragment = graphql`
+  fragment IncompleteChallengeFrontmatterFragment on MarkdownRemark {
+    frontmatter {
+      date(formatString: "MMMM DD, YYYY")
+      isPersonal
+      path
       description
       author
       difficulty
@@ -80,7 +88,7 @@ export const completedChallengesMarkdownFragment = graphql`
     completedChallengesMarkdownRemark: allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }, filter: {frontmatter: {templateKey: {eq: "blog-post"}, isCompleted: {eq: true}}}) {
       edges {
         node {
-          ...CompletedChallengeFrontmatterFragment
+          ...CompletedChallengePreviewFrontmatterFragment
         }
       }
     }

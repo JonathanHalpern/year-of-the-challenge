@@ -8,13 +8,12 @@ const Container = styled.div`
   margin-bottom: 25px;
 `;
 
-const ChallengesPreview = ({ completedChallenges, incompleteChallenges, comments }) => (
+const ChallengesPreview = ({ completedChallenges, incompleteChallenges }) => (
   <Container>
     <Grid container spacing={24}>
       <Grid item xs={12} sm={6} md={6}>
         <CompletedCarousel
           posts={completedChallenges}
-          comments={comments}
         />
       </Grid>
       <Grid item xs={12} sm={6} md={6}>
