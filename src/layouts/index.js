@@ -3,7 +3,7 @@ import Helmet from 'react-helmet';
 import styled from 'styled-components';
 import { MuiThemeProvider, createMuiTheme } from 'material-ui/styles';
 import blueGrey from 'material-ui/colors/blueGrey';
-import Img from "gatsby-image"
+import Img from 'gatsby-image';
 import Navbar from '../components/Navbar';
 import FixedOptions from '../components/FixedOptions';
 import './index.css';
@@ -13,15 +13,6 @@ const theme = createMuiTheme({
     primary: blueGrey,
   },
 });
-
-const Background = styled.div`
-  background-image: url('img/Functional/yellow_mountains.jpg');
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  z-index: -1;
-  top: 0;
-`;
 
 const LeftWrapper = styled.div`
   @media(min-width: 1224px) {
@@ -53,16 +44,16 @@ const TemplateWrapper = ({ children, data }) => (
       <Img
         sizes={data.backgroundImage.resolutions}
         style={{
-          position: "fixed",
+          position: 'fixed',
           left: 0,
           top: 0,
-          width: "100%",
-          height: "100%",
+          width: '100%',
+          height: '100%',
           zIndex: -1,
         }}
       />
       <Helmet title="Home | Year of the Challenge" />
-      <Navbar logoResolutions={data.logo.resolutions} />
+      <Navbar />
       <LeftWrapper>
         <BodyWrapper>
           {children()}
@@ -80,16 +71,6 @@ export const layoutQuery = graphql`
     backgroundImage: imageSharp(id: { regex: "/yellow_mountains/" }) {
       resolutions(width: 1250) {
         base64
-        width
-        height
-        src
-        srcSet
-        srcWebp
-        srcSetWebp
-      }
-    }
-    logo: imageSharp(id: { regex: "/logo/" }) {
-      resolutions(width: 65) {
         width
         height
         src
