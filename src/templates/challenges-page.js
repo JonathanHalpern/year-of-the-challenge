@@ -74,7 +74,7 @@ export default ({
 
 export const challengesPageQuery = graphql`
   query ChallengesPage($path: String!) {
-    ...CurrentPageFragment,
+    ...CurrentPageFragment
     ...IncompleteChallengesMarkdownFragment
   }
 `;

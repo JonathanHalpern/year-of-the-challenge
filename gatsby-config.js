@@ -5,7 +5,6 @@ module.exports = {
     description: 'Travel blog',
     siteUrl: 'http://www.yearofthechallenge.com/',
   },
-  pathPrefix: '/gatsby-starter-blog',
   plugins: [
     {
       resolve: 'gatsby-plugin-google-analytics',
@@ -17,6 +16,10 @@ module.exports = {
         exclude: ['/preview/**', '/do-not-track/me/too/'],
       },
     },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -25,9 +28,16 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/comments`,
+        name: 'comments',
+      },
+    },
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/src/img`,
+        path: `${__dirname}/static/img`,
         name: 'images',
       },
     },
@@ -36,10 +46,20 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: `gatsby-remark-relative-images`,
+            options: {
+              // Set the name option to the same
+              // name you set for gatsby-source-filesystem
+              name: 'images', // default
+            },
+          },
+          {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 590,
-              backgroundColor: 'red',
+              // It's important to specify the maxWidth (in pixels) of
+              // the content container as this plugin uses this as the
+              // base for generating different widths of each image.
+              maxWidth: 100,
               showCaptions: true,
             },
           },
@@ -55,10 +75,6 @@ module.exports = {
         ],
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    `gatsby-plugin-offline`,
-    `gatsby-plugin-react-helmet`,
     'gatsby-plugin-styled-components',
     {
       resolve: 'gatsby-plugin-typography',

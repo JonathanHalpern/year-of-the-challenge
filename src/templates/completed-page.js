@@ -41,8 +41,8 @@ export default ({
 
 export const completedPageQuery = graphql`
   query CompletedPage($path: String!) {
-    ...CurrentPageFragment,
-    ...CompletedChallengesMarkdownFragment,
+    ...CurrentPageFragment
+    ...CompletedChallengesMarkdownFragment
     ...AllCommentsMarkdownFragment
   }
 `;

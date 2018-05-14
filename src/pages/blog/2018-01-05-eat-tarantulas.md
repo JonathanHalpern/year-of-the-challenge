@@ -6,12 +6,13 @@ description: Eat tarantulas (Cambodia)
 author: Owen Williams and Gabe McCarthy
 emotion: Hesitant
 difficulty: easy
-isFailed: false 
+isFailed: false
 isCompleted: true
-evidenceImage: /img/314860c5-cc32-4e7c-84ad-10b7c8d5a57c.jpeg
+evidenceImage: spider1.jpg
 location: Siem Reap
 date: 2018-01-05T02:30:38.901Z
 ---
+
 Having already eaten rat in Battambang, it had become clear that Cambodia was the place to tick off some of our foody challenges: Gabe insisted we eat scorpions whilst Owen (ever the conscientious vegan) challenged us to eat tarantulas. We managed to complete both in Siem Reap, to different levels of success, but it was the Cambodian alcohol which proved the most challenging of all.
 
 Jonny and I had already stumbled upon some Asian eccentricities (Tesco cooking oil sold proudly as UK hair-care; siamese twin bananas) but nothing could prepare us for Wrestler Wine.
@@ -20,7 +21,7 @@ Jonny and I had already stumbled upon some Asian eccentricities (Tesco cooking o
 
 Yes, you read that correctly. Wrestler. Wine. A drink one associates with sophistication, what flavours are carefully selected to accompany your chateaubriand or your fillet of sea bass; paired with a farce-turned-sport where oiled beasts throw each other round in a ring rigged with step-ladders and knuckle-dusters. The dark-skinned, glistening sportsman who took the place of a conventional vinyard’s crest on the front of the bottle looked more like a strung-up Peking duck than a respectable wine connoisseur.
 
-Obviously, we had to buy it. After all, at $1.50 per 750ml bottle, it was a bargain... if you ignore the fact that this 20% proof mud-brown liquid was sold as white wine. 
+Obviously, we had to buy it. After all, at $1.50 per 750ml bottle, it was a bargain... if you ignore the fact that this 20% proof mud-brown liquid was sold as white wine.
 
 ![null](/img/79e1ff4c-9817-453b-abba-9fc310c65c48.jpeg)
 
