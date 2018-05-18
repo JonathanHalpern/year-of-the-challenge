@@ -48,19 +48,14 @@ module.exports = {
           {
             resolve: `gatsby-remark-relative-images`,
             options: {
-              // Set the name option to the same
-              // name you set for gatsby-source-filesystem
-              name: 'images', // default
+              name: 'images',
             },
           },
           {
             resolve: `gatsby-remark-images`,
             options: {
-              // It's important to specify the maxWidth (in pixels) of
-              // the content container as this plugin uses this as the
-              // base for generating different widths of each image.
-              maxWidth: 100,
-              showCaptions: true,
+              maxWidth: 400,
+              showCaptions: false,
             },
           },
           {
@@ -101,4 +96,4 @@ module.exports = {
       },
     },
   ],
-}
+};

@@ -1,14 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-
-import { CardMedia } from 'material-ui/Card';
+import Img from 'gatsby-image';
 
 const Container = styled.div`
   position: relative;
-`;
-
-const StyledCardMedia = styled(CardMedia)`
-  height: 200px;
 `;
 
 const OverlayImage = styled.img`
@@ -20,14 +15,7 @@ const OverlayImage = styled.img`
 
 export default ({ baseImage, overlayImage, showOverlay }) => (
   <Container>
-    <StyledCardMedia
-      className="media-image"
-      image={baseImage}
-    />
-    {
-      showOverlay && <OverlayImage
-        src={overlayImage}
-      />
-    }
+    <Img sizes={baseImage} style={{ height: 200 }} />
+    {showOverlay && <OverlayImage src={overlayImage} />}
   </Container>
 );

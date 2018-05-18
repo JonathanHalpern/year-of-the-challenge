@@ -1,8 +1,8 @@
-import React from 'react'
-import Link from 'gatsby-link'
-import styled from 'styled-components'
-import CompletedItem from '../components/CompletedItem'
-import CarouselWrapper from './CarouselWrapper'
+import React from 'react';
+import Link from 'gatsby-link';
+import styled from 'styled-components';
+import CompletedItem from '../components/CompletedItem';
+import CarouselWrapper from './CarouselWrapper';
 
 const StyledLink = styled(Link)`
   text-decoration: none;
@@ -10,12 +10,12 @@ const StyledLink = styled(Link)`
   :hover {
     text-decoration: none;
   }
-`
-// TODO: reset autoplay
+`;
+
 const CompletedCarousel = ({ posts }) => (
   <div>
     <StyledLink to="completed">Completed</StyledLink>
-    <CarouselWrapper dragging={false} swiping={false}>
+    <CarouselWrapper dragging={false} swiping={false} autoplay>
       {posts
         .filter(item => item.node.frontmatter.evidenceImage)
         .map(post => (
@@ -23,6 +23,6 @@ const CompletedCarousel = ({ posts }) => (
         ))}
     </CarouselWrapper>
   </div>
-)
+);
 
-export default CompletedCarousel
+export default CompletedCarousel;

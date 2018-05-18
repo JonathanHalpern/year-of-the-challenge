@@ -1,16 +1,16 @@
-import React, { Component } from 'react'
-import Script from 'react-load-script'
-import Divider from 'material-ui/Divider'
-import styled from 'styled-components'
-import { HTMLContent } from '../components/Content'
-import ChallengesPreview from '../components/ChallengesPreview'
-import Logo from '../../static/img/Functional/logo.png'
+import React, { Component } from 'react';
+import Script from 'react-load-script';
+import Divider from 'material-ui/Divider';
+import styled from 'styled-components';
+import { HTMLContent } from '../components/Content';
+import ChallengesPreview from '../components/ChallengesPreview';
+import Logo from '../../static/img/Functional/logo.png';
 
 const StyledLogo = styled.img`
   height: 80px;
   width: initial;
   margin: 0;
-`
+`;
 
 const LogoContainer = styled.div`
   display: flex;
@@ -20,7 +20,7 @@ const LogoContainer = styled.div`
       margin: 0;
     }
   }
-`
+`;
 
 export default class IndexPage extends Component {
   handleScriptLoad() {
@@ -28,22 +28,22 @@ export default class IndexPage extends Component {
       window.netlifyIdentity.on('init', user => {
         if (!user) {
           window.netlifyIdentity.on('login', () => {
-            document.location.href = '/admin/'
-          })
+            document.location.href = '/admin/';
+          });
         }
-      })
+      });
     }
-    window.netlifyIdentity.init()
+    window.netlifyIdentity.init();
   }
 
   render() {
-    console.log(this.props.data)
+    console.log(this.props.data);
     const {
       currentPageMarkdown,
       allCommentsMarkdown,
       completedChallengesMarkdownRemark: { edges: completedChallenges },
       incompleteChallengesMarkdownRemark: { edges: incompleteChallenges },
-    } = this.props.data
+    } = this.props.data;
     return (
       <div>
         <Script
@@ -62,7 +62,7 @@ export default class IndexPage extends Component {
         <Divider />
         <HTMLContent content={currentPageMarkdown.html} />
       </div>
-    )
+    );
   }
 }
 
@@ -72,4 +72,4 @@ export const indexPageQuery = graphql`
     ...CompletedChallengesMarkdownFragment
     ...IncompleteChallengesMarkdownFragment
   }
-`
+`;

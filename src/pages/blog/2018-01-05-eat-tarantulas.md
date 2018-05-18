@@ -8,7 +8,7 @@ emotion: Hesitant
 difficulty: easy
 isFailed: false
 isCompleted: true
-evidenceImage: spider1.jpg
+evidenceImage: ../../../static/img/spider1.jpg
 location: Siem Reap
 date: 2018-01-05T02:30:38.901Z
 ---
