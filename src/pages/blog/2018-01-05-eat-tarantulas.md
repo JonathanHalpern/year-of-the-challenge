@@ -8,7 +8,7 @@ emotion: Hesitant
 difficulty: easy
 isFailed: false
 isCompleted: true
-evidenceImage: ../../../static/img/2018-eat-tarantulas.jpeg
+evidenceImage: ../../../static/img/uploads/2018-eat-tarantulas.jpeg
 location: Siem Reap
 date: 2018-01-05T02:30:38.901Z
 ---

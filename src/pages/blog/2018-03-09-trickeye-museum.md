@@ -9,7 +9,7 @@ emotion: Amused
 difficulty: easy
 isCompleted: true
 isFailed: false
-evidenceImage: ../../../static/img/2018-trick-eye-gulf.jpeg
+evidenceImage: ../../../static/img/uploads/2018-trick-eye-gulf.jpeg
 location: Phuket
 date: 2018-03-09T11:08:23.000Z
 ---

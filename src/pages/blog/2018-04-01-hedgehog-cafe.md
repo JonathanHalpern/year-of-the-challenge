@@ -9,7 +9,7 @@ emotion: Hesitant
 difficulty: easy
 isCompleted: true
 isFailed: false
-evidenceImage: ../../../static/img/2018-hedgehog-cafe.jpeg
+evidenceImage: ../../../static/img/uploads/2018-hedgehog-cafe.jpeg
 location: 'Tokyo, Japan'
 date: 2018-04-01T00:00:00+09:00
 ---

@@ -8,7 +8,7 @@ emotion: Excited
 difficulty: medium
 isCompleted: true
 isFailed: false
-evidenceImage: ../../../static/img/2018-masterchef.jpeg
+evidenceImage: ../../../static/img/uploads/2018-masterchef.jpeg
 location: Planet Hollywood Goa
 date: 2018-03-21T16:06:20.000Z
 ---

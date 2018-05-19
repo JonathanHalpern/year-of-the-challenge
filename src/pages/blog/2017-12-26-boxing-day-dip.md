@@ -7,7 +7,7 @@ emotion: Hesitant
 difficulty: easy
 isFailed: false
 isCompleted: true
-evidenceImage: ../../../static/img/2017-boxing-day-dip.jpeg
+evidenceImage: ../../../static/img/uploads/2017-boxing-day-dip.jpeg
 date: 2017-12-26T23:13:06.884Z
 description: Swim in the Solent on Boxing Day
 name: dip

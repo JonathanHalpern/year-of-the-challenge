@@ -9,7 +9,7 @@ emotion: Hesitant
 difficulty: easy
 isFailed: false 
 isCompleted: true
-evidenceImage: ../../../static/img/2018-new-food.jpeg
+evidenceImage: ../../../static/img/uploads/2018-new-food.jpeg
 date: 2018-01-13T12:11:28.830Z
 ---
 
