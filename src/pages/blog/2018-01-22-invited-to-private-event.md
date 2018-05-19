@@ -8,7 +8,7 @@ emotion: Excited
 difficulty: easy
 isFailed: false
 isCompleted: true
-evidenceImage: ../../../static/img/uploads/2018-private-event.jpeg
+evidenceImage: ../../../static/img/2018-private-event.jpeg
 location: 'Battanbang, Cambodia'
 date: 2018-01-16T15:33:39.000Z
 ---

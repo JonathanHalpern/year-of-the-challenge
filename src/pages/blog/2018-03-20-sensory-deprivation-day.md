@@ -8,7 +8,7 @@ emotion: Hesitant
 difficulty: medium
 isCompleted: true
 isFailed: false
-evidenceImage: ../../../static/img/uploads/2018-sensory-deprivation.jpeg
+evidenceImage: ../../../static/img/2018-sensory-deprivation.jpeg
 location: Goa
 date: 2018-03-20T06:37:54.193Z
 ---

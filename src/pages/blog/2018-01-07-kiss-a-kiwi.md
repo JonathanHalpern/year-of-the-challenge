@@ -8,7 +8,7 @@ emotion: Hesitant
 difficulty: medium
 isCompleted: true
 isFailed: true
-evidenceImage: ../../../static/img/uploads/2018-kiss-a-kiwi.jpeg
+evidenceImage: ../../../static/img/2018-kiss-a-kiwi.jpeg
 location: New Zealand
 date: 2018-04-10T17:00:00.000Z
 ---
