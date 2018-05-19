@@ -56,6 +56,7 @@ module.exports = {
             options: {
               maxWidth: 400,
               showCaptions: false,
+              wrapperStyle: 'border-radius: 10px;',
             },
           },
           {

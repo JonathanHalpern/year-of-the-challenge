@@ -15,6 +15,9 @@ const StyledSection = styled.section`
       display: block;
     }
   }
+  img {
+    border-radius: 10px;
+  }
   .iframeContainer {
     position: relative;
     padding-bottom: 56.25%;

@@ -54,8 +54,12 @@ const TemplateWrapper = ({ children, data }) => (
           }}
         />
       )}
-
-      <Helmet title="Home | Year of the Challenge" />
+      <Helmet title="Home | Year of the Challenge">
+        <meta
+          name="description"
+          content="Read about how we complete ridiculous and embarassing challenges as we travel the world. You can also send us a challenge of your own"
+        />
+      </Helmet>
       <Navbar />
       <LeftWrapper>
         <BodyWrapper>
