@@ -1,12 +1,20 @@
-import React from 'react'
-import Helmet from 'react-helmet'
-import styled from 'styled-components'
-import Divider from 'material-ui/Divider'
-import CommentForm from '../components/CommentForm'
-import CommentList from '../components/CommentList'
-import Content, { HTMLContent } from '../components/Content'
+import React from 'react';
+import Helmet from 'react-helmet';
+import styled from 'styled-components';
+import Divider from 'material-ui/Divider';
+import CommentForm from '../components/CommentForm';
+import CommentList from '../components/CommentList';
+import Content, { HTMLContent } from '../components/Content';
 
 const StyledSection = styled.section`
+  p {
+    > img {
+      max-width: 400px;
+      height: 100%;
+      margin: 0 auto;
+      display: block;
+    }
+  }
   .iframeContainer {
     position: relative;
     padding-bottom: 56.25%;
@@ -23,7 +31,7 @@ const StyledSection = styled.section`
       height: 100%;
     }
   }
-`
+`;
 
 export const BlogPostTemplate = ({
   content,
@@ -45,7 +53,7 @@ export const BlogPostTemplate = ({
       </div>
     )}
   </StyledSection>
-)
+);
 
 export default ({ data: { currentChallengeMarkdown, commentsMarkdown } }) => (
   <BlogPostTemplate
@@ -59,11 +67,11 @@ export default ({ data: { currentChallengeMarkdown, commentsMarkdown } }) => (
     isCompleted={currentChallengeMarkdown.frontmatter.isCompleted}
     comments={commentsMarkdown}
   />
-)
+);
 
 export const pageQuery = graphql`
   query BlogPostByPath($path: String!) {
     ...CurrentChallengeFragment
     ...CommentsMarkdownFragment
   }
-`
+`;
