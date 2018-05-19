@@ -10,11 +10,11 @@ import Link from 'gatsby-link';
 import styled from 'styled-components';
 import Dimensions from 'react-dimensions';
 import NavMenu from './NavMenu';
-import Logo from '../../static/img/Functional/logo.png';
+import Logo from '../../static/img/site/logo.png';
 
 const StyledAppBar = styled(AppBar)`
-  @media(max-width: 1223px) {
-    position: fixed!important;
+  @media (max-width: 1223px) {
+    position: fixed !important;
     top: 0;
   }
 `;
@@ -23,7 +23,7 @@ const StyledLink = styled(Link)`
   text-decoration: none;
   color: inherit;
   :hover {
-    text-decoration:none;
+    text-decoration: none;
   }
 `;
 
@@ -43,8 +43,8 @@ const DrawerHeader = styled(Typography)`
 const StyledToolbar = styled(Toolbar)`
   display: flex;
   justify-content: space-between;
-  min-height: 64px!important;
-  @media(max-width: 420px) {
+  min-height: 64px !important;
+  @media (max-width: 420px) {
     padding-top: 5px;
     padding-bottom: 5px;
   }
@@ -94,15 +94,21 @@ class Navbar extends Component {
             <StyledLogo src={Logo} />
             <StyledLink to="/">
               <StyledTypography type="title" color="inherit">
-                 Year of the Challenge
+                Year of the Challenge
               </StyledTypography>
             </StyledLink>
           </LeftButtonContainer>
           <RightButtonContainer>
-            <IconButton href="https://www.instagram.com/yearofthechallenge/" target="_blank">
+            <IconButton
+              href="https://www.instagram.com/yearofthechallenge/"
+              target="_blank"
+            >
               <i className="fa fa-instagram" />
             </IconButton>
-            <IconButton href="https://web.facebook.com/groups/2001054326819046/" target="_blank">
+            <IconButton
+              href="https://web.facebook.com/groups/2001054326819046/"
+              target="_blank"
+            >
               <i className="fa fa-facebook" />
             </IconButton>
           </RightButtonContainer>
@@ -112,14 +118,13 @@ class Navbar extends Component {
           onClose={this.toggleSideBar}
           anchor={this.props.containerWidth <= 750 ? 'top' : 'left'}
         >
-          <div
-            role="button"
-            onKeyDown={this.toggleSideBar}
-          >
-            <DrawerHeader type="title" color="inherit" onClick={this.toggleSideBar}>
-              <StyledLink to="/">
-                Year of the Challenge
-              </StyledLink>
+          <div role="button" onKeyDown={this.toggleSideBar}>
+            <DrawerHeader
+              type="title"
+              color="inherit"
+              onClick={this.toggleSideBar}
+            >
+              <StyledLink to="/">Year of the Challenge</StyledLink>
             </DrawerHeader>
             <Divider />
             <NavMenu onLinkClick={this.toggleSideBar} />

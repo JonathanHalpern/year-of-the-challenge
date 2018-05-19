@@ -38,35 +38,34 @@ const BodyWrapper = styled.div`
   }
 `;
 
-const TemplateWrapper = ({ children, data }) =>
-  console.log(data) || (
-    <MuiThemeProvider theme={theme}>
-      <div>
-        {data && (
-          <Img
-            sizes={data.backgroundImage.resolutions}
-            style={{
-              position: 'fixed',
-              left: 0,
-              top: 0,
-              width: '100%',
-              height: '100%',
-              zIndex: -1,
-            }}
-          />
-        )}
+const TemplateWrapper = ({ children, data }) => (
+  <MuiThemeProvider theme={theme}>
+    <div>
+      {data && (
+        <Img
+          sizes={data.backgroundImage.resolutions}
+          style={{
+            position: 'fixed',
+            left: 0,
+            top: 0,
+            width: '100%',
+            height: '100%',
+            zIndex: -1,
+          }}
+        />
+      )}
 
-        <Helmet title="Home | Year of the Challenge" />
-        <Navbar />
-        <LeftWrapper>
-          <BodyWrapper>
-            {children()}
-            <FixedOptions />
-          </BodyWrapper>
-        </LeftWrapper>
-      </div>
-    </MuiThemeProvider>
-  );
+      <Helmet title="Home | Year of the Challenge" />
+      <Navbar />
+      <LeftWrapper>
+        <BodyWrapper>
+          {children()}
+          <FixedOptions />
+        </BodyWrapper>
+      </LeftWrapper>
+    </div>
+  </MuiThemeProvider>
+);
 
 export default TemplateWrapper;
 
