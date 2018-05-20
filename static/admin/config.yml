@@ -84,7 +84,7 @@ collections:
         name: "image"
         widget: "custompathimage"
         customMediaPath: "../../../static/img/"
-        rawMediaPath: "https://raw.githubusercontent.com/user/repo/master/static/img"
+        rawMediaPath: "https://raw.githubusercontent.com/JonathanHalpern/year-of-the-challenge/master/static/img/"
       - label: "Location"
         name: "location"
         widget: "string"
