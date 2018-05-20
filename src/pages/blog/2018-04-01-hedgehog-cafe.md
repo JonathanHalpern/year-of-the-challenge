@@ -16,7 +16,7 @@ date: 2018-04-01T00:00:00+09:00
 
 Natalie and I are travelling separately for a month and David Miller has flown out to join me in Japan.
 
-![null](https://bit.ly/2uy6RZW)
+![null](img/2018-hedgehog-cafe-cherry-blossom.jpeg)
 
 It is cherry blossom season here in and the locals are obsessed. There is even a word for admiring the blossoms “hanami”. The arrival of the blossoms also signifies the start of hedgehog season.
 
@@ -24,19 +24,19 @@ In feudal Japan, the common hedgehog was a dangerous pest, since it could eat tw
 
 Today, hedgehog is still a popular dish in Japan and there are numerous hedgehog cafes to cater for this demand. Since the blossoms were just blooming in Tokyo, we had to queue for 2 hours to get into one of these cafes. I found the experience a little psychologically challenging, especially when we had to pick which hedgehog to slaughter. However, rationally I know that they are far less intelligent that other animals we regularly eat in the West, so I should look past the fact that they are excruciatingly cute.
 
-![null](https://bit.ly/2uzuBwZ)
+![null](img/2018-hedgehog-cafe.jpeg)
 
 You pay by weight, so we examined a few of the creatures to try and find ones with a good amount of muscle. Once we had selected our meals, they were dropped into a vat of boiling honeyed milk. It is important to dunk them quickly while they are still alive, as hedgehogs have a tendency to curl into a ball when threatened, which makes it difficult to remove their needles. We were shown how to stroke and relax the hedgehog first, to prepare it for the cooking process. We thought this was a lot more humane that the panicked conditions of animals in Western abattoirs.
 
-![null](https://bit.ly/2GHDKIG)
+![null](img/2018-hedgehog-cafe-holding.jpeg)
 
 The chefs carefully remove the genitalia (see instructions below) and garnish the meat with seasonal nuts and berries. I now understand why hedgehogs have evolved their needles: it is because their flesh is exceptionally tasty. The meat is sweet with a mellow gamey flavour, reminiscent of chestnuts. After excellent cooking the meat was falling off the bone without a hint of dryness. Sadly, you don’t get too much meat on one hedgehog, so we both went back for seconds.
 
-![null](https://bit.ly/2IiUFyf)
+![null](img/2018-hedgehog-cafe-selecting.jpeg)
 
 Thank you Lucy Wright for setting us this challenge. We wouldn’t have heard about this unusual delicacy otherwise. Hedgehog meat is extremely high in protein and low in fat and requires far less land per kg of flesh that beef or pork. Expect it to start being sold in the UK soon as we try to move toward more efficient farming. If you want to try cooking it at home, please follow this process to prepare the meat.
 
-![null](https://bit.ly/2H0X3KE)
+![null](img/2018-hedgehog-cafe-eat-hedgehog.jpeg)
 
 </br>
 </br>

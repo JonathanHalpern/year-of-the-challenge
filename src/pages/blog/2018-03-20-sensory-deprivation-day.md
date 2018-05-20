@@ -45,9 +45,7 @@ This sense of turning in circles continued for the rest of the day whenever I mo
 
 The singer was wonderful and we got a seat near the front, which would have suited a blind Natty and her mute mate perfectly well, had Jonny not discovered a Text-to-Speech app which allowed him to communicate with me through automated voice, somewhat in honour of the late and great Stephen Hawking. The combination of melodious tenor with robotic questions about the menu left me quite overwhelmed so we thought it best if Jonny decided what we should order without my input. That is, I still had to instruct our waiter to order one portion of everything Jonny pointed at, seeing as my personal dietician was unable to speak.
 
-<p class="iframeContainer">
-<iframe src="https://www.youtube.com/embed/ijvO7Fr0WDc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</p>
+<iframe src="https://www.youtube.com/embed/ijvO7Fr0WDc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen width="3" height="2"></iframe>
 
 The food was excellent (we ate shark and it was totally scrummy!) but not being able to find your mouth with a fork, let alone your food was pretty amusing. I was worried about my table manners but, according to Jonny, my mother would have been proud, which is about as good as I can ever hope for. Still, there were more than a few moments when my fork reached my lips devoid of any food, or when I accidentally speared half the steak all at once.
 
@@ -69,9 +67,7 @@ We got into bed exhausted from an adventurous day. I’d like to say we slept th
 
 Having led my fiancée around yesterday, I was quite looking forward to having my own personal carer for the day, complete with robotic voice. As she had not seen the resort’s layout, Natalie actually expected me to guide us to breakfast, but I lost my bearings 2 metres after we stepped out the room. We developed a system of hand movements to warn about change in terrain and elevation and soon we arrived at breakfast. I didn’t quite have Natalie’s panache for cutting my food blindfolded, as can be witnessed here:
 
-<p class="iframeContainer">
-<iframe src="https://www.youtube.com/embed/LHvnBFCEiZI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</p>
+<iframe width="3" height="2" src="https://www.youtube.com/embed/LHvnBFCEiZI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 My lovely carer thought it would be amusing to bring me a selection of unusual breakfast options, which I had to identify: ‘idly, fried balls and tasty sludge’. Idly is our least favourite Indian breakfast option, basically it is like a bland starchy sponge, whose only purpose is to soak up flavours from other dishes, yet - in our experience - remains completely unobsorbant. In fairness, this was followed up by a selection of edible, even tasty treats and overall I enjoyed a good breakfast. During our meal the manager of the hotel came over and said he had heard about our blog from the other staff and wanted to set us a challenge. His initial suggestion was an idly eating competition... After we politely declined, he came up with a much better idea, which we will be discussing in our next blog entry.
 
@@ -91,9 +87,7 @@ Natalie then took me for a walk...
 
 She decided it would be useful for me to learn Braille and led me over to some engraved writing for me to decipher. It turns out I’m not very good at this, especially considering the word I was supposed to be spelling...
 
-<p class="iframeContainer">
-<iframe src="https://www.youtube.com/embed/HhD6tJBlSU0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</p>
+<iframe width="3" height="2" src="https://www.youtube.com/embed/HhD6tJBlSU0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 After some further amusement at my expense, I asked to be led to the beach and shortly I felt sand between my toes. I asked Natalie if I could run freely into the sea. I could almost hear her thinking before \*squeeze squeeze\*. I found out later that she had tricked my by leading me into a sandy volley ball court, where I would have face-planted into the net.
 

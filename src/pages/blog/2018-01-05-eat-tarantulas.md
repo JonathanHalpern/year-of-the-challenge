@@ -43,9 +43,7 @@ Fortunately, after waddling back to the shorts-stand with naught but a bumbag to
 
 The following day, we were wrestling with a small hangover (hoho) when Jonny turned on his phone to discover some brilliant news: unbeknownst to us, Greg and Megan had arrived in Siem Reap and were running amok through the night market calling our names!
 
-<p class="iframeContainer">
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Y1NB8iPjn5I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</p>
 
 Flat One reunited over a pizza and a beer, followed by (to Megan’s horror) a trip to the critter stand for a scorpion each. Despite initial hesitation, and after a semi-pornographic scorpion photo shoot, we all tucked in. It was nasty. As Megan pointed out, the exoskeleton was “the wrong kind of crunchy” and it left indigestible shards in our teeth. We hope, Gabe, you consider this a completed challenge even if we threw half into the river (we made sure we ate at least one bit of everything: leg, body, fang, etc).
 

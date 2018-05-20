@@ -22,11 +22,7 @@ Upon waking up, Natalie starting babbling away trying to explain some quite adva
 
 To give you an idea for how we built our new language: we adopted a number system with the same structure as the Roman numerals, which reduced the number of new words we needed to remember; we also tried to create reusable prefixes and suffixes so we could build meaning; if a new word was difficult to explain, we would find a word to which it vaguely related and say this instead, followed by ‘toad’ (a nod to one of our ‘That’s not a Sandwich’ verses). This was to indicate that the chosen word was “not quite” the one we intended (explanatory video below). Half way through our system, we realised that some of our words may not completely stick with Oliver’s stringent “no words from any language” rule, so we changed things up a bit without getting overly pedantic (e.g. toad became ‘tuhd’). After all, it was proving difficult enough already.
 
-<p class="iframeContainer">
-
-<iframe src="https://www.youtube.com/embed/1PBS2jEpyKM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-</p>
+<iframe width="3" height="2" src="https://www.youtube.com/embed/1PBS2jEpyKM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 For breakfast we had flip-flaps (pancakes). While eating, a dog snuffled up to Natalie. Unfortunately, her love of animals overcame her and she exclaimed “hello”. We looked at each other in horror, had we failed the challenge already? Upon examination of the challenge’s wording, I concluded it was ok since it said not to “use a single word from a real language with anyone”, so - at a push - perhaps a dog was ok. This did open up the possibility of having a proxy conversation via the dog, but that didn’t seem in the spirit of the challenge, plus the locals already thought we were bonkers.
 
@@ -42,8 +38,4 @@ I’m not really sure what we learnt or got out of the experience, other than to
 
 p.s. This has nothing to do with the challenge, but I‘m quite proud of this drone video I took the day before, while staying on the island.
 
-<p class="iframeContainer">
-
-<iframe src="https://www.youtube.com/embed/DSOyc-un0Tk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-</p>
+<iframe width="3" height="2" src="https://www.youtube.com/embed/DSOyc-un0Tk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
