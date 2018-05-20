@@ -78,13 +78,10 @@ collections:
         default: false
       - label: "Photographic evidence"
         name: "evidenceImage"
-        widget: "image"
-        required: false
-      - label: "Image"
-        name: "image"
         widget: "custompathimage"
         customMediaPath: "../../../static/img/"
         rawMediaPath: "https://raw.githubusercontent.com/JonathanHalpern/year-of-the-challenge/master/static/img/"
+        required: false
       - label: "Location"
         name: "location"
         widget: "string"

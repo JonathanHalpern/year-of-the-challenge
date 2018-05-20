@@ -1,8 +1,8 @@
-import React from 'react'
-import Carousel from 'nuka-carousel'
-import styled from 'styled-components'
+import React from 'react';
+import Carousel from 'nuka-carousel';
+import styled from 'styled-components';
 
-import IconButton from 'material-ui/IconButton'
+import IconButton from 'material-ui/IconButton';
 
 const StyledCarousel = styled(Carousel)`
   .slider-list {
@@ -11,7 +11,7 @@ const StyledCarousel = styled(Carousel)`
   .challenge-item > div {
     height: 260px;
   }
-`
+`;
 
 const StyledIconButton = styled(IconButton)`
   opacity: 0.7;
@@ -20,7 +20,7 @@ const StyledIconButton = styled(IconButton)`
     color: white;
     margin-top: -12px;
   }
-`
+`;
 
 const Decorators = [
   {
@@ -39,7 +39,7 @@ const Decorators = [
     ),
     position: 'CenterRight',
   },
-]
+];
 
 const CarouselWrapper = props => (
   <StyledCarousel
@@ -52,6 +52,6 @@ const CarouselWrapper = props => (
   >
     {props.children}
   </StyledCarousel>
-)
+);
 
-export default CarouselWrapper
+export default CarouselWrapper;
