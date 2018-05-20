@@ -80,6 +80,11 @@ collections:
         name: "evidenceImage"
         widget: "image"
         required: false
+      - label: "Image"
+        name: "image"
+        widget: "custompathimage"
+        customMediaPath: "../../../static/img/"
+        rawMediaPath: "https://raw.githubusercontent.com/user/repo/master/static/img"
       - label: "Location"
         name: "location"
         widget: "string"
