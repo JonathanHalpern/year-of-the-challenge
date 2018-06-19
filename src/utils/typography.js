@@ -6,6 +6,12 @@ sutroTheme.overrideThemeStyles = ({ rhythm }, options) => ({
   'h1,h2': {
     marginTop: rhythm(1 / 2),
   },
+  body: {
+    padding: '0!important',
+  },
+  html: {
+    overflowX: 'hidden',
+  },
   ul: {
     listStyleType: 'none',
   },

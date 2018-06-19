@@ -12,7 +12,7 @@ The last thing we want to do is describe to you how we found ourselves under the
 
 So what have we got?
 
-![null](/img/2017-engagement-photo.jpeg)
+![null](img/2017-engagement-photo.jpeg)
 
 We're up for stuff. Whether it's on or off the beaten trail, socially acceptable or - more often than not - way beyond the line, we'll usually give it a go. And, from previous experience, we've found being open to a challenge usually ends in a good anecdote.
 
