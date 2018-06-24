@@ -6,8 +6,9 @@ description: Go canyon swinging in Queenstown
 author: Owen Williams
 emotion: Excited
 difficulty: easy
-isCompleted: false
+isCompleted: true
 isFailed: false
+evidenceImage: ../../../static/img/2018-canyon-swing-backwards-copy.jpg
 date: 2018-01-05T17:00:00.000Z
 ---
 When Owen challenged me to a canyon swing in Queenstown, I knew it was going to be an easy ride. That’s not to say I wasn’t looking forward to it; on the contrary, since ditching my terrified mother at the front of The Hulk Rollercoaster at Disney, aged around ten and finally tall enough to face the adult rides, I have always sought out the biggest dips, loops, drops and plunges. Some might argue that I am courageous for braving such feats as skydiving or jumping from waterfalls into the pools below, but I believe bravery is about overcoming fears. If you’re not scared to begin with - it doesn’t count. Get me to complete the seemingly less fearsome tasks of driving a moped or walking a slackline and you will see that, often, I will shun the task after a pathetic attempt, owing to my poor balance and fear of hurting myself. Therefore, I believe, it is not bravery which allows me to walk without rising pulse or clammy hands to the edge of a cliff and jump off, it is the blind surety that the situation is out of my weak control and, rather, lies in the hands of competent staff who fasten ropes around my tummy and haul me up to safety at the correct moment. My general rule is, if I could put my life in the hands of someone else, a machine, fate, or myself, it should never be the latter.
