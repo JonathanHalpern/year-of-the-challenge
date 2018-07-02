@@ -9,7 +9,7 @@ isPersonal: false
 author: Oliver Raizon
 emotion: Excited
 difficulty: medium
-isCompleted: true
+isCompleted: false
 isFailed: false
 evidenceImage: ../../../static/img/2018-3-legged-man-rocking-toy.jpeg
 location: The Moon
