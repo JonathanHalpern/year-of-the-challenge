@@ -6,7 +6,7 @@ description: 'Spend a night on an island, that we reached without assistance'
 isPersonal: true
 emotion: Excited
 difficulty: medium
-isCompleted: false
+isCompleted: true
 isFailed: false
 evidenceImage: ../../../static/img/2018-robinson-crusoe.jpg
 location: 'Koh Lanta, Thailand'
