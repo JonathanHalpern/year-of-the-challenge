@@ -80,7 +80,7 @@ This felt like one of the most proper travelly things we’ve done and we recomm
 
 ![null](/img/2018-robinson-crusoe-map.jpg)
 
-Thank you Dean, for joining us on this challenge!
+Thank you Dean, for joining us on this challenge and for sharing some of your artistic photos!
 
 Here is a video I took with my drone so you can get a better picture of the island.
 
