@@ -18,51 +18,51 @@ This challenge was completed with one of my best buddies, Dean O’Shea. This is
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lxWmAHmxJGA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-Dean was coincidentally travelling in Thailand at the same time as us, so we decided to join forces for a few days in Koh Lanta. He is very much a man of the wild, so it was great to have his survival skills in addition to his company.
+Coincidentally, Dean was travelling in Thailand at the same time as us, so we decided to join forces for a few days in Koh Lanta. He is very much a man of the wild, so it was great to have his survival skills in addition to his company.
 
 ![null](/img/2018-robinson-crusoe-explore.jpg)
 
-Natalie and I thought up this challenge 2 years ago in Canada. While camping by the side of a lake, We were tempted to swim to an island in the middle and camp there. However, we had been warned that this was grizzly country and we were worried that the bears might have thought of the challenge too, so we decided to save the adventure for another day.
+Natalie and I thought up this challenge 2 years ago in Canada. While camping by the side of a lake, we were tempted to swim to an island in the middle and camp there. However, we had been warned that this was grizzly country so, just in case the bears had also thought up the challenge, we decided to save the adventure for another day. Thailand seemed like the perfect spot to complete this, so when spotted a island close to the mainland and ostensibly free of grizzlies, we decided to seize the moment.
 
-Thailand seemed like the perfect spot to complete this, so when spotted a island close to the mainland and ostensibly free of grizzlies, we decided to seize the moment, just as I have done this afternoon by bothering to write this story up.
+Excited for our upcoming adventure, we biked down the coast looking for someone who would rent us kayaks for a few days. We soon found a lovely lady, Som, who owned a beach side hotel. Not only did she lend us the kayaks, but also a tent and some cooking equipment. 
 
-We biked down the coast looking for someone who would rent us kayaks for a few days. We soon found a lovely lady, Suni, who owned a beach side hotel. She not only lent us the kayaks, but also a tent and some cooking equipment. We nipped back to town to stock up on necessities such as food, water and hammocks.
+Feeling very lucky indeed, we cycled back to town to stock up on necessities such as food and hammocks. Dean, who was on water-duty, was clearly hardened from Bear Grylls style desert adventures, and thought we could survive on a couple of litres apiece. However, what with my nighttime mouthbreathing and Natalie's insatiable thirst, we decided that would probably only last us a few hours, so Nat and I nipped back into town for a few more gallons whilst Dean loaded the kayaks.
 
-We set out as the tide was retreating to make the journey easier, the crossing took around 40 minutes.
+Finally all set for our adventure, and with luck still on our side, we set out as the tide was retreating, which made the journey considerably easier than we anticipated. In fact, the crossing itself only took around 40 minutes...
 
 ![null](/img/2018-robinson-crusoe.jpg)
 
-We circumnavigated the island to find the best camping spot. We drew up on a deserted shore on the far side of the island. As the sun set, we gathered firewood and set up camp.
+...so we decided to take more time and circumnavigated the island to find the best camping spot. We were glad we didn't head for the first available option, as we found a beautiful, deserted spot on the far side of the island. With the sun setting, we set up camp: Dean and I hoisted up the tent as Natty built a fire. Dean had managed to procure an axe from one of the corner shops (whenever we go there, it's all noodles and crisps, so goodness knows how he wangled that one). It proved a fine tool in cutting up firewood, though the blade proved loose and we were lucky not to be decapitated when it went hurtling from its handle mid-chop.
 
 ![null](/img/2018-robinson-crusoe-fire.jpg)
 
-I’ve often found that the ritual of cooking on an open campfire leads to a transubstantiation, turning tinned tuna and dried pasta into gourmet fare.
+With the campfire ready, we unpacked our kayaks for food and began heating water for our noodles. I’ve often found that the ritual of cooking on an open campfire leads to a transubstantiation, turning tinned tuna and instant noodles into gourmet cuisine. Such was the case this evening, as we all relished our simple meal.
 
 ![null](/img/2018-robinson-crusoe-cooking.jpg)
 
-The three of us felt unbelievable relaxed and wholesome as we dined on the deserted beach. The only sounds were the crackle of the campfire, the crash of the waves and the ping of hermit crabs rolling down the beach onto our kayaks.
+The three of us felt unbelievable relaxed and wholesome as we dined on the deserted beach. The only sounds were the crackle of the campfire, the crash of the waves and... the ping of thusands of hermit crabs rolling down the beach onto our kayaks! Not what we expected, but at least they weren't grizzlies. In fact, some of them were rather cute, until we saw the massive bugger at the bottom, who practised cannibalism at a hitherto unimaginable rate, popping one crab in after another as if they were popcorn.
 
 Add video???
 
-Though we had a tent, the temperature was so perfect that we fell asleep under the stars. There was probably some three way spooning, but this all happened 5 months ago, so I really can’t remember for sure.
+After a gorgeous couple of hours eating, chatting and singing by the campfire, it was time for bed. Although we had a tent, the temperature was so perfect that we fell asleep under the stars. There was probably some three-way spooning, but this all happened 5 months ago, so I can’t remember for sure.
 
-After a surprisingly restful night, we awoke early and paddled our kayaks out to sea to watch the sunrise. It was glorious start to the day and officially meant that we had completed our challenge.
+After a surprisingly restful night, we awoke early to a magnificent sunrise. Despite no mattress or pillows, we felt fully rested, and the sight alone was enough to wake us from our slumber and inspire us for the day ahead. In the early hours, we couldn't resist a sunrise sploosh, so paddled our kayaks out to sea to watch it in all its glory. It was a wonderful start to the day and officially meant that we had completed our challenge.
 
 ![null](/img/2018-robinson-crusoe-sunrise.jpg)
 
 ![null](/img/2018-robinson-crusoe-kayak-sunset.jpg)
 
-We played a bit of kayak tag, then came in to have papaya for breakfast. This got us thinking that perhaps we could forage something for our next meal. We slathered ourselves in deet and heading into the island’s interior.
+After an amusing game of kayak tag, we came ashore to enjoy papaya for breakfast. This got us thinking that perhaps we could forage something for our next meal. We slathered ourselves in deet and head into the island’s unexplored interior.
 
-We didn’t find any fruit trees, but we did find a toilet. It somewhat ruined our romantic image of the place.
+"Unexplored" may be an overstatement... We didn’t find any fruit trees, but we did find an abandoned toilet. It somewhat ruined our romantic image of the place.
 
 ![null](/img/2018-robinson-crusoe-toilet.jpg)
 
-Natalie went back to camp and Dean and I continued our exploration.
+Natalie went back to camp to finish reading 'The Beach' in our hammock, after deeming her footwear inappropriate for a jungle hike. This left Dean and me to continue our exploration.
 
 ![null](/img/2018-robinson-crusoe-savages.jpg)
 
-We crossed through the jungle and made it to the beach on the other side. Still no fruit, be I did spot a scary looking spider.
+We crossed through the jungle and made it to the beach on the other side. Still no fruit, but I did spot a scary looking spider.
 
 ![null](/img/2018-robinson-crusoe-spider.jpg)
 
@@ -80,4 +80,4 @@ This felt like one of the most proper travelly things we’ve done and we recomm
 
 ![null](/img/2018-robinson-crusoe-map.jpg)
 
-Thank you Dean, for joining us on this challenge.
+Thank you Dean, for joining us on this challenge!
