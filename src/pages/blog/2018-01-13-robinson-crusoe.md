@@ -82,4 +82,6 @@ This felt like one of the most proper travelly things we’ve done and we recomm
 
 Thank you Dean, for joining us on this challenge!
 
+Here is a video I took with my drone so you can get a better picture of the island.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Jc05hF3PUrI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
