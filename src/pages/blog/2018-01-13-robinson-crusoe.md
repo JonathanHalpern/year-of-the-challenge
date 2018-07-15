@@ -9,7 +9,8 @@ difficulty: medium
 isCompleted: false
 isFailed: false
 evidenceImage: ../../../static/img/2018-robinson-crusoe.jpg
-date: 2018-01-12T17:00:00.000Z
+location: 'Koh Lanta, Thailand'
+date: '2018-02-23T01:00:00+08:00'
 ---
 We completed this challenge back in February so we probably should have written it up a while ago, but what with looking after the kids and the 9 to 5, we just didn’t get round to it.
 
