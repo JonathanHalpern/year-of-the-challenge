@@ -31,48 +31,52 @@ We set out as the tide was retreating to make the journey easier, the crossing t
 
 ![null](/img/2018-robinson-crusoe.jpg)
 
-We circumnavigated the island to find the best camping spot. We drew up on a deserted shore on the far side of the island. As the sun set, we gathered firewood and setup camp.
+We circumnavigated the island to find the best camping spot. We drew up on a deserted shore on the far side of the island. As the sun set, we gathered firewood and set up camp.
 
 ![null](/img/2018-robinson-crusoe-fire.jpg)
 
-I’ve often found that the ritual of cooking on an open campfire leads to a transubstantiation, transforming tinned tuna and pasta into gourmet fare.
+I’ve often found that the ritual of cooking on an open campfire leads to a transubstantiation, turning tinned tuna and dried pasta into gourmet fare.
 
 ![null](/img/2018-robinson-crusoe-cooking.jpg)
 
 The three of us felt unbelievable relaxed and wholesome as we dined on the deserted beach. The only sounds were the crackle of the campfire, the crash of the waves and the ping of hermit crabs rolling down the beach onto our kayaks.
 
+Add video???
+
 Though we had a tent, the temperature was so perfect that we fell asleep under the stars. There was probably some three way spooning, but this all happened 5 months ago, so I really can’t remember for sure.
 
-We awoke early and paddled out to sea to watch the sunrise. It was glorious start to the day and officially meant that we had completed our challenge.
+After a surprisingly restful night, we awoke early and paddled our kayaks out to sea to watch the sunrise. It was glorious start to the day and officially meant that we had completed our challenge.
 
 ![null](/img/2018-robinson-crusoe-sunrise.jpg)
 
 ![null](/img/2018-robinson-crusoe-kayak-sunset.jpg)
 
-We played a bit of tag, then came in to have papaya for breakfast. This got us thinking that perhaps we could forage something for our next meal. We slathered ourselves in deet and heading into the island’s interior. We spent an hour or so exploring. We didn’t find any fruit trees, but we did find a toilet. It somewhat ruined our romantic image of the place.
+We played a bit of kayak tag, then came in to have papaya for breakfast. This got us thinking that perhaps we could forage something for our next meal. We slathered ourselves in deet and heading into the island’s interior.
+
+We didn’t find any fruit trees, but we did find a toilet. It somewhat ruined our romantic image of the place.
 
 ![null](/img/2018-robinson-crusoe-toilet.jpg)
 
-Natalie went back to camp and Dean and I continued.
+Natalie went back to camp and Dean and I continued our exploration.
 
 ![null](/img/2018-robinson-crusoe-savages.jpg)
 
-We crossed through the jungle and made it to the beach on the other side. We also found a very scary looking spider.
+We crossed through the jungle and made it to the beach on the other side. Still no fruit, be I did spot a scary looking spider.
 
 ![null](/img/2018-robinson-crusoe-spider.jpg)
 
-On return to camp, Dean decided to make us of his 4 years of engineering training and constructed a bivouac, to shelter his hammock from the sun.
+On return to camp, Dean decided to make good on his 4 years of engineering training and constructed a bivouac, to shelter his hammock from the sun.
 
 ![null](/img/2018-robinson-crusoe-building.jpg)
 
 ![null](/img/2018-robinson-crusoe-bivouac.jpg)
 
-Upon completion of his Magnus Opus, the heavens opened and we rapidly disassembled his work to make the tent. The tent turned out to be composed of the leftovers from two previous tents and failed spectacularly at being waterproof. It also had no pegs, so we were forced to use ourselves as weight to stop it blowing away in the wind, while also using bowls to bail out the water.
+No sooner had he completed his Magnus Opus, than the heavens opened and we rapidly disassembled his work to make our tent. The tent turned out to be composed of the leftovers from two previous tents and failed spectacularly at being waterproof. It also had no pegs, so we were forced to use ourselves as weight to stop it blowing away in the wind, while also using bowls to bail out the water.
 
 We had intended to spend another night but the rain showed no signs of abating and we felt we had probably had the best of the experience the island had to offer. It was starting to get dark, so we had to make a snap decision. We bundled up our gear, tied it onto our kayaks and bid the island a fond farewell.
 
 This felt like one of the most proper travelly things we’ve done and we recommend our readers to give it a go. This is the location, if you fancy repeating our challenge.
 
-![](/img/2018-robinson-crusoe-map.jpg)
+![null](/img/2018-robinson-crusoe-map.jpg)
 
 Thank you Dean, for joining us on this challenge.
