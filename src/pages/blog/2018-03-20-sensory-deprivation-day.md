@@ -9,7 +9,8 @@ difficulty: medium
 isCompleted: true
 isFailed: false
 evidenceImage: ../../../static/img/2018-sensory-deprivation.jpeg
-location: Goa
+location: Planet Hollywood Goa, India
+coordinates: [15.316861, 73.902021]
 date: 2018-03-20T06:37:54.193Z
 ---
 

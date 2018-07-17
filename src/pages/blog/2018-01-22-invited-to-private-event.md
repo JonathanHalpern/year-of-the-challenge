@@ -9,7 +9,8 @@ difficulty: easy
 isFailed: false
 isCompleted: true
 evidenceImage: ../../../static/img/2018-private-event.jpeg
-location: 'Battanbang, Cambodia'
+location: Battanbang, Cambodia
+coordinates: [13.027512, 103.100322]
 date: 2018-01-16T15:33:39.000Z
 ---
 

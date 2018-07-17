@@ -12,7 +12,8 @@ difficulty: medium
 isCompleted: true
 isFailed: true
 evidenceImage: ../../../static/img/2018-made-up-language.jpeg
-location: 'Don Dhet, Laos'
+location: Don Dhet, Laos
+coordinates: [13.976225, 105.919966]
 date: 2018-01-19T17:00:00.000Z
 ---
 

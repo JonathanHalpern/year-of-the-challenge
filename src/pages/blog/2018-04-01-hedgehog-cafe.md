@@ -10,7 +10,8 @@ difficulty: easy
 isCompleted: true
 isFailed: false
 evidenceImage: ../../../static/img/2018-hedgehog-cafe.jpeg
-location: 'Tokyo, Japan'
+location: Tokyo, Japan
+coordinates: [35.669597, 139.703471]
 date: 2018-04-01T00:00:00+09:00
 ---
 

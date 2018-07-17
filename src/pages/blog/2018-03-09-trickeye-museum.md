@@ -10,7 +10,8 @@ difficulty: easy
 isCompleted: true
 isFailed: false
 evidenceImage: ../../../static/img/2018-trick-eye.jpeg
-location: Phuket
+location: Phuket, Thailand
+coordinates: [7.883243, 98.392316]
 date: 2018-03-09T11:08:23.000Z
 ---
 

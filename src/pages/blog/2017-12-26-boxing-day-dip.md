@@ -14,6 +14,8 @@ name: dip
 pageless: false
 post: dip
 isPersonal: false
+coordinates: [50.762057, -1.325239]
+location: Cowes, Isle of Wight
 ---
 
 NB: We are aware this doesn't fit with our "Year Travelling" theme, but it was a challenging way to see out 2017!

@@ -9,7 +9,8 @@ difficulty: medium
 isCompleted: true
 isFailed: true
 evidenceImage: ../../../static/img/2018-kiss-a-kiwi.jpeg
-location: New Zealand
+location: Hokitika, New Zealand
+coordinates: [-42.716147, 170.963432]
 date: 2018-04-10T17:00:00.000Z
 ---
 

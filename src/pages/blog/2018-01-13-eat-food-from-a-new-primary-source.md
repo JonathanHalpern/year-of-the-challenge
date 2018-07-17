@@ -7,10 +7,12 @@ isPersonal: false
 author: Paul Heller
 emotion: Hesitant
 difficulty: easy
-isFailed: false 
+isFailed: false
 isCompleted: true
 evidenceImage: ../../../static/img/2018-new-food.jpeg
 date: 2018-01-13T12:11:28.830Z
+location: Koh Chang
+coordinates: [12.001571, 102.296747]
 ---
 
 Yesterday was one of those wonderful days when you wake up without a plan, and go to bed tired and happy after a fun-packed series of activities. We even managed to complete a challenge, though didn’t clock on to this until today.

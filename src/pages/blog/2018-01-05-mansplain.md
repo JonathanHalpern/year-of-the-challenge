@@ -9,7 +9,8 @@ difficulty: medium
 isCompleted: true
 isFailed: false
 evidenceImage: ../../../static/img/2018-masterchef.jpeg
-location: Planet Hollywood Goa
+location: Planet Hollywood Goa, India
+coordinates: [15.316643, 73.900852]
 date: 2018-03-21T16:06:20.000Z
 ---
 

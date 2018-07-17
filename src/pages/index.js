@@ -4,6 +4,7 @@ import Divider from 'material-ui/Divider';
 import styled from 'styled-components';
 import { HTMLContent } from '../components/Content';
 import ChallengesPreview from '../components/ChallengesPreview';
+import Map from '../components/Map';
 import Logo from '../../static/img/site/logo.png';
 
 const StyledLogo = styled.img`
@@ -25,7 +26,7 @@ const LogoContainer = styled.div`
 export default class IndexPage extends Component {
   handleScriptLoad() {
     if (window.netlifyIdentity) {
-      window.netlifyIdentity.on('init', user => {
+      window.netlifyIdentity.on('init', (user) => {
         if (!user) {
           window.netlifyIdentity.on('login', () => {
             document.location.href = '/admin/';
@@ -58,6 +59,7 @@ export default class IndexPage extends Component {
           incompleteChallenges={incompleteChallenges}
           comments={allCommentsMarkdown}
         />
+        <Map completedChallenges={completedChallenges} />
         <Divider />
         <HTMLContent content={currentPageMarkdown.html} />
       </div>

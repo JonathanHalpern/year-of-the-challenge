@@ -35,6 +35,8 @@ export const completedChallengeFrontmatterFragment = graphql`
       author
       difficulty
       emotion
+      location
+      coordinates
     }
   }
 `;
@@ -46,6 +48,8 @@ export const completedChallengePreviewFrontmatterFragment = graphql`
       date(formatString: "MMMM DD, YYYY")
       path
       isFailed
+      location
+      coordinates
       evidenceImage {
         publicURL
         childImageSharp {
@@ -82,9 +86,7 @@ export const currentPageFragment = graphql`
 
 export const currentChallengeFragment = graphql`
   fragment CurrentChallengeFragment on RootQueryType {
-    currentChallengeMarkdown: markdownRemark(
-      frontmatter: { path: { eq: $path } }
-    ) {
+    currentChallengeMarkdown: markdownRemark(frontmatter: { path: { eq: $path } }) {
       ...CompletedChallengeFrontmatterFragment
     }
   }
@@ -94,12 +96,7 @@ export const completedChallengesMarkdownFragment = graphql`
   fragment CompletedChallengesMarkdownFragment on RootQueryType {
     completedChallengesMarkdownRemark: allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
-      filter: {
-        frontmatter: {
-          templateKey: { eq: "blog-post" }
-          isCompleted: { eq: true }
-        }
-      }
+      filter: { frontmatter: { templateKey: { eq: "blog-post" }, isCompleted: { eq: true } } }
     ) {
       edges {
         node {
@@ -114,12 +111,7 @@ export const incompleteChallengesMarkdownFragment = graphql`
   fragment IncompleteChallengesMarkdownFragment on RootQueryType {
     incompleteChallengesMarkdownRemark: allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
-      filter: {
-        frontmatter: {
-          templateKey: { eq: "blog-post" }
-          isCompleted: { eq: false }
-        }
-      }
+      filter: { frontmatter: { templateKey: { eq: "blog-post" }, isCompleted: { eq: false } } }
     ) {
       edges {
         node {
@@ -151,9 +143,7 @@ export const commentsMarkdownFragment = graphql`
     commentsMarkdown: allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
       limit: 1000
-      filter: {
-        frontmatter: { templateKey: { eq: "comments" }, post: { eq: $path } }
-      }
+      filter: { frontmatter: { templateKey: { eq: "comments" }, post: { eq: $path } } }
     ) {
       edges {
         node {

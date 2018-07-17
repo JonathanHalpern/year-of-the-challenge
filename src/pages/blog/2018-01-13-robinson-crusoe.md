@@ -9,9 +9,11 @@ difficulty: medium
 isCompleted: true
 isFailed: false
 evidenceImage: ../../../static/img/2018-robinson-crusoe.jpg
-location: 'Koh Lanta, Thailand'
+location: Koh Lanta, Thailand
+coordinates: [7.488797, 99.112946]
 date: '2018-02-23T01:00:00+08:00'
 ---
+
 We completed this challenge back in February so we probably should have written it up a while ago, but what with looking after the kids and the 9 to 5, we just didn’t get round to it.
 
 This challenge was completed with one of my best buddies, Dean O’Shea. This is a video of him leaping out a tree... that's just the kind of guy he is.
@@ -24,7 +26,7 @@ Coincidentally, Dean was travelling in Thailand at the same time as us, so we de
 
 Natalie and I thought up this challenge 2 years ago in Canada. While camping by the side of a lake, we were tempted to swim to an island in the middle and camp there. However, we had been warned that this was grizzly country so, just in case the bears had also thought up the challenge, we decided to save the adventure for another day. Thailand seemed like the perfect spot to complete this, so when spotted an island close to the mainland and ostensibly free of grizzlies, we decided to seize the moment.
 
-Excited for our upcoming adventure, we biked down the coast looking for someone who would rent us kayaks for a few days. We soon found a lovely lady, Som, who owned a beach side hotel. Not only did she lend us the kayaks, but also a tent and some cooking equipment. 
+Excited for our upcoming adventure, we biked down the coast looking for someone who would rent us kayaks for a few days. We soon found a lovely lady, Som, who owned a beach side hotel. Not only did she lend us the kayaks, but also a tent and some cooking equipment.
 
 Feeling very lucky indeed, we biked back to town to stock up on necessities such as food and hammocks. Dean, who was on water-duty, was clearly hardened from Bear Grylls style desert adventures, and thought we could survive on a couple of litres apiece. However, what with my nighttime mouthbreathing and Natalie's insatiable thirst, we decided that would probably only last us a few hours, so Nat and I nipped back into town for a few more gallons whilst Dean loaded the kayaks.
 

@@ -12,7 +12,8 @@ difficulty: medium
 isCompleted: true
 isFailed: false
 evidenceImage: ../../../static/img/2018-all-or-nothing.jpeg
-location: Casino Strike Goa
+location: Casino Strike Goa, India
+coordinates: [15.451129, 73.851635]
 date: 2018-03-24T18:30:00.000Z
 ---
 
