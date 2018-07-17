@@ -14,7 +14,7 @@ coordinates: [7.488797, 99.112946]
 date: '2018-02-23T01:00:00+08:00'
 ---
 
-We completed this challenge back in February so we probably should have written it up a while ago, but what with looking after the kids and the 9 to 5, we just didn’t get round to it.
+We completed the challenge to sleep on a deserted island back in February, so we probably should have written it up a while ago. However what with looking after the kids and the 9 to 5, we just didn’t get round to it.
 
 This challenge was completed with one of my best buddies, Dean O’Shea. This is a video of him leaping out a tree... that's just the kind of guy he is.
 
