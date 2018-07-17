@@ -48,7 +48,7 @@ The following day, we were wrestling with a small hangover (hoho) when Jonny tur
 
 Flat One reunited over a pizza and a beer, followed by (to Megan’s horror) a trip to the critter stand for a scorpion each. Despite initial hesitation, and after a semi-pornographic scorpion photo shoot, we all tucked in. It was nasty. As Megan pointed out, the exoskeleton was “the wrong kind of crunchy” and it left indigestible shards in our teeth. We hope, Gabe, you consider this a completed challenge even if we threw half into the river (we made sure we ate at least one bit of everything: leg, body, fang, etc).
 
-![null](/img/2018-eat-scorpions.jpeg)
+![null](/img/2018-eat-tarantulas-scorpions.jpeg)
 
 The challenges end there, but I would be amiss not to mention what a fun couple of days we spent as a four. We travelled around Angkor Watt in a tuk-tuk, stopping off at any temple which looked like a good spot for hide-and-seek (much to the annoyance of some rather austere looking guards), and we enjoyed a riproarious night out, involving more mystery-alcohol, strangely religious themed face-paint/ dancing in a bar named YOLO and a cheeky little girl who sat on our laps and decided to hold Greg’s phone hostage until we accepted she was our leader.
 

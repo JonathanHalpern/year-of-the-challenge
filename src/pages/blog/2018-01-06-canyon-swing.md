@@ -8,7 +8,7 @@ emotion: Excited
 difficulty: easy
 isCompleted: true
 isFailed: false
-evidenceImage: ../../../static/img/2018-canyon-swing-backwards-copy.jpg
+evidenceImage: ../../../static/img/2018-canyon-swing-backwards.jpg
 location: Queenstown, New Zealand
 coordinates: [-45.026920, 168.651210]
 date: '2018-06-24T01:00:00+08:00'
