@@ -54,12 +54,12 @@ export default class IndexPage extends Component {
           <StyledLogo src={Logo} />
           <h1>Year of the Challenge</h1>
         </LogoContainer>
+        <Map completedChallenges={completedChallenges} />
         <ChallengesPreview
           completedChallenges={completedChallenges}
           incompleteChallenges={incompleteChallenges}
           comments={allCommentsMarkdown}
         />
-        <Map completedChallenges={completedChallenges} />
         <Divider />
         <HTMLContent content={currentPageMarkdown.html} />
       </div>

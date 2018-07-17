@@ -19,6 +19,9 @@ sutroTheme.overrideThemeStyles = ({ rhythm }, options) => ({
     textDecoration: 'none',
     color: 'inherit',
   },
+  '.gatsby-resp-image-background-image': {
+    borderRadius: '10px',
+  },
 });
 
 const typography = new Typography(sutroTheme);

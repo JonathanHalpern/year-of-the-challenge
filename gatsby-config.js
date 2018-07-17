@@ -62,7 +62,7 @@ module.exports = {
             options: {
               maxWidth: 500,
               showCaptions: false,
-              wrapperStyle: 'border-radius: 10px;',
+              linkImagesToOriginal: false,
             },
           },
           {
