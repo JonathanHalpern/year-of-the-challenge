@@ -1,11 +1,10 @@
 import React from 'react';
+import { compose, withStateHandlers } from 'recompose';
+import { withScriptjs, withGoogleMap, GoogleMap } from 'react-google-maps';
+import { MarkerClusterer } from 'react-google-maps/lib/components/addons/MarkerClusterer';
 
 import MapMarker from './MapMarker';
-
 import demoFancyMapStyles from '../styles/map';
-
-const { compose, withStateHandlers } = require('recompose');
-const { withScriptjs, withGoogleMap, GoogleMap } = require('react-google-maps');
 
 const GOOGLE_MAPS_API_KEY = process.env.GOOGLE_MAPS_API_KEY;
 
@@ -35,19 +34,21 @@ const MapWithAnOverlayView = compose(
     defaultCenter={{ lat: 10, lng: 80 }}
     defaultOptions={{ styles: demoFancyMapStyles }}
   >
-    {props.challengeFrontmatter.map(
-      (frontmatter, index) =>
-        frontmatter.coordinates && (
-          <MapMarker
-            frontmatter={frontmatter}
-            key={frontmatter.path}
-            isToggled={props.toggles[index]}
-            onToggle={() => {
-              props.onToggle(index);
-            }}
-          />
-        )
-    )}
+    <MarkerClusterer averageCenter enableRetinaIcons gridSize={10}>
+      {props.challengeFrontmatter.map(
+        (frontmatter, index) =>
+          frontmatter.coordinates && (
+            <MapMarker
+              frontmatter={frontmatter}
+              key={frontmatter.path}
+              isToggled={props.toggles[index]}
+              onToggle={() => {
+                props.onToggle(index);
+              }}
+            />
+          )
+      )}
+    </MarkerClusterer>
   </GoogleMap>
 ));
 
