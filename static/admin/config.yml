@@ -84,7 +84,12 @@ collections:
         required: false
       - label: "Location"
         name: "location"
+        widget: "coordinate"
+        required: false
+      - label: "Coordinates"
+        name: "coordinates"
         widget: "string"
+        field: 
         required: false
       - label: "Publish Date"
         name: "date"

@@ -10,6 +10,7 @@ isCompleted: true
 isFailed: false
 evidenceImage: ../../../static/img/2018-captured-with-my-face-moon-stone.jpeg
 location: 'anandapura, sri lanka'
+coordinates: [8.350297, 80.396401]
 date: '2018-09-06T15:36:05+08:00'
 ---
 This is a story of desecration and celebration, a detective's tale and a technological fail. Now that I've got you hooked, here's our caveat for the piece you are about to read: this was not a actually a challenge posted to us, but a spontaneous misadventure which we found amusing. I hope the more hard-line readers amongst you will forgive this aberration. We promise to try and complete some more conventional challenges soon (and, on that note, please send some more in! Fresh inspiration might give us just the boot-up-the-bum we need).

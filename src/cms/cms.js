@@ -9,11 +9,22 @@ import {
   CustomPathImagePreview,
 } from './customPathImage';
 
+import {
+  CoordinateControl,
+  CoordinatePreview,
+} from './coordinate';
+
 // register it to be able tu use it in NetlifyCMS
 CMS.registerWidget(
   'custompathimage',
   CustomPathImageControl,
   CustomPathImagePreview
+);
+
+CMS.registerWidget(
+  'coordinate',
+  CoordinateControl,
+  CoordinatePreview
 );
 
 const BlogPostPreview = ({ entry, widgetFor }) => (
