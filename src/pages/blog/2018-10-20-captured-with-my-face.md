@@ -31,6 +31,8 @@ Essentially, we've entered an age where proving you've visited a point of intere
 
 We hailed down a tuk-tuk and managed to negotiate a good price with our driver, on the understanding that he would take us on a whistle-stop tour rather than the usual, exhaustive circuit. From the off, we skirted past the standard photograph opportunities and only stopped at the most iconic places. It was already late afternoon, so many of these locations were practically deserted. First up was Mirisawetiya. This was a stupa: one of the huge hemispherical structures that often contain Buddhist relics. In the cold light of day and without a crowd of worshippers, I fought off the impression that it resembled an oversized marshmallow. Such a banal resemblance was easier to ignore later when we visited the great Ruwanweliseya Stupa, which rumbled with prayer and whose magnificent dome was lit up, transforming it into something much more sublime.
 
+![null](/img/2018-captured-with-my-face-distant-site-eifel-tower.jpg)
+
 Jonny wasted no time posing for his photograph, and scaled the temple's steps to sit behind a statue of Buddha in meditation. Retrospectively, we decided that posing behind Buddha might be a step too far.
 
 ![null](/img/2018-captured-with-my-face-budha.jpeg)
@@ -42,9 +44,6 @@ A few months previously, during our trip round Siem Reap, we had been unimpresse
 Now, you may be forgiven for thinking that this blog post is building towards a hilarious set of pictures from our day out, where we slowly refine our photography skills to master the complex art of “capturing-it-with-your-face.” Unfortunately, you would be wrong. In fact, the only handful of shots we took are scattered through this post and, although we do seem to be getting the hang of it in a couple of them, such a small selection would hardly make a compilation suitable for your bathroom-biblioteca. In fact, no matter how thorough the descriptions or how generous the spacing, you'd likely have flicked through the lot by the time you'd passed a single stool.
 
 ![](/img/2018-captured-with-my-face-night-dome.jpeg)
-
-![null](/img/2018-captured-with-my-face-moon-stone.jpeg)
-(perhaps too obscured, there is actually a moonstone in this one)
 
 ![](/img/2018-captured-with-my-face-white-dome.jpeg)
 
@@ -58,7 +57,8 @@ That's until it hit 11:30pm and we were in bed, after playing yahtzee and sharin
 
 Although the city was obscured under the night sky, the driver fancied himself as a guide and wanted to take us on a thorough tour. This was kind, as he was not asking for much money, but it was the last thing on our mind. We were adamant: please take us to the ruins, wait for five minutes and then bring us back. As he let us out, he suddenly seemed worried. Were we not allowed here at night? Would we be stopped by security? It was hard to understand with the language barrier but we were certain our excuse would be considered fair in those circumstances. It was only when we were half way across the grassy site when he remembered the word he'd been looking for and shouted across, “...Snakes!” Up until that point we had thought it best to retrace our steps under the cover of darkness, but needless to say Jonny whisked out his phone and we used the torch for the rest of the journey (earlier that same day, we had been warned to get off a path as we were likely to be crushed by passing elephants. What with that, the dog-pack and now the snakes, we thought our luck must be running thin.)
 
-![null](/img/2018-captured-with-my-face-distant-site-eifel-tower.jpg)
+![null](/img/2018-captured-with-my-face-moon-stone.jpeg)
+(perhaps too obscured, there is actually a moonstone in this one)
 
 We reached the site and had a quick search but, alas, there was no phone. There was nothing for it now other than to head back and get some sleep. That was until we were almost back at the hotel and Jonny had a brainwave: wasn't there such a thing as a 'Find My iPhone' app? There was indeed. All I needed to do was put in my Apple details and hope I hadn't left the phone on aeroplane mode. Within a minute the app had loaded a map of the city, tracking our location and... yes – the location of my phone! According to the app, it was right back where we started, at the Mirisawetiya stupa. Our driver was more than happy to drive us back the way we came, though seemed a little confused as to why two strange foreigners were choosing to spend their night visiting closed temples and ruins swarming with snakes.
 
