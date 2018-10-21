@@ -90,16 +90,20 @@ We were crestfallen. It was hard to know whether our tip truly had been misconst
 
 ![null](/img/2018-captured-with-my-face-brown-dome.jpeg)
 
-Back at the hotel, we had time to assess our day's adventure. Despite the earlier lack of enthusiasm, we were pleased to have taken a tour around Anuradhapura. At every turn there is another temple, ruin or site of interest, and it was a pleasure to hear our guide talk about his home-city with such pride. We actually enjoyed the sights more after I lost my phone, proving (unsurprisingly) that to truly appreciate a place it is best not to be stuck behind a screen. We also learned some important lessons:
+Back at the hotel, we had time to assess our day's adventure. Despite the earlier lack of enthusiasm, we were pleased to have taken a tour around Anuradhapura. At every turn there is another temple, ruin or site of interest, and it was a pleasure to hear our guide talk about his home-city with such pride. We actually enjoyed the sights more after I lost my phone, proving (unsurprisingly) that to truly appreciate a place it is best not to be stuck behind a screen.
+
+![null](/img/2018-captured-with-my-face-mona-lisa.jpg)
+
+We also learned some important lessons:
 
 1. Playing a game where you take the mick out of awful tourists might actually make you an awful tourist, so watch yourself before clambering up anything that might be a temple
 2. Watch out for angry street-dogs
 3. Watch out for snakes
 4. Watch out for elephants, for that matter
 5. Never tip bored men with moustaches
-6. In case you've accidentally forgotten 1 through 5, it's always a plus to have a daring getaway driver on call for when things get sticky.
+6. In case you've accidentally forgotten 1 through 5, it's always a plus to have a daring getaway driver on call for when things get sticky. Here's a terrible photo we took with our own three-wheeled-wonder, back at the hotel
 
-![null](/img/2018-captured-with-my-face-mona-lisa.jpg)
+![](/img/2018-captured-with-my-face-driver.jpg)
 
 If there were to be a 7, it would have to be: if you're feeling a bit travel-worn, cut yourself some slack and schedule in a day to guzzle popcorn and watch The Mummy... but if you've got the opportunity to do something fun today, take it. It might lead to your own mini-adventure. So, phones away (just not in your fiancé's pocket), and enjoy yourself. Brendan can wait.
 
