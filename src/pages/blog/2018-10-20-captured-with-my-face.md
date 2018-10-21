@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Captured with my face
+title: Captured with our Faces
 path: /captured-with-my-face
 description: ' '
 isPersonal: true
