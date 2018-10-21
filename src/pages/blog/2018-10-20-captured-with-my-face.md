@@ -108,4 +108,5 @@ We also learned some important lessons:
 If there were to be a 7, it would have to be: if you're feeling a bit travel-worn, cut yourself some slack and schedule in a day to guzzle popcorn and watch The Mummy... but if you've got the opportunity to do something fun today, take it. It might lead to your own mini-adventure. So, phones away (just not in your fiancé's pocket), and enjoy yourself. Brendan can wait.
 
 I'll leave you with these guys. Unlike us, I'm pretty sure they've mastered the game.
+
 ![](/img/2018-captured-with-my-face-temple.jpg)
