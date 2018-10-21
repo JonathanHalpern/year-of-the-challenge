@@ -17,9 +17,15 @@ date: '2018-09-06T15:36:05+08:00'
 ---
 This is a story of desecration and celebration, a detective's tale and a technological fail. Now that I've got you hooked, here's our caveat for the piece you are about to read: this was not a actually a challenge posted to us, but a spontaneous misadventure which we found amusing. I hope the more hard-line readers amongst you will forgive this aberration. We promise to try and complete some more conventional challenges soon (and, on that note, please send some more in! Fresh inspiration might give us just the boot-up-the-bum we need).
 
+![null](/img/2018-captured-with-my-face-anuradaphura-lake.jpg)
+
 The day started typically enough. We were in Anuradhupura, Sri Lanka: a city whose beauty derives from its vast ruins and temples. Once a major intellectual centre for early Theravāda Buddhism, and a kingdom which boasted some of the most complex irrigation systems of the ancient world, it was now bustling with tuk-tuks, kotthu stands and Sri Lankan tourists come to visit the holy sites. Flashes of orange would cut across the browns and whites of giant, domed temples. These were either monks or young, novice monks called samanera (not 'monklets', as Jonny would have you believe).
 
+![null](/img/2018-captured-with-my-face-anuradaphura.jpg)
+
 You might think this is a city well worth exploring, and you'd be right. In fact, if you're into your religious sites or Sri Lankan history, this might even be on top of your list of places to visit. However, to be completely frank, Jonny and I simply weren't in the mood. Call us cultural heathens if you must, but the long and short of it is that we had already hit the temple scene too hard and couldn't face another moment of it. Please don't misunderstand us – we are not always such infidels – but it was one of those days when you'd rather go to the cinema to see Brendan Fraser in The Mummy Returns, than be led by a local bedouin tribe to the foot of the Great Pyramids.
+
+![null](/img/2018-captured-with-my-face-mummy-returns.jpg)
 
 We discussed the possibility of heading straight for accommodation and having a lazy day but, even in our current moods, we couldn't bring ourselves to pass through this prominent city without so much as a glimpse at its main sights. Therefore, we decided to turn sightseeing into a game. This game was to capture Anuradhupura with our faces. Let me explain: During previous excursions, we had been both fascinated and appalled by people who visit world-renowned heritage sites, paintings or monuments simply in order to take a quick selfie of themselves in front of the exhibition and move on. Often, the heads of these photographers largely obscure the sight-in-question. I call this style of photography 'capturing it with my face', and believe a collection of these portraits would make for excellent toilet reading.
 
@@ -43,9 +49,9 @@ A few months previously, during our trip round Siem Reap, we had been unimpresse
 
 Now, you may be forgiven for thinking that this blog post is building towards a hilarious set of pictures from our day out, where we slowly refine our photography skills to master the complex art of “capturing-it-with-your-face.” Unfortunately, you would be wrong. In fact, the only handful of shots we took are scattered through this post and, although we do seem to be getting the hang of it in a couple of them, such a small selection would hardly make a compilation suitable for your bathroom-biblioteca. In fact, no matter how thorough the descriptions or how generous the spacing, you'd likely have flicked through the lot by the time you'd passed a single stool.
 
-![](/img/2018-captured-with-my-face-night-dome.jpeg)
+![null](/img/2018-captured-with-my-face-night-dome.jpeg)
 
-![](/img/2018-captured-with-my-face-white-dome.jpeg)
+![null](/img/2018-captured-with-my-face-white-dome.jpeg)
 
 No, in actual fact, this post is about what happened afterwards. Or, rather, in the middle of our project, when I realised that I'd lost my phone somewhere along the journey. I wasn't too worried. After all, I'd owned my phone for over 5 years, the screen was a poor, cracked replacement, and the memory card might as well be a octogenarian goldfish. However, I was planning on keeping it until the end of our trip and replacing it in Bangkok, so it was a bit of a bore to have lost it now. We retraced our steps and looked under the seats and in our bags, calling the phone every five minutes in case a kind stranger picked up. Jonny, although forgiving, was quite sanctimonious about the whole palava, reminding me that I was a forgetful old bee and that I should take better note of where I put my belongings. This seemed a bit rich from someone who had lost or broken three kindles in the last year, but I wasn't in a good position to argue. As evening approached, we decided to lay the game to bed and visit Anuradhapura's great banyan tree and the impressive Ruwanweliseya Stupa, before heading to our lodgings. Finding the phone, we decided, was a lost cause.
 
@@ -62,7 +68,7 @@ Although the city was obscured under the night sky, the driver fancied himself a
 
 We reached the site and had a quick search but, alas, there was no phone. There was nothing for it now other than to head back and get some sleep. That was until we were almost back at the hotel and Jonny had a brainwave: wasn't there such a thing as a 'Find My iPhone' app? There was indeed. All I needed to do was put in my Apple details and hope I hadn't left the phone on aeroplane mode. Within a minute the app had loaded a map of the city, tracking our location and... yes – the location of my phone! According to the app, it was right back where we started, at the Mirisawetiya stupa. Our driver was more than happy to drive us back the way we came, though seemed a little confused as to why two strange foreigners were choosing to spend their night visiting closed temples and ruins swarming with snakes.
 
-![](/img/2018-captured-with-my-face-gold-temple.jpg)
+![null](/img/2018-captured-with-my-face-gold-temple.jpg)
 
 Indeed, Anadhapara is not a city designed to be travelled at night and, unsurprisingly, a large gate stopped us from entering Mirisawetiya. Jonny considered leaping over, but we decided not to risk yet another dangerous encounter on the off-chance the temple was guarded by dogs. Fortunately, we called out and a security guard came to the entrance. Although a stern-faced chap, we got the impression that he was happy for the distraction, and after a few mimes explaining our dilemma, he let us in with a gruff nod and a suspicious twitch of the moustache. On our journey over to the temple, our 'Find My iPhone' app had proved a little erratic (at one point it claimed the device was at the bottom of the lake) but, as we walked inside the complex, the phone icon was now certain that we were within feet of the right location. Yet, as we circled the giant dome once, twice, thrice, the phone was nowhere to be found. That's when it hit us. It must be up the steps, where Jonny had climbed to sit behind Buddha!
 
