@@ -81,10 +81,11 @@ class CommentForm extends Component {
   render() {
     return (
       <form onSubmit={this.handleSubmit}>
+      {console.log(this.state.submittedComments)}
         <SubmittedCommentList>
           {
             this.state.submittedComments.map((comment, index) => (
-              <CommentItem key={index} name={comment.name} message={comment.body} />
+              <CommentItem key={index} name={comment.name} html={`<p>${comment.body}</p>`} />
             ))
           }
         </SubmittedCommentList>

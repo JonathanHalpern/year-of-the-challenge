@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 export class CoordinateControl extends Component {
   constructor(props) {
     super(props);
-    this.state = [props.value[0], props.value[1]];
+    this.state = props.value ? [props.value[0], props.value[1]] : [0, 0];
     this.onChangeX = this.onChangeX.bind(this);
     this.onChangeY = this.onChangeY.bind(this);
   }
