@@ -4,13 +4,15 @@ import React, { Component } from 'react';
 export class CoordinateControl extends Component {
   constructor(props) {
     super(props);
-    this.state = props.value ? [props.value[0], props.value[1]] : [0, 0];
+    console.log(props.value);
+    this.state = props.value ? props.value : [0, 0];
     this.onChangeX = this.onChangeX.bind(this);
     this.onChangeY = this.onChangeY.bind(this);
   }
 
   onChangeX(event) {
     const { onChange } = this.props;
+    console.log(event.target.value);
     const newState = [event.target.value, this.state[1]];
     this.setState(newState);
     onChange(newState);
@@ -18,6 +20,7 @@ export class CoordinateControl extends Component {
 
   onChangeY(event) {
     const { onChange } = this.props;
+    console.log(event.target.value);
     const newState = [this.state[0], event.target.value];
     this.setState(newState);
     onChange(newState);
@@ -28,7 +31,7 @@ export class CoordinateControl extends Component {
     const y = this.state[1];
     return (
         <div 
-        className="nc-controlPane-widget"
+          className="nc-controlPane-widget"
         >
             <input
                 type="number"
