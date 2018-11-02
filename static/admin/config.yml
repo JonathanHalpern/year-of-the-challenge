@@ -88,7 +88,7 @@ collections:
         required: false
       - label: "Coordinates"
         name: "coordinates"
-        widget: "coordinate"
+        widget: "string"
         required: false
       - label: "Publish Date"
         name: "date"
