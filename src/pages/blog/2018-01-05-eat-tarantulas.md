@@ -10,9 +10,7 @@ isFailed: false
 isCompleted: true
 evidenceImage: ../../../static/img/2018-eat-tarantulas.jpeg
 location: Siem Reap, Cambodia
-coordinates:
-  - lat: 13.354093
-    long: 103.854600
+coordinates: [13.354093, 103.854600]
 date: 2018-01-05T02:30:38.901Z
 ---
 
