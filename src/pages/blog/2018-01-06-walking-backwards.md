@@ -11,7 +11,7 @@ isFailed: false
 evidenceImage: ../../../static/img/2018-walking-backwards.jpg
 location: 'Seminyak, Bali'
 coordinates: 'List [ -8.683065, 115.151681]'
-date: 2018-01-06T16:42:15.064Z
+date: '2018-11-14T00:42:15+08:00'
 ---
 Greg and Megan challenged us to spend a day constantly walking backwards. However, by a strange coincidence, it was Bali's annual Backwards Walking Day! We thought it would be amusing to spend a day walking normally, while the island's inhabitants rambled in reverse.
 
