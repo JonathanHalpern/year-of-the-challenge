@@ -44,39 +44,49 @@ Now that we've finished excusing ourselves for being weaklings, let's move on. T
 
 Fully kitted up for our adventure, it was time to board the plane to Lukla. Speak to some Everest puritans and they might tell you that we “cheated”. If you actually want to complete the full trek,  you should start in Kathmandu, or at the very least Jiri. It's a fair point. However, Lukla to Base Camp means that, if you are working within a time-frame, you can complete the best and most challenging part of the hike in eleven days. Standing at 2860 metres above sea-level, this is a perfect town from which to begin the ascent. That's because most people don't feel the effects of altitude sickness below 3000 metres, so it gives hikers a couple of days to adjust to the lower oxygen levels before reaching that critical height. Plus, if you need another reason to cut a week off your trek, the plane ride is spectacular.
 
-![](/img/2018-Everest-2.jpeg)
+![null](/img/2018-Everest-2.jpeg)
 
 Yes, Lukla is infamous for being the 'world's most dangerous airport', but chances of having a crash are still incredibly slim and the views you get from the sky are so distracting – snow-topped mountains peek through clouds as you chew on your Air Yeti toffee and stuff cotton wool in your ears – you'll forget why you were worried in the first place.
 
-![](/img/2018-Everest-8.jpg)
+![null](/img/2018-Everest-8.jpg)
 
 That's until you spy the runway from the cockpit and wonder how on Earth a plane whizzing through the sky can land and stop in little over 500 metres. Fair enough, we were hardly flying a Boeing 747, but compare that to that to JFK's 4.5km runway strip and you have yourself a hair-raising landing.
 
-![](/img/2018-Everest-7.jpg)
+![null](/img/2018-Everest-7.jpg)
 
 We had the foresight to book an early morning flight, knowing that many later trips get cancelled due to Everest's unpredictable weather, which meant that we arrived at Lukla with a full day of hiking ahead of us. Still carrying our heavy bag, as well as the two lighter rucksacks we brought for the daytime, we were eager to find our very own Nepalese Mr T to shoulder our load. Unfortunately, this proved a little harder than anticipated. We had guessed that we would be overwhelmed with choice of porter, having experienced flocks of taxi drivers and service providers competing for our custom in other areas of Nepal, but here there were only a few men eager for the job and they were all under 5 foot 5 and very slight of frame. Later, we were to see men this size and much smaller heaving tons of paraphernalia up the mountain, but we had not yet witnessed the superhuman strength of the Sherpa, so the thought of any of these petite men lugging our monstrous bag 130km was worrying, especially when none claimed to have insurance. Indeed, it is widely recommended that your tour guide/ porter is insured, in case they injure themselves on the mountain. Even the most experienced trekker can develop altitude sickness or slip on ice and paying for a helicopter rescue can be extortionate.
 
 Having promised one another we would wait until an insured porter made himself available, we soon got impatient to begin our hike. A man who had carried the load of two American couples was pointed out to us. He had done a great job, we were told, but one look at him curled over on the sofa, conked out in the middle of the day, implied he needed some rest before embarking on a back-to-back trip. After phoning some tour companies and being told we would only find an insured porter if we were also prepared to take on a guide, we concluded the promise was off. After all, Jonny and I share an unwarranted hatred for guided tours, so a two-week guided hike might just drive us over the edge: un unpromising thought, considering our location. We returned to a man who had introduced himself to us as Deet. 
 
-![]()
+![null](/img/2018-everest-deet.png)
 
 His manner was cool and he appeared slightly hardier than other contenders. His English was beginner level at best, but that seemed relatively unimportant. Something about him (a tenuous physical resemblance perhaps or just an adventurous spirit) reminded us of our friend Dean O'Shea, so we paired that with his insect repellent first name to create the code name 'O'Spray'. At this point, we couldn’t even blame altitude sickness on our awful sense of humour. However, although we are not usually ones to discuss people behind their backs, this was going to be a long trip to spend with a stranger and felt the name might come in useful. We welcomed Deet O'Spray onto the team. With ease, he hoisted our giant bag onto his back and off we went.
 
-Day 1: Lukla – Monjo (12.5km, 6.5hours) stopping for lunch in Phadking.
+**Day 1: Lukla – Monjo** (12.5km, 6.5hours) stopping for lunch in Phadking.
+
+![](/img/2018-Everest-3.jpeg)
 
 Our first hike was a joy. We were below 3000m and fresh, and the scenery – although not yet sublime – was already captivating, with long bridges running high over ice blue rivers and beautifully painted prayer stones at various points. Deet took us to a relatively expensive (and completely empty) restaurant just outside of Phadking. This was to be the first of many times he tried to “guide” us to eat or stay in his choice of location, clearly run by a friend, and we did our best to remain polite yet assertive. After all, we weren't hiking Everest for the cuisine. Phadking is usually where hikers stop for the night but we were eager to press on. Monjo proved an excellent choice as the lodge we stayed in was the best of the trip, with a log fire and free shower facilities: both of which we would have appreciated far more as we got colder and smellier up the mountain! Moreover, it cut some time off the second day's hike, which was to prove far more strenuous.
 
-Day 2: Monjo – Namche Bazaar (5km, 4.5 hours)
+**Day 2: Monjo – Namche Bazaar** (5km, 4.5 hours)
+
+![](/img/2018-Everest-5.jpeg)
 
 Although a relatively short hike, Monjo – Namche Bazaar is steep and the further up you climb, the puffier you get. After all, it sees you surpass 3000m. We felt lucky to have Deet by our side, as many other climbers were struggling with the weight of their bags on the ascent. We met a fellow traveller called Mike who, like me, had never completed any hikes of this magnitude, and Jonny shouldered his bag for the last part of the hike. As we turned a bend on the pass, we were guided to look at a gap in the trees. This was to be our first sighting of Everest. Jonny and I were fools of perspective as we believed it didn't look too far away but we were soon to learn that every hundred metres feels like five hundred the higher up you climb. Passing a man in his seventies or eighties, we heard him bemoan his old age and lack of fitness. “I don't know if I can do this. I feel like an old man.” Having read that this was one of the more challenging days, we encouraged the gentleman to keep going, assuring him that he was the youngest old man we had ever met for embarking on such an adventure. We hope he managed to rest up in Namche and complete the hike, but we didn't see him again on our trip. I only hope our words of encouragement didn’t finish him off!
 
+![](/img/2018-Everest-6.jpeg)
+
 Namche Bazar is a wonderful town, strikingly set on the mountainside with a wealth of hotels, restaurants and bars in which to relax. Alcohol and altitude is a bad combination when you haven't acclimatised so we steered clear of toasting the end of a hard day's hiking with a beer, choosing instead to opt for sugary drinks and a carb-rich meal to keep us going. Jonny was to look back on his hot meal of 'Lover's Stew', made from minced yak and beans, with warm nostalgia, and it was the thought of returning to Namche for this culinary delight that kept him satisfied on our trip, as we were spooned increasingly thin portions of dal baht.
 
-Day 3: Acclimatisation day in Namche Bazaar, to Hotel Everest View at 3880m
+**Day 3: Acclimatisation day in Namche Bazaar, to Hotel Everest View at 3880m**
+
+![](/img/2018-Everest-10.jpeg)
 
 Despite feeling fine and sleeping well enough, we took the recommended acclimatisation day in Namche Bazar, hearing that those who press on are often stricken with sickness further up the hike. The rule 'hike high, sleep low' was something of a mantra, so we used our “rest day” to ascend further up the mountain, to a hotel which offered a spectacular view of the summits. Jonny and I are learning Spanish, so when a Spanish man named Viktor caught up with us, we spent the rest of the hike speaking in broken Spanglish. Viktor is fluent in English but he admired our dedication and wanted to help us learn. Although it was good fun to travel with a hiking buddy, I was less enthusiastic about practising my language skills, as by this point I was finding it hard enough to catch my breath without singing verses of “Estralita, donde estas?” Jonny, on the other hand, was in full flow. It was our trip to Everest where he thoroughly surpassed me in Spanish, using his oxygen-rich brain to think up lyrics and challenges in another language while I puffed behind, wondering what day of the week it was.
 
-Day 4:Namche Bazaar – Tengboche 3860m, 5 hour hike, lots of ups and downs. Crazy cold lodge
+**Day 4:Namche Bazaar – Tengboche 3860m **(9.2km, 5 hour hike)
+
+![](/img/2018-Everest-23.jpeg)
 
 On our fourth day we left Namche, hopeful that we had acclimatised and could therefore sleep above 3000m. The Everest trail is not a clear ascent, as you might assume, but incurs many ups and downs, and today was no exception. Everest's tree-lined path often obscured the fact that we were hiking up a mountain but, through breaks in the forest, we marvelled at the stretching gulf and river far below.  This served to remind us how far we had already come, though it paled in comparison to any fleeting glimpses of mountain-tops spied from occasional view-points.
 
@@ -84,7 +94,7 @@ After a fair way up, we saw a small group huddled around a lady who was rasping 
 
 We continued without incident but I developed a growing breathlessness. I wasn't worried, only surprised that I felt so unfit after all our work-outs in Bali. Still, the views were stunning and the hike rewarding. We were ravenous by the time we reached Tengboche and allowed Deet to choose our lodge for the sake of brevity. He brought us into the first one we came upon, perched on the top of the gulf and facing the elements. He told us it had the best view of any hotel in the area. Logic should have told us there might be a warmer option further into the town, but we weren't thinking clearly. Despite only being a few days up the mountain (naturally, it gets colder the higher you get), this was to be one of our coldest nights.
 
-Day 5: Tengboche – Pheriche 4240m
+**Day 5: Tengboche – Pheriche 4240m** (11km, 6 hours)
 
 That night, we got our first true taste of sleeping on the side of the world's tallest mountain in November. It was freezing. Cardboard-thin walls provided no insulation and – for the sake of a Deet's beautiful view – we were given a room in which two of the walls were taken up by large windows, providing us with a steady chill. Even with clothes on, cuddled up next to each other to take advantage of body heat, the air itself was so sharp that it was painful to breathe. The next day, we were amused and horrified to find a thick layer of ice had formed on the inside of our windows. So much for a view! By this time I was happy to get hiking quickly so we could thaw in the sun. We enjoyed a quick breakfast (most likely porridge, chips or fried noodles) and head out.
 
