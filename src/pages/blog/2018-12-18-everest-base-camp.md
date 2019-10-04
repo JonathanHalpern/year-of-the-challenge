@@ -17,15 +17,13 @@ date: '2018-12-18T09:36:43+05:45'
 ---
 Setting off for Everest Base Camp, we were pumped. Jonny and I had spent nearly two months in Bali, eating healthily and attending fitness classes every day, and we were feeling in “peak” condition. Puns aside, we're no Edmund Hillary and Tenzig Norgay, so we weren't planning to get to the summit of the world's tallest mountain; we only wanted to stand at its base and ogle at the feat of those who had. Of course, we knew this was going to be a tough couple of weeks, but we were ready and, after the easy day-to-day life of Canggu, we were itching for a challenge.
 
-![](/img/2018-Everest-20.jpeg)
+![null](/img/2018-Everest-20.jpeg)
 
 First stop: Kathmandu. This bustling city is a must-do on any trip up the mountain. Sure, it's not particularly pretty, and nor is it high above sea level so it doesn't help with acclimatisation. However, it's where you buy the first of the two permits required to climb Everest and it also provided us with all the gear we needed for the hike. After all, we had been travelling in sunny climes for our adventures abroad and didn't feel our shorts and flip-flops would cut the mustard on day-long hikes in sub-freezing temperatures. An entire section of the city, named Thamel, overflowed with shop-keepers and stall-owners all eager to sell trekking gear. If you can think of a trekking brand, there is a decent fake in Kathmandu. Everywhere we looked were various 'North Face' or 'Marmot' coats, trousers and shoes, being sold at a tiny fraction of the original cost. Certainly, some fakes are better than others but, in the two days we spent accruing our gear, we got pretty good at working out if the garment in question was decent quality or if it would fall to pieces somewhere up the mountain, leaving us frostbitten and wishing we'd paid a few quid more for the gloves with five fingers.
 
 Here's Jonny trying a sleeping bag out for size, as if the temperature in a Kathmandu shop would be anything to go by...
 
-![](/img/2018-Everest-1.jpeg)
-
- 
+![null](/img/2018-Everest-1.jpeg)
 
 For better or for worse, Jonny had read up about the availability of porters who help you carry your gear on the trek. We weighed up this option and decided to hire someone to help us, for the following reasons:
 
@@ -36,9 +34,13 @@ For better or for worse, Jonny had read up about the availability of porters who
 5. At 2000NRP/ day (approximately £14) this was not a huge expense.
 6. We read that it is reasonable to give your porter up to 30kg to carry. This seemed an obscene amount and we had no intention of reaching our quota. However, it did mean we could reserve some of our weight capacity for trekking snacks, as – understandably – the further up the mountain you climb the more expensive everything becomes.
 
-![]()
+![null](/img/2018-everest-15.4.png)
 
 Now that we've finished excusing ourselves for being weaklings, let's move on. The bags recommended for porters are large hold-alls which are sold at most stalls in Kathmandu. After buying one (and then returning it for a larger version when we realised our marshmallows simply wouldn't fit), we filled it to the brim with our coats, sleeping bags, toiletries, slippers and snacks. I'm not going to lie: it was heavy. At the airport it weighed in at 22kg and we were stunned that anyone could lug 8kg on top of that up a mountain. If this was going to work, we would have to find a beast of a human to carry it.
+
+(In the photo above, you can see our porter carrying our bag along with the rest of his gear, standing next to another Sherpa who looks to be carrying three times as much. It was insane what these men managed to lug up mountains while the rest of us were short for breath).
+
+![]()
 
 Fully kitted up for our adventure, it was time to board the plane to Lukla. Speak to some Everest puritans and they might tell you that we “cheated”. If you actually want to complete the full trek,  you should start in Kathmandu, or at the very least Jiri. It's a fair point. However, Lukla to Base Camp means that, if you are working within a time-frame, you can complete the best and most challenging part of the hike in eleven days. Standing at 2860 metres above sea-level, this is a perfect town from which to begin the ascent. That's because most people don't feel the effects of altitude sickness below 3000 metres, so it gives hikers a couple of days to adjust to the lower oxygen levels before reaching that critical height. Plus, if you need another reason to cut a week off your trek, the plane ride is spectacular. Yes, Lukla is infamous for being the 'world's most dangerous airport', but chances of having a crash are still incredibly slim and the views you get from the sky are so distracting – snow-topped mountains peek through clouds as you chew on your Air Yeti toffee and stuff cotton wool in your ears – you'll forget why you were worried in the first place. That's until you spy the runway from the cockpit and wonder how on Earth a plane whizzing through the sky can land and stop in little over 500 metres. Fair enough, we were hardly flying a Boeing 747, but compare that to that to JFK's 4.5km runway strip and you have yourself a hair-raising landing.
 
