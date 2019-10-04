@@ -122,8 +122,6 @@ That night, we found a pleasant stable-turned-resthouse, which boasted a wood-fi
 
 **Day 7: Dingboche Lobuche 4910m** (12km, 6 hours hiking)
 
-![null](/img/2018-Everest-14.jpeg)
-
 That morning, we woke up feeling fresh and eager to continue the hike. We had enjoyed a good night at our lodge and the next hike to Lobuche would put us only 2 days away from our destination. At this point, we were still in two minds as to whether or not we would complete the Chola Pass onto Gokyo Lakes after EBC (adding a few days to our journey) and this certainly felt more doable after some sleep.
 
 Unfortunately, on a morning excursion to the loo I felt a weight lodged somewhere between my chest and my throat. I pulled it up like phlegm (apologies for the graphic description) but the bolus was stubborn and only moved a small amount. I spent five minutes drawing it up and when it finally arrived I was shocked to feel something stiff as a rubber tyre and about the size of a bottle lid dislodge itself into my mouth. Spitting out the morsel, it was a worrying dark red colour, looking and feeling a lot like tissue! Had I coughed up something this horrid the day before, we would have been straight down the mountain, but today we were feeling relatively fired up so it seemed a shame to turn back. I hoped this would be a one-off and decided to forget about it. Certainly, it didn't seem to bother me again for the rest of the day.
@@ -146,7 +144,7 @@ Descending before sunset, we arrived in our teahouse in time to see the mountain
 
 With another freezing night behind us, I rose to find a similar sensation of heaviness in my chest. Repeating yesterday’s furball-like expulsion, I managed to dislodge a large piece of rubbery, dark red matter. This was starting to get worrying. I showed Jonny, who looked alarmed and reiterated that I might consider heading down the mountain. This was much larger than yesterday’s bloody offering and just as hard and tissue-like. From this moment forth, we referred to these bodily creations as ‘scobies’. For those who have never seen kombucha tea in its purest form, a scoby (literally Symbiotic Culture Of Bacteria and Yeast) is the growing gloop of “good bacteria” that the unsqueamish health-conscious grow in jars and drink daily to keep a healthy gut. Hannah Shackleton used to keep one and treated the monstrosity like some sort of sacrificial pet, much to flatmate Carly’s horror.
 
-![](/img/kombucha.jpg)
+![null](/img/kombucha.jpg)
 
 I worried that my scoby was of a more dangerous variety and decided to take my emergency antibiotics, in the vague hope that they would ward off anything too nasty. After all, I wasn’t about to descend the mountain now, as Kala Patthar promised to be the highlight of our trip! 
 
@@ -196,7 +194,7 @@ These final days we trekked well into darkness but with every step it felt easie
 
 In Namche, Jonny and I paid extra for a hotel with a shower. The last time we had taken our clothes off, let alone washed, was a week ago. Call us disgusting if you must, but there were no showers further up the mountain and the water turned to ice within minutes, so there was little choice in the matter. Besides, whether we had got used to each other’s stench or the cold simply did not allow bacteria to grow, we did not find each other smelly in the slightest. Upon peeling clothes off, I was unsurprised to find I looked a scrawny mess in the mirror, having not eaten or slept properly in a week while we were expending a lot of energy. Removing my socks also revealed bloody feet from where my nails had grown and acted as little saws to neighbouring toes. What I was more surprised to find, however, was a scabby ring around each ankle where my boots had rubbed, unbeknownst to me, leaving me looking like I’d trekked the mountain in shackles. I have no idea how this hadn’t caused me any discomfort and I only hoped they would clear up before the wedding.
 
-![]()
+![null](/img/2018-Everest-26.jpeg)
 
 Overall, we were not looking our best and we decided to treat ourselves to a nice hotel upon arrival back in Kathmandu. We’re talking hot showers and room service and absolutely no reason to leave for at least three days. The thought of it almost brought tears to our eyes.
 
@@ -212,6 +210,12 @@ Dil: Eye roll.
 
 Needless to say, we were looking forward to our own company for a while.
 
-The next morning, our plane was delayed but we got going eventually. Back in Nepal, a cow mounted our taxi and gave the windshield a lucky lick. It’s a good thing they’re sacred to Hindus or I think the cab driver would have thrown a wobbly. We got dropped off at our hotel, where they had fluffy toys in abundance and a Christmas grotto themed restaurant. Tacky but brilliant. Unfortunately, the water was piss-yellow, making bathing slightly less appealing, but we weren’t put off. We were pleased to share a dinner with fellow hiker, Viktor, who had completed a different and much more impressive trek than us and arrived back at the same time. We put our feet up, ate good food and relaxed. After three days of TLC, we were ready for our next adventure in Chitwan National Park to find wild rhinos. Little did we know it would land both of us with typhus!
+The next morning, our plane was delayed but we got going eventually. Back in Nepal, a cow mounted our taxi and gave the windshield a lucky lick. It’s a good thing they’re sacred to Hindus or I think the cab driver would have thrown a wobbly. We got dropped off at our hotel, where they had fluffy toys in abundance and a Christmas grotto themed restaurant. Tacky but brilliant. 
+
+![](/img/2018-Everest-27.jpeg)
+
+Unfortunately, the water was piss-yellow, making bathing slightly less appealing, but we weren’t put off. We were pleased to share a dinner with fellow hiker, Viktor, who had completed a different and much more impressive trek than us and arrived back at the same time. We put our feet up, ate good food and relaxed. After three days of TLC, we were ready for our next adventure in Chitwan National Park to find wild rhinos. Little did we know it would land both of us with typhus!
+
+![](/img/2018-Everest-15.jpeg)
 
 I feel like I should finish this mammoth write-up with some pearls of wisdom but I’m not sure I have many to offer. If you’re trekking to Base Camp, I recommend doing it in season, around April. Don’t bring laptops and try to get your weight down so you can carry your own gear; it isn’t like you’ll be changing clothes much anyway. Bring bottles you can fill with hot water for night times and make sure you pack an abundance of sucky sweets. Trek Kala Patthar at sunset, not sunrise. Perhaps go the Gokyo Lakes route on your way up, in case – like us – you don’t have the energy to do it on the way back. Bring crampons if you’re planning to walk one of the icy passes (we got some from fellow hikers who had no further need of them but decided against going when we heard that 3 people had died on the passes that week). Learn to love dal baht. Take your time: spend an extra day acclimatising and do a side-hike to make sure you’re trekking high, sleeping low. Treat yourself to a break afterwards. Take the gloves off for photos now and again (yes, I know it’s freezing) because despite being tough, it is a truly stunning hike.
