@@ -64,31 +64,33 @@ His manner was cool and he appeared slightly hardier than other contenders. His 
 
 **Day 1: Lukla – Monjo** (12.5km, 6.5hours) stopping for lunch in Phadking.
 
-![](/img/2018-Everest-3.jpeg)
+![null](/img/2018-Everest-3.jpeg)
 
 Our first hike was a joy. We were below 3000m and fresh, and the scenery – although not yet sublime – was already captivating, with long bridges running high over ice blue rivers and beautifully painted prayer stones at various points. Deet took us to a relatively expensive (and completely empty) restaurant just outside of Phadking. This was to be the first of many times he tried to “guide” us to eat or stay in his choice of location, clearly run by a friend, and we did our best to remain polite yet assertive. After all, we weren't hiking Everest for the cuisine. Phadking is usually where hikers stop for the night but we were eager to press on. Monjo proved an excellent choice as the lodge we stayed in was the best of the trip, with a log fire and free shower facilities: both of which we would have appreciated far more as we got colder and smellier up the mountain! Moreover, it cut some time off the second day's hike, which was to prove far more strenuous.
 
 **Day 2: Monjo – Namche Bazaar** (5km, 4.5 hours)
 
-![](/img/2018-Everest-5.jpeg)
+![null](/img/2018-Everest-5.jpeg)
 
 Although a relatively short hike, Monjo – Namche Bazaar is steep and the further up you climb, the puffier you get. After all, it sees you surpass 3000m. We felt lucky to have Deet by our side, as many other climbers were struggling with the weight of their bags on the ascent. We met a fellow traveller called Mike who, like me, had never completed any hikes of this magnitude, and Jonny shouldered his bag for the last part of the hike. As we turned a bend on the pass, we were guided to look at a gap in the trees. This was to be our first sighting of Everest. Jonny and I were fools of perspective as we believed it didn't look too far away but we were soon to learn that every hundred metres feels like five hundred the higher up you climb. Passing a man in his seventies or eighties, we heard him bemoan his old age and lack of fitness. “I don't know if I can do this. I feel like an old man.” Having read that this was one of the more challenging days, we encouraged the gentleman to keep going, assuring him that he was the youngest old man we had ever met for embarking on such an adventure. We hope he managed to rest up in Namche and complete the hike, but we didn't see him again on our trip. I only hope our words of encouragement didn’t finish him off!
 
-![](/img/2018-Everest-6.jpeg)
+![null](/img/2018-Everest-6.jpeg)
 
 Namche Bazar is a wonderful town, strikingly set on the mountainside with a wealth of hotels, restaurants and bars in which to relax. Alcohol and altitude is a bad combination when you haven't acclimatised so we steered clear of toasting the end of a hard day's hiking with a beer, choosing instead to opt for sugary drinks and a carb-rich meal to keep us going. Jonny was to look back on his hot meal of 'Lover's Stew', made from minced yak and beans, with warm nostalgia, and it was the thought of returning to Namche for this culinary delight that kept him satisfied on our trip, as we were spooned increasingly thin portions of dal baht.
 
 **Day 3: Acclimatisation day in Namche Bazaar, to Hotel Everest View at 3880m**
 
-![](/img/2018-Everest-10.jpeg)
+![null](/img/2018-Everest-10.jpeg)
 
 Despite feeling fine and sleeping well enough, we took the recommended acclimatisation day in Namche Bazar, hearing that those who press on are often stricken with sickness further up the hike. The rule 'hike high, sleep low' was something of a mantra, so we used our “rest day” to ascend further up the mountain, to a hotel which offered a spectacular view of the summits. Jonny and I are learning Spanish, so when a Spanish man named Viktor caught up with us, we spent the rest of the hike speaking in broken Spanglish. Viktor is fluent in English but he admired our dedication and wanted to help us learn. Although it was good fun to travel with a hiking buddy, I was less enthusiastic about practising my language skills, as by this point I was finding it hard enough to catch my breath without singing verses of “Estralita, donde estas?” Jonny, on the other hand, was in full flow. It was our trip to Everest where he thoroughly surpassed me in Spanish, using his oxygen-rich brain to think up lyrics and challenges in another language while I puffed behind, wondering what day of the week it was.
 
 **Day 4:Namche Bazaar – Tengboche 3860m **(9.2km, 5 hour hike)
 
-![](/img/2018-Everest-23.jpeg)
+![null](/img/2018-Everest-23.jpeg)
 
 On our fourth day we left Namche, hopeful that we had acclimatised and could therefore sleep above 3000m. The Everest trail is not a clear ascent, as you might assume, but incurs many ups and downs, and today was no exception. Everest's tree-lined path often obscured the fact that we were hiking up a mountain but, through breaks in the forest, we marvelled at the stretching gulf and river far below.  This served to remind us how far we had already come, though it paled in comparison to any fleeting glimpses of mountain-tops spied from occasional view-points.
+
+![](/img/2018-everest-16.4.png)
 
 After a fair way up, we saw a small group huddled around a lady who was rasping in short, fast breaths. It was clear she was suffering from altitude sickness, a panic attack or both. This was to be the first helicopter rescue we witnessed on our trip, and certainly not the last. Indeed, although the trail was not highly populated after Namche (sometimes we would only see a handful of other people the whole day), the sound of helicopters chop-chop-chopping through the air was almost as ubiquitous as the clinking of bells as a herd of yaks passed you by on the narrow trail. Many people choose to take a helicopter back down to Lukla from Gorak Shep, near Base Camp, so this will have accounted for some of the rides, but certainly not all.
 
@@ -96,29 +98,47 @@ We continued without incident but I developed a growing breathlessness. I wasn't
 
 **Day 5: Tengboche – Pheriche 4240m** (11km, 6 hours)
 
+![](/img/2018-Everest-21.jpeg)
+
 That night, we got our first true taste of sleeping on the side of the world's tallest mountain in November. It was freezing. Cardboard-thin walls provided no insulation and – for the sake of a Deet's beautiful view – we were given a room in which two of the walls were taken up by large windows, providing us with a steady chill. Even with clothes on, cuddled up next to each other to take advantage of body heat, the air itself was so sharp that it was painful to breathe. The next day, we were amused and horrified to find a thick layer of ice had formed on the inside of our windows. So much for a view! By this time I was happy to get hiking quickly so we could thaw in the sun. We enjoyed a quick breakfast (most likely porridge, chips or fried noodles) and head out.
 
 There is nothing quite like a crisp, morning hike to shift your sleepiness. The descent from Tengboche was stunning, as a leafless forest hung over our heads, dripping with crystals from the night before. Sun caught the icicles and shimmered, too shaded to provide actual warmth but offering us a spectacle in playful contrast with the gnarled branches. We were certainly pleased to be on the move again. So far as a mountain's concerned, what goes down must come up, so after our descent through the frozen forest we were unsurprised to see our path begin to wind upwards. The terrain shifts on this day were particularly striking as trees gave way to a vast orange bank, which may have been evocative of warmer climes if it wasn't for the snow-topped mountains in the near distance.
 
 We had a choice of where to sleep that evening. Pheriche is the slightly closer, lower option and it also contains a clinic to offer emergency care and education on altitude related issues. Before its establishment in 1973, 1-2 trekkers in every 500 would die of altitude sickness in this vicinity. Since, that figure has dropped to 1 in 30,000. Although most travellers stop at Dingboche, we were tired and chose Pheriche.  The clinic was closed and the town was dead as we were hiking out of season, but we were too tired to back-track so found a teahouse which was marginally warmer than our previous night's accommodation, despite being higher up, and enjoyed a tasty dinner alternative to daal baht: chips, baked beans and a fried egg! Determined not to be bested by the cold weather once more, Jonny and I removed the mattress from my single bed and used it as a wall in the creation of an adult fort. We snuggled up in a single bed and wished for sleep.
 
-Day 6: Pheriche – Dingboche 4410m and acclimatisation hike.
+**Day 6: Pheriche – Dingboche 4410m and acclimatisation hike.**
+
+![](/img/2018-Everest-12.jpeg)
 
 Alas, it did not come. Being a little sensitive to fried foods and eggs at the best of times, my tummy protested my choice of dinner. This brought on the effects of altitude sickness and meant I spent the night feeling like I'd run a marathon, despite lying horizontally and unmoving. Breathing in such cold, dry air was painful but, remembering the lady caught between altitude sickness and a panic attack, I made a conscious effort to breathe calmly and deeply. I made up my mind to retrace our footsteps the following morning so as I could acclimatise at lower altitude. Well, that was the plan, at least.
 
-However, ten minutes or so downhill I was feeling remarkably better. Once more, the morning highlighted everything that was exciting about our trip, in contrast to our freezing, often miserable evenings. In that sense as well as the terrain, Everest is a hike of great ups and downs. If this was proper altitude sickness, I told myself, I wouldn't be feeling any better yet. Most likely, it was just a rough night. Jonny encouraged me to head down if I needed to but, as this day was supposed to be another acclimatisation day anyway, we decided to push on for a short journey to Dingboche and spend the night there. At Dingboche, we completed a short hike so that we would be “hiking high and sleeping low”. Although it was a relatively small achievement, I felt proud to get to the second flag on the hillside, marking an extra 250m above Dingboche. We stayed put for a while and admired the view, while our bodies magically acclimatised. This was where we learnt Deet’s name was actually Dil. We seemed to be getting on better, so I asked him to show us a photo of his wife and family. He refused, which was a shame, and the atmosphere felt tense again. Nonetheless, we all felt rested from a relatively easy day.
+However, ten minutes or so downhill I was feeling remarkably better. Once more, the morning highlighted everything that was exciting about our trip, in contrast to our freezing, often miserable evenings. In that sense as well as the terrain, Everest is a hike of great ups and downs. If this was proper altitude sickness, I told myself, I wouldn't be feeling any better yet. Most likely, it was just a rough night. Jonny encouraged me to head down if I needed to but, as this day was supposed to be another acclimatisation day anyway, we decided to push on for a short journey to Dingboche and spend the night there. At Dingboche, we completed a short hike so that we would be “hiking high and sleeping low”. Although it was a relatively small achievement, I felt proud to get to the second flag on the hillside, marking an extra 250m above Dingboche.
+
+![](/img/2018-Everest-13.jpeg)
+
+We stayed put for a while and admired the view, while our bodies magically acclimatised. This was where we learnt Deet’s name was actually Dil. We seemed to be getting on better, so I asked him to show us a photo of his wife and family. He refused, which was a shame, and the atmosphere felt tense again. Nonetheless, we all felt rested from a relatively easy day.
 
 That night, we found a pleasant stable-turned-resthouse, which boasted a wood-fire and the company of a handful of travellers. They suggested we filled our water bottles with hot water and keep them in bed with us. This was a turned out to be a brilliant plan and we enjoyed a relatively cozy night as a result, at least from the neck down! I managed to get a few hours sleep for the first time in three nights and felt remarkably better for it, so we were happy with our decision to press on after all.
 
-Day 7: Dingboche 4410m – Lobuche 4910m, 6 hours hiking
+**Day 7: Dingboche Lobuche 4910m** (12km, 6 hours hiking)
+
+![](/img/2018-Everest-14.jpeg)
 
 That morning, we woke up feeling fresh and eager to continue the hike. We had enjoyed a good night at our lodge and the next hike to Lobuche would put us only 2 days away from our destination. At this point, we were still in two minds as to whether or not we would complete the Chola Pass onto Gokyo Lakes after EBC (adding a few days to our journey) and this certainly felt more doable after some sleep.
 
 Unfortunately, on a morning excursion to the loo I felt a weight lodged somewhere between my chest and my throat. I pulled it up like phlegm (apologies for the graphic description) but the bolus was stubborn and only moved a small amount. I spent five minutes drawing it up and when it finally arrived I was shocked to feel something stiff as a rubber tyre and about the size of a bottle lid dislodge itself into my mouth. Spitting out the morsel, it was a worrying dark red colour, looking and feeling a lot like tissue! Had I coughed up something this horrid the day before, we would have been straight down the mountain, but today we were feeling relatively fired up so it seemed a shame to turn back. I hoped this would be a one-off and decided to forget about it. Certainly, it didn't seem to bother me again for the rest of the day.
 
-Leaving Dingboche, it wasn't long before we reached a sharp ascent. At the top lies a Sherpa Memorial site. Prayer flags were spread in abundance over sacred, inscribed stones to memorialise of all the Sherpa who had lost their lives on Everest. Amongst the names were also a few Western ones. Before it got too cold to work our kindles, we had been reading Into Thin Air: an account of one fatal excursion up the mountain, and I recognised a name amongst the stones. So that is how the story ends, we thought, looking across the ghostly site towards our destination which, at a mere 20km away, was nothing compared to what these climbers faced. When we were to return to this site on the way down, it would be a clear day, offering some of the most stunning views of the trip. However, today was misty and the way hung thick with cloud. It gave the site an eerie atmosphere and the memorial stones jutted upwards from the earth like graves, even as the colourful flags broke up the grey. It is a unique and sacred spot, and we were thankful to catch our breath there before continuing.
+Leaving Dingboche, it wasn't long before we reached a sharp ascent. At the top lies a Sherpa Memorial site. Prayer flags were spread in abundance over sacred, inscribed stones to memorialise of all the Sherpa who had lost their lives on Everest. Amongst the names were also a few Western ones. Before it got too cold to work our kindles, we had been reading Into Thin Air: an account of one fatal excursion up the mountain, and I recognised a name amongst the stones. So that is how the story ends, we thought, looking across the ghostly site towards our destination which, at a mere 20km away, was nothing compared to what these climbers faced.
 
-As you approach Lobuche, terrain turns to a quarry-like mass of rocks. It is amazing that a settlement, however basic, can have been built here without barely so much as a rough path by which to pass materials. We were tired after our hike and it was windy and cold, but we decided to ascend the edge of town so as to “hike high and sleep low”. Even the mountain goats looked nesh and, as we hid from the sharpest blusters behind a rock at the peak of our ascent, we cuddled to keep warm, catching our breath as we looked down upon Lobuche. Descending before sunset, we arrived in our teahouse in time to see the mountains lit like flames by the last rays that were touching Earth. Stunning as these were, it offered only a glimmer of the beauty we would see the following day, as we ascended to the highest point of our trek: Kala Patthar.
+![](/img/2018-Everest-16.jpeg)
+
+When we were to return to this site on the way down, it would be a clear day, offering some of the most stunning views of the trip. However, today was misty and the way hung thick with cloud. It gave the site an eerie atmosphere and the memorial stones jutted upwards from the earth like graves, even as the colourful flags broke up the grey. It is a unique and sacred spot, and we were thankful to catch our breath there before continuing.
+
+As you approach Lobuche, terrain turns to a quarry-like mass of rocks. It is amazing that a settlement, however basic, can have been built here without barely so much as a rough path by which to pass materials. We were tired after our hike and it was windy and cold, but we decided to ascend the edge of town so as to “hike high and sleep low”. Even the mountain goats looked nesh and, as we hid from the sharpest blusters behind a rock at the peak of our ascent, we cuddled to keep warm, catching our breath as we looked down upon Lobuche.
+
+![]()
+
+Descending before sunset, we arrived in our teahouse in time to see the mountains lit like flames by the last rays that were touching Earth. Stunning as these were, it offered only a glimmer of the beauty we would see the following day, as we ascended to the highest point of our trek: Kala Patthar.
 
 Day 8: Lobuche 4910m – Gorak Shep 5140m and up Kala Patthar 5550m
 
