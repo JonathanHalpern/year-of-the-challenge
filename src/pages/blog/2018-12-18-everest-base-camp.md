@@ -17,7 +17,7 @@ date: '2018-12-18T09:36:43+05:45'
 ---
 Setting off for Everest Base Camp, we were pumped. Jonny and I had spent nearly two months in Bali, eating healthily and attending fitness classes every day, and we were feeling in “peak” condition. Puns aside, we're no Edmund Hillary and Tenzig Norgay, so we weren't planning to get to the summit of the world's tallest mountain; we only wanted to stand at its base and ogle at the feat of those who had. Of course, we knew this was going to be a tough couple of weeks, but we were ready and, after the easy day-to-day life of Canggu, we were itching for a challenge.
 
-![](/img/2018-Everest-9.jpeg)
+![null](/img/2018-Everest-9.jpeg)
 
 First stop: Kathmandu. This bustling city is a must-do on any trip up the mountain. Sure, it's not particularly pretty, and nor is it high above sea level so it doesn't help with acclimatisation. However, it's where you buy the first of the two permits required to climb Everest and it also provided us with all the gear we needed for the hike. After all, we had been travelling in sunny climes for our adventures abroad and didn't feel our shorts and flip-flops would cut the mustard on day-long hikes in sub-freezing temperatures. An entire section of the city, named Thamel, overflowed with shop-keepers and stall-owners all eager to sell trekking gear. If you can think of a trekking brand, there is a decent fake in Kathmandu. Everywhere we looked were various 'North Face' or 'Marmot' coats, trousers and shoes, being sold at a tiny fraction of the original cost. Certainly, some fakes are better than others but, in the two days we spent accruing our gear, we got pretty good at working out if the garment in question was decent quality or if it would fall to pieces somewhere up the mountain, leaving us frostbitten and wishing we'd paid a few quid more for the gloves with five fingers.
 
@@ -97,6 +97,10 @@ We continued without incident but I developed a growing breathlessness. I wasn't
 ![null](/img/2018-Everest-21.jpeg)
 
 That night, we got our first true taste of sleeping on the side of the world's tallest mountain in November. It was freezing. Cardboard-thin walls provided no insulation and – for the sake of a Deet's beautiful view – we were given a room in which two of the walls were taken up by large windows, providing us with a steady chill. Even with clothes on, cuddled up next to each other to take advantage of body heat, the air itself was so sharp that it was painful to breathe. The next day, we were amused and horrified to find a thick layer of ice had formed on the inside of our windows. So much for a view! By this time I was happy to get hiking quickly so we could thaw in the sun. We enjoyed a quick breakfast (most likely porridge, chips or fried noodles) and head out.
+
+By this time, the cream I had brought along to protect our faces from the harsh elements had crystalised. Nonetheless, we slathered on our 'pretty' every day, much to Jonny's disdain.
+
+![](/img/2018-Everest-17.jpeg)
 
 There is nothing quite like a crisp, morning hike to shift your sleepiness. The descent from Tengboche was stunning, as a leafless forest hung over our heads, dripping with crystals from the night before. Sun caught the icicles and shimmered, too shaded to provide actual warmth but offering us a spectacle in playful contrast with the gnarled branches. We were certainly pleased to be on the move again. So far as a mountain's concerned, what goes down must come up, so after our descent through the frozen forest we were unsurprised to see our path begin to wind upwards. The terrain shifts on this day were particularly striking as trees gave way to a vast orange bank, which may have been evocative of warmer climes if it wasn't for the snow-topped mountains in the near distance.
 
