@@ -11,10 +11,8 @@ isCompleted: true
 isFailed: false
 evidenceImage: ../../../static/img/2018-Everest-19.jpeg
 location: Nepal
-coordinates:
-  - 28.002588
-  - 86.852762
-date: '2018-12-18T09:36:43+05:45'
+coordinates: 'List [ 28.007222, 86.859444 ]'
+date: '2019-10-05T03:51:43+01:00'
 ---
 When we asked our friends to set us challenges to complete on our year abroad, we were expecting some smart-arse responses. Danny Schwarz, however, took the biscuit: "Think of a challenge greater than all the other challenges. Do it." This got us thinking: what would actually be a sustained challenge, something beyond a laugh or an adrenaline rush? We hope, Danny, that you think climbing to Everest Base Camp fits the bill.
 
