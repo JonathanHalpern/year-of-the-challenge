@@ -3,18 +3,23 @@ templateKey: blog-post
 title: Everest Base Camp
 path: /everest-base-camp
 description: Hike to the foot of Everest
-isPersonal: true
+isPersonal: false
+author: Danny Schwarz
 emotion: Excited
 difficulty: hard
-isCompleted: false
+isCompleted: true
 isFailed: false
-evidenceImage: ../../../static/img/2017-boxing-day-dip-flamingo-bin.jpeg
+evidenceImage: ../../../static/img/2018-Everest-19.jpeg
 location: Nepal
 coordinates:
   - 28.002588
   - 86.852762
 date: '2018-12-18T09:36:43+05:45'
 ---
+When we asked our friends to set us challenges to complete on our year abroad, we were expecting some smart-arse responses. Danny Schwarz, however, took the biscuit: "Think of a challenge greater than all the other challenges. Do it." This got us thinking: what would actually be a sustained challenge, something beyond a laugh or an adrenaline rush? We hope, Danny, that you think climbing to Everest Base Camp fits the bill.
+
+And my apologies for writing this up almost a year later, after I've just about got my breath back...
+
 Setting off for Everest Base Camp, we were pumped. Jonny and I had spent nearly two months in Bali, eating healthily and attending fitness classes every day, and we were feeling in “peak” condition. Puns aside, we're no Edmund Hillary and Tenzig Norgay, so we weren't planning to get to the summit of the world's tallest mountain; we only wanted to stand at its base and ogle at the feat of those who had. Of course, we knew this was going to be a tough couple of weeks, but we were ready and, after the easy day-to-day life of Canggu, we were itching for a challenge.
 
 ![null](/img/2018-Everest-9.jpeg)
@@ -212,10 +217,10 @@ Needless to say, we were looking forward to our own company for a while.
 
 The next morning, our plane was delayed but we got going eventually. Back in Nepal, a cow mounted our taxi and gave the windshield a lucky lick. It’s a good thing they’re sacred to Hindus or I think the cab driver would have thrown a wobbly. We got dropped off at our hotel, where they had fluffy toys in abundance and a Christmas grotto themed restaurant. Tacky but brilliant. 
 
-![](/img/2018-Everest-27.jpeg)
+![null](/img/2018-Everest-27.jpeg)
 
 Unfortunately, the water was piss-yellow, making bathing slightly less appealing, but we weren’t put off. We were pleased to share a dinner with fellow hiker, Viktor, who had completed a different and much more impressive trek than us and arrived back at the same time. We put our feet up, ate good food and relaxed. After three days of TLC, we were ready for our next adventure in Chitwan National Park to find wild rhinos. Little did we know it would land both of us with typhus!
 
-![](/img/2018-Everest-15.jpeg)
+![null](/img/2018-Everest-15.jpeg)
 
 I feel like I should finish this mammoth write-up with some pearls of wisdom but I’m not sure I have many to offer. If you’re trekking to Base Camp, I recommend doing it in season, around April. Don’t bring laptops and try to get your weight down so you can carry your own gear; it isn’t like you’ll be changing clothes much anyway. Bring bottles you can fill with hot water for night times and make sure you pack an abundance of sucky sweets. Trek Kala Patthar at sunset, not sunrise. Perhaps go the Gokyo Lakes route on your way up, in case – like us – you don’t have the energy to do it on the way back. Bring crampons if you’re planning to walk one of the icy passes (we got some from fellow hikers who had no further need of them but decided against going when we heard that 3 people had died on the passes that week). Learn to love dal baht. Take your time: spend an extra day acclimatising and do a side-hike to make sure you’re trekking high, sleeping low. Treat yourself to a break afterwards. Take the gloves off for photos now and again (yes, I know it’s freezing) because despite being tough, it is a truly stunning hike.
